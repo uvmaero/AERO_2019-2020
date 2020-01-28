@@ -1,0 +1,20 @@
+Altium Designer Pick and Place Locations
+C:\git\AERO_2019-2020\60V_LED\Project Outputs for 60V_Ind\Pick Place\Pick Place for 60V_Ind.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       28/01/20
+Time:       14:00
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment             Layer       Footprint                        Center-X(mil) Center-Y(mil) Rotation Description                                                                                      
+MP1        LPA-C011301S-10     TopLayer    LPA-C011301S-10                  2741.595      1716.564      0        "Light Pipe Single Clear Rigid Round with Flat Top, 3mm Board Mount, Press Fit"                  
+D1         SM0805HCL           TopLayer    LEDC2012X135N_SM0805UGC(Primary) 2740.000      1715.000      180      "Red 631nm LED Indication - Discrete 1.9V 0805 (2012 Metric)"                                    
+U1         LR8K4-G             TopLayer    Microchip_C04-189_MFG            2430.000      1784.250      360      "Linear Voltage Regulator IC Positive Adjustable 1 Output  10mA TO-252, (D-Pak)"                 
+R1         "40.2 Ohms"         TopLayer    0805_RES                         2675.000      1950.000      90       "Resistor Surface Mount, 40.2 Ohms, 0805 Footprint, 1% Tolerance 0.125W"                         
+J2         1-770872-0          BottomLayer CON2_1X2_P163_VM                 1576.002      1480.000      180      "Connector Header Through Hole 2 position 0.163" (4.14mm)"                                       
+J1         1-770872-0          BottomLayer CON2_1X2_P163_VM                 1576.002      1980.000      180      "Connector Header Through Hole 2 position 0.163" (4.14mm)"                                       
+C1         C2012X7S2A105K125AB TopLayer    CAPC2013X145X20ML20              2470.000      1460.000      270      "Chip Capacitor, 1 uF, +/- 10%, 100 V, -55 to 125 degC, 0805 (2012 Metric), RoHS, Tape and Reel" 
