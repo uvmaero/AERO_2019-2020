@@ -1,0 +1,245 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:RJ45 J1
+U 1 1 5DD6D50A
+P 4750 4600
+F 0 "J1" H 4807 5267 50  0000 C CNN
+F 1 "RJ45" H 4807 5176 50  0000 C CNN
+F 2 "AERO-footprints:RJ45_Amphenol_54602-x08_Horizontal" V 4750 4625 50  0001 C CNN
+F 3 "~" V 4750 4625 50  0001 C CNN
+	1    4750 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4200 5750 4200
+Wire Wire Line
+	5150 4300 5750 4300
+Wire Wire Line
+	5150 4400 5750 4400
+Wire Wire Line
+	5150 4500 5750 4500
+Wire Wire Line
+	5150 4600 5750 4600
+Wire Wire Line
+	5150 4800 5750 4800
+Wire Wire Line
+	5150 4900 5750 4900
+Text Label 5750 4200 2    50   ~ 0
+DAQ_USB1-
+Text Label 5750 4300 2    50   ~ 0
+DAQ_USB1+
+Text Label 5750 4400 2    50   ~ 0
+DAQ_USB2+
+Text Label 5750 4500 2    50   ~ 0
+DAQ_USB2-
+Text Label 5750 4600 2    50   ~ 0
+BMS_VBUS
+$Comp
+L power:GND #PWR01
+U 1 1 5DD6E8D3
+P 5450 4700
+F 0 "#PWR01" H 5450 4450 50  0001 C CNN
+F 1 "GND" V 5455 4572 50  0000 R CNN
+F 2 "" H 5450 4700 50  0001 C CNN
+F 3 "" H 5450 4700 50  0001 C CNN
+	1    5450 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 4700 5150 4700
+Text Label 5750 4800 2    50   ~ 0
+BMS_USB-
+Text Label 5750 4900 2    50   ~ 0
+BMS_USB+
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5DD6F889
+P 6750 5300
+F 0 "J4" V 7000 5250 50  0000 C CNN
+F 1 "BMS" V 6900 5250 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 6750 5300 50  0001 C CNN
+F 3 "~" H 6750 5300 50  0001 C CNN
+	1    6750 5300
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5DD70E08
+P 6750 4650
+F 0 "J3" V 7000 4600 50  0000 C CNN
+F 1 "DAQ_USB1" V 6900 4600 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 6750 4650 50  0001 C CNN
+F 3 "~" H 6750 4650 50  0001 C CNN
+	1    6750 4650
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5DD734ED
+P 6750 4000
+F 0 "J2" V 7000 3950 50  0000 C CNN
+F 1 "DAQ_USB2" V 6900 3950 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 6750 4000 50  0001 C CNN
+F 3 "~" H 6750 4000 50  0001 C CNN
+	1    6750 4000
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5DD77C8C
+P 6500 4100
+F 0 "#PWR04" H 6500 3850 50  0001 C CNN
+F 1 "GND" V 6505 3972 50  0000 R CNN
+F 2 "" H 6500 4100 50  0001 C CNN
+F 3 "" H 6500 4100 50  0001 C CNN
+	1    6500 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5DD78634
+P 6500 4750
+F 0 "#PWR05" H 6500 4500 50  0001 C CNN
+F 1 "GND" V 6505 4622 50  0000 R CNN
+F 2 "" H 6500 4750 50  0001 C CNN
+F 3 "" H 6500 4750 50  0001 C CNN
+	1    6500 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 4750 6550 4750
+$Comp
+L power:GND #PWR06
+U 1 1 5DD7892A
+P 6500 5400
+F 0 "#PWR06" H 6500 5150 50  0001 C CNN
+F 1 "GND" V 6505 5272 50  0000 R CNN
+F 2 "" H 6500 5400 50  0001 C CNN
+F 3 "" H 6500 5400 50  0001 C CNN
+	1    6500 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 5400 6550 5400
+Text Label 6100 5100 0    50   ~ 0
+BMS_VBUS
+Wire Wire Line
+	6100 5100 6550 5100
+$Comp
+L Device:R_US R1
+U 1 1 5DD7F3B6
+P 6400 3800
+F 0 "R1" V 6195 3800 50  0000 C CNN
+F 1 "PWR_DET" V 6286 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6440 3790 50  0001 C CNN
+F 3 "~" H 6400 3800 50  0001 C CNN
+	1    6400 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5DD7F99B
+P 6400 4450
+F 0 "R2" V 6195 4450 50  0000 C CNN
+F 1 "PWR_DET" V 6286 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6440 4440 50  0001 C CNN
+F 3 "~" H 6400 4450 50  0001 C CNN
+	1    6400 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 4100 6550 4100
+$Comp
+L power:GND #PWR02
+U 1 1 5DD884AD
+P 6250 3800
+F 0 "#PWR02" H 6250 3550 50  0001 C CNN
+F 1 "GND" V 6255 3672 50  0000 R CNN
+F 2 "" H 6250 3800 50  0001 C CNN
+F 3 "" H 6250 3800 50  0001 C CNN
+	1    6250 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5DD88943
+P 6250 4450
+F 0 "#PWR03" H 6250 4200 50  0001 C CNN
+F 1 "GND" V 6255 4322 50  0000 R CNN
+F 2 "" H 6250 4450 50  0001 C CNN
+F 3 "" H 6250 4450 50  0001 C CNN
+	1    6250 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 4000 6100 4000
+Wire Wire Line
+	6550 3900 6100 3900
+Wire Wire Line
+	6550 4550 6100 4550
+Wire Wire Line
+	6550 4650 6100 4650
+Text Label 6100 4000 0    50   ~ 0
+DAQ_USB2+
+Text Label 6100 3900 0    50   ~ 0
+DAQ_USB2-
+Text Label 6100 4550 0    50   ~ 0
+DAQ_USB1+
+Text Label 6100 4650 0    50   ~ 0
+DAQ_USB1-
+Text Label 6100 5300 0    50   ~ 0
+BMS_USB-
+Wire Wire Line
+	6550 5300 6100 5300
+Text Label 6100 5200 0    50   ~ 0
+BMS_USB+
+Wire Wire Line
+	6550 5200 6100 5200
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DD9B0F7
+P 4650 5700
+F 0 "H1" H 4750 5746 50  0000 L CNN
+F 1 "M3" H 4750 5655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 4650 5700 50  0001 C CNN
+F 3 "~" H 4650 5700 50  0001 C CNN
+	1    4650 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DD9B6BD
+P 4650 5900
+F 0 "H2" H 4750 5946 50  0000 L CNN
+F 1 "M3" H 4750 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 4650 5900 50  0001 C CNN
+F 3 "~" H 4650 5900 50  0001 C CNN
+	1    4650 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5DD9B990
+P 4650 6100
+F 0 "H3" H 4750 6146 50  0000 L CNN
+F 1 "M3" H 4750 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 4650 6100 50  0001 C CNN
+F 3 "~" H 4650 6100 50  0001 C CNN
+	1    4650 6100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

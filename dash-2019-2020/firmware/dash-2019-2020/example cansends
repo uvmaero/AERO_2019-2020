@@ -1,0 +1,21 @@
+Cooling (hot, warm cold):
+cansend can0 2A9#00B90000
+cansend can0 2A9#00A00000
+cansend can0 2A9#00780000
+
+Faults:
+All off:
+cansend can0 079#00000000
+
+BMS on:
+cansend can0 079#01000000
+
+BMS and TMS on:
+cansend can0 079#11000000
+
+All on:
+cansend can0 079#13000000
+
+All off:
+
+cansend can0 079#00000000

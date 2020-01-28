@@ -1,0 +1,444 @@
+EESchema Schematic File Version 4
+LIBS:packman-2019-2020-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Diode:MMBZxx D5
+U 1 1 5C4DFAEF
+P 8900 4200
+F 0 "D5" H 8700 4250 50  0000 R CNN
+F 1 "MMBZxx" H 8700 4150 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9050 4100 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF" V 8800 4200 50  0001 C CNN
+	1    8900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J9
+U 1 1 5C4DFF10
+P 9500 3900
+F 0 "J9" H 9580 3892 50  0000 L CNN
+F 1 "JST PH" H 9580 3801 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 9500 3900 50  0001 C CNN
+F 3 "~" H 9500 3900 50  0001 C CNN
+	1    9500 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 4100 9200 4100
+Wire Wire Line
+	9300 4000 9200 4000
+Wire Wire Line
+	9200 4000 9200 4100
+Connection ~ 9200 4100
+$Comp
+L power:GND #PWR0124
+U 1 1 5C4E05B2
+P 9200 4400
+F 0 "#PWR0124" H 9200 4150 50  0001 C CNN
+F 1 "GND" H 9205 4227 50  0000 C CNN
+F 2 "" H 9200 4400 50  0001 C CNN
+F 3 "" H 9200 4400 50  0001 C CNN
+	1    9200 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 4100 9200 4400
+$Comp
+L power:GND #PWR0125
+U 1 1 5C4E1D61
+P 8900 4400
+F 0 "#PWR0125" H 8900 4150 50  0001 C CNN
+F 1 "GND" H 8905 4227 50  0000 C CNN
+F 2 "" H 8900 4400 50  0001 C CNN
+F 3 "" H 8900 4400 50  0001 C CNN
+	1    8900 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4000 9000 3900
+Wire Wire Line
+	8800 4000 8800 3800
+Wire Wire Line
+	8800 3800 9300 3800
+Wire Wire Line
+	9000 3900 8400 3900
+Connection ~ 9000 3900
+Wire Wire Line
+	8800 3800 8350 3800
+Connection ~ 8800 3800
+Text Label 8400 3800 0    50   ~ 0
+AIR_B-
+Text Label 8400 3900 0    50   ~ 0
+AIR_B+
+Text Notes 9250 4300 0    50   ~ 0
+AIR Connector
+Wire Wire Line
+	7100 4900 7100 4800
+Wire Wire Line
+	7100 4800 6900 4800
+Text HLabel 6900 4800 0    50   Input ~ 0
+SHDN_IN
+Wire Wire Line
+	7200 5500 7200 5600
+Wire Wire Line
+	7200 5600 6650 5600
+Text Label 6650 5600 0    50   ~ 0
+AIR_B+
+$Comp
+L Relay:G5V-1 K1
+U 1 1 5C50B52D
+P 5750 3400
+F 0 "K1" H 6300 3450 50  0000 R CNN
+F 1 "G2RL" H 6400 3350 50  0000 R CNN
+F 2 "AERO-footprints:G2RL" H 6880 3370 50  0001 C CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf" H 5750 3400 50  0001 C CNN
+	1    5750 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5C50EAF0
+P 6300 4450
+F 0 "#PWR0126" H 6300 4200 50  0001 C CNN
+F 1 "GND" H 6305 4277 50  0000 C CNN
+F 2 "" H 6300 4450 50  0001 C CNN
+F 3 "" H 6300 4450 50  0001 C CNN
+	1    6300 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3100 5950 2900
+Wire Wire Line
+	5950 2900 6300 2900
+Wire Wire Line
+	5450 3100 5450 3000
+Wire Wire Line
+	5450 3000 5350 3000
+Wire Wire Line
+	5650 3100 5650 2700
+Wire Wire Line
+	5650 2700 5350 2700
+Text Label 4800 2700 0    50   ~ 0
+INT-
+Text Label 4800 3000 0    50   ~ 0
+B+
+Wire Wire Line
+	5550 3700 5550 3900
+$Comp
+L Relay:G5V-1 K2
+U 1 1 5C5130BF
+P 7400 5200
+F 0 "K2" H 7830 5246 50  0000 L CNN
+F 1 "G5V-1" H 7830 5155 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron_G5V-1" H 8530 5170 50  0001 C CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf" H 7400 5200 50  0001 C CNN
+	1    7400 5200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 4900 7600 4800
+Wire Wire Line
+	7600 4800 8000 4800
+$Comp
+L power:GND #PWR0127
+U 1 1 5C5150E9
+P 7600 5600
+F 0 "#PWR0127" H 7600 5350 50  0001 C CNN
+F 1 "GND" H 7605 5427 50  0000 C CNN
+F 2 "" H 7600 5600 50  0001 C CNN
+F 3 "" H 7600 5600 50  0001 C CNN
+	1    7600 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5C5151C5
+P 4900 3900
+F 0 "R4" V 4695 3900 50  0000 C CNN
+F 1 "1k 7W" V 4786 3900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P30.48mm" V 4940 3890 50  0001 C CNN
+F 3 "~" H 4900 3900 50  0001 C CNN
+F 4 "AC07000001001JAC00" V 4900 3900 50  0001 C CNN "MFR P/N"
+	1    4900 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 4050 4250 4050
+Text Label 4250 4050 0    50   ~ 0
+INT+
+Text Notes 8500 3500 0    50   ~ 0
+Off: Discharge intermediate\ncircuit through resistor\n\nOn: Precharge intermediate\ncircuit through resistor
+Text HLabel 8250 4800 2    50   Input ~ 0
+MAIN_CONT
+Text HLabel 8150 3800 0    50   Input ~ 0
+SHDN_IN
+Text HLabel 6850 2900 2    50   Input ~ 0
+SHDN_IN
+$Comp
+L Device:Q_NPN_BEC Q2
+U 1 1 5C519173
+P 6050 4000
+F 0 "Q2" H 6241 4046 50  0000 L CNN
+F 1 "MMBT2222A" H 6241 3955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6250 4100 50  0001 C CNN
+F 3 "~" H 6050 4000 50  0001 C CNN
+	1    6050 4000
+	-1   0    0    -1  
+$EndComp
+Text HLabel 6850 4000 2    50   Input ~ 0
+PRECHARGE
+$Comp
+L Device:R_US R6
+U 1 1 5C519B82
+P 6650 4200
+F 0 "R6" H 6582 4154 50  0000 R CNN
+F 1 "2k" H 6582 4245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6690 4190 50  0001 C CNN
+F 3 "~" H 6650 4200 50  0001 C CNN
+	1    6650 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5950 4200 5950 4400
+Wire Wire Line
+	5950 4400 6300 4400
+Connection ~ 6300 4400
+$Comp
+L Device:R_US R5
+U 1 1 5C51B36B
+P 6450 4000
+F 0 "R5" V 6655 4000 50  0000 C CNN
+F 1 "10k" V 6564 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6490 3990 50  0001 C CNN
+F 3 "~" H 6450 4000 50  0001 C CNN
+	1    6450 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 4000 6650 4000
+Wire Wire Line
+	9000 3900 9300 3900
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5C51CB5E
+P 8250 3800
+F 0 "NT1" H 8250 3978 50  0001 C CNN
+F 1 "Net-Tie_2" H 8250 3886 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 8250 3800 50  0001 C CNN
+F 3 "~" H 8250 3800 50  0001 C CNN
+	1    8250 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3000 3050 3000
+Wire Wire Line
+	3000 3450 3050 3450
+Wire Wire Line
+	3000 3900 3050 3900
+Text Label 3300 3000 2    50   ~ 0
+INT+
+Text Label 3300 3450 2    50   ~ 0
+B+
+Text Label 3300 3900 2    50   ~ 0
+INT-
+Text Notes 2600 4200 0    50   ~ 0
+HV Connectors
+$Comp
+L Device:Fuse F2
+U 1 1 5C5231B3
+P 5200 3000
+F 0 "F2" V 5003 3000 50  0000 C CNN
+F 1 "1A 300VDC" V 5094 3000 50  0000 C CNN
+F 2 "AERO-footprints:Bell_0ADKP1000-RE" V 5130 3000 50  0001 C CNN
+F 3 "~" H 5200 3000 50  0001 C CNN
+	1    5200 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 3000 4800 3000
+$Comp
+L Device:Fuse F1
+U 1 1 5C5231F6
+P 5200 2700
+F 0 "F1" V 5003 2700 50  0000 C CNN
+F 1 "1A 300VDC" V 5094 2700 50  0000 C CNN
+F 2 "AERO-footprints:Bell_0ADKP1000-RE" V 5130 2700 50  0001 C CNN
+F 3 "~" H 5200 2700 50  0001 C CNN
+	1    5200 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 2700 4800 2700
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5C53BBF4
+P 2800 3100
+F 0 "J6" H 2720 2775 50  0000 C CNN
+F 1 "TE Mate-N-Lok" H 2720 2866 50  0000 C CNN
+F 2 "AERO-footprints:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 2800 3100 50  0001 C CNN
+F 3 "~" H 2800 3100 50  0001 C CNN
+	1    2800 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5C53BC68
+P 2800 3550
+F 0 "J7" H 2720 3225 50  0000 C CNN
+F 1 "TE Mate-N-Lok" H 2720 3316 50  0000 C CNN
+F 2 "AERO-footprints:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 2800 3550 50  0001 C CNN
+F 3 "~" H 2800 3550 50  0001 C CNN
+	1    2800 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5C53BCA4
+P 2800 4000
+F 0 "J8" H 2720 3675 50  0000 C CNN
+F 1 "TE Mate-N-Lok" H 2720 3766 50  0000 C CNN
+F 2 "AERO-footprints:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 2800 4000 50  0001 C CNN
+F 3 "~" H 2800 4000 50  0001 C CNN
+	1    2800 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 3100 3050 3100
+Wire Wire Line
+	3050 3100 3050 3000
+Connection ~ 3050 3000
+Wire Wire Line
+	3050 3000 3300 3000
+Wire Wire Line
+	3000 3550 3050 3550
+Wire Wire Line
+	3050 3550 3050 3450
+Connection ~ 3050 3450
+Wire Wire Line
+	3050 3450 3300 3450
+Wire Wire Line
+	3000 4000 3050 4000
+Wire Wire Line
+	3050 4000 3050 3900
+Connection ~ 3050 3900
+Wire Wire Line
+	3050 3900 3300 3900
+Wire Notes Line
+	4700 3650 5100 3650
+Text Notes 3650 5700 0    50   ~ 0
+Energy dissipated by 2 resistors when charging bus\ncapacitance (ONLY MOTOR CONTROLLER, FOR\nNOW): 20.7 Joules\n\nEnergy dissipated by 1 resistor: 20.7/2 Joules\n\nEquivalent pulse length: 0.25 seconds @ 288 Volts\n\nDatasheet specs 1000 Volt maximum for 0.25\nsecond pulse (so this resistor will work)
+Text Notes 7750 2600 0    50   ~ 0
+Precharge Procedure:\n\n1) First AIR turned on directly by shutdown loop\n\n2) Pre/discharge resistor connected between B+ and the intermediate circuit\nby K2 once the Rinehart PRECHARGE signal is asserted\n\n3) Second AIR turned on with K1 when the Rinehart MAIN_CONT signal is\nasserted\n\nDischarge Procedure:\n\n1) When power is lost, K2 switches to NC position, connecting pre/discharge\nresistor across the intermediate circuit
+Wire Wire Line
+	6250 4000 6300 4000
+Wire Wire Line
+	6650 4400 6650 4350
+Wire Wire Line
+	6300 4400 6650 4400
+Wire Wire Line
+	6650 4050 6650 4000
+Connection ~ 6650 4000
+Wire Wire Line
+	6650 4000 6850 4000
+Wire Wire Line
+	6300 4400 6300 4450
+$Comp
+L Diode:1N4148 D?
+U 1 1 5C7A1CDD
+P 6300 3400
+AR Path="/5C7A1CDD" Ref="D?"  Part="1" 
+AR Path="/5C4DD9F8/5C7A1CDD" Ref="D3"  Part="1" 
+F 0 "D3" V 6254 3479 50  0000 L CNN
+F 1 "1N4148" V 6345 3479 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6300 3225 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6300 3400 50  0001 C CNN
+	1    6300 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 3700 5950 3750
+Wire Wire Line
+	5950 3750 6300 3750
+Wire Wire Line
+	6300 3750 6300 3550
+Connection ~ 5950 3750
+Wire Wire Line
+	5950 3750 5950 3800
+Wire Wire Line
+	6300 3250 6300 2900
+Connection ~ 6300 2900
+Wire Wire Line
+	6300 2900 6850 2900
+$Comp
+L Diode:1N4148 D?
+U 1 1 5C7A69A6
+P 8000 5200
+AR Path="/5C7A69A6" Ref="D?"  Part="1" 
+AR Path="/5C4DD9F8/5C7A69A6" Ref="D4"  Part="1" 
+F 0 "D4" V 7954 5279 50  0000 L CNN
+F 1 "1N4148" V 8045 5279 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 8000 5025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8000 5200 50  0001 C CNN
+	1    8000 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 5050 8000 4800
+Connection ~ 8000 4800
+Wire Wire Line
+	8000 4800 8250 4800
+Wire Wire Line
+	7600 5600 7600 5550
+Wire Wire Line
+	7600 5550 8000 5550
+Wire Wire Line
+	8000 5550 8000 5350
+Connection ~ 7600 5550
+Wire Wire Line
+	7600 5550 7600 5500
+$Comp
+L Device:R_US R7
+U 1 1 5DDBA44F
+P 4900 4200
+F 0 "R7" V 4695 4200 50  0000 C CNN
+F 1 "1k 7W" V 4786 4200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P30.48mm" V 4940 4190 50  0001 C CNN
+F 3 "~" H 4900 4200 50  0001 C CNN
+F 4 "AC07000001001JAC00" V 4900 4200 50  0001 C CNN "MFR P/N"
+	1    4900 4200
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	4700 4350 5100 4350
+Wire Notes Line
+	5100 3650 5100 4350
+Wire Notes Line
+	4700 3650 4700 4350
+Wire Wire Line
+	4750 4050 4750 3900
+Wire Wire Line
+	4750 4050 4750 4200
+Connection ~ 4750 4050
+Wire Wire Line
+	5050 3900 5150 3900
+Wire Wire Line
+	5050 4200 5150 4200
+Wire Wire Line
+	5150 4200 5150 3900
+Connection ~ 5150 3900
+Wire Wire Line
+	5150 3900 5550 3900
+$EndSCHEMATC
