@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:TSAL-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -48,7 +49,7 @@ L Device:R R1
 U 1 1 5E38B417
 P 6425 1925
 F 0 "R1" H 6495 1971 50  0000 L CNN
-F 1 "100k" H 6495 1880 50  0000 L CNN
+F 1 "28.7k" H 6495 1880 50  0000 L CNN
 F 2 "" V 6355 1925 50  0001 C CNN
 F 3 "~" H 6425 1925 50  0001 C CNN
 	1    6425 1925
@@ -100,7 +101,7 @@ L Device:R R2
 U 1 1 5E3A5E0B
 P 6425 2475
 F 0 "R2" H 6495 2521 50  0000 L CNN
-F 1 "235k" H 6495 2430 50  0000 L CNN
+F 1 "7.19M" H 6495 2430 50  0000 L CNN
 F 2 "" V 6355 2475 50  0001 C CNN
 F 3 "~" H 6425 2475 50  0001 C CNN
 	1    6425 2475
@@ -113,7 +114,7 @@ L Device:C C1
 U 1 1 5E390E32
 P 6425 2925
 F 0 "C1" H 6310 2879 50  0000 R CNN
-F 1 "2u" H 6310 2970 50  0000 R CNN
+F 1 "0.1uF" H 6310 2970 50  0000 R CNN
 F 2 "" H 6463 2775 50  0001 C CNN
 F 3 "~" H 6425 2925 50  0001 C CNN
 	1    6425 2925
@@ -462,17 +463,6 @@ F 3 "" H 3600 2225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driver_FET:HCPL-314J U?
-U 1 1 5E33883D
-P 1875 3325
-F 0 "U?" H 1875 3842 50  0000 C CNN
-F 1 "HCPL-314J" H 1875 3751 50  0000 C CNN
-F 2 "Package_SO:SOIC-16W-12_7.5x10.3mm_P1.27mm" H 1875 2925 50  0001 C CIN
-F 3 "https://docs.broadcom.com/docs/AV02-0169EN" H 1785 3330 50  0001 L CNN
-	1    1875 3325
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+12VA #PWR?
 U 1 1 5E33E334
 P 3600 1525
@@ -487,74 +477,6 @@ Wire Wire Line
 	3600 1525 3600 1625
 Connection ~ 3600 1625
 $Comp
-L power:+12VA #PWR?
-U 1 1 5E34005F
-P 1275 3025
-F 0 "#PWR?" H 1275 2875 50  0001 C CNN
-F 1 "+12VA" H 1290 3198 50  0000 C CNN
-F 2 "" H 1275 3025 50  0001 C CNN
-F 3 "" H 1275 3025 50  0001 C CNN
-	1    1275 3025
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1275 3025 1475 3025
-$Comp
-L power:GNDA #PWR?
-U 1 1 5E341B32
-P 1300 3625
-F 0 "#PWR?" H 1300 3375 50  0001 C CNN
-F 1 "GNDA" H 1305 3452 50  0000 C CNN
-F 2 "" H 1300 3625 50  0001 C CNN
-F 3 "" H 1300 3625 50  0001 C CNN
-	1    1300 3625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 3625 1475 3625
-$Comp
-L Device:C C?
-U 1 1 5E34385B
-P 2750 3325
-F 0 "C?" H 2865 3371 50  0000 L CNN
-F 1 ".1u" H 2865 3280 50  0000 L CNN
-F 2 "" H 2788 3175 50  0001 C CNN
-F 3 "~" H 2750 3325 50  0001 C CNN
-	1    2750 3325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2275 3025 2750 3025
-Wire Wire Line
-	2750 3025 2750 3175
-Wire Wire Line
-	2275 3625 2750 3625
-Wire Wire Line
-	2750 3625 2750 3475
-$Comp
-L power:GND #PWR?
-U 1 1 5E35317C
-P 2750 3625
-F 0 "#PWR?" H 2750 3375 50  0001 C CNN
-F 1 "GND" H 2755 3452 50  0000 C CNN
-F 2 "" H 2750 3625 50  0001 C CNN
-F 3 "" H 2750 3625 50  0001 C CNN
-	1    2750 3625
-	1    0    0    -1  
-$EndComp
-Connection ~ 2750 3625
-$Comp
-L power:+12V #PWR?
-U 1 1 5E353890
-P 2475 3325
-F 0 "#PWR?" H 2475 3175 50  0001 C CNN
-F 1 "+12V" H 2490 3498 50  0000 C CNN
-F 2 "" H 2475 3325 50  0001 C CNN
-F 3 "" H 2475 3325 50  0001 C CNN
-	1    2475 3325
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5E357048
 P 9900 1825
@@ -565,10 +487,6 @@ F 3 "~" H 9900 1825 50  0001 C CNN
 	1    9900 1825
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2275 3325 2475 3325
-Text Label 2750 3025 2    50   ~ 0
-GLV+
 Text Label 10375 1725 2    50   ~ 0
 GLV+
 Wire Wire Line
@@ -612,8 +530,6 @@ F 3 "" H 8700 4950 50  0001 C CNN
 $EndComp
 Text Label 10250 5750 1    50   ~ 0
 GLV+
-Text Label 10250 4400 3    50   ~ 0
-LED_GREEN+
 Wire Wire Line
 	10250 5750 10250 5300
 Wire Wire Line
@@ -622,38 +538,11 @@ Wire Wire Line
 	9550 5300 10250 5300
 Wire Wire Line
 	9550 4750 9550 4400
-$Comp
-L power:GND #PWR?
-U 1 1 5E38B565
-P 10600 4400
-F 0 "#PWR?" H 10600 4150 50  0001 C CNN
-F 1 "GND" H 10605 4227 50  0000 C CNN
-F 2 "" H 10600 4400 50  0001 C CNN
-F 3 "" H 10600 4400 50  0001 C CNN
-	1    10600 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9550 4400 10250 4400
-$Comp
-L Device:R R?
-U 1 1 5E38F5CE
-P 10250 5100
-F 0 "R?" H 10320 5146 50  0000 L CNN
-F 1 "R" H 10320 5055 50  0000 L CNN
-F 2 "" V 10180 5100 50  0001 C CNN
-F 3 "~" H 10250 5100 50  0001 C CNN
-	1    10250 5100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10250 5250 10250 5300
 Connection ~ 10250 5300
-Wire Wire Line
-	10250 4950 10250 4400
-Connection ~ 10250 4400
-Wire Wire Line
-	10250 4400 10600 4400
 $Comp
 L Device:R R?
 U 1 1 5E39457C
@@ -702,4 +591,118 @@ Wire Wire Line
 	9075 1475 9075 1375
 Wire Wire Line
 	9075 1075 9075 650 
+Text Notes 8500 5950 0    50   ~ 0
+Please check this, something seems wrong\n
+Text Notes 9650 6100 0    50   ~ 0
+Spice sim?\n
+Text Notes 3350 3250 0    50   ~ 0
+name your nets better plz
+Text Notes 1900 4150 0    50   ~ 0
+Why this opto? weird weird choice\n
+Text Notes 7400 3800 0    50   ~ 0
+Better connector; Figure out how will interface with HV int board, or consider HV connector board\n
+Text Notes 5750 5700 0    50   ~ 0
+Technically LED can run off just 10V, VS=10-30V
+Text Notes 5900 5900 0    50   ~ 0
+Boost is not necessary, unless you want it\n
+Text Label 9650 4400 0    50   ~ 0
+LED_GREEN+
+$Comp
+L Device:R_US R?
+U 1 1 5E3321DD
+P 10400 4400
+F 0 "R?" V 10195 4400 50  0000 C CNN
+F 1 "R_US" V 10286 4400 50  0000 C CNN
+F 2 "" V 10440 4390 50  0001 C CNN
+F 3 "~" H 10400 4400 50  0001 C CNN
+	1    10400 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E333832
+P 10550 4550
+F 0 "#PWR?" H 10550 4300 50  0001 C CNN
+F 1 "GND" H 10555 4377 50  0000 C CNN
+F 2 "" H 10550 4550 50  0001 C CNN
+F 3 "" H 10550 4550 50  0001 C CNN
+	1    10550 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 4400 10550 4550
+$Comp
+L Isolator:LTV-817S U?
+U 1 1 5E3364C4
+P 1850 3150
+F 0 "U?" H 1850 3475 50  0000 C CNN
+F 1 "LTV-817S" H 1850 3384 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm" H 1850 2850 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 1500 3450 50  0001 C CNN
+	1    1850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12VA #PWR?
+U 1 1 5E33E1BD
+P 1550 3050
+F 0 "#PWR?" H 1550 2900 50  0001 C CNN
+F 1 "+12VA" H 1565 3223 50  0000 C CNN
+F 2 "" H 1550 3050 50  0001 C CNN
+F 3 "" H 1550 3050 50  0001 C CNN
+	1    1550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E33F030
+P 1550 3250
+F 0 "#PWR?" H 1550 3000 50  0001 C CNN
+F 1 "GNDA" H 1555 3077 50  0000 C CNN
+F 2 "" H 1550 3250 50  0001 C CNN
+F 3 "" H 1550 3250 50  0001 C CNN
+	1    1550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E33F945
+P 2150 3400
+F 0 "R?" H 2218 3446 50  0000 L CNN
+F 1 "10k" H 2218 3355 50  0000 L CNN
+F 2 "" V 2190 3390 50  0001 C CNN
+F 3 "~" H 2150 3400 50  0001 C CNN
+	1    2150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5E3405B3
+P 2250 3250
+F 0 "#PWR?" H 2250 3100 50  0001 C CNN
+F 1 "+12V" V 2265 3378 50  0000 L CNN
+F 2 "" H 2250 3250 50  0001 C CNN
+F 3 "" H 2250 3250 50  0001 C CNN
+	1    2250 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 3200 2250 3250
+Wire Wire Line
+	2150 3250 2250 3250
+Connection ~ 2150 3250
+Connection ~ 2250 3250
+$Comp
+L power:GND #PWR?
+U 1 1 5E3445CE
+P 2150 3550
+F 0 "#PWR?" H 2150 3300 50  0001 C CNN
+F 1 "GND" H 2155 3377 50  0000 C CNN
+F 2 "" H 2150 3550 50  0001 C CNN
+F 3 "" H 2150 3550 50  0001 C CNN
+	1    2150 3550
+	1    0    0    -1  
+$EndComp
+Text Label 2150 3050 0    50   ~ 0
+GLV+
 $EndSCHEMATC
