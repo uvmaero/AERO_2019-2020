@@ -32,9 +32,6 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-VaultGUID=
-ReleaseVaultName=
-ItemGUID=
 
 [Preferences]
 PrefsVaultGUID=
@@ -261,16 +258,33 @@ DItemRevisionGUID=
 GenerateClassCluster=1
 DocumentUniqueId=EHNFIEUQ
 
+[Document14]
+DocumentPath=Current Scaler.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IHLLJMZG
+
 [ProjectVariant1]
 UniqueID=D755E2CF-44F5-42E6-8CE6-D22B0B7EB4CB
 Description=needtoorder
 AllowFabrication=0
 ParameterCount=0
 VariationCount=4
-Variation1=Designator=PS1|UniqueId=\GDJTUDWI\IJCQFAES|Kind=1|AlternatePart=
-Variation2=Designator=R6|UniqueId=\WXVZRCSH\GIQACGQP|Kind=1|AlternatePart=
-Variation3=Designator=R7|UniqueId=\WXVZRCSH\IPONTQQR|Kind=1|AlternatePart=
-Variation4=Designator=R11|UniqueId=\WXVZRCSH\URDEDUHQ|Kind=1|AlternatePart=
+Variation1=Designator=PS1|UniqueId=\GDJTUDWI\IJCQFAES|Kind=1|AlternatePart= 
+Variation2=Designator=R6|UniqueId=\WXVZRCSH\GIQACGQP|Kind=1|AlternatePart= 
+Variation3=Designator=R7|UniqueId=\WXVZRCSH\IPONTQQR|Kind=1|AlternatePart= 
+Variation4=Designator=R11|UniqueId=\WXVZRCSH\URDEDUHQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -279,15 +293,15 @@ Description=minimal
 AllowFabrication=0
 ParameterCount=0
 VariationCount=9
-Variation1=Designator=PS1|UniqueId=\GDJTUDWI\IJCQFAES|Kind=1|AlternatePart=
-Variation2=Designator=C11|UniqueId=\GDJTUDWI\NHBFYEKY|Kind=1|AlternatePart=
-Variation3=Designator=C14|UniqueId=\GDJTUDWI\JLFXNXTG|Kind=1|AlternatePart=
-Variation4=Designator=C16|UniqueId=\GDJTUDWI\HNQLSAUC|Kind=1|AlternatePart=
-Variation5=Designator=C17|UniqueId=\GDJTUDWI\HTMLNVNU|Kind=1|AlternatePart=
-Variation6=Designator=C19|UniqueId=\GDJTUDWI\TRPGDUQY|Kind=1|AlternatePart=
-Variation7=Designator=R6|UniqueId=\WXVZRCSH\GIQACGQP|Kind=1|AlternatePart=
-Variation8=Designator=R7|UniqueId=\WXVZRCSH\IPONTQQR|Kind=1|AlternatePart=
-Variation9=Designator=R11|UniqueId=\WXVZRCSH\URDEDUHQ|Kind=1|AlternatePart=
+Variation1=Designator=PS1|UniqueId=\GDJTUDWI\IJCQFAES|Kind=1|AlternatePart= 
+Variation2=Designator=C11|UniqueId=\GDJTUDWI\NHBFYEKY|Kind=1|AlternatePart= 
+Variation3=Designator=C14|UniqueId=\GDJTUDWI\JLFXNXTG|Kind=1|AlternatePart= 
+Variation4=Designator=C16|UniqueId=\GDJTUDWI\HNQLSAUC|Kind=1|AlternatePart= 
+Variation5=Designator=C17|UniqueId=\GDJTUDWI\HTMLNVNU|Kind=1|AlternatePart= 
+Variation6=Designator=C19|UniqueId=\GDJTUDWI\TRPGDUQY|Kind=1|AlternatePart= 
+Variation7=Designator=R6|UniqueId=\WXVZRCSH\GIQACGQP|Kind=1|AlternatePart= 
+Variation8=Designator=R7|UniqueId=\WXVZRCSH\IPONTQQR|Kind=1|AlternatePart= 
+Variation9=Designator=R11|UniqueId=\WXVZRCSH\URDEDUHQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant3]

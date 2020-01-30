@@ -1,0 +1,8 @@
+Update Managed Component D6 From CMP-1055-00486-1[NSR0340V2T1G] To CMP-1055-00486-1[NSR0340V2T1G] in Relay.SchDoc
+Replace Part D7 SM0805GCL in C:\git\AERO_2019-2020\BSPD-2019-2020\Relay.SchDoc with SM0805GCL from bspd parts.SchLib
+Replace Part K1 Relay_Omron_Electronics_Inc._G5LE-1_DC5_eec in C:\git\AERO_2019-2020\BSPD-2019-2020\Relay.SchDoc with Relay_Omron_Electronics_Inc._G5LE-1_DC5_eec from bspd parts.SchLib
+Replace Part Q1 MMBT3904,215 in C:\git\AERO_2019-2020\BSPD-2019-2020\Relay.SchDoc with MMBT3904,215 from bspd parts.SchLib
+Replace Part R29 res in C:\git\AERO_2019-2020\BSPD-2019-2020\Relay.SchDoc with res from Passive Components.DbLib
+Replace Part R30 res in C:\git\AERO_2019-2020\BSPD-2019-2020\Relay.SchDoc with res from Passive Components.DbLib
+Replace Part R31 res in C:\git\AERO_2019-2020\BSPD-2019-2020\Relay.SchDoc with res from Passive Components.DbLib
+Replace Part U9 LTV-817S-TA1 in C:\git\AERO_2019-2020\BSPD-2019-2020\Relay.SchDoc with LTV-817S-TA1 from bspd parts.SchLib
