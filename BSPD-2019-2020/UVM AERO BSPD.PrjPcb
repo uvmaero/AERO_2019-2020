@@ -269,7 +269,7 @@ AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -311,6 +311,10 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for UVM AERO BSPD\Design Rule Check - UVM AERO BSPD.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
