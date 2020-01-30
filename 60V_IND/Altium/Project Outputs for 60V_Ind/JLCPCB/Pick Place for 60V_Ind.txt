@@ -1,17 +1,17 @@
 Altium Designer Pick and Place Locations
-C:\git\AERO_2019-2020\60V_IND\Project Outputs for 60V_Ind\JLCPCB\Pick Place for 60V_Ind.txt
+C:\git\AERO_2019-2020\60V_IND\Altium\Project Outputs for 60V_Ind\JLCPCB\Pick Place for 60V_Ind.txt
 
 ========================================================================================================================
 File Design Information:
 
-Date:       28/01/20
-Time:       22:45
-Revision:   11b3388071dd9fd03719554ad9e92c5a2885b8e7
+Date:       30/01/20
+Time:       12:28
+Revision:   3067a48e46c6dec477e76c73339946b2048f51b8
 Variant:    No variations
 Units used: mil
 
 Designator Comment             Layer       Footprint                        Center-X(mil) Center-Y(mil) Rotation Description                                                                                      
-MP1        LPA-C011301S-10     TopLayer    LPA-C011301S-10                  1446.594      411.564       0        "Light Pipe Single Clear Rigid Round with Flat Top, 3mm Board Mount, Press Fit"                  
+MP1        LPA-C011301S-10     TopLayer    LPA-C011301S-10                  1451.594      411.564       0        "Light Pipe Single Clear Rigid Round with Flat Top, 3mm Board Mount, Press Fit"                  
 D1         SM0805HCL           TopLayer    LEDC2012X135N_SM0805UGC(Primary) 1445.000      410.000       180      "Red 631nm LED Indication - Discrete 1.9V 0805 (2012 Metric)"                                    
 U1         LR8K4-G             TopLayer    Microchip_C04-189_MFG            1135.000      479.250       360      "Linear Voltage Regulator IC Positive Adjustable 1 Output  10mA TO-252, (D-Pak)"                 
 R1         "40.2 Ohms"         TopLayer    0805_RES                         1380.000      645.000       90       "Resistor Surface Mount, 40.2 Ohms, 0805 Footprint, 1% Tolerance 0.125W"                         

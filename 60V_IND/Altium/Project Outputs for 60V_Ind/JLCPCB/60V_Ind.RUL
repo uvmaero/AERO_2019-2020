@@ -1,4 +1,5 @@
-DRC Rules Export File for PCB: C:\git\AERO_2019-2020\60V_IND\60V_Ind.PcbDoc
+DRC Rules Export File for PCB: C:\git\AERO_2019-2020\60V_IND\Altium\60V_Ind.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=33.46
 RuleKind=SolderMaskExpansion|RuleName=via|Scope=Board|Minimum=4.00
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00

@@ -275,16 +275,30 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IHLLJMZG
 
+[Document15]
+DocumentPath=Gerbers (As MFG).Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=D755E2CF-44F5-42E6-8CE6-D22B0B7EB4CB
 Description=needtoorder
 AllowFabrication=0
 ParameterCount=0
-VariationCount=4
+VariationCount=1
 Variation1=Designator=PS1|UniqueId=\GDJTUDWI\IJCQFAES|Kind=1|AlternatePart= 
-Variation2=Designator=R6|UniqueId=\WXVZRCSH\GIQACGQP|Kind=1|AlternatePart= 
-Variation3=Designator=R7|UniqueId=\WXVZRCSH\IPONTQQR|Kind=1|AlternatePart= 
-Variation4=Designator=R11|UniqueId=\WXVZRCSH\URDEDUHQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -294,14 +308,14 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=9
 Variation1=Designator=PS1|UniqueId=\GDJTUDWI\IJCQFAES|Kind=1|AlternatePart= 
-Variation2=Designator=C11|UniqueId=\GDJTUDWI\NHBFYEKY|Kind=1|AlternatePart= 
-Variation3=Designator=C14|UniqueId=\GDJTUDWI\JLFXNXTG|Kind=1|AlternatePart= 
-Variation4=Designator=C16|UniqueId=\GDJTUDWI\HNQLSAUC|Kind=1|AlternatePart= 
-Variation5=Designator=C17|UniqueId=\GDJTUDWI\HTMLNVNU|Kind=1|AlternatePart= 
-Variation6=Designator=C19|UniqueId=\GDJTUDWI\TRPGDUQY|Kind=1|AlternatePart= 
-Variation7=Designator=R6|UniqueId=\WXVZRCSH\GIQACGQP|Kind=1|AlternatePart= 
-Variation8=Designator=R7|UniqueId=\WXVZRCSH\IPONTQQR|Kind=1|AlternatePart= 
-Variation9=Designator=R11|UniqueId=\WXVZRCSH\URDEDUHQ|Kind=1|AlternatePart= 
+Variation2=Designator=C3|UniqueId=\GDJTUDWI\NHBFYEKY|Kind=1|AlternatePart= 
+Variation3=Designator=C4|UniqueId=\GDJTUDWI\JLFXNXTG|Kind=1|AlternatePart= 
+Variation4=Designator=C6|UniqueId=\GDJTUDWI\HNQLSAUC|Kind=1|AlternatePart= 
+Variation5=Designator=C7|UniqueId=\GDJTUDWI\HTMLNVNU|Kind=1|AlternatePart= 
+Variation6=Designator=C9|UniqueId=\GDJTUDWI\TRPGDUQY|Kind=1|AlternatePart= 
+Variation7=Designator=R5|UniqueId=\WXVZRCSH\GIQACGQP|Kind=1|AlternatePart= 
+Variation8=Designator=R10|UniqueId=\WXVZRCSH\IPONTQQR|Kind=1|AlternatePart= 
+Variation9=Designator=R15|UniqueId=\WXVZRCSH\URDEDUHQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant3]
@@ -313,7 +327,163 @@ VariationCount=0
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for UVM AERO BSPD\BOM\BSPDBOM.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for UVM AERO BSPD\Design Rule Check - UVM AERO BSPD.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\Pick Place for UVM AERO BSPD.txt
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD-BoardEdgeRout.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GM6
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GM7
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GM8
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GM9
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GM10
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GM11
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GM16
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.REP
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for UVM AERO BSPD\ExportSTEP\UVM AERO BSPD.step
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for UVM AERO BSPD\ExportSTEP\UVM AERO BSPD.x_t
 DItemRevisionGUID=
 
 [Configuration1]
@@ -2490,6 +2660,420 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=bspd parts.SchLib
+ComponentDesignItemID0=1217861-1
+ComponentSymbolReference0=1217861-1
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=bspd parts.SchLib
+ComponentDesignItemID1=172165-1
+ComponentSymbolReference1=172165-1
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=bspd parts.SchLib
+ComponentDesignItemID2=1-770872-0
+ComponentSymbolReference2=1-770872-0
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=bspd parts.SchLib
+ComponentDesignItemID3=2-520183-2
+ComponentSymbolReference3=2-520183-2
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=bspd parts.SchLib
+ComponentDesignItemID4=3339H-1-103LF
+ComponentSymbolReference4=3339H-1-103LF
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=bspd parts.SchLib
+ComponentDesignItemID5=5000
+ComponentSymbolReference5=5000
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=bspd parts.SchLib
+ComponentDesignItemID6=5001
+ComponentSymbolReference6=5001
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=bspd parts.SchLib
+ComponentDesignItemID7=5002
+ComponentSymbolReference7=5002
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=bspd parts.SchLib
+ComponentDesignItemID8=5116
+ComponentSymbolReference8=5116
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=bspd parts.SchLib
+ComponentDesignItemID9=770904-1
+ComponentSymbolReference9=770904-1
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=bspd parts.SchLib
+ComponentDesignItemID10=A08KR08KR26E152B
+ComponentSymbolReference10=A08KR08KR26E152B
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=bspd parts.SchLib
+ComponentDesignItemID11=B4B-XH-A(LF)(SN)
+ComponentSymbolReference11=B4B-XH-A(LF)(SN)
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=bspd parts.SchLib
+ComponentDesignItemID12=B8B-PH-K-S(LF)(SN)
+ComponentSymbolReference12=B8B-PH-K-S(LF)(SN)
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=bspd parts.SchLib
+ComponentDesignItemID13=CL-SA-12C-02
+ComponentSymbolReference13=CL-SA-12C-02
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=bspd parts.SchLib
+ComponentDesignItemID14=LMV7231SQE/NOPB
+ComponentSymbolReference14=LMV7231SQE/NOPB
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=bspd parts.SchLib
+ComponentDesignItemID15=LTC6994CS6-1#TRMPBF
+ComponentSymbolReference15=LTC6994CS6-1#TRMPBF
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=bspd parts.SchLib
+ComponentDesignItemID16=MF-FSMF010X-2
+ComponentSymbolReference16=MF-FSMF010X-2
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=bspd parts.SchLib
+ComponentDesignItemID17=NET TIE
+ComponentSymbolReference17=NET TIE
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=bspd parts.SchLib
+ComponentDesignItemID18=NMK1205SC
+ComponentSymbolReference18=NMK1205SC
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=bspd parts.SchLib
+ComponentDesignItemID19=PHR-4
+ComponentSymbolReference19=PHR-4
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=bspd parts.SchLib
+ComponentDesignItemID20=Relay_Omron_Electronics_Inc._G5LE-1_DC5_eec
+ComponentSymbolReference20=Relay_Omron_Electronics_Inc._G5LE-1_DC5_eec
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=bspd parts.SchLib
+ComponentDesignItemID21=SM0805GCL
+ComponentSymbolReference21=SM0805GCL
+ComponentUpdate21=1
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=bspd parts.SchLib
+ComponentDesignItemID22=SM0805HCL
+ComponentSymbolReference22=SM0805HCL
+ComponentUpdate22=1
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=bspd parts.SchLib
+ComponentDesignItemID23=SXH-001T-P0.6
+ComponentSymbolReference23=SXH-001T-P0.6
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=bspd parts.SchLib
+ComponentDesignItemID24=TEL 3-1223
+ComponentSymbolReference24=TEL 3-1223
+ComponentUpdate24=1
+ComponentIsDeviceSheet24=0
+ComponentLibIdentifierKind25=Library Name And Type
+ComponentLibraryIdentifier25=Hardware.DbLib/Tool-Test-MTG
+ComponentDesignItemID25=MTG M3
+ComponentSymbolReference25=MTG
+ComponentUpdate25=1
+ComponentIsDeviceSheet25=0
+ComponentLibIdentifierKind26=Library Name And Type
+ComponentLibraryIdentifier26=Passive Components.DbLib/Capacitors
+ComponentDesignItemID26=CAP 0603 0.1UF 16V 10% X7R
+ComponentSymbolReference26=cap
+ComponentUpdate26=1
+ComponentIsDeviceSheet26=0
+ComponentLibIdentifierKind27=Library Name And Type
+ComponentLibraryIdentifier27=Passive Components.DbLib/Capacitors
+ComponentDesignItemID27=CAP 0603 10UF 25V 20% X5R
+ComponentSymbolReference27=cap
+ComponentUpdate27=1
+ComponentIsDeviceSheet27=0
+ComponentLibIdentifierKind28=Library Name And Type
+ComponentLibraryIdentifier28=Passive Components.DbLib/Capacitors
+ComponentDesignItemID28=CAP 0603 1PF 50V 0.05PF MLO
+ComponentSymbolReference28=cap
+ComponentUpdate28=1
+ComponentIsDeviceSheet28=0
+ComponentLibIdentifierKind29=Library Name And Type
+ComponentLibraryIdentifier29=Passive Components.DbLib/Capacitors
+ComponentDesignItemID29=CAP 0603 1UF 50V 10% X7R
+ComponentSymbolReference29=cap
+ComponentUpdate29=1
+ComponentIsDeviceSheet29=0
+ComponentLibIdentifierKind30=Library Name And Type
+ComponentLibraryIdentifier30=Passive Components.DbLib/Capacitors
+ComponentDesignItemID30=CAP 0805 4.7UF 35V 10% X7R
+ComponentSymbolReference30=cap
+ComponentUpdate30=1
+ComponentIsDeviceSheet30=0
+ComponentLibIdentifierKind31=Library Name And Type
+ComponentLibraryIdentifier31=Passive Components.DbLib/EMI Ferrite Beads and Chips
+ComponentDesignItemID31=742792097
+ComponentSymbolReference31=Ferrite Bead
+ComponentUpdate31=1
+ComponentIsDeviceSheet31=0
+ComponentLibIdentifierKind32=Library Name And Type
+ComponentLibraryIdentifier32=Passive Components.DbLib/EMI Ferrite Beads and Chips
+ComponentDesignItemID32=MMZ1608S121A
+ComponentSymbolReference32=Ferrite Bead
+ComponentUpdate32=1
+ComponentIsDeviceSheet32=0
+ComponentLibIdentifierKind33=Library Name And Type
+ComponentLibraryIdentifier33=Passive Components.DbLib/Resistors
+ComponentDesignItemID33=RES 0603 0 5%
+ComponentSymbolReference33=res
+ComponentUpdate33=1
+ComponentIsDeviceSheet33=0
+ComponentLibIdentifierKind34=Library Name And Type
+ComponentLibraryIdentifier34=Passive Components.DbLib/Resistors
+ComponentDesignItemID34=RES 0603 100K 0.1%
+ComponentSymbolReference34=res
+ComponentUpdate34=1
+ComponentIsDeviceSheet34=0
+ComponentLibIdentifierKind35=Library Name And Type
+ComponentLibraryIdentifier35=Passive Components.DbLib/Resistors
+ComponentDesignItemID35=RES 0603 10K 1%
+ComponentSymbolReference35=res
+ComponentUpdate35=1
+ComponentIsDeviceSheet35=0
+ComponentLibIdentifierKind36=Library Name And Type
+ComponentLibraryIdentifier36=Passive Components.DbLib/Resistors
+ComponentDesignItemID36=RES 0603 200 1%
+ComponentSymbolReference36=res
+ComponentUpdate36=1
+ComponentIsDeviceSheet36=0
+ComponentLibIdentifierKind37=Library Name And Type
+ComponentLibraryIdentifier37=Passive Components.DbLib/Resistors
+ComponentDesignItemID37=RES 0603 330K 10%
+ComponentSymbolReference37=res
+ComponentUpdate37=1
+ComponentIsDeviceSheet37=0
+ComponentLibIdentifierKind38=Library Name And Type
+ComponentLibraryIdentifier38=Passive Components.DbLib/Resistors
+ComponentDesignItemID38=RES 0603 47K 1%
+ComponentSymbolReference38=res
+ComponentUpdate38=1
+ComponentIsDeviceSheet38=0
+ComponentLibIdentifierKind39=Library Name And Type
+ComponentLibraryIdentifier39=Passive Components.DbLib/Resistors
+ComponentDesignItemID39=RES 0603 49.9K 0.1%
+ComponentSymbolReference39=res
+ComponentUpdate39=1
+ComponentIsDeviceSheet39=0
+ComponentLibIdentifierKind40=Library Name And Type
+ComponentLibraryIdentifier40=Passive Components.DbLib/Resistors
+ComponentDesignItemID40=RES 0603 62.6K 0.1%
+ComponentSymbolReference40=res
+ComponentUpdate40=1
+ComponentIsDeviceSheet40=0
+ComponentLibIdentifierKind41=Library Name And Type
+ComponentLibraryIdentifier41=Passive Components.DbLib/Resistors
+ComponentDesignItemID41=RES 0603 620 1%
+ComponentSymbolReference41=res
+ComponentUpdate41=1
+ComponentIsDeviceSheet41=0
+ComponentLibIdentifierKind42=Library Name And Type
+ComponentLibraryIdentifier42=Passive Components.DbLib/Resistors
+ComponentDesignItemID42=RES 0805 2 1%
+ComponentSymbolReference42=res
+ComponentUpdate42=1
+ComponentIsDeviceSheet42=0
+ComponentLibIdentifierKind43=Library Name Only
+ComponentLibraryIdentifier43=Altium Content Vault
+ComponentDesignItemID43=CMP-0007-00013-1
+ComponentSymbolReference43=BOUR-IND-2A
+ComponentUpdate43=1
+ComponentIsDeviceSheet43=0
+ComponentLibIdentifierKind44=Library Name Only
+ComponentLibraryIdentifier44=Altium Content Vault
+ComponentDesignItemID44=CMP-0187-00288-2
+ComponentSymbolReference44=AMP-OPA-MCP6002-IL8
+ComponentUpdate44=1
+ComponentIsDeviceSheet44=0
+ComponentLibIdentifierKind45=Library Name Only
+ComponentLibraryIdentifier45=Altium Content Vault
+ComponentDesignItemID45=CMP-0222-00041-1
+ComponentSymbolReference45=PAS-IND-INDUCTOR-4A
+ComponentUpdate45=1
+ComponentIsDeviceSheet45=0
+ComponentLibIdentifierKind46=Library Name Only
+ComponentLibraryIdentifier46=Altium Content Vault
+ComponentDesignItemID46=CMP-0687-00008-1
+ComponentSymbolReference46=NIC-CAP-P-2
+ComponentUpdate46=1
+ComponentIsDeviceSheet46=0
+ComponentLibIdentifierKind47=Library Name Only
+ComponentLibraryIdentifier47=Altium Content Vault
+ComponentDesignItemID47=CMP-0859-00067-3
+ComponentSymbolReference47=TI-SN74XXX1X32-5
+ComponentUpdate47=1
+ComponentIsDeviceSheet47=0
+ComponentLibIdentifierKind48=Library Name Only
+ComponentLibraryIdentifier48=Altium Content Vault
+ComponentDesignItemID48=CMP-0859-00122-3
+ComponentSymbolReference48=TI-SN74AXXXX1X125-5
+ComponentUpdate48=1
+ComponentIsDeviceSheet48=0
+ComponentLibIdentifierKind49=Library Name Only
+ComponentLibraryIdentifier49=Altium Content Vault
+ComponentDesignItemID49=CMP-0859-00134-3
+ComponentSymbolReference49=TI-SN74XXX1XX4-XX-5
+ComponentUpdate49=1
+ComponentIsDeviceSheet49=0
+ComponentLibIdentifierKind50=Library Name Only
+ComponentLibraryIdentifier50=Altium Content Vault
+ComponentDesignItemID50=CMP-0859-00537-3
+ComponentSymbolReference50=TI-SN74XXX1G74_2G74-8
+ComponentUpdate50=1
+ComponentIsDeviceSheet50=0
+ComponentLibIdentifierKind51=Library Name Only
+ComponentLibraryIdentifier51=Altium Content Vault
+ComponentDesignItemID51=CMP-1037-05002-1
+ComponentSymbolReference51=CAP
+ComponentUpdate51=1
+ComponentIsDeviceSheet51=0
+ComponentLibIdentifierKind52=Library Name Only
+ComponentLibraryIdentifier52=Altium Content Vault
+ComponentDesignItemID52=CMP-1055-00486-1
+ComponentSymbolReference52=ONSC-D-K1A2-2
+ComponentUpdate52=1
+ComponentIsDeviceSheet52=0
+ComponentLibIdentifierKind53=Library Name Only
+ComponentLibraryIdentifier53=Altium Content Vault
+ComponentDesignItemID53=CMP-1060-00481-1
+ComponentSymbolReference53=ONSC-K1A2-2
+ComponentUpdate53=1
+ComponentIsDeviceSheet53=0
+ComponentLibIdentifierKind54=Library Name Only
+ComponentLibraryIdentifier54=Altium Content Vault
+ComponentDesignItemID54=CMP-1063-00099-1
+ComponentSymbolReference54=ONSC-K1A2-2
+ComponentUpdate54=1
+ComponentIsDeviceSheet54=0
+ComponentLibIdentifierKind55=Library Name Only
+ComponentLibraryIdentifier55=Altium Content Vault
+ComponentDesignItemID55=CMP-1258-00134-1
+ComponentSymbolReference55=NXP-NMOS-GSD-3_B
+ComponentUpdate55=1
+ComponentIsDeviceSheet55=0
+ComponentLibIdentifierKind56=Library Name Only
+ComponentLibraryIdentifier56=Altium Content Vault
+ComponentDesignItemID56=CMP-1310-00381-1
+ComponentSymbolReference56=ONSC-NCS2003-TSOP-5-483-02
+ComponentUpdate56=1
+ComponentIsDeviceSheet56=0
+ComponentLibIdentifierKind57=Library Name Only
+ComponentLibraryIdentifier57=Altium Content Vault
+ComponentDesignItemID57=CMP-1667-00003-1
+ComponentSymbolReference57=DSKY-AK-2
+ComponentUpdate57=1
+ComponentIsDeviceSheet57=0
+ComponentLibIdentifierKind58=Library Name Only
+ComponentLibraryIdentifier58=Altium Content Vault
+ComponentDesignItemID58=CMP-2000-02393-1
+ComponentSymbolReference58=RES
+ComponentUpdate58=1
+ComponentIsDeviceSheet58=0
+ComponentLibIdentifierKind59=Library Name Only
+ComponentLibraryIdentifier59=Altium Content Vault
+ComponentDesignItemID59=CMP-2000-02514-1
+ComponentSymbolReference59=RES
+ComponentUpdate59=1
+ComponentIsDeviceSheet59=0
+ComponentLibIdentifierKind60=Library Name Only
+ComponentLibraryIdentifier60=Altium Content Vault
+ComponentDesignItemID60=CMP-2000-02579-1
+ComponentSymbolReference60=RES
+ComponentUpdate60=1
+ComponentIsDeviceSheet60=0
+ComponentLibIdentifierKind61=Library Name Only
+ComponentLibraryIdentifier61=Altium Content Vault
+ComponentDesignItemID61=CMP-2000-02599-1
+ComponentSymbolReference61=RES
+ComponentUpdate61=1
+ComponentIsDeviceSheet61=0
+ComponentLibIdentifierKind62=Library Name Only
+ComponentLibraryIdentifier62=Altium Content Vault
+ComponentDesignItemID62=CMP-2000-04621-1
+ComponentSymbolReference62=RES
+ComponentUpdate62=1
+ComponentIsDeviceSheet62=0
+ComponentLibIdentifierKind63=Library Name Only
+ComponentLibraryIdentifier63=Altium Content Vault
+ComponentDesignItemID63=CMP-2000-05191-1
+ComponentSymbolReference63=LFUS-SP0503BAHTG-SOT143-4
+ComponentUpdate63=1
+ComponentIsDeviceSheet63=0
+ComponentLibIdentifierKind64=Library Name Only
+ComponentLibraryIdentifier64=Altium Content Vault
+ComponentDesignItemID64=CMP-2000-05390-1
+ComponentSymbolReference64=TDK-ACXXXXX-XXX-2P-T000-4
+ComponentUpdate64=1
+ComponentIsDeviceSheet64=0
+ComponentLibIdentifierKind65=Library Name Only
+ComponentLibraryIdentifier65=Altium Content Vault
+ComponentDesignItemID65=CMP-2000-05508-1
+ComponentSymbolReference65=FUSE-2
+ComponentUpdate65=1
+ComponentIsDeviceSheet65=0
+ComponentLibIdentifierKind66=Library Name Only
+ComponentLibraryIdentifier66=Altium Content Vault
+ComponentDesignItemID66=CMP-2000-07501-1
+ComponentSymbolReference66=SW-SPST-2_C
+ComponentUpdate66=1
+ComponentIsDeviceSheet66=0
+ComponentLibIdentifierKind67=Library Name Only
+ComponentLibraryIdentifier67=Altium Content Vault
+ComponentDesignItemID67=CMP-2001-00870-1
+ComponentSymbolReference67=RES
+ComponentUpdate67=1
+ComponentIsDeviceSheet67=0
+ComponentLibIdentifierKind68=Library Name Only
+ComponentLibraryIdentifier68=Altium Content Vault
+ComponentDesignItemID68=CMP-2001-01491-1
+ComponentSymbolReference68=RES
+ComponentUpdate68=1
+ComponentIsDeviceSheet68=0
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
