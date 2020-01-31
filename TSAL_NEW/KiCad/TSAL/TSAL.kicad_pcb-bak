@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 18)
+    (drawings 19)
     (tracks 93)
     (zones 0)
     (modules 20)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.65)
+    (last_trace_width 0.25)
     (user_trace_width 0.24)
     (user_trace_width 0.36)
     (user_trace_width 0.65)
@@ -120,7 +120,6 @@
     (uvia_drill 0.1)
     (add_net +12V)
     (add_net +24V)
-    (add_net /12V)
     (add_net /555_OUTPUT)
     (add_net /DIS)
     (add_net /GLV+)
@@ -131,8 +130,6 @@
     (add_net "Net-(Q1-Pad3)")
     (add_net "Net-(Q2-Pad3)")
     (add_net "Net-(R2-Pad2)")
-    (add_net "Net-(U3-Pad5)")
-    (add_net "Net-(U4-Pad21)")
   )
 
   (net_class HV ""
@@ -1105,6 +1102,9 @@
     )
   )
 
+  (gr_text "TSAL\nG.Spearing\n20.0131" (at 191.77 120.65) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_line (start 136.398 126.619) (end 136.398 118.364) (layer F.SilkS) (width 0.5) (tstamp 5E347683))
   (gr_text GLV (at 147.828 105.664 90) (layer F.SilkS) (tstamp 5E3475A1)
     (effects (font (size 3 3) (thickness 0.2)))
@@ -1146,7 +1146,7 @@
     (arrow2b (pts (xy 105.41 147.32) (xy 106.536504 146.733579)))
   )
   (dimension 39.37 (width 0.12) (layer F.SilkS)
-    (gr_text "39.370 mm" (at 222.25 107.315 270) (layer F.SilkS) (tstamp 5E343ED6)
+    (gr_text "39.370 mm" (at 222.25 107.315 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 209.55 127) (xy 221.566421 127)))
