@@ -590,25 +590,12 @@ F 3 "" H 8975 4725 50  0001 C CNN
 	1    8975 4725
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+24V #PWR019
-U 1 1 5E3B608A
-P 7300 4700
-F 0 "#PWR019" H 7300 4550 50  0001 C CNN
-F 1 "+24V" H 7315 4873 50  0000 C CNN
-F 2 "" H 7300 4700 50  0001 C CNN
-F 3 "" H 7300 4700 50  0001 C CNN
-	1    7300 4700
-	1    0    0    -1  
-$EndComp
 Text Label 5625 5100 0    50   ~ 0
 HV_PRES
 Wire Wire Line
 	8400 5500 7300 5500
 Wire Wire Line
 	7300 5500 7300 5300
-Wire Wire Line
-	7300 4700 7300 4900
 Wire Wire Line
 	8400 1750 9300 1750
 Wire Wire Line
@@ -639,17 +626,6 @@ Connection ~ 5550 3150
 Wire Wire Line
 	5550 3150 6150 3150
 $Comp
-L power:+24V #PWR022
-U 1 1 5E366083
-P 9600 1450
-F 0 "#PWR022" H 9600 1300 50  0001 C CNN
-F 1 "+24V" H 9615 1623 50  0000 C CNN
-F 2 "" H 9600 1450 50  0001 C CNN
-F 3 "" H 9600 1450 50  0001 C CNN
-	1    9600 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_US R11
 U 1 1 5E3668AC
 P 9600 2250
@@ -673,7 +649,7 @@ F 3 "" H 9600 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7550 5500 0    50   ~ 0
-LED_GREEN+
+LED_GREEN_OUT
 $Comp
 L Device:R_US R9
 U 1 1 5E368A31
@@ -809,5 +785,51 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8475 3850 50 
 F 3 "~" H 8475 3850 50  0001 C CNN
 	1    8475 3850
 	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0101
+U 1 1 5E38A720
+P 7300 4725
+F 0 "#PWR0101" H 7300 4575 50  0001 C CNN
+F 1 "+12V" H 7315 4898 50  0000 C CNN
+F 2 "" H 7300 4725 50  0001 C CNN
+F 3 "" H 7300 4725 50  0001 C CNN
+	1    7300 4725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4725 7300 4900
+$Comp
+L power:+12V #PWR0102
+U 1 1 5E3944AE
+P 9600 1450
+F 0 "#PWR0102" H 9600 1300 50  0001 C CNN
+F 1 "+12V" H 9615 1623 50  0000 C CNN
+F 2 "" H 9600 1450 50  0001 C CNN
+F 3 "" H 9600 1450 50  0001 C CNN
+	1    9600 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E3DC11D
+P 9625 5300
+F 0 "H1" H 9725 5346 50  0000 L CNN
+F 1 "MountingHole" H 9725 5255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 9625 5300 50  0001 C CNN
+F 3 "~" H 9625 5300 50  0001 C CNN
+	1    9625 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E3E028D
+P 9625 5575
+F 0 "H2" H 9725 5621 50  0000 L CNN
+F 1 "MountingHole" H 9725 5530 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 9625 5575 50  0001 C CNN
+F 3 "~" H 9625 5575 50  0001 C CNN
+	1    9625 5575
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
