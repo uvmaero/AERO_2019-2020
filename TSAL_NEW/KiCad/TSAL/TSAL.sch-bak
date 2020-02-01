@@ -895,4 +895,5 @@ F 3 "~" H 8250 1750 50  0001 C CNN
 $EndComp
 Text Notes 2750 6100 0    50   ~ 0
 Replacement DCDC:\nhttps://www.digikey.com/products/en/power-supplies-board-mount/dc-dc-converters/922
+NoConn ~ 6250 1950
 $EndSCHEMATC
