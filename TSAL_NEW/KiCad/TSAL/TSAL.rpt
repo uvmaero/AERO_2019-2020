@@ -1,0 +1,37 @@
+ALTIUM DESIGNER - NEW ROUTER INTERFACE
+Design File : TSAL
+Date        : 2/2/2020
+Start Time  : 4:17:06 PM
+End   Time  : 4:17:06 PM
+
+
+Total errors encountered: 8
+Total warnings encountered: 18
+
+
+WARNING: Skipped block between lines: 13-15, from keyword: PROPERTY
+WARNING: Skipped block between lines: 19-21, from keyword: PROPERTY
+ERROR: Unexpected token <DEFAULT_SMD> in line 45
+WARNING: Skipped block between lines: 45-45, from keyword: DEFAULT_SMD
+ERROR: Unexpected token <CLEARANCE> in line 46
+ERROR: Unexpected token <50> in line 46
+ERROR: Unexpected token <TYPE> in line 46
+ERROR: Unexpected token <SMD_SMD> in line 46
+ERROR: Invalid library reference returned, while tryng to create board level routing via styles.
+WARNING: Filled Polygon Shape shape, starting at point (70472441, -50000000) has invalid net reference: GND
+WARNING: Filled Polygon Shape shape, starting at point (70472441, -50000000) has invalid net reference: GND
+WARNING: Filled Polygon Shape shape, starting at point (70472441, -50000000) has invalid net reference: GND
+WARNING: Filled Polygon Shape shape, starting at point (70472441, -50000000) has invalid net reference: GND
+WARNING: Filled Polygon Shape shape, starting at point (70472441, -50000000) has invalid net reference: GND
+WARNING: Filled Polygon Shape shape, starting at point (70472441, -50000000) has invalid net reference: GND
+WARNING: Filled Polygon Shape shape, starting at point (70472441, -50000000) has invalid net reference: GND
+WARNING: Filled Polygon Shape shape, starting at point (70479528, -50000000) has invalid net reference: GND
+WARNING: Filled Polygon Shape shape, starting at point (70479528, -50000000) has invalid net reference: GND
+WARNING: Filled Polygon Shape shape, starting at point (70479528, -50000000) has invalid net reference: GND
+WARNING: Filled Polygon Shape shape, starting at point (70479528, -50000000) has invalid net reference: GND
+WARNING: Filled Polygon Shape shape, starting at point (70479528, -50000000) has invalid net reference: GND
+WARNING: Filled Polygon Shape shape, starting at point (70479528, -50000000) has invalid net reference: GND
+WARNING: Filled Polygon Shape shape, starting at point (70479528, -50000000) has invalid net reference: GND
+WARNING: Board Shape Not Found, Design Bounding Rectangle Not Found!
+ERROR: Netlist not loaded, can't export to PCB.
+ERROR: Library not loaded, can't export to PCB.
