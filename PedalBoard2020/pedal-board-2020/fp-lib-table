@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name TE_Amp)(type KiCad)(uri /home/george/Documents/GitHub/AERO_2019-2020/PedalBoard2020/pedal-board-2020)(options "")(descr ""))
+)
