@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=+12 Pin=L4-4
+Added Component: Designator=FB2(0805)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Component Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.we-online.com/eisos/pdf/742792097.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Octopart Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://octopart.com/partsearch/#search/requestData&q=742792097"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current (mA)"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance (ohms)"; Value = "0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description in Visual"; Value = "Ferrite SMT 1000mA 1500Ohm Dif Mode 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Filter type"; Value = "Differential Mode - Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "100 MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance at Freq (ohms)"; Value = "1500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "742792097"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range"; Value = "-55 to +125 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P/N"; Value = "742792097"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Usage"; Value = "Power Supply"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12 Pin=FB2-2
+Added Pin To Net: NetName=L+ Pin=FB2-1
+Added Pin To Net: NetName=L+ Pin=L4-4
+Added Net: Name=L+
+Added Member To Class: ClassName=U_Power Supply Member=Component FB2 Ferrite Chip 1500 Ohms
+Added Member To Class: ClassName=PWR Member=Wire L+

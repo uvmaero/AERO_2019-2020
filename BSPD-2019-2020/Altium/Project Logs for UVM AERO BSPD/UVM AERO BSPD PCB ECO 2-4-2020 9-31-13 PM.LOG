@@ -1,0 +1,34 @@
+Change Component Footprint: Designator=TP2 Old Footprint=tp_30mil New Footprint=TP_40mil
+Change Component Footprint: Designator=TP7 Old Footprint=tp_30mil New Footprint=TP_40mil
+Change Component Footprint: Designator=TP8 Old Footprint=tp_30mil New Footprint=TP_40mil
+Change Component Footprint: Designator=TP9 Old Footprint=tp_30mil New Footprint=TP_40mil
+Change Component Footprint: Designator=TP10 Old Footprint=tp_30mil New Footprint=TP_40mil
+Change Component Footprint: Designator=TP11 Old Footprint=tp_30mil New Footprint=TP_40mil
+Change Component Footprint: Designator=TP12 Old Footprint=tp_30mil New Footprint=TP_40mil
+Change Component Footprint: Designator=TP13 Old Footprint=tp_30mil New Footprint=TP_40mil
+Change Component Footprint: Designator=TP18 Old Footprint=tp_30mil New Footprint=TP_40mil
+Change Component Footprint: Designator=TP19 Old Footprint=tp_30mil New Footprint=TP_40mil
+Change Component Footprint: Designator=TP20 Old Footprint=tp_30mil New Footprint=TP_40mil
+Change Component Comment : Designator=TP2 Old Comment=30mil SMD TP New Comment=SMD Test Point
+Change Component Comment : Designator=TP7 Old Comment=30mil SMD TP New Comment=SMD Test Point
+Change Component Comment : Designator=TP8 Old Comment=30mil SMD TP New Comment=SMD Test Point
+Change Component Comment : Designator=TP9 Old Comment=30mil SMD TP New Comment=SMD Test Point
+Change Component Comment : Designator=TP10 Old Comment=30mil SMD TP New Comment=SMD Test Point
+Change Component Comment : Designator=TP11 Old Comment=30mil SMD TP New Comment=SMD Test Point
+Change Component Comment : Designator=TP12 Old Comment=30mil SMD TP New Comment=SMD Test Point
+Change Component Comment : Designator=TP13 Old Comment=30mil SMD TP New Comment=SMD Test Point
+Change Component Comment : Designator=TP18 Old Comment=30mil SMD TP New Comment=SMD Test Point
+Change Component Comment : Designator=TP19 Old Comment=30mil SMD TP New Comment=SMD Test Point
+Change Component Comment : Designator=TP20 Old Comment=30mil SMD TP New Comment=SMD Test Point
+Change Component Description : Designator=D9 Old Description=7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) New Description=7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) 
+Change Component Description : Designator=TP2 Old Description=30mil SMD Test Point New Description=SMD Test Point
+Change Component Description : Designator=TP7 Old Description=30mil SMD Test Point New Description=SMD Test Point
+Change Component Description : Designator=TP8 Old Description=30mil SMD Test Point New Description=SMD Test Point
+Change Component Description : Designator=TP9 Old Description=30mil SMD Test Point New Description=SMD Test Point
+Change Component Description : Designator=TP10 Old Description=30mil SMD Test Point New Description=SMD Test Point
+Change Component Description : Designator=TP11 Old Description=30mil SMD Test Point New Description=SMD Test Point
+Change Component Description : Designator=TP12 Old Description=30mil SMD Test Point New Description=SMD Test Point
+Change Component Description : Designator=TP13 Old Description=30mil SMD Test Point New Description=SMD Test Point
+Change Component Description : Designator=TP18 Old Description=30mil SMD Test Point New Description=SMD Test Point
+Change Component Description : Designator=TP19 Old Description=30mil SMD Test Point New Description=SMD Test Point
+Change Component Description : Designator=TP20 Old Description=30mil SMD Test Point New Description=SMD Test Point

@@ -37,6 +37,11 @@ IncludeDesignInRelease=0
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Release]
+ReleaseTarget=1
+ReleaseFolderPath=[OutputPath]
+ReleaseZipPath=[OutputPath][ProjectName].zip
+
 [Document1]
 DocumentPath=60V_Ind.SchDoc
 AnnotationEnabled=1
@@ -173,6 +178,170 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind-BoardEdgeRout.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.REP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for 60V_Ind\ExportSTEP\60V_Ind.step
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for 60V_Ind\ExportSTEP\60V_Ind.x_t
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Keep-out.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_3.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_4.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_5.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_6.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_7.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_8.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_9.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_10.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_11.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_12.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_13.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_15.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_16.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Pads_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Pads_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for 60V_Ind\BOM\Bill of Materials-60V_Ind.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\Bill of Materials-60V_Ind.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\Fabrication Testpoint Report for 60V_Ind.ipc
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\Pick Place for 60V_Ind.txt
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -182,6 +351,26 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
 
 [Generic_EDE]
 OutputDir=
@@ -1386,6 +1575,66 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Any
+ComponentLibraryIdentifier0=
+ComponentDesignItemID0=1-770872-0
+ComponentSymbolReference0=1-770872-0
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Any
+ComponentLibraryIdentifier1=
+ComponentDesignItemID1=LPA-C011301S-10
+ComponentSymbolReference1=LPA-C011301S-10
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Any
+ComponentLibraryIdentifier2=
+ComponentDesignItemID2=LR8K4-G
+ComponentSymbolReference2=LR8K4-G
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Any
+ComponentLibraryIdentifier3=
+ComponentDesignItemID3=SM0805HCL
+ComponentSymbolReference3=SM0805HCL
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=60V_Ind.SchLib
+ComponentDesignItemID4=1-770872-0
+ComponentSymbolReference4=1-770872-0
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=60V_Ind.SchLib
+ComponentDesignItemID5=LPA-C011301S-10
+ComponentSymbolReference5=LPA-C011301S-10
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=60V_Ind.SchLib
+ComponentDesignItemID6=LR8K4-G
+ComponentSymbolReference6=LR8K4-G
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=60V_Ind.SchLib
+ComponentDesignItemID7=SM0805HCL
+ComponentSymbolReference7=SM0805HCL
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=Passive Components.DbLib/Resistors
+ComponentDesignItemID8=RES 0805 40.2 1%
+ComponentSymbolReference8=res
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name Only
+ComponentLibraryIdentifier9=Altium Content Vault
+ComponentDesignItemID9=CMP-2000-05454-1
+ComponentSymbolReference9=CAP-NP-2
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0

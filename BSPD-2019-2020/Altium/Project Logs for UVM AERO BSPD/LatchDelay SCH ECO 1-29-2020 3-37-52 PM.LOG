@@ -1,0 +1,24 @@
+Replace Part C19 cap in C:\git\AERO_2019-2020\BSPD-2019-2020\LatchDelay.SchDoc with cap from Passive Components.DbLib
+Replace Part C20 cap in C:\git\AERO_2019-2020\BSPD-2019-2020\LatchDelay.SchDoc with cap from Passive Components.DbLib
+Replace Part C21 cap in C:\git\AERO_2019-2020\BSPD-2019-2020\LatchDelay.SchDoc with cap from Passive Components.DbLib
+Replace Part C22 cap in C:\git\AERO_2019-2020\BSPD-2019-2020\LatchDelay.SchDoc with cap from Passive Components.DbLib
+Replace Part C23 cap in C:\git\AERO_2019-2020\BSPD-2019-2020\LatchDelay.SchDoc with cap from Passive Components.DbLib
+Replace Part D4 SM0805HCL in C:\git\AERO_2019-2020\BSPD-2019-2020\LatchDelay.SchDoc with SM0805HCL from bspd parts.SchLib
+Replace Part D5 SM0805HCL in C:\git\AERO_2019-2020\BSPD-2019-2020\LatchDelay.SchDoc with SM0805HCL from bspd parts.SchLib
+Replace Part R19 res in C:\git\AERO_2019-2020\BSPD-2019-2020\LatchDelay.SchDoc with res from Passive Components.DbLib
+Update Managed Component R20 From CMP-2001-01491-1[RT0805BRE071ML] To CMP-2001-01491-1[RT0805BRE071ML] in LatchDelay.SchDoc
+Replace Part R21 res in C:\git\AERO_2019-2020\BSPD-2019-2020\LatchDelay.SchDoc with res from Passive Components.DbLib
+Update Managed Component R22 From CMP-2001-00870-1[ERA6AEB6813V] To CMP-2001-00870-1[ERA6AEB6813V] in LatchDelay.SchDoc
+Replace Part R23 res in C:\git\AERO_2019-2020\BSPD-2019-2020\LatchDelay.SchDoc with res from Passive Components.DbLib
+Replace Part R24 res in C:\git\AERO_2019-2020\BSPD-2019-2020\LatchDelay.SchDoc with res from Passive Components.DbLib
+Update Managed Component R25 From CMP-2001-01491-1[RT0805BRE071ML] To CMP-2001-01491-1[RT0805BRE071ML] in LatchDelay.SchDoc
+Replace Part R26 res in C:\git\AERO_2019-2020\BSPD-2019-2020\LatchDelay.SchDoc with res from Passive Components.DbLib
+Update Managed Component R27 From CMP-2000-02393-1[RG1608P-9312-B-T5] To CMP-2000-02393-1[RG1608P-9312-B-T5] in LatchDelay.SchDoc
+Update Managed Component R28 From CMP-2001-00870-1[ERA6AEB6813V] To CMP-2001-00870-1[ERA6AEB6813V] in LatchDelay.SchDoc
+Update Managed Component SW2 From CMP-2000-07501-1[FSMSMTR] To CMP-2000-07501-1[FSMSMTR] in LatchDelay.SchDoc
+Replace Part U5 LTC6994CS6-1#TRMPBF in C:\git\AERO_2019-2020\BSPD-2019-2020\LatchDelay.SchDoc with LTC6994CS6-1#TRMPBF from bspd parts.SchLib
+Update Managed Component U6 From CMP-0859-00537-3[SN74LVC2G74DCTR] To CMP-0859-00537-3[SN74LVC2G74DCTR] in LatchDelay.SchDoc
+Update Managed Component U6 From CMP-0859-00537-3[SN74LVC2G74DCTR] To CMP-0859-00537-3[SN74LVC2G74DCTR] in LatchDelay.SchDoc
+Update Managed Component U7 From CMP-0859-00067-3[SN74AHCT1G32DBVR] To CMP-0859-00067-3[SN74AHCT1G32DBVR] in LatchDelay.SchDoc
+Update Managed Component U7 From CMP-0859-00067-3[SN74AHCT1G32DBVR] To CMP-0859-00067-3[SN74AHCT1G32DBVR] in LatchDelay.SchDoc
+Replace Part U8 LTC6994CS6-1#TRMPBF in C:\git\AERO_2019-2020\BSPD-2019-2020\LatchDelay.SchDoc with LTC6994CS6-1#TRMPBF from bspd parts.SchLib

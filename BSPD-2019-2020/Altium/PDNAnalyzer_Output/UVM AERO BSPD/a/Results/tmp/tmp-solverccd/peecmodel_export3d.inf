@@ -1,0 +1,10 @@
+Program                          : export3d
+Version                          : 1.4.1
+Date                             : 04.Feb 2020 23:29:17
+Runtime                          : 
+Neutral top file                 : C:\git\AERO_2019-2020\BSPD-2019-2020\Altium\PDNAnalyzer_Output\UVM AERO BSPD\a\Results\tmp\tmp-solverccd\irdrop.ntt
+Neutral model file               : C:\git\AERO_2019-2020\BSPD-2019-2020\Altium\PDNAnalyzer_Output\UVM AERO BSPD\a\Results\tmp\tmp-solverccd\irdrop.nt3
+Top circuit file                 : C:\git\AERO_2019-2020\BSPD-2019-2020\Altium\PDNAnalyzer_Output\UVM AERO BSPD\a\Results\tmp\tmp-solverccd\peecmodel.tcf
+Model file                       : C:\git\AERO_2019-2020\BSPD-2019-2020\Altium\PDNAnalyzer_Output\UVM AERO BSPD\a\Results\tmp\tmp-solverccd\peecmodel.pcm
+Control file                     : C:\git\AERO_2019-2020\BSPD-2019-2020\Altium\PDNAnalyzer_Output\UVM AERO BSPD\a\Results\tmp\control.ctr
+Simulator type                   : SLSim

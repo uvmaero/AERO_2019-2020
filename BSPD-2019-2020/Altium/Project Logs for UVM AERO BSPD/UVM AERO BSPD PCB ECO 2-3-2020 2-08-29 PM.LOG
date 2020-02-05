@@ -1,0 +1,67 @@
+Change Component Footprint: Designator=F2 Old Footprint=LFUS-1812L05030PR_V New Footprint=LFUS-1812L05030PR
+Change Component Footprint: Designator=R27 Old Footprint=RESC1608X50X30NL20T20 New Footprint=RESC2013X60X40NL20T25
+Change Component Footprint: Designator=R28 Old Footprint=RESC2013X60X40NL20T25 New Footprint=0805_RES
+Change Component Comment : Designator=R28 Old Comment=ERA6AEB6813V New Comment=RES 0805 523K 0.1%
+Change Component Comment : Designator=R27 Old Comment=RG1608P-9312-B-T5 New Comment=ERA6AEB6813V
+Change Managed Component Library Link : Designator=R27 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=7C45CB41-4167-4679-80D4-7E7B2A35BAB8 New ItemGUID=1B96282E-86FC-482D-B1BB-E4FD8D817379 Old RevisionGUID=E5183586-939D-4838-9C3E-C6F30DAFB5B2 New RevisionGUID=E1119DF3-35AB-430C-8FEB-8CB9A801E510
+Change Managed Component Library Link : Designator=R28 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=1B96282E-86FC-482D-B1BB-E4FD8D817379 New ItemGUID= Old RevisionGUID=E1119DF3-35AB-430C-8FEB-8CB9A801E510 New RevisionGUID=
+Change component parameters: Designator = "R27" ("R27"); Footprint = "RESC1608X50X30NL20T20"; UniqueID = "\QZBOFGNL\QOYNYJNW" ("\QZBOFGNL\QOYNYJNW")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ERA6AEB6813V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "681k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C1" ("C1"); Footprint = "0603_CAP"; UniqueID = "\GDJTUDWI\OGKFCVKV" ("\GDJTUDWI\OGKFCVKV")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Component Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Octopart Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Description in Visual"; Value = "Cap SMT 0603 10UF 25V 20% Ceramic X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Various"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "Various"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "P/N"; Value = "CAP 0603 10UF 25V 20% X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PCB Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Ceramic X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Val"; Value = "10UF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10UF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vol"; Value = "25V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "25V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2" ("C2"); Footprint = "0603_CAP"; UniqueID = "\GDJTUDWI\LJYINJCR" ("\GDJTUDWI\LJYINJCR")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Component Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Octopart Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Description in Visual"; Value = "Cap SMT 0603 1UF 50V 10% Ceramic X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Various"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "Various"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "P/N"; Value = "CAP 0603 1UF 50V 10% X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PCB Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Ceramic X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Val"; Value = "1UF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1UF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vol"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3" ("C3"); Footprint = "0805_CAP"; UniqueID = "\GDJTUDWI\NHBFYEKY" ("\GDJTUDWI\NHBFYEKY")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Component Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Octopart Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Description in Visual"; Value = "Cap SMT 0805 4.7UF 35V 10%  Cer X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Various"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "Various"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "P/N"; Value = "CAP 0805 4.7UF 35V 10% X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PCB Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Ceramic X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Val"; Value = "4.7UF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7UF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vol"; Value = "35V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "35V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R28" ("R28"); Footprint = "RESC2013X60X40NL20T25"; UniqueID = "\QZBOFGNL\LXSZGNUI" ("\QZBOFGNL\LXSZGNUI")
+Change component parameters (AddParameter): Name = "Description in Visual"; Value = "Res SMT 523K 0805  0.1%  0.125W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Various"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "Various"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "P/N"; Value = "RES 0805 523K 0.1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PCB Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power_Rating"; Value = "0.125W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tol"; Value = "0.1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Val"; Value = "523K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "523K"; VariantName = "[No Variations]"

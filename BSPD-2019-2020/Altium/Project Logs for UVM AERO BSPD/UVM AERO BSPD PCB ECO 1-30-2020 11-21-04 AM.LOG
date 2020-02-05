@@ -1,0 +1,73 @@
+Removed Member From Class: ClassName=U_IO and Connectors Member=C16
+Removed Member From Class: ClassName=U_Power Supply Member=C16
+Removed Member From Class: ClassName=U_Current Scaler Member=C18
+Removed Member From Class: ClassName=U_Comparator Member=C21
+Removed Member From Class: ClassName=U_Comparator Member=FB1
+Removed Member From Class: ClassName=U_IO and Connectors Member=R30
+Removed Member From Class: ClassName=U_Comparator Member=U9
+Change Component Comment : Designator=R6 Old Comment=0 Ohms New Comment=RES 0603 0 5%
+Change Component Comment : Designator=R7 Old Comment=0 Ohms New Comment=RES 0603 0 5%
+Change Component Comment : Designator=R8 Old Comment=0 Ohms New Comment=RES 0603 0 5%
+Change Component Comment : Designator=R9 Old Comment=0 Ohms New Comment=RES 0603 0 5%
+Change Component Comment : Designator=R1 Old Comment=2 Ohms New Comment=RES 0805 2 1%
+Change Component Comment : Designator=R4 Old Comment=10K Ohms New Comment=RES 0603 10K 1%
+Change Component Comment : Designator=R11 Old Comment=10K Ohms New Comment=RES 0603 10K 1%
+Change Component Comment : Designator=R23 Old Comment=200 Ohms New Comment=RES 0603 200 1%
+Change Component Comment : Designator=R29 Old Comment=200 Ohms New Comment=RES 0603 200 1%
+Change Component Comment : Designator=R2 Old Comment=330K Ohms New Comment=RES 0603 330K 10%
+Change Component Comment : Designator=R30 Old Comment=620 Ohms New Comment=RES 0603 620 1%
+Change component parameters: Designator = "TP2" ("TP2"); Footprint = "KSTN-5002"; UniqueID = "\WXVZRCSH\JNFGHXLI" ("\WXVZRCSH\JNFGHXLI")
+Change component parameters (AddParameter): Name = "Brand"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "PhosphorBronze"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "https://ciiva.com/datasheet-click-2917627?src=ciiva&sig=bd195616"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Rev. G, 12/2008"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "7.62mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Hole Size"; Value = "1mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Outside Diameter"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Product"; Value = "TestPoints"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Product Category"; Value = "CircuitBoardHardware-PCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "36-5002-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Miniature"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP3" ("TP3"); Footprint = "KSTN-5002"; UniqueID = "\WXVZRCSH\EBUATUGI" ("\WXVZRCSH\EBUATUGI")
+Change component parameters (AddParameter): Name = "Brand"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "PhosphorBronze"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "https://ciiva.com/datasheet-click-2917627?src=ciiva&sig=bd195616"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Rev. G, 12/2008"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "7.62mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Hole Size"; Value = "1mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Outside Diameter"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Product"; Value = "TestPoints"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Product Category"; Value = "CircuitBoardHardware-PCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "36-5002-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Miniature"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=U_Power Supply Member=Component C2 1UF, 50V, 0603
+Added Member To Class: ClassName=U_Power Supply Member=Component C4 CAP 47uF 10V 1206(3216)
+Added Member To Class: ClassName=U_Power Supply Member=Component C6 4.7UF, 35V, 0805
+Added Member To Class: ClassName=U_Power Supply Member=Component C8 UUD1V331MNL1GS
+Added Member To Class: ClassName=U_Comparator Member=Component C11 0.1UF, 16V, 0603
+Added Member To Class: ClassName=U_Comparator Member=Component C13 10UF, 25V, 0603
+Added Member To Class: ClassName=U_LatchDelay Member=Component C19 0.1UF, 16V, 0603
+Added Member To Class: ClassName=U_IO and Connectors Member=Component C20 0.1UF, 16V, 0603
+Added Member To Class: ClassName=U_Current Scaler Member=Component C22 0.1UF, 16V, 0603
+Added Member To Class: ClassName=U_Comparator Member=Component FB2 Ferrite Chip 120 Ohms
+Added Member To Class: ClassName=U_IO and Connectors Member=Component R31 RT0805BRE071ML
+Added Member To Class: ClassName=U_Current Scaler Member=Component R35 RES 0603 62.6K 0.1%
+Added Member To Class: ClassName=U_Comparator Member=Component TP10 5002
+Added Member To Class: ClassName=U_Comparator Member=Component TP12 5002
+Added Member To Class: ClassName=U_Comparator Member=Component U1 NCS2003SN2T1G

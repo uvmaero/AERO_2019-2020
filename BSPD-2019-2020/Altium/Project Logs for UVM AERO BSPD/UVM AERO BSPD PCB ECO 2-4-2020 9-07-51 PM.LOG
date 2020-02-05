@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=+5 Pin=D6-2
+Removed Pin From Net: NetName=+5 Pin=K1-9
+Removed Member From Class: ClassName=U_LatchDelay Member=R11
+Removed Member From Class: ClassName=U_LatchDelay Member=R12
+Removed Member From Class: ClassName=U_Current Scaler Member=R26
+Removed Member From Class: ClassName=U_Current Scaler Member=R27
+Removed Member From Class: ClassName=U_LatchDelay Member=SW2
+Removed Member From Class: ClassName=U_LatchDelay Member=TP7
+Removed Member From Class: ClassName=U_LatchDelay Member=TP8
+Removed Member From Class: ClassName=U_Relay Member=TP12
+Removed Member From Class: ClassName=U_IO and Connectors Member=TP13
+Removed Member From Class: ClassName=U_LatchDelay Member=TP19
+Removed Member From Class: ClassName=U_Comparator Member=TP24
+Removed Member From Class: ClassName=U_Comparator Member=TP26
+Change Component Description : Designator=D9 Old Description=7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) New Description=7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) 
+Added Pin To Net: NetName=+12 Pin=D6-2
+Added Pin To Net: NetName=+12 Pin=K1-9
+Added Member To Class: ClassName=U_LatchDelay Member=Component R15 RES 0603 620 1%
+Added Member To Class: ClassName=U_LatchDelay Member=Component R16 RT0805BRE071ML
+Added Member To Class: ClassName=U_LatchDelay Member=Component R24 RES 0805 523K 0.1%
+Added Member To Class: ClassName=U_Current Scaler Member=Component R30 RES 0603 100K 0.1%
+Added Member To Class: ClassName=U_Current Scaler Member=Component R31 RES 0603 62.6K 0.1%
+Added Member To Class: ClassName=U_LatchDelay Member=Component SW3 FSMSMTR
+Added Member To Class: ClassName=U_Comparator Member=Component TP4 5115
+Added Member To Class: ClassName=U_Comparator Member=Component TP9 30mil SMD TP
+Added Member To Class: ClassName=U_Comparator Member=Component TP10 30mil SMD TP
+Added Member To Class: ClassName=U_Comparator Member=Component TP11 30mil SMD TP
+Added Member To Class: ClassName=U_Comparator Member=Component TP14 5002
+Added Member To Class: ClassName=U_Comparator Member=Component TP15 5000
+Added Member To Class: ClassName=U_Comparator Member=Component TP16 5001
+Added Member To Class: ClassName=U_Comparator Member=Component TP17 5116
+Added Member To Class: ClassName=U_Comparator Member=Component TP18 30mil SMD TP
+Added Member To Class: ClassName=U_Comparator Member=Component TP21 5002
+Added Member To Class: ClassName=U_LatchDelay Member=Component TP22 5119
+Added Member To Class: ClassName=U_LatchDelay Member=Component TP23 5118
+Added Member To Class: ClassName=U_LatchDelay Member=Component TP25 5119
+Added Member To Class: ClassName=U_Relay Member=Component TP27 5117
+Added Member To Class: ClassName=U_IO and Connectors Member=Component TP28 5117
+Added Member To Class: ClassName=U_Comparator Member=Component U4 LMV7231SQE/NOPB

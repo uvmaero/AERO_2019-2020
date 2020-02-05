@@ -1,0 +1,89 @@
+Removed Parameter ComponentLink1Description: from Part R19
+Removed Parameter ComponentLink1Description: from Part R21
+Removed Parameter ComponentLink1Description: from Part R23
+Removed Parameter ComponentLink1Description: from Part R24
+Removed Parameter ComponentLink1Description: from Part R26
+Removed Parameter ComponentLink1URL: from Part C15
+Removed Parameter ComponentLink1URL: from Part C16
+Removed Parameter ComponentLink1URL: from Part C17
+Removed Parameter ComponentLink1URL: from Part C18
+Removed Parameter ComponentLink1URL: from Part C19
+Removed Parameter ComponentLink1URL: from Part R19
+Removed Parameter ComponentLink1URL: from Part R21
+Removed Parameter ComponentLink1URL: from Part R23
+Removed Parameter ComponentLink1URL: from Part R24
+Removed Parameter ComponentLink1URL: from Part R26
+Removed Parameter ComponentLink2Description: from Part R19
+Removed Parameter ComponentLink2Description: from Part R21
+Removed Parameter ComponentLink2Description: from Part R23
+Removed Parameter ComponentLink2Description: from Part R24
+Removed Parameter ComponentLink2Description: from Part R26
+Removed Parameter ComponentLink2URL: from Part C15
+Removed Parameter ComponentLink2URL: from Part C16
+Removed Parameter ComponentLink2URL: from Part C17
+Removed Parameter ComponentLink2URL: from Part C18
+Removed Parameter ComponentLink2URL: from Part C19
+Removed Parameter ComponentLink2URL: from Part R19
+Removed Parameter ComponentLink2URL: from Part R21
+Removed Parameter ComponentLink2URL: from Part R23
+Removed Parameter ComponentLink2URL: from Part R24
+Removed Parameter ComponentLink2URL: from Part R26
+Removed Parameter ComponentLink3Description: from Part R19
+Removed Parameter ComponentLink3Description: from Part R21
+Removed Parameter ComponentLink3Description: from Part R23
+Removed Parameter ComponentLink3Description: from Part R24
+Removed Parameter ComponentLink3Description: from Part R26
+Removed Parameter ComponentLink3URL: from Part C15
+Removed Parameter ComponentLink3URL: from Part C16
+Removed Parameter ComponentLink3URL: from Part C17
+Removed Parameter ComponentLink3URL: from Part C18
+Removed Parameter ComponentLink3URL: from Part C19
+Removed Parameter ComponentLink3URL: from Part R19
+Removed Parameter ComponentLink3URL: from Part R21
+Removed Parameter ComponentLink3URL: from Part R23
+Removed Parameter ComponentLink3URL: from Part R24
+Removed Parameter ComponentLink3URL: from Part R26
+Removed Parameter ComponentLink4Description: from Part C15
+Removed Parameter ComponentLink4Description: from Part C16
+Removed Parameter ComponentLink4Description: from Part C17
+Removed Parameter ComponentLink4Description: from Part C18
+Removed Parameter ComponentLink4Description: from Part C19
+Removed Parameter ComponentLink4Description: from Part R19
+Removed Parameter ComponentLink4Description: from Part R21
+Removed Parameter ComponentLink4Description: from Part R23
+Removed Parameter ComponentLink4Description: from Part R24
+Removed Parameter ComponentLink4Description: from Part R26
+Removed Parameter ComponentLink4URL: from Part C15
+Removed Parameter ComponentLink4URL: from Part C16
+Removed Parameter ComponentLink4URL: from Part C17
+Removed Parameter ComponentLink4URL: from Part C18
+Removed Parameter ComponentLink4URL: from Part C19
+Removed Parameter ComponentLink4URL: from Part R19
+Removed Parameter ComponentLink4URL: from Part R21
+Removed Parameter ComponentLink4URL: from Part R23
+Removed Parameter ComponentLink4URL: from Part R24
+Removed Parameter ComponentLink4URL: from Part R26
+Removed Parameter Features: from Part C15
+Removed Parameter Features: from Part C16
+Removed Parameter Features: from Part C17
+Removed Parameter Features: from Part C18
+Removed Parameter Features: from Part C19
+Removed Parameter Temperature Coefficient: from Part C15
+Removed Parameter Temperature Coefficient: from Part C16
+Removed Parameter Temperature Coefficient: from Part C17
+Removed Parameter Temperature Coefficient: from Part C18
+Removed Parameter Temperature Coefficient: from Part C19
+Removed Parameter Temperature Coefficient: from Part R19
+Removed Parameter Temperature Coefficient: from Part R21
+Removed Parameter Temperature Coefficient: from Part R23
+Removed Parameter Temperature Coefficient: from Part R24
+Removed Parameter Temperature Coefficient: from Part R26
+Added Parameter ComponentLink1Description= to Part R28
+Added Parameter ComponentLink1URL= to Part R28
+Added Parameter ComponentLink2Description= to Part R28
+Added Parameter ComponentLink2URL= to Part R28
+Added Parameter ComponentLink3Description= to Part R28
+Added Parameter ComponentLink3URL= to Part R28
+Added Parameter ComponentLink4Description= to Part R28
+Added Parameter ComponentLink4URL= to Part R28
+Added Parameter Temperature Coefficient= to Part R28

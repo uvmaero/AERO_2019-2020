@@ -1,0 +1,10 @@
+Output: Export STEP
+Type  : ExportSTEP
+From  : PCB Document [UVM AERO BSPD.PcbDoc]
+   Generated File[UVM AERO BSPD.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:38:40 PM On 2/4/2020

@@ -1,0 +1,286 @@
+Removed Pin From Net: NetName=CO1 Pin=R6-1
+Removed Pin From Net: NetName=\OOR_FLT Pin=R6-2
+Removed Pin From Net: NetName=CO2 Pin=R7-1
+Removed Pin From Net: NetName=\OOR_FLT Pin=R7-2
+Removed Pin From Net: NetName=CO3 Pin=R8-1
+Removed Pin From Net: NetName=\OOR_FLT Pin=R8-2
+Removed Pin From Net: NetName=CO4 Pin=R9-1
+Removed Pin From Net: NetName=\OOR_FLT Pin=R9-2
+Removed Pin From Net: NetName=BRAKE_IN Pin=TP1-1
+Removed Pin From Net: NetName=CUR_BUF Pin=TP2-1
+Removed Pin From Net: NetName=CUR_IN Pin=TP3-1
+Removed Member From Class: ClassName=U_Comparator Member=R6
+Removed Member From Class: ClassName=U_Comparator Member=R7
+Removed Member From Class: ClassName=U_Comparator Member=R8
+Removed Member From Class: ClassName=U_Comparator Member=R9
+Change Component Footprint: Designator=J4 Old Footprint=1217861-1 New Footprint=1217861-1
+Added Component: Designator=SW3(TE_1-1825059-3_0)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Upverter"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://upverter.com/upn/revision/88d716be50ce18fd/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825059%7FA4%7Fpdf%7FEnglish%7FENG_CD_1825059_A4.pdf%7F1-1825059-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "SWITCH SLIDE DIP SPST 100MA 24V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "1-1825059-3-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "helpURL"; Value = "https://upverter.com/upn/revision/88d716be50ce18fd/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "506-ADF04S04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMT_SW_7MM5_12MM14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "1-1825059-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.675951318221"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1-1825059-3-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "506-ADF04S04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-30°C to +85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-30°C"; VariantName = "[No Variations]"
+Added Component: Designator=TP1(KSTN-5002)
+Add component (AddParameter): Name = "Brand"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "PhosphorBronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://ciiva.com/datasheet-click-2917627?src=ciiva&sig=bd195616"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. G, 12/2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.62mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Hole Size"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Outside Diameter"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "TestPoints"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "CircuitBoardHardware-PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "36-5004-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Miniature"; VariantName = "[No Variations]"
+Added Component: Designator=TP2(KSTN-5115)
+Add component (AddParameter): Name = "Brand"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Brown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "PhosphorBronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://ciiva.com/datasheet-click-2917627?src=ciiva&sig=bd195616"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. G, 12/2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.62mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Hole Size"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Outside Diameter"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "TestPoints"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "CircuitBoardHardware-PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "36-5115-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Miniature"; VariantName = "[No Variations]"
+Added Component: Designator=TP3(KSTN-5002)
+Add component (AddParameter): Name = "Brand"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "PhosphorBronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://ciiva.com/datasheet-click-2917627?src=ciiva&sig=bd195616"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. G, 12/2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.62mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Hole Size"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Outside Diameter"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "TestPoints"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "CircuitBoardHardware-PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "36-5004-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Miniature"; VariantName = "[No Variations]"
+Added Component: Designator=TP13(KSTN-5115)
+Add component (AddParameter): Name = "Brand"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Brown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "PhosphorBronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://ciiva.com/datasheet-click-2917627?src=ciiva&sig=bd195616"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. G, 12/2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.62mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Hole Size"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Outside Diameter"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "TestPoints"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "CircuitBoardHardware-PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "36-5115-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Miniature"; VariantName = "[No Variations]"
+Added Component: Designator=TP14(KSTN-5119)
+Add component (AddParameter): Name = "Brand"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Purple"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "PhosphorBronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://ciiva.com/datasheet-click-2917627?src=ciiva&sig=bd195616"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. G, 12/2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.62mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Hole Size"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Outside Diameter"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "TestPoints"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "CircuitBoardHardware-PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "36-5119-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Miniature"; VariantName = "[No Variations]"
+Added Component: Designator=TP15(KSTN-5118)
+Add component (AddParameter): Name = "Brand"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Grey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "PhosphorBronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://ciiva.com/datasheet-click-2917627?src=ciiva&sig=bd195616"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. G, 12/2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.62mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Hole Size"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Outside Diameter"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "TestPoints"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "CircuitBoardHardware-PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "36-5118-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Miniature"; VariantName = "[No Variations]"
+Added Component: Designator=TP16(KSTN-5003)
+Add component (AddParameter): Name = "Brand"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Orange"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "PhosphorBronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://ciiva.com/datasheet-click-2917627?src=ciiva&sig=bd195616"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. G, 12/2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.62mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Hole Size"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Outside Diameter"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "TestPoints"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "CircuitBoardHardware-PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "36-5003-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Miniature"; VariantName = "[No Variations]"
+Added Component: Designator=TP17(KSTN-5119)
+Add component (AddParameter): Name = "Brand"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Purple"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "PhosphorBronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://ciiva.com/datasheet-click-2917627?src=ciiva&sig=bd195616"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. G, 12/2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.62mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Hole Size"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Outside Diameter"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "TestPoints"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "CircuitBoardHardware-PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "36-5119-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Miniature"; VariantName = "[No Variations]"
+Added Component: Designator=TP18(KSTN-5118)
+Add component (AddParameter): Name = "Brand"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Grey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "PhosphorBronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://ciiva.com/datasheet-click-2917627?src=ciiva&sig=bd195616"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. G, 12/2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.62mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Hole Size"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Outside Diameter"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "TestPoints"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "CircuitBoardHardware-PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "36-5118-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Miniature"; VariantName = "[No Variations]"
+Added Component: Designator=TP19(KSTN-5117)
+Add component (AddParameter): Name = "Brand"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Blue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "PhosphorBronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://ciiva.com/datasheet-click-2917627?src=ciiva&sig=bd195616"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. G, 12/2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.62mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Hole Size"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Outside Diameter"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "TestPoints"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "CircuitBoardHardware-PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "36-5117-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Miniature"; VariantName = "[No Variations]"
+Added Component: Designator=TP20(KSTN-5117)
+Add component (AddParameter): Name = "Brand"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Blue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "PhosphorBronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://ciiva.com/datasheet-click-2917627?src=ciiva&sig=bd195616"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. G, 12/2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.62mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KeystoneElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Hole Size"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Outside Diameter"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "TestPoints"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "CircuitBoardHardware-PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "36-5117-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Miniature"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CO1 Pin=SW3-1
+Added Pin To Net: NetName=CO2 Pin=SW3-2
+Added Pin To Net: NetName=CO3 Pin=SW3-3
+Added Pin To Net: NetName=CO4 Pin=SW3-4
+Added Pin To Net: NetName=\OOR_FLT Pin=SW3-5
+Added Pin To Net: NetName=\OOR_FLT Pin=SW3-6
+Added Pin To Net: NetName=\OOR_FLT Pin=SW3-7
+Added Pin To Net: NetName=\OOR_FLT Pin=SW3-8
+Added Pin To Net: NetName=BRAKE_IN Pin=TP1-1
+Added Pin To Net: NetName=CUR_BUF Pin=TP2-1
+Added Pin To Net: NetName=CUR_IN Pin=TP3-1
+Added Pin To Net: NetName=BRAKE_BUF Pin=TP13-1
+Added Pin To Net: NetName=OOR_FLT Pin=TP14-1
+Added Pin To Net: NetName=OOR_TIM Pin=TP15-1
+Added Pin To Net: NetName=LATCH_IN Pin=TP16-1
+Added Pin To Net: NetName=BSPD_FLT Pin=TP17-1
+Added Pin To Net: NetName=FAULT_TIM Pin=TP18-1
+Added Pin To Net: NetName=BSPD_OK Pin=TP19-1
+Added Pin To Net: NetName=FAULT_DET Pin=TP20-1
+Added Member To Class: ClassName=U_Comparator Member=Component SW3 1-1825059-3
+Added Member To Class: ClassName=U_Comparator Member=Component TP13 5115
+Added Member To Class: ClassName=U_LatchDelay Member=Component TP14 5119
+Added Member To Class: ClassName=U_LatchDelay Member=Component TP15 5118
+Added Member To Class: ClassName=U_LatchDelay Member=Component TP16 5003
+Added Member To Class: ClassName=U_LatchDelay Member=Component TP17 5119
+Added Member To Class: ClassName=U_LatchDelay Member=Component TP18 5118
+Added Member To Class: ClassName=U_Relay Member=Component TP19 5117
+Added Member To Class: ClassName=U_IO and Connectors Member=Component TP20 5117

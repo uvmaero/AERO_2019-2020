@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [needtoorder] of BOM Document [UVM AERO BSPD.BomDoc]
+   Generated File[Bill of Materials-UVM AERO BSPD(needtoorder).xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:59:18 AM On 2/5/2020

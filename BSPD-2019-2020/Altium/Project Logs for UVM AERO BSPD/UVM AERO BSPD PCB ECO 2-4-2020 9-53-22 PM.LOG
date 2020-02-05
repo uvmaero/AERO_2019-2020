@@ -1,0 +1,5 @@
+Change Physical Footprint: Designator=J1 Old Footprint=CON2_1X2_P163_VM_ALT New Footprint=CON2_1X2_P163_VM_ALT
+Change Physical Footprint: Designator=J3 Old Footprint=B4B-XH-A(LF)(SN) New Footprint=B4B-XH-A(LF)(SN)
+Change Physical Footprint: Designator=K1 Old Footprint=Omron_G5V-1-DC12_MFG New Footprint=Omron_G5V-1-DC12_MFG
+Change Physical Footprint: Designator=U5 Old Footprint=Linear_Technologies_LTC6994CS6-1#TRMPBF_0 New Footprint=Linear_Technologies_LTC6994CS6-1#TRMPBF_0
+Change Physical Footprint: Designator=U8 Old Footprint=Linear_Technologies_LTC6994CS6-1#TRMPBF_0 New Footprint=Linear_Technologies_LTC6994CS6-1#TRMPBF_0

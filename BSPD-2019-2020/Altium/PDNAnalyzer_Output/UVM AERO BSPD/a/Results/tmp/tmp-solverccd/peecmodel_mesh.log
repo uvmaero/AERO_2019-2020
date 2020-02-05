@@ -1,0 +1,22 @@
+
+Program                          : pcbmerge
+Version                          : 1.7.3
+Date                             : 05.Feb 2020 04:29:14
+Input file                       : C:\git\AERO_2019-2020\BSPD-2019-2020\Altium\PDNAnalyzer_Output\UVM AERO BSPD\a\Results\tmp\design.dar
+Control file                     : C:\git\AERO_2019-2020\BSPD-2019-2020\Altium\PDNAnalyzer_Output\UVM AERO BSPD\a\Results\tmp\tmp-solverccd\peecmodel.opt
+Selection file                   : 
+Result file                      : C:\git\AERO_2019-2020\BSPD-2019-2020\Altium\PDNAnalyzer_Output\UVM AERO BSPD\a\Results\tmp\tmp-solverccd\peecmodel.pci
+Error file                       : C:\git\AERO_2019-2020\BSPD-2019-2020\Altium\PDNAnalyzer_Output\UVM AERO BSPD\a\Results\tmp\IRDROPRESULTS\logfile.log
+
+
+No. Signal Capacitive Areas      : 18902
+No. Reference Capacitive Areas   : 0
+No. Signal Inductive Segments    : 31771
+No. Reference Inductive Segments : 0
+No. Via Inductive Segments       : 71
+No. Dielectric Elements          : 0
+
+No. Terminals                    : 68
+
+Runtime                          : 2 sec 
+

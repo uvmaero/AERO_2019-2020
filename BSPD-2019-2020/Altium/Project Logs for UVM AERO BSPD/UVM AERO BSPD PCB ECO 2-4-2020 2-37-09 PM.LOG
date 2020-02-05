@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=SHDN_IN Pin=K1-5
+Removed Pin From Net: NetName=SHDN_IN Pin=K1-6
+Change Component Description : Designator=D9 Old Description=7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) New Description=7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) 
+Added Component: Designator=F3(lf0454Series)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_UL_Team"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "0454005.MR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "F3147CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Value"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Littelfuse Inc"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SHDN_IN Pin=F3-2
+Added Pin To Net: NetName=SHDN_IN_F Pin=F3-1
+Added Pin To Net: NetName=SHDN_IN_F Pin=K1-5
+Added Pin To Net: NetName=SHDN_IN_F Pin=K1-6
+Added Net: Name=SHDN_IN_F
+Added Member To Class: ClassName=U_IO and Connectors Member=Component F3 0454005.MR
+Added Member To Class: ClassName=HC Member=Wire SHDN_IN_F
+Added Member To Class: ClassName=PWR Member=Wire SHDN_IN_F

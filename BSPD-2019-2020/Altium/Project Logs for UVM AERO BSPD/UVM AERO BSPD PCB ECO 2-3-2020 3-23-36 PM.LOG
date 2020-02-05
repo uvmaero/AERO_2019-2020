@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=GND Pin=D8-1
+Removed Pin From Net: NetName=CUR_IN Pin=D8-2
+Removed Pin From Net: NetName=CUR_IN Pin=D8-3
+Removed Pin From Net: NetName=CUR_IN Pin=D8-4
+Change Component Footprint: Designator=D8 Old Footprint=LFUS-SOT143-4_V New Footprint=SOD923
+Change Component Comment : Designator=D8 Old Comment=SP0503BAHTG New Comment=DF2B6.8AFS,L3M
+Change Managed Component Library Link : Designator=D8 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=6DFCF8BC-5E2F-4EED-B87D-FB30D96DE417 New ItemGUID= Old RevisionGUID=104E6A5A-24B9-4C57-BA93-356C7A68273A New RevisionGUID=
+Change component parameters: Designator = "D8" ("D8"); Footprint = "LFUS-SOT143-4_V"; UniqueID = "\MBNRXBXE\CWLOKSLW" ("\MBNRXBXE\CWLOKSLW")
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "DF2B6.8AFSL3MCT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CUR_IN Pin=D8-1
+Added Pin To Net: NetName=GND Pin=D8-2
