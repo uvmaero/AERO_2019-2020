@@ -1,4 +1,4 @@
-17141149067775566
+17139568311361032
 Arcana
 Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal_MODIFIED
 3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)
@@ -70454,13 +70454,6 @@ Logo WEEE
 0
 0
 0
-TE_Amp
-TE_776266-1
-
-
-0
-14
-14
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -75835,8 +75828,8 @@ luxeon-pm01
 
 
 0
-0
-0
+3
+3
 aero_footprint
 pacman-logo-silkscreen
 
