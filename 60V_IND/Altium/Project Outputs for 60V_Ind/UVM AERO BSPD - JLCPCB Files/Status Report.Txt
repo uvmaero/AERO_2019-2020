@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [60V_Ind.PcbDoc]
+   Generated File[60V_Ind-Plated.TXT]
+   Generated File[60V_Ind-NonPlated.TXT]
+   Generated File[60V_Ind.LDP]
+   Generated File[60V_Ind.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 3:27:44 PM On 2/5/2020

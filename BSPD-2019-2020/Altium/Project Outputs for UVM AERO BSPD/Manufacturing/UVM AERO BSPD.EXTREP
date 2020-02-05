@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: UVM AERO BSPD.GBR   2/5/2020  12:58:59 AM
+Gerber File Extension Report For: UVM AERO BSPD.GBR   2/5/2020  3:35:29 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -41,6 +41,8 @@ Layer Extension     Layer Description
 .gbr                Fab Notes                               
 .gbr                Dimensions                              
 .gbr                Profile                                 
+.gbr                Non-plated through-hole drill file      
+.gbr                Plated through-hole drill file          
 .gbr                Drill Drawing                           
 .gbr                Drill Guide                             
 ------------------------------------------------------------------------------------------

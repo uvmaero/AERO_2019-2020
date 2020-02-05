@@ -5,8 +5,8 @@ C:\git\AERO_2019-2020\BSPD-2019-2020\Altium\Project Outputs for UVM AERO BSPD\Ma
 File Design Information:
 
 Date:       05/02/20
-Time:       00:58
-Revision:   cd3b498b96d30658048e2e957f439fdef7035a35
+Time:       15:35
+Revision:   511b59b6db42d6392bf8bf2e65067e5b490a35fa
 Variant:    No variations
 Units used: mil
 
@@ -54,7 +54,7 @@ TP6        5002                          TopLayer KSTN-5002                     
 C10        "CAP 0603 0.1UF 16V 10% X7R"  TopLayer 0603_CAP                                  2855.000      2530.000      270      "Capacitor Surface Mount 0603 Footprint 0.1UF 16V 10% Tolerance Ceramic X7R"                                                                      
 C22        "CAP 0603 0.1UF 16V 10% X7R"  TopLayer 0603_CAP                                  850.000       410.000       360      "Capacitor Surface Mount 0603 Footprint 0.1UF 16V 10% Tolerance Ceramic X7R"                                                                      
 C21        "CAP 0603 0.1UF 16V 10% X7R"  TopLayer 0603_CAP                                  655.000       485.000       180      "Capacitor Surface Mount 0603 Footprint 0.1UF 16V 10% Tolerance Ceramic X7R"                                                                      
-D9         DF2B6.8AFS,L3M                TopLayer SOD923                                    845.224       3277.000      180      "7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) "                                                                           
+D9         DF2B6.8AFS,L3M                TopLayer SOD923                                    845.224       3277.000      180      "7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923)"                                                                            
 K1         G5V-1-DC12                    TopLayer Omron_G5V-1-DC12_MFG                      2630.000      630.000       270      "General Purpose Relay SPDT (1 Form C) Through Hole"                                                                                              
 R26        "RES 0603 620 1%"             TopLayer 0603_RES                                  1748.465      281.299       180      "Resistor Surface Mount, 620 Ohms, 0603 Footprint, 1% Tolerance 0.1W"                                                                             
 R20        "RES 0603 620 1%"             TopLayer 0603_RES                                  2230.000      1160.000      360      "Resistor Surface Mount, 620 Ohms, 0603 Footprint, 1% Tolerance 0.1W"                                                                             

@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [UVM AERO BSPD.PcbDoc]
+   Generated File[UVM AERO BSPD.TXT]
+   Generated File[UVM AERO BSPD.DRL]
+   Generated File[UVM AERO BSPD.LDP]
+   Generated File[UVM AERO BSPD.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 3:22:25 PM On 2/5/2020

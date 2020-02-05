@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for 60V_Ind
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -178,6 +178,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document9]
+DocumentPath=JLCPCB Outputs.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind-BoardEdgeRout.TXT
 DItemRevisionGUID=
@@ -187,159 +204,247 @@ DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind-Plated.TXT
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.DRR
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.EXTREP
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.LDP
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.DRL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.REP
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.RUL
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for 60V_Ind\ExportSTEP\60V_Ind.step
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for 60V_Ind\ExportSTEP\60V_Ind.x_t
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Keep-out.gbr
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Legend_Bot.gbr
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Legend_Top.gbr
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_1.gbr
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_2.gbr
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GM20
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_3.gbr
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_4.gbr
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_5.gbr
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_6.gbr
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_7.gbr
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_8.gbr
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_9.gbr
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.REP
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_10.gbr
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.REP
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_11.gbr
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_12.gbr
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_13.gbr
+DocumentPath=Project Outputs for 60V_Ind\ExportSTEP\60V_Ind.step
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_15.gbr
+DocumentPath=Project Outputs for 60V_Ind\ExportSTEP\60V_Ind.x_t
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_16.gbr
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Pads_Bot.gbr
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Pads_Top.gbr
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Keep-out.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Paste_Bot.gbr
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Paste_Top.gbr
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Profile.gbr
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Soldermask_Top.gbr
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_3.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for 60V_Ind\BOM\Bill of Materials-60V_Ind.xlsx
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_4.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\Bill of Materials-60V_Ind.xlsx
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_5.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\Fabrication Testpoint Report for 60V_Ind.ipc
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_6.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument41]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_7.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_8.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_9.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_10.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_11.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_12.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_13.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_15.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_16.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Pads_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Pads_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for 60V_Ind\BOM\Bill of Materials-60V_Ind.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\Bill of Materials-60V_Ind.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for 60V_Ind\Manufacturing\Fabrication Testpoint Report for 60V_Ind.ipc
+DItemRevisionGUID=
+
+[GeneratedDocument60]
 DocumentPath=Project Outputs for 60V_Ind\Manufacturing\Pick Place for 60V_Ind.txt
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=..\..\..\..\Users\ANDREW~1.KAT\AppData\Local\Temp\Pro5E11.xls
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=..\..\..\..\Users\ANDREW~1.KAT\AppData\Local\Temp\ProB022.xls
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=..\..\..\..\Users\ANDREW~1.KAT\AppData\Local\Temp\ProE293.xls
 DItemRevisionGUID=
 
 [Configuration1]
@@ -373,12 +478,12 @@ ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for 60V_Ind
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -499,7 +604,7 @@ OutputDefault23=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -592,7 +697,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -614,7 +719,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -686,7 +791,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -728,7 +833,7 @@ OutputDefault7=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -908,7 +1013,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -952,7 +1057,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AnsysEDB
 OutputName1=Ansys EDB
@@ -1018,7 +1123,7 @@ OutputDefault12=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files

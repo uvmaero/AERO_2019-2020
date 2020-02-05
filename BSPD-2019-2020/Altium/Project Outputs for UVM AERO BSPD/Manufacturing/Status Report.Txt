@@ -1,10 +1,10 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [needtoorder] of BOM Document [UVM AERO BSPD.BomDoc]
-   Generated File[Bill of Materials-UVM AERO BSPD(needtoorder).xlsx]
+Output: IPC-2581 Files
+Type  : IPC2581
+From  : PCB Document [UVM AERO BSPD.PcbDoc]
+   Generated File[UVM AERO BSPD.cvg]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 12:59:18 AM On 2/5/2020
+Finished Output Generation At 3:35:51 PM On 2/5/2020
