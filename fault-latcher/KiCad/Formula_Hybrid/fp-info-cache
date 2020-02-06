@@ -1,396 +1,18 @@
-16998074004802169
-AERO-footprints
-87583-2010BLF
-USB - A USB 2.0 Receptacle Connector 4 Position 
-
-0
-6
-5
-AERO-footprints
-AERO_Logo_10x4mm
-
-
-0
-0
-0
-AERO-footprints
-AERO_Logo_15x6mm
-
-
-0
-0
-0
-AERO-footprints
-AERO_Logo_20x8mm
-
-
-0
-0
-0
-AERO-footprints
-AERO_Logo_25x10mm
-
-
-0
-0
-0
-AERO-footprints
-AERO_Logo_30x12mm
-
-
-0
-0
-0
-AERO-footprints
-AERO_Logo_35x14mm
-
-
-0
-0
-0
-AERO-footprints
-AERO_Logo_40x16mm
-
-
-0
-0
-0
-AERO-footprints
-AERO_Logo_45x18mm
-
-
-0
-0
-0
-AERO-footprints
-AERO_Logo_50x20mm
-
-
-0
-0
-0
-AERO-footprints
-AMPSEAL 776266-1 14-PIN
-
-
-0
-14
-14
-AERO-footprints
-Bell_0ADKP1000-RE
-
-
-0
-2
-2
-AERO-footprints
-DCM4623TD2J13D0T70
-
-
-0
-9
-9
-AERO-footprints
-DCM4623TD2J13D0T70_w_landpattern
-
-
-0
-15
-9
-AERO-footprints
-DCM4623TD2J13D0T70_w_landpattern-SP3
-
-
-0
-15
-9
-AERO-footprints
-DIP1549W45P254L3404H940Q24
-
-
-0
-24
-24
-AERO-footprints
-DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm
-9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 9.9mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 11.32mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
-9-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 9.9mm mounting-holes-distance 25mm mounting-hole-offset 25mm
-0
-11
-10
-AERO-footprints
-DSUB-15-HD_Female_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm
-15-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.29x1.98mm, pin-PCB-offset 8.35mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 10.889999999999999mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
-15-pin D-Sub connector horizontal angled 90deg THT female pitch 2.29x1.98mm pin-PCB-offset 8.35mm mounting-holes-distance 25mm mounting-hole-offset 25mm
-0
-17
-16
-AERO-footprints
-DSUB-15-HD_Female_Vertical_P2.29x1.98mm_MountingHoles
-15-pin D-Sub connector, straight/vertical, THT-mount, female, pitch 2.29x1.98mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
-15-pin D-Sub connector straight vertical THT female pitch 2.29x1.98mm mounting holes distance 25mm
-0
-17
-16
-AERO-footprints
-EPM1510SJ
-
-
-0
-10
-10
-AERO-footprints
-Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open_3d
-http://www.schurter.com/var/schurter/storage/ilcatalogue/files/document/datasheet/en/pdf/typ_OGN.pdf
-Fuseholder horizontal open 5x20 Schurter 0031.8201
-0
-2
-2
-AERO-footprints
-G2RL
-
-
-0
-5
-5
-AERO-footprints
-KEYSTONE_AA_2460
-
-
-0
-2
-0
-AERO-footprints
-LDB-_L
-
-
-0
-9
-9
-AERO-footprints
-LPA-C011301S-x LED 0805 LIGHT PIPE SINGLE VERT SMD
-
-
-0
-2
-2
-AERO-footprints
-Murata_DFE252012P_Inductor
-
-
-0
-2
-2
-AERO-footprints
-PA2607
-
-
-0
-2
-2
-AERO-footprints
-QFP40P900X900X120-65N
-
-
-0
-65
-65
-AERO-footprints
-RJ45_Amphenol_54602-x08_Horizontal
-8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)
-RJ45
-0
-8
-8
-AERO-footprints
-TC33X-503ECT-ND
-
-
+17098228259284293
+Arcana
+Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal_MODIFIED
+3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)
+3.5mm audio cui horizontal jack stereo
 0
 3
 3
-AERO-footprints
-TE-2199119-M2-B-KEY
-
-
-0
-70
-67
-AERO-footprints
-TE_1-770669-1_23pin_Horizontal
-
-
-0
-23
-23
-AERO-footprints
-TE_1-776087-1
-
-
-0
-23
-23
-AERO-footprints
-TE_1-776163-1_35pin_Horizontal
-
-
-0
-35
-35
-AERO-footprints
-TE_1-776200-1_23pin_Vertical
-
-
-0
-23
-23
-AERO-footprints
-TE_1-776231-1_35pin_Vertical
-
-
-0
-35
-35
-AERO-footprints
-TE_1-776262-1_14pin_Vertical
-
-
-0
-14
-14
-AERO-footprints
-TE_1-776266-1_14pin_Horizontal
-
-
-0
-14
-14
-AERO-footprints
-TE_1-776276-1_8pin_Vertical
-
-
-0
-8
-8
-AERO-footprints
-TE_1-776280-1_8pin_Horizontal
-
-
-0
-8
-8
-AERO-footprints
-TE_4-2172079-2
-
-
-0
-6
-6
-AERO-footprints
-TE_1217861-1
-
-
-0
-2
-1
-AERO-footprints
-TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical
-Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770866-x, 2 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
-connector TE MATE-N-LOK side entry
-0
-2
-2
-AERO-footprints
-TE_MATE-N-LOK_1-770870-x_1x03_P4.14mm_Vertical
-Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770870-x, 3 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
-connector TE MATE-N-LOK side entry
-0
-3
-3
-AERO-footprints
-TLP182
-
-
-0
-4
-4
-AERO-footprints
-TUSB4020BIPHPR
-
-
-0
-49
-49
-AERO-footprints
-USB_B_OST_USB-B1HSxx_Horizontal
-USB B receptacle, Horizontal, through-hole, http://www.on-shore.com/wp-content/uploads/2015/09/usb-b1hsxx.pdf
-USB-B receptacle horizontal through-hole
-0
-6
-5
-AERO-footprints
-hvlightningsymbol
+Arcana
+arcana_logo
 
 
 0
 0
 0
-AERO-footprints
-luxeon-pm01
-
-
-0
-3
-3
-AERO-footprints
-pacman-logo-silkscreen
-
-
-0
-0
-0
-AERO-footprints
-try2
-
-
-0
-0
-0
-AERO-footprints
-try3
-
-
-0
-0
-0
-AERO-footprints
-try4
-
-
-0
-0
-0
-AERO-footprints
-try5
-
-
-0
-0
-0
-AERO-footprints
-vicor-socket
-
-
-0
-39
-7
-AERO-footprints
-vicor-socket-no-cutouts
-
-
-0
-39
-7
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -678,1197 +300,1197 @@ battery CR-3032 coin cell vertical
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 1.00u PCB
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_1.00u_Plate
 Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 1.00u plate
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_1.25u_PCB
 Cherry MX keyswitch, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 1.25u PCB
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_1.25u_Plate
 Cherry MX keyswitch, 1.25u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 1.25u plate
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_1.50u_PCB
 Cherry MX keyswitch, 1.50u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 1.50u PCB
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_1.50u_Plate
 Cherry MX keyswitch, 1.50u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 1.50u plate
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_1.75u_PCB
 Cherry MX keyswitch, 1.75u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 1.75u PCB
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_1.75u_Plate
 Cherry MX keyswitch, 1.75u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 1.75u plate
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_2.00u_PCB
 Cherry MX keyswitch, 2.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 2.00u PCB
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_2.00u_Plate
 Cherry MX keyswitch, 2.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 2.00u plate
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_2.00u_Vertical_PCB
 Cherry MX keyswitch, 2.00u, vertical, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 2.00u vertical PCB
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_2.00u_Vertical_Plate
 Cherry MX keyswitch, 2.00u, vertical, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 2.00u vertical plate
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_2.25u_PCB
 Cherry MX keyswitch, 2.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 2.25u PCB
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_2.25u_Plate
 Cherry MX keyswitch, 2.25u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 2.25u plate
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_2.75u_PCB
 Cherry MX keyswitch, 2.75u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 2.75u PCB
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_2.75u_Plate
 Cherry MX keyswitch, 2.75u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 2.75u plate
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_6.25u_PCB
 Cherry MX keyswitch, 6.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 6.25u PCB
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_6.25u_Plate
 Cherry MX keyswitch, 6.25u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 6.25u plate
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_ISOEnter_PCB
 Cherry MX keyswitch, ISO Enter, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch ISO enter PCB
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Cherry_MX_ISOEnter_Plate
 Cherry MX keyswitch, ISO Enter, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch ISO enter plate
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Matias_1.00u
 Matias/ALPS keyswitch, 1.00u, http://matias.ca/switches/
 Matias ALPS keyswitch 1.00u
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Matias_1.25u
 Matias/ALPS keyswitch, 1.25u, http://matias.ca/switches/
 Matias ALPS keyswitch 1.25u
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Matias_1.50u
 Matias/ALPS keyswitch, 1.50u, http://matias.ca/switches/
 Matias ALPS keyswitch 1.50u
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Matias_1.75u
 Matias/ALPS keyswitch, 1.75u, http://matias.ca/switches/
 Matias ALPS keyswitch 1.75u
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Matias_2.00u
 Matias/ALPS keyswitch, 2.00u, http://matias.ca/switches/
 Matias ALPS keyswitch 2.00u
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Matias_2.25u
 Matias/ALPS keyswitch, 2.25u, http://matias.ca/switches/
 Matias ALPS keyswitch 2.25u
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Matias_2.75u
 Matias/ALPS keyswitch, 2.75u, http://matias.ca/switches/
 Matias ALPS keyswitch 2.75u
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Matias_6.25u
 Matias/ALPS keyswitch, 6.25u, http://matias.ca/switches/
 Matias ALPS keyswitch 6.25u
 0
 2
 2
-Button_Switch_Keyboard
+Button_Keyboard
 SW_Matias_ISOEnter
 Matias/ALPS keyswitch, ISO Enter, http://matias.ca/switches/
 Matias ALPS keyswitch ISO enter
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 Nidec_Copal_SH-7010A
 4-bit rotary coded switch, J-hook, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
 rotary switch bcd
 0
 6
 5
-Button_Switch_SMD
+Button_SMD
 Nidec_Copal_SH-7010B
 4-bit rotary coded switch, gull wing, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
 rotary switch bcd
 0
 6
 5
-Button_Switch_SMD
+Button_SMD
 Nidec_Copal_SH-7040B
 4-bit rotary coded switch, gull wing, Gray code, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
 rotary switch bcd
 0
 5
 5
-Button_Switch_SMD
+Button_SMD
 Panasonic_EVQPUJ_EVQPUA
 http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf
 SMD SMT SPST EVQPUJ EVQPUA
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 Panasonic_EVQPUK_EVQPUB
 http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf
 SMD SMT SPST EVQPUK EVQPUB
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 Panasonic_EVQPUL_EVQPUC
 http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf
 SMD SMT SPST EVQPUL EVQPUC
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 Panasonic_EVQPUM_EVQPUD
 http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf
 SMD SMT SPST EVQPUM EVQPUD
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin
 SMD 1x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
 SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile
 SMD 1x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm
 SMD 1x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x4.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx01_Slide_Copal_CHS-01A_W5.08mm_P1.27mm_JPin
 SMD 1x-dip-switch SPST Copal_CHS-01A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin
 SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx01_Slide_Copal_CHS-01B_W7.62mm_P1.27mm
 SMD 1x-dip-switch SPST Copal_CHS-01B, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD
 SMD DIP Switch SPST Slide 7.62mm 300mil SMD
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx01_Slide_Copal_CVS-01xB_W5.9mm_P1mm
 SMD 1x-dip-switch SPST Copal_CVS-01xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)
 SMD DIP Switch SPST Slide 5.9mm 232mil
 0
 6
 3
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx01_Slide_Omron_A6S-110x_W8.9mm_P2.54mm
 SMD 1x-dip-switch SPST Omron_A6S-110x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
 SMD DIP Switch SPST Slide 8.9mm 350mil
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx02_Slide_6.7x6.64mm_W6.73mm_P2.54mm_LowProfile_JPin
 SMD 2x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x6.64mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
 SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
 0
 4
 4
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx02_Slide_6.7x6.64mm_W8.61mm_P2.54mm_LowProfile
 SMD 2x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x6.64mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
 0
 4
 4
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm
 SMD 2x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x7.26mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD
 0
 4
 4
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx02_Slide_Copal_CHS-02A_W5.08mm_P1.27mm_JPin
 SMD 2x-dip-switch SPST Copal_CHS-02A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin
 SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin
 0
 4
 4
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx02_Slide_Copal_CHS-02B_W7.62mm_P1.27mm
 SMD 2x-dip-switch SPST Copal_CHS-02B, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD
 SMD DIP Switch SPST Slide 7.62mm 300mil SMD
 0
 4
 4
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx02_Slide_Copal_CVS-02xB_W5.9mm_P1mm
 SMD 2x-dip-switch SPST Copal_CVS-02xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)
 SMD DIP Switch SPST Slide 5.9mm 232mil
 0
 8
 5
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx02_Slide_KingTek_DSHP02TJ_W5.25mm_P1.27mm_JPin
 SMD 2x-dip-switch SPST KingTek_DSHP02TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
 SMD DIP Switch SPST Slide 5.25mm 206mil JPin
 0
 4
 4
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx02_Slide_KingTek_DSHP02TS_W7.62mm_P1.27mm
 SMD 2x-dip-switch SPST KingTek_DSHP02TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
 SMD DIP Switch SPST Slide 7.62mm 300mil
 0
 4
 4
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx02_Slide_Omron_A6H-2101_W6.15mm_P1.27mm
 SMD 2x-dip-switch SPST Omron_A6H-2101, Slide, row spacing 6.15 mm (242 mils), body size  (see https://www.omron.com/ecb/products/pdf/en-a6h.pdf)
 SMD DIP Switch SPST Slide 6.15mm 242mil
 0
 4
 4
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx02_Slide_Omron_A6S-210x_W8.9mm_P2.54mm
 SMD 2x-dip-switch SPST Omron_A6S-210x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
 SMD DIP Switch SPST Slide 8.9mm 350mil
 0
 4
 4
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx03_Slide_6.7x9.18mm_W6.73mm_P2.54mm_LowProfile_JPin
 SMD 3x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x9.18mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
 SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
 0
 6
 6
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx03_Slide_6.7x9.18mm_W8.61mm_P2.54mm_LowProfile
 SMD 3x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x9.18mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
 0
 6
 6
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx03_Slide_9.78x9.8mm_W8.61mm_P2.54mm
 SMD 3x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x9.8mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD
 0
 6
 6
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx03_Slide_Copal_CVS-03xB_W5.9mm_P1mm
 SMD 3x-dip-switch SPST Copal_CVS-03xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)
 SMD DIP Switch SPST Slide 5.9mm 232mil
 0
 10
 7
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx03_Slide_KingTek_DSHP03TJ_W5.25mm_P1.27mm_JPin
 SMD 3x-dip-switch SPST KingTek_DSHP03TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
 SMD DIP Switch SPST Slide 5.25mm 206mil JPin
 0
 6
 6
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx03_Slide_KingTek_DSHP03TS_W7.62mm_P1.27mm
 SMD 3x-dip-switch SPST KingTek_DSHP03TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
 SMD DIP Switch SPST Slide 7.62mm 300mil
 0
 6
 6
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx03_Slide_Omron_A6S-310x_W8.9mm_P2.54mm
 SMD 3x-dip-switch SPST Omron_A6S-310x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
 SMD DIP Switch SPST Slide 8.9mm 350mil
 0
 6
 6
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx04_Slide_6.7x11.72mm_W6.73mm_P2.54mm_LowProfile_JPin
 SMD 4x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x11.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
 SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
 0
 8
 8
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile
 SMD 4x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x11.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
 0
 8
 8
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx04_Slide_9.78x12.34mm_W8.61mm_P2.54mm
 SMD 4x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x12.34mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD
 0
 8
 8
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx04_Slide_Copal_CHS-04A_W5.08mm_P1.27mm_JPin
 SMD 4x-dip-switch SPST Copal_CHS-04A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin
 SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin
 0
 8
 8
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx04_Slide_Copal_CHS-04B_W7.62mm_P1.27mm
 SMD 4x-dip-switch SPST Copal_CHS-04B, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD
 SMD DIP Switch SPST Slide 7.62mm 300mil SMD
 0
 8
 8
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx04_Slide_Copal_CVS-04xB_W5.9mm_P1mm
 SMD 4x-dip-switch SPST Copal_CVS-04xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)
 SMD DIP Switch SPST Slide 5.9mm 232mil
 0
 12
 9
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx04_Slide_KingTek_DSHP04TJ_W5.25mm_P1.27mm_JPin
 SMD 4x-dip-switch SPST KingTek_DSHP04TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
 SMD DIP Switch SPST Slide 5.25mm 206mil JPin
 0
 8
 8
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx04_Slide_KingTek_DSHP04TS_W7.62mm_P1.27mm
 SMD 4x-dip-switch SPST KingTek_DSHP04TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
 SMD DIP Switch SPST Slide 7.62mm 300mil
 0
 8
 8
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx04_Slide_Omron_A6H-4101_W6.15mm_P1.27mm
 SMD 4x-dip-switch SPST Omron_A6H-4101, Slide, row spacing 6.15 mm (242 mils), body size  (see https://www.omron.com/ecb/products/pdf/en-a6h.pdf)
 SMD DIP Switch SPST Slide 6.15mm 242mil
 0
 8
 8
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx04_Slide_Omron_A6S-410x_W8.9mm_P2.54mm
 SMD 4x-dip-switch SPST Omron_A6S-410x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
 SMD DIP Switch SPST Slide 8.9mm 350mil
 0
 8
 8
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx05_Slide_6.7x14.26mm_W6.73mm_P2.54mm_LowProfile_JPin
 SMD 5x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x14.26mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
 SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
 0
 10
 10
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx05_Slide_6.7x14.26mm_W8.61mm_P2.54mm_LowProfile
 SMD 5x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x14.26mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
 0
 10
 10
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx05_Slide_9.78x14.88mm_W8.61mm_P2.54mm
 SMD 5x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x14.88mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD
 0
 10
 10
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx05_Slide_KingTek_DSHP05TJ_W5.25mm_P1.27mm_JPin
 SMD 5x-dip-switch SPST KingTek_DSHP05TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
 SMD DIP Switch SPST Slide 5.25mm 206mil JPin
 0
 10
 10
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx05_Slide_KingTek_DSHP05TS_W7.62mm_P1.27mm
 SMD 5x-dip-switch SPST KingTek_DSHP05TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
 SMD DIP Switch SPST Slide 7.62mm 300mil
 0
 10
 10
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx05_Slide_Omron_A6S-510x_W8.9mm_P2.54mm
 SMD 5x-dip-switch SPST Omron_A6S-510x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
 SMD DIP Switch SPST Slide 8.9mm 350mil
 0
 10
 10
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx06_Slide_6.7x16.8mm_W6.73mm_P2.54mm_LowProfile_JPin
 SMD 6x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x16.8mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
 SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
 0
 12
 12
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx06_Slide_6.7x16.8mm_W8.61mm_P2.54mm_LowProfile
 SMD 6x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x16.8mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
 0
 12
 12
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx06_Slide_9.78x17.42mm_W8.61mm_P2.54mm
 SMD 6x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x17.42mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD
 0
 12
 12
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx06_Slide_Copal_CHS-06A_W5.08mm_P1.27mm_JPin
 SMD 6x-dip-switch SPST Copal_CHS-06A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin
 SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin
 0
 12
 12
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx06_Slide_Copal_CHS-06B_W7.62mm_P1.27mm
 SMD 6x-dip-switch SPST Copal_CHS-06B, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD
 SMD DIP Switch SPST Slide 7.62mm 300mil SMD
 0
 12
 12
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx06_Slide_KingTek_DSHP06TJ_W5.25mm_P1.27mm_JPin
 SMD 6x-dip-switch SPST KingTek_DSHP06TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
 SMD DIP Switch SPST Slide 5.25mm 206mil JPin
 0
 12
 12
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx06_Slide_KingTek_DSHP06TS_W7.62mm_P1.27mm
 SMD 6x-dip-switch SPST KingTek_DSHP06TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
 SMD DIP Switch SPST Slide 7.62mm 300mil
 0
 12
 12
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx06_Slide_Omron_A6H-6101_W6.15mm_P1.27mm
 SMD 6x-dip-switch SPST Omron_A6H-6101, Slide, row spacing 6.15 mm (242 mils), body size  (see https://www.omron.com/ecb/products/pdf/en-a6h.pdf)
 SMD DIP Switch SPST Slide 6.15mm 242mil
 0
 12
 12
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx06_Slide_Omron_A6S-610x_W8.9mm_P2.54mm
 SMD 6x-dip-switch SPST Omron_A6S-610x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
 SMD DIP Switch SPST Slide 8.9mm 350mil
 0
 12
 12
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx07_Slide_6.7x19.34mm_W6.73mm_P2.54mm_LowProfile_JPin
 SMD 7x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x19.34mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
 SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
 0
 14
 14
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx07_Slide_6.7x19.34mm_W8.61mm_P2.54mm_LowProfile
 SMD 7x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x19.34mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
 0
 14
 14
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx07_Slide_9.78x19.96mm_W8.61mm_P2.54mm
 SMD 7x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x19.96mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD
 0
 14
 14
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx07_Slide_KingTek_DSHP07TJ_W5.25mm_P1.27mm_JPin
 SMD 7x-dip-switch SPST KingTek_DSHP07TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
 SMD DIP Switch SPST Slide 5.25mm 206mil JPin
 0
 14
 14
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx07_Slide_KingTek_DSHP07TS_W7.62mm_P1.27mm
 SMD 7x-dip-switch SPST KingTek_DSHP07TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
 SMD DIP Switch SPST Slide 7.62mm 300mil
 0
 14
 14
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx07_Slide_Omron_A6S-710x_W8.9mm_P2.54mm
 SMD 7x-dip-switch SPST Omron_A6S-710x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
 SMD DIP Switch SPST Slide 8.9mm 350mil
 0
 14
 14
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx08_Slide_6.7x21.88mm_W6.73mm_P2.54mm_LowProfile_JPin
 SMD 8x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x21.88mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
 SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
 0
 16
 16
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx08_Slide_6.7x21.88mm_W8.61mm_P2.54mm_LowProfile
 SMD 8x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x21.88mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
 0
 16
 16
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx08_Slide_9.78x22.5mm_W8.61mm_P2.54mm
 SMD 8x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x22.5mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD
 0
 16
 16
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx08_Slide_Copal_CHS-08A_W5.08mm_P1.27mm_JPin
 SMD 8x-dip-switch SPST Copal_CHS-08A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin
 SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin
 0
 16
 16
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx08_Slide_Copal_CHS-08B_W7.62mm_P1.27mm
 SMD 8x-dip-switch SPST Copal_CHS-08B, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD
 SMD DIP Switch SPST Slide 7.62mm 300mil SMD
 0
 16
 16
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx08_Slide_Copal_CVS-08xB_W5.9mm_P1mm
 SMD 8x-dip-switch SPST Copal_CVS-08xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)
 SMD DIP Switch SPST Slide 5.9mm 232mil
 0
 20
 17
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx08_Slide_KingTek_DSHP08TJ_W5.25mm_P1.27mm_JPin
 SMD 8x-dip-switch SPST KingTek_DSHP08TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
 SMD DIP Switch SPST Slide 5.25mm 206mil JPin
 0
 16
 16
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx08_Slide_KingTek_DSHP08TS_W7.62mm_P1.27mm
 SMD 8x-dip-switch SPST KingTek_DSHP08TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
 SMD DIP Switch SPST Slide 7.62mm 300mil
 0
 16
 16
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx08_Slide_Omron_A6H-8101_W6.15mm_P1.27mm
 SMD 8x-dip-switch SPST Omron_A6H-8101, Slide, row spacing 6.15 mm (242 mils), body size  (see https://www.omron.com/ecb/products/pdf/en-a6h.pdf)
 SMD DIP Switch SPST Slide 6.15mm 242mil
 0
 16
 16
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx08_Slide_Omron_A6S-810x_W8.9mm_P2.54mm
 SMD 8x-dip-switch SPST Omron_A6S-810x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
 SMD DIP Switch SPST Slide 8.9mm 350mil
 0
 16
 16
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx09_Slide_6.7x24.42mm_W6.73mm_P2.54mm_LowProfile_JPin
 SMD 9x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x24.42mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
 SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
 0
 18
 18
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx09_Slide_6.7x24.42mm_W8.61mm_P2.54mm_LowProfile
 SMD 9x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x24.42mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
 0
 18
 18
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx09_Slide_9.78x25.04mm_W8.61mm_P2.54mm
 SMD 9x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x25.04mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD
 0
 18
 18
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx09_Slide_KingTek_DSHP09TJ_W5.25mm_P1.27mm_JPin
 SMD 9x-dip-switch SPST KingTek_DSHP09TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
 SMD DIP Switch SPST Slide 5.25mm 206mil JPin
 0
 18
 18
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx09_Slide_KingTek_DSHP09TS_W7.62mm_P1.27mm
 SMD 9x-dip-switch SPST KingTek_DSHP09TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
 SMD DIP Switch SPST Slide 7.62mm 300mil
 0
 18
 18
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx09_Slide_Omron_A6S-910x_W8.9mm_P2.54mm
 SMD 9x-dip-switch SPST Omron_A6S-910x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
 SMD DIP Switch SPST Slide 8.9mm 350mil
 0
 18
 18
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx10_Slide_6.7x26.96mm_W6.73mm_P2.54mm_LowProfile_JPin
 SMD 10x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x26.96mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
 SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
 0
 20
 20
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx10_Slide_6.7x26.96mm_W8.61mm_P2.54mm_LowProfile
 SMD 10x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x26.96mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
 0
 20
 20
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx10_Slide_9.78x27.58mm_W8.61mm_P2.54mm
 SMD 10x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x27.58mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD
 0
 20
 20
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx10_Slide_Copal_CHS-10A_W5.08mm_P1.27mm_JPin
 SMD 10x-dip-switch SPST Copal_CHS-10A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin
 SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin
 0
 20
 20
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx10_Slide_Copal_CHS-10B_W7.62mm_P1.27mm
 SMD 10x-dip-switch SPST Copal_CHS-10B, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD
 SMD DIP Switch SPST Slide 7.62mm 300mil SMD
 0
 20
 20
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx10_Slide_KingTek_DSHP10TJ_W5.25mm_P1.27mm_JPin
 SMD 10x-dip-switch SPST KingTek_DSHP10TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
 SMD DIP Switch SPST Slide 5.25mm 206mil JPin
 0
 20
 20
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx10_Slide_KingTek_DSHP10TS_W7.62mm_P1.27mm
 SMD 10x-dip-switch SPST KingTek_DSHP10TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
 SMD DIP Switch SPST Slide 7.62mm 300mil
 0
 20
 20
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx10_Slide_Omron_A6H-10101_W6.15mm_P1.27mm
 SMD 10x-dip-switch SPST Omron_A6H-10101, Slide, row spacing 6.15 mm (242 mils), body size  (see https://www.omron.com/ecb/products/pdf/en-a6h.pdf)
 SMD DIP Switch SPST Slide 6.15mm 242mil
 0
 20
 20
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx10_Slide_Omron_A6S-1010x_W8.9mm_P2.54mm
 SMD 10x-dip-switch SPST Omron_A6S-1010x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
 SMD DIP Switch SPST Slide 8.9mm 350mil
 0
 20
 20
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx11_Slide_6.7x29.5mm_W6.73mm_P2.54mm_LowProfile_JPin
 SMD 11x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x29.5mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
 SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
 0
 22
 22
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx11_Slide_6.7x29.5mm_W8.61mm_P2.54mm_LowProfile
 SMD 11x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x29.5mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
 0
 22
 22
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx11_Slide_9.78x30.12mm_W8.61mm_P2.54mm
 SMD 11x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x30.12mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD
 0
 22
 22
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx12_Slide_6.7x32.04mm_W6.73mm_P2.54mm_LowProfile_JPin
 SMD 12x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x32.04mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
 SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
 0
 24
 24
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx12_Slide_6.7x32.04mm_W8.61mm_P2.54mm_LowProfile
 SMD 12x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x32.04mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
 0
 24
 24
-Button_Switch_SMD
+Button_SMD
 SW_DIP_SPSTx12_Slide_9.78x32.66mm_W8.61mm_P2.54mm
 SMD 12x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x32.66mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
 SMD DIP Switch SPST Slide 8.61mm 338mil SMD
 0
 24
 24
-Button_Switch_SMD
+Button_SMD
 SW_MEC_5GSH9
 MEC 5G single pole normally-open tactile switch
 switch normally-open pushbutton push-button
 0
 4
 4
-Button_Switch_SMD
+Button_SMD
 SW_Push_1P1T-SH_NO_CK_KMR2xxG
 CK components KMR2 tactile switch with ground pin http://www.ckswitches.com/media/1479/kmr2.pdf
 tactile switch kmr2
 0
 5
 3
-Button_Switch_SMD
+Button_SMD
 SW_Push_1P1T_NO_6x6mm_H9.5mm
 tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
 tact sw push 6mm smd
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_Push_1P1T_NO_CK_KMR2
 CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf
 tactile switch kmr2
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_Push_1P1T_NO_CK_KSC6xxJ
 CK components KSC6 tactile switch https://www.ckswitches.com/media/1972/ksc6.pdf
 tactile switch ksc6
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_Push_1P1T_NO_CK_KSC7xxJ
 CK components KSC7 tactile switch https://www.ckswitches.com/media/1973/ksc7.pdf
 tactile switch ksc7
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR
 C&K Switches 1P1T SMD PTS125 Series 12mm Tact Switch with Pegs, https://www.ckswitches.com/media/1462/pts125.pdf
 Button Tactile Switch SPST 1P1T
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_Push_1P1T_NO_Vertical_Wuerth_434133025816
 https://katalog.we-online.com/em/datasheet/434133025816.pdf
 tactile switch Wurth Wuerth
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_Push_SPST_NO_Alps_SKRK
 http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html
 SMD SMT button
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_SP3T_PCM13
 Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
 
 0
 8
 4
-Button_Switch_SMD
+Button_SMD
 SW_SPDT_CK-JS102011SAQN
 Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf
 switch spdt
 0
 3
 3
-Button_Switch_SMD
+Button_SMD
 SW_SPDT_PCM12
 Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
 
 0
 7
 3
-Button_Switch_SMD
+Button_SMD
 SW_SPST_B3S-1000
 Surface Mount Tactile Switch for High-Density Packaging
 Tactile Switch
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_B3S-1100
 Surface Mount Tactile Switch for High-Density Packaging with Ground Terminal
 Tactile Switch
 0
 5
 3
-Button_Switch_SMD
+Button_SMD
 SW_SPST_B3SL-1002P
 Middle Stroke Tactile Switch, B3SL
 Middle Stroke Tactile Switch
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_B3SL-1022P
 Middle Stroke Tactile Switch, B3SL
 Middle Stroke Tactile Switch
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_B3U-1000P
 Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss
 Tactile Switch
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_B3U-1000P-B
 Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, with Boss
 Tactile Switch
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_B3U-1100P
 Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, with Ground Terminal, without Boss
 Tactile Switch
 0
 3
 3
-Button_Switch_SMD
+Button_SMD
 SW_SPST_B3U-1100P-B
 Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, with Ground Terminal, with Boss
 Tactile Switch
 0
 3
 3
-Button_Switch_SMD
+Button_SMD
 SW_SPST_B3U-3000P
 Ultra-small-sized Tactile Switch with High Contact Reliability, Side-actuated Model, without Ground Terminal, without Boss
 Tactile Switch
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_B3U-3000P-B
 Ultra-small-sized Tactile Switch with High Contact Reliability, Side-actuated Model, without Ground Terminal, with Boss
 Tactile Switch
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_B3U-3100P
 Ultra-small-sized Tactile Switch with High Contact Reliability, Side-actuated Model, with Ground Terminal, without Boss
 Tactile Switch
 0
 3
 3
-Button_Switch_SMD
+Button_SMD
 SW_SPST_B3U-3100P-B
 Ultra-small-sized Tactile Switch with High Contact Reliability, Side-actuated Model, with Ground Terminal, with Boss
 Tactile Switch
 0
 3
 3
-Button_Switch_SMD
+Button_SMD
 SW_SPST_CK_KXT3
 https://www.ckswitches.com/media/1465/kxt3.pdf
 Switch SPST KXT3
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_CK_RS282G05A3
 https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf
 SPST button tactile switch
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_EVPBF
 Light Touch Switch
 
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_EVQP0
 Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf
 
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_EVQP2
 Light Touch Switch
 
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_EVQP7A
 Light Touch Switch,https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE20.pdf
 
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_EVQP7C
 Light Touch Switch
 
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_EVQPE1
 Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE7.pdf
 
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_EVQQ2
 Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf
 
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_FSMSM
 http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English
 SPST button tactile switch
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_PTS645
 C&K Components SPST SMD PTS645 Series 6mm Tact Switch
 SPST Button Switch
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_PTS810
 C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf
 SPST Button Switch
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_Panasonic_EVQPL_3PL_5PL_PT_A08
 Light Touch Switch, http://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE3.pdf
 SMD SMT SPST EVQPL EVQPT
 0
 6
 3
-Button_Switch_SMD
+Button_SMD
 SW_SPST_Panasonic_EVQPL_3PL_5PL_PT_A15
 Light Touch Switch, http://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE3.pdf
 SMD SMT SPST EVQPL EVQPT
 0
 6
 3
-Button_Switch_SMD
+Button_SMD
 SW_SPST_REED_CT05-XXXX-G1
 Coto Technologies SPST Reed Switch CT05-XXXX-G1
 Coto Reed SPST Switch
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_REED_CT05-XXXX-J1
 Coto Technologies SPST Reed Switch CT05-XXXX-J1
 Coto Reed SPST Switch
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_REED_CT10-XXXX-G1
 Coto Technologies SPST Reed Switch CT10-XXXX-G1
 Coto Reed SPST Switch
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_REED_CT10-XXXX-G2
 Coto Technologies SPST Reed Switch CT10-XXXX-G2
 Coto Reed SPST Switch
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_REED_CT10-XXXX-G4
 Coto Technologies SPST Reed Switch CT10-XXXX-G4
 Coto Reed SPST Switch
 0
 2
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_SKQG_WithStem
 ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, With stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAFE010.html
 SPST Button Switch
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_SKQG_WithoutStem
 ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, Without stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAEE010.html
 SPST Button Switch
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_TL3305A
 https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf
 TL3305 Series Tact Switch
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_TL3305B
 https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf
 TL3305 Series Tact Switch
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_TL3305C
 https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf
 TL3305 Series Tact Switch
 0
 4
 2
-Button_Switch_SMD
+Button_SMD
 SW_SPST_TL3342
 Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
 SPST Tactile Switch
@@ -42790,6 +42412,69 @@ connector
 0
 4
 4
+Connector_Wuerth
+Wuerth_WR-WTB_64800211622_1x02_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800211622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+2
+2
+Connector_Wuerth
+Wuerth_WR-WTB_64800311622_1x03_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800311622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+3
+3
+Connector_Wuerth
+Wuerth_WR-WTB_64800411622_1x04_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800411622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+4
+4
+Connector_Wuerth
+Wuerth_WR-WTB_64800511622_1x05_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800511622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+5
+5
+Connector_Wuerth
+Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800611622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+6
+6
+Connector_Wuerth
+Wuerth_WR-WTB_64800711622_1x07_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800711622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+7
+7
+Connector_Wuerth
+Wuerth_WR-WTB_64800811622_1x08_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800811622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+8
+8
+Connector_Wuerth
+Wuerth_WR-WTB_64800911622_1x09_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64800911622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+9
+9
+Connector_Wuerth
+Wuerth_WR-WTB_64801011622_1x10_P1.50mm_Vertical
+Wuerth WR-WTB series connector, 64801011622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
+connector Wuerth WR-WTB vertical
+0
+10
+10
 Converter_ACDC
 Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical
 ACDC-Converter, 3W, CUI PBO-3, THT https://www.cui.com/product/resource/pbo-3.pdf
@@ -47284,6 +46969,377 @@ heatsink
 0
 2
 1
+Housings_QFP
+HTQFP-64-1EP_10x10mm_Pitch0.5mm_ThermalPad
+64-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1 mm Body, 2.00 mm Footprint [HTQFP] thermal pad
+HTQFP-64 Pitch 0.5 
+0
+130
+65
+Housings_QFP
+LQFP-32-1EP_5x5mm_Pitch0.5mm
+LQFP32: plastic low profile quad flat package; 32 leads; body 5 x 5 x 1.4 mm (see NXP sot401-1_fr.pdf and sot401-1_po.pdf)
+QFP 0.5
+0
+36
+33
+Housings_QFP
+LQFP-32_5x5mm_Pitch0.5mm
+LQFP32: plastic low profile quad flat package; 32 leads; body 5 x 5 x 1.4 mm (see NXP sot401-1_fr.pdf and sot401-1_po.pdf)
+QFP 0.5
+0
+32
+32
+Housings_QFP
+LQFP-32_7x7mm_Pitch0.8mm
+LQFP32: plastic low profile quad flat package; 32 leads; body 7 x 7 x 1.4 mm (see NXP sot358-1_po.pdf and sot358-1_fr.pdf)
+QFP 0.8
+0
+32
+32
+Housings_QFP
+LQFP-36_7x7mm_Pitch0.65mm
+LQFP36 7x7 / QFP36 CASE 561AV (see ON Semiconductor 561AV.PDF)
+QFP 0.65
+0
+36
+36
+Housings_QFP
+LQFP-44_10x10mm_Pitch0.8mm
+LQFP44 (see Appnote_PCB_Guidelines_TRINAMIC_packages.pdf)
+QFP 0.8
+0
+44
+44
+Housings_QFP
+LQFP-48_7x7mm_Pitch0.5mm
+48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)
+QFP 0.5
+0
+48
+48
+Housings_QFP
+LQFP-52-1EP_10x10mm_Pitch0.65mm
+LQFP 52 CASE 848H−01 (see ON Semiconductor 848H-01.PDF)
+QFP 0.65
+0
+68
+53
+Housings_QFP
+LQFP-52_10x10mm_Pitch0.65mm
+144/52/64 LEAD LQFP 10x10 mm (see MICREL LQFP10x10-445264LD-PL-1.pdf)
+QFP 0.65
+0
+52
+52
+Housings_QFP
+LQFP-64-1EP_10x10mm_Pitch0.5mm
+64 LEAD LQFP 10x10mm (see MICREL LQFP10x10-64LD-PL-1.pdf and http://www.nxp.com/files/shared/doc/package_info/98ARH98426A.pdf for EP)
+QFP 0.5
+0
+89
+65
+Housings_QFP
+LQFP-64_7x7mm_Pitch0.4mm
+LQFP64: plastic low profile quad flat package; 64 leads; body 7 x 7 x 1.4 mm(see NXP sot414-1_po.pdf and sot414-1_fr.pdf)
+QFP 0.4
+0
+64
+64
+Housings_QFP
+LQFP-64_10x10mm_Pitch0.5mm
+64 LEAD LQFP 10x10mm (see MICREL LQFP10x10-64LD-PL-1.pdf)
+QFP 0.5
+0
+64
+64
+Housings_QFP
+LQFP-64_14x14mm_Pitch0.8mm
+LQFP64: plastic low profile quad flat package; 64 leads; body 14 x 14 x 1.4 mm(see NXP sot791-1_po.pdf and sot791-1_fr.pdf)
+QFP 0.8
+0
+64
+64
+Housings_QFP
+LQFP-80_10x10mm_Pitch0.4mm
+LQFP80: plastic low profile quad flat package; 80 leads; body 10 x 10  mm (see Intersil q80.10x10.pdf and wiznet W5100_Datasheet_v1.2.7.pdf)
+QFP 0.4
+0
+80
+80
+Housings_QFP
+LQFP-80_12x12mm_Pitch0.5mm
+LQFP80: plastic low profile quad flat package; 80 leads; body 12 x 12 x 1.4 mm (see NXP sot315-1_po.pdf and sot315-1_fr.pdf)
+QFP 0.5
+0
+80
+80
+Housings_QFP
+LQFP-80_14x14mm_Pitch0.65mm
+80-Lead Quad Flatpack, 14x14x1.6mm Body (http://www.analog.com/media/en/technical-documentation/data-sheets/AD9852.pdf)
+QFP 0.65
+0
+80
+80
+Housings_QFP
+LQFP-100_14x14mm_Pitch0.5mm
+LQFP100: plastic low profile quad flat package; 100 leads; body 14 x 14 x 1.4 mm (see NXP sot407-1_po.pdf and sot407-1_fr.pdf)
+QFP 0.5
+0
+100
+100
+Housings_QFP
+LQFP-128_14x14mm_Pitch0.4mm
+128 Lead LQFP 14x14 mm (see MICREL LQFP14x14-128LD-PL-1.pdf)
+QFP 0.4
+0
+128
+128
+Housings_QFP
+LQFP-128_14x20mm_Pitch0.5mm
+LQFP128: plastic low profile quad flat package; 128 leads; body 14 x 20 x 1.4 mm (see NXP sot425-1_po.pdf and sot425-1_fr.pdf)
+QFP 0.5
+0
+128
+128
+Housings_QFP
+LQFP-144_20x20mm_Pitch0.5mm
+144-Lead Plastic Low Profile Quad Flatpack (PL) - 20x20x1.40 mm Body [LQFP], 2.00 mm Footprint (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.5
+0
+144
+144
+Housings_QFP
+LQFP-160_24x24mm_Pitch0.5mm
+LQFP160: plastic low profile quad flat package; 160 leads; body 24 x 24 x 1.4 mm (see NXP HTQFP-HLQFP-LQFP-REFLOW.pdf and sot435-1_po.pdf)
+QFP 0.5
+0
+160
+160
+Housings_QFP
+LQFP-176_20x20mm_Pitch0.4mm
+LQFP 176 / LQFP176 CASE 566DB (see ON Semiconductor 566DB.PDF)
+QFP 0.4
+0
+176
+176
+Housings_QFP
+LQFP-176_24x24mm_Pitch0.5mm
+LQFP176 24x24 CASE 561BD (see ON Semiconductor 561BD.PDF)
+QFP 0.5
+0
+176
+176
+Housings_QFP
+LQFP-208_28x28mm_Pitch0.5mm
+LQFP208; plastic low profile quad flat package; 208 leads; body 28 x 28 x 1.4 mm (see NXP sot459-1_po.pdf and sot459-1_fr.pdf)
+QFP 0.5
+0
+208
+208
+Housings_QFP
+LQFP-216_24x24mm_Pitch0.4mm
+LQFP216 24x24 CASE 561BE (see ON Semiconductor 561BE.PDF)
+QFP 0.4
+0
+216
+216
+Housings_QFP
+PQFP-44_10x10mm_Pitch0.8mm
+44-Lead Plastic Quad Flatpack - 10x10x2.5mm Body (http://www.onsemi.com/pub/Collateral/122BK.PDF)
+PQFP 0.8
+0
+44
+44
+Housings_QFP
+PQFP-80_14x20mm_Pitch0.8mm
+PQFP80 14x20 / QIP80E CASE 122BS (see ON Semiconductor 122BS.PDF)
+QFP 0.8
+0
+80
+80
+Housings_QFP
+PQFP-100_14x20mm_Pitch0.65mm
+PQFP100 14x20 / QIP100E CASE 122BV (see ON Semiconductor 122BV.PDF)
+QFP 0.65
+0
+100
+100
+Housings_QFP
+PQFP-112_20x20mm_Pitch0.65mm
+PQFP, 112 pins, 20mm sq body, 0.65mm pitch (http://cache.freescale.com/files/shared/doc/package_info/98ASS23330W.pdf, http://www.nxp.com/docs/en/application-note/AN4388.pdf)
+PQFP 112
+0
+112
+112
+Housings_QFP
+PQFP-132_24x24mm_Pitch0.635mm
+PQFP, 132 pins, 24mm sq body, 0.635mm pitch (https://www.intel.com/content/dam/www/public/us/en/documents/packaging-databooks/packaging-chapter-02-databook.pdf, http://www.nxp.com/docs/en/application-note/AN4388.pdf)
+PQFP 132
+0
+132
+132
+Housings_QFP
+PQFP-132_24x24mm_Pitch0.635mm_i386
+PQFP, 132 pins, 24mm sq body, 0.635mm pitch, Intel 386EX (https://www.intel.com/content/dam/www/public/us/en/documents/packaging-databooks/packaging-chapter-02-databook.pdf, http://www.nxp.com/docs/en/application-note/AN4388.pdf)
+PQFP 132 Intel 386EX
+0
+132
+132
+Housings_QFP
+PQFP-160_28x28mm_Pitch0.65mm
+PQFP, 160 pins, 28mm sq body, 0.65mm pitch (https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/ds/pkgds.pdf, http://www.nxp.com/docs/en/application-note/AN4388.pdf)
+PQFP 160
+0
+160
+160
+Housings_QFP
+PQFP-208_28x28mm_Pitch0.5mm
+PQFP, 208 pins, 28mm sq body, 0.5mm pitch (https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/ds/pkgds.pdf, http://www.nxp.com/docs/en/application-note/AN4388.pdf)
+PQFP 208
+0
+208
+208
+Housings_QFP
+PQFP-256_28x28mm_Pitch0.4mm
+PQFP256 28x28 / QFP256J CASE 122BX (see ON Semiconductor 122BX.PDF)
+QFP 0.4
+0
+256
+256
+Housings_QFP
+TQFP-32_7x7mm_Pitch0.8mm
+32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+32
+32
+Housings_QFP
+TQFP-44-1EP_10x10mm_Pitch0.8mm
+44-Lead Plastic Thin Quad Flatpack (MW) - 10x10x1.0 mm Body [TQFP] With 4.5x4.5 mm Exposed Pad (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+60
+45
+Housings_QFP
+TQFP-44_10x10mm_Pitch0.8mm
+44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+44
+44
+Housings_QFP
+TQFP-48-1EP_7x7mm_Pitch0.5mm
+48-Lead Thin Quad Flatpack (PT) - 7x7x1.0 mm Body [TQFP] With Exposed Pad (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.5
+0
+52
+49
+Housings_QFP
+TQFP-48_7x7mm_Pitch0.5mm
+48 LEAD TQFP 7x7mm (see MICREL TQFP7x7-48LD-PL-1.pdf)
+QFP 0.5
+0
+48
+48
+Housings_QFP
+TQFP-64-1EP_10x10mm_Pitch0.5mm
+64-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1 mm Body, 2.00 mm Footprint [TQFP] thermal pad
+QFP 0.5 
+0
+65
+65
+Housings_QFP
+TQFP-64_7x7mm_Pitch0.4mm
+TQFP64 7x7, 0.4P CASE 932BH (see ON Semiconductor 932BH.PDF)
+QFP 0.4
+0
+64
+64
+Housings_QFP
+TQFP-64_10x10mm_Pitch0.5mm
+64-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1 mm Body, 2.00 mm Footprint [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.5
+0
+64
+64
+Housings_QFP
+TQFP-64_14x14mm_Pitch0.8mm
+64-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+64
+64
+Housings_QFP
+TQFP-80-1EP_14x14mm_Pitch0.65mm
+80-Lead Plastic Thin Quad Flatpack (PF) - 14x14mm body, 9.5mm sq thermal pad (http://www.analog.com/media/en/technical-documentation/data-sheets/AD9852.pdf)
+QFP 0.65
+0
+85
+81
+Housings_QFP
+TQFP-80_12x12mm_Pitch0.5mm
+80-Lead Plastic Thin Quad Flatpack (PT) - 12x12x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.5
+0
+80
+80
+Housings_QFP
+TQFP-80_14x14mm_Pitch0.65mm
+80-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.65
+0
+80
+80
+Housings_QFP
+TQFP-100-1EP_14x14mm_Pitch0.5mm
+100-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body 2.00 mm Footprint with Exposed Pad [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.5
+0
+117
+101
+Housings_QFP
+TQFP-100_12x12mm_Pitch0.4mm
+100-Lead Plastic Thin Quad Flatpack (PT) - 12x12x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.4
+0
+100
+100
+Housings_QFP
+TQFP-100_14x14mm_Pitch0.5mm
+100-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body 2.00 mm Footprint [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.5
+0
+100
+100
+Housings_QFP
+TQFP-120_14x14mm_Pitch0.4mm
+TQFP120 14x14 / TQFP120 CASE 932AZ (see ON Semiconductor 932AZ.PDF)
+QFP 0.4
+0
+120
+120
+Housings_QFP
+TQFP-128_14x14mm_Pitch0.4mm
+TQFP128 14x14 / TQFP128 CASE 932BB (see ON Semiconductor 932BB.PDF)
+QFP 0.4
+0
+128
+128
+Housings_QFP
+TQFP-144_16x16mm_Pitch0.4mm
+144-Lead Plastic Thin Quad Flatpack (PH) - 16x16x1 mm Body, 2.00 mm Footprint [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.4
+0
+144
+144
+Housings_QFP
+TQFP-144_20x20mm_Pitch0.5mm
+P/PG-TQFP-144-2, -3, -7 (see MAXIM 21-0087.PDF and 90-0144.PDF)
+QFP 0.5
+0
+144
+144
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -51701,6 +51757,20 @@ Yellow 5381 Series LED
 0
 2
 2
+Misc_George
+74hc595
+Module CMS SOJ 16 pins etroit
+CMS SOJ
+0
+16
+16
+Misc_George
+SO16_Footprint
+
+
+0
+16
+16
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -75585,3 +75655,395 @@ varistor SIOV
 0
 2
 2
+aero_footprint
+87583-2010BLF
+USB - A USB 2.0 Receptacle Connector 4 Position 
+
+0
+6
+5
+aero_footprint
+AERO_Logo_10x4mm
+
+
+0
+0
+0
+aero_footprint
+AERO_Logo_15x6mm
+
+
+0
+0
+0
+aero_footprint
+AERO_Logo_20x8mm
+
+
+0
+0
+0
+aero_footprint
+AERO_Logo_25x10mm
+
+
+0
+0
+0
+aero_footprint
+AERO_Logo_30x12mm
+
+
+0
+0
+0
+aero_footprint
+AERO_Logo_35x14mm
+
+
+0
+0
+0
+aero_footprint
+AERO_Logo_40x16mm
+
+
+0
+0
+0
+aero_footprint
+AERO_Logo_45x18mm
+
+
+0
+0
+0
+aero_footprint
+AERO_Logo_50x20mm
+
+
+0
+0
+0
+aero_footprint
+AMPSEAL 776266-1 14-PIN
+
+
+0
+14
+14
+aero_footprint
+Bell_0ADKP1000-RE
+
+
+0
+2
+2
+aero_footprint
+DCM4623TD2J13D0T70
+
+
+0
+9
+9
+aero_footprint
+DCM4623TD2J13D0T70_w_landpattern
+
+
+0
+15
+9
+aero_footprint
+DCM4623TD2J13D0T70_w_landpattern-SP3
+
+
+0
+15
+9
+aero_footprint
+DIP1549W45P254L3404H940Q24
+
+
+0
+24
+24
+aero_footprint
+DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm
+9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 9.9mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 11.32mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 9.9mm mounting-holes-distance 25mm mounting-hole-offset 25mm
+0
+11
+10
+aero_footprint
+DSUB-15-HD_Female_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm
+15-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.29x1.98mm, pin-PCB-offset 8.35mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 10.889999999999999mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+15-pin D-Sub connector horizontal angled 90deg THT female pitch 2.29x1.98mm pin-PCB-offset 8.35mm mounting-holes-distance 25mm mounting-hole-offset 25mm
+0
+17
+16
+aero_footprint
+DSUB-15-HD_Female_Vertical_P2.29x1.98mm_MountingHoles
+15-pin D-Sub connector, straight/vertical, THT-mount, female, pitch 2.29x1.98mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+15-pin D-Sub connector straight vertical THT female pitch 2.29x1.98mm mounting holes distance 25mm
+0
+17
+16
+aero_footprint
+EPM1510SJ
+
+
+0
+10
+10
+aero_footprint
+Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open_3d
+http://www.schurter.com/var/schurter/storage/ilcatalogue/files/document/datasheet/en/pdf/typ_OGN.pdf
+Fuseholder horizontal open 5x20 Schurter 0031.8201
+0
+2
+2
+aero_footprint
+G2RL
+
+
+0
+5
+5
+aero_footprint
+KEYSTONE_AA_2460
+
+
+0
+2
+0
+aero_footprint
+LDB-_L
+
+
+0
+9
+9
+aero_footprint
+LPA-C011301S-x LED 0805 LIGHT PIPE SINGLE VERT SMD
+
+
+0
+2
+2
+aero_footprint
+Murata_DFE252012P_Inductor
+
+
+0
+2
+2
+aero_footprint
+PA2607
+
+
+0
+2
+2
+aero_footprint
+QFP40P900X900X120-65N
+
+
+0
+65
+65
+aero_footprint
+RJ45_Amphenol_54602-x08_Horizontal
+8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)
+RJ45
+0
+8
+8
+aero_footprint
+TC33X-503ECT-ND
+
+
+0
+3
+3
+aero_footprint
+TE-2199119-M2-B-KEY
+
+
+0
+70
+67
+aero_footprint
+TE_1-770669-1_23pin_Horizontal
+
+
+0
+23
+23
+aero_footprint
+TE_1-776087-1
+
+
+0
+23
+23
+aero_footprint
+TE_1-776163-1_35pin_Horizontal
+
+
+0
+35
+35
+aero_footprint
+TE_1-776200-1_23pin_Vertical
+
+
+0
+23
+23
+aero_footprint
+TE_1-776231-1_35pin_Vertical
+
+
+0
+35
+35
+aero_footprint
+TE_1-776262-1_14pin_Vertical
+
+
+0
+14
+14
+aero_footprint
+TE_1-776266-1_14pin_Horizontal
+
+
+0
+14
+14
+aero_footprint
+TE_1-776276-1_8pin_Vertical
+
+
+0
+8
+8
+aero_footprint
+TE_1-776280-1_8pin_Horizontal
+
+
+0
+8
+8
+aero_footprint
+TE_4-2172079-2
+
+
+0
+6
+6
+aero_footprint
+TE_1217861-1
+
+
+0
+2
+1
+aero_footprint
+TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770866-x, 2 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+2
+2
+aero_footprint
+TE_MATE-N-LOK_1-770870-x_1x03_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770870-x, 3 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+3
+3
+aero_footprint
+TLP182
+
+
+0
+4
+4
+aero_footprint
+TUSB4020BIPHPR
+
+
+0
+49
+49
+aero_footprint
+USB_B_OST_USB-B1HSxx_Horizontal
+USB B receptacle, Horizontal, through-hole, http://www.on-shore.com/wp-content/uploads/2015/09/usb-b1hsxx.pdf
+USB-B receptacle horizontal through-hole
+0
+6
+5
+aero_footprint
+hvlightningsymbol
+
+
+0
+0
+0
+aero_footprint
+luxeon-pm01
+
+
+0
+3
+3
+aero_footprint
+pacman-logo-silkscreen
+
+
+0
+0
+0
+aero_footprint
+try2
+
+
+0
+0
+0
+aero_footprint
+try3
+
+
+0
+0
+0
+aero_footprint
+try4
+
+
+0
+0
+0
+aero_footprint
+try5
+
+
+0
+0
+0
+aero_footprint
+vicor-socket
+
+
+0
+39
+7
+aero_footprint
+vicor-socket-no-cutouts
+
+
+0
+39
+7
