@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for 60V_Ind
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -196,255 +196,63 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind-BoardEdgeRout.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind-NonPlated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind-NonPlated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument4]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind-Plated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument5]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind-Plated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument6]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.DRL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument8]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument9]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument10]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument16]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GM5
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GM20
-DItemRevisionGUID=
-
-[GeneratedDocument18]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument22]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument23]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument24]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.REP
-DItemRevisionGUID=
-
-[GeneratedDocument25]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.REP
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for 60V_Ind\ExportSTEP\60V_Ind.step
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for 60V_Ind\ExportSTEP\60V_Ind.x_t
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Keep-out.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_3.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_4.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_5.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_6.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_7.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_8.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_9.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_10.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_11.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_12.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_13.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_15.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Mechanical_16.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument50]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Pads_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument51]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Pads_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument52]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument53]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument54]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument55]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument56]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\60V_Ind_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument57]
-DocumentPath=Project Outputs for 60V_Ind\BOM\Bill of Materials-60V_Ind.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument58]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\Bill of Materials-60V_Ind.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument59]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\Fabrication Testpoint Report for 60V_Ind.ipc
-DItemRevisionGUID=
-
-[GeneratedDocument60]
-DocumentPath=Project Outputs for 60V_Ind\Manufacturing\Pick Place for 60V_Ind.txt
-DItemRevisionGUID=
-
-[GeneratedDocument61]
-DocumentPath=..\..\..\..\Users\ANDREW~1.KAT\AppData\Local\Temp\Pro5E11.xls
-DItemRevisionGUID=
-
-[GeneratedDocument62]
-DocumentPath=..\..\..\..\Users\ANDREW~1.KAT\AppData\Local\Temp\ProB022.xls
-DItemRevisionGUID=
-
-[GeneratedDocument63]
-DocumentPath=..\..\..\..\Users\ANDREW~1.KAT\AppData\Local\Temp\ProE293.xls
 DItemRevisionGUID=
 
 [Configuration1]
@@ -478,7 +286,7 @@ ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
 [Generic_EDE]
-OutputDir=Project Outputs for 60V_Ind
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1499,32 +1307,32 @@ ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=60V_Ind.SchLib
-ComponentDesignItemID1=LPA-C011301S-10
-ComponentSymbolReference1=LPA-C011301S-10
+ComponentDesignItemID1=C2012X7S2A105K125AB
+ComponentSymbolReference1=C2012X7S2A105K125AB
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=60V_Ind.SchLib
-ComponentDesignItemID2=LR8K4-G
-ComponentSymbolReference2=LR8K4-G
+ComponentDesignItemID2=KTR10EZPF40R2
+ComponentSymbolReference2=KTR10EZPF40R2
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=60V_Ind.SchLib
-ComponentDesignItemID3=SM0805HCL
-ComponentSymbolReference3=SM0805HCL
+ComponentDesignItemID3=LPA-C011301S-10
+ComponentSymbolReference3=LPA-C011301S-10
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=Passive Components.DbLib/Resistors
-ComponentDesignItemID4=RES 0805 40.2 1%
-ComponentSymbolReference4=res
+ComponentLibraryIdentifier4=60V_Ind.SchLib
+ComponentDesignItemID4=LR8K4-G
+ComponentSymbolReference4=LR8K4-G
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name Only
-ComponentLibraryIdentifier5=Altium Content Vault
-ComponentDesignItemID5=CMP-2000-05454-1
-ComponentSymbolReference5=CAP-NP-2
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=60V_Ind.SchLib
+ComponentDesignItemID5=SM0805HCL
+ComponentSymbolReference5=SM0805HCL
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 FullReplace=1
@@ -1546,200 +1354,189 @@ ParameterName1=Built_By
 ParameterUpdate1=1
 ParameterName2=Capacitance
 ParameterUpdate2=1
-ParameterName3=Catalog Drawings
+ParameterName3=Case Code (Imperial)
 ParameterUpdate3=1
-ParameterName4=Category
+ParameterName4=Case Code (Metric)
 ParameterUpdate4=1
-ParameterName5=Comment
+ParameterName5=Case/Package
 ParameterUpdate5=1
-ParameterName6=Component Kind
+ParameterName6=Catalog Drawings
 ParameterUpdate6=1
-ParameterName7=Copyright
+ParameterName7=Category
 ParameterUpdate7=1
-ParameterName8=Datasheet URL
+ParameterName8=Comment
 ParameterUpdate8=1
-ParameterName9=Datasheet Version
+ParameterName9=Component Kind
 ParameterUpdate9=1
-ParameterName10=Description
+ParameterName10=Composition
 ParameterUpdate10=1
-ParameterName11=Description in Visual
+ParameterName11=Copyright
 ParameterUpdate11=1
-ParameterName12=Family
+ParameterName12=Datasheet URL
 ParameterUpdate12=1
-ParameterName13=Featured Product
+ParameterName13=Datasheet Version
 ParameterUpdate13=1
-ParameterName14=Features
+ParameterName14=Description
 ParameterUpdate14=1
-ParameterName15=Height - Seated (Max)
+ParameterName15=Family
 ParameterUpdate15=1
-ParameterName16=Kits
+ParameterName16=Featured Product
 ParameterUpdate16=1
-ParameterName17=Lead Spacing
+ParameterName17=Features
 ParameterUpdate17=1
-ParameterName18=Lead Style
+ParameterName18=Height
 ParameterUpdate18=1
-ParameterName19=Library Reference
+ParameterName19=Height - Seated (Max)
 ParameterUpdate19=1
-ParameterName20=Manufacturer
+ParameterName20=Kits
 ParameterUpdate20=1
-ParameterName21=Manufacturer P/N
+ParameterName21=Lead Spacing
 ParameterUpdate21=1
-ParameterName22=Manufacturer URL
+ParameterName22=Lead Style
 ParameterUpdate22=1
-ParameterName23=Manufacturer_Part_Number
+ParameterName23=Length
 ParameterUpdate23=1
-ParameterName24=Mounting Type
+ParameterName24=Library Reference
 ParameterUpdate24=1
-ParameterName25=Online Catalog
+ParameterName25=Manufacturer
 ParameterUpdate25=1
-ParameterName26=Operating Temperature
+ParameterName26=Manufacturer 1
 ParameterUpdate26=1
-ParameterName27=Other Names
+ParameterName27=Manufacturer Part Number
 ParameterUpdate27=1
-ParameterName28=P/N
+ParameterName28=Manufacturer Part Number 1
 ParameterUpdate28=1
-ParameterName29=Package / Case
+ParameterName29=Manufacturer URL
 ParameterUpdate29=1
-ParameterName30=Package Description
+ParameterName30=Manufacturer_Part_Number
 ParameterUpdate30=1
-ParameterName31=Package Reference
+ParameterName31=Max Operating Temperature
 ParameterUpdate31=1
-ParameterName32=Packaging
+ParameterName32=Max Power Dissipation
 ParameterUpdate32=1
-ParameterName33=PCB Package
+ParameterName33=Min Operating Temperature
 ParameterUpdate33=1
-ParameterName34=PCN Part Number
+ParameterName34=Mounting Type
 ParameterUpdate34=1
-ParameterName35=Power_Rating
+ParameterName35=Number of Terminations
 ParameterUpdate35=1
-ParameterName36=Product Training Modules
+ParameterName36=Online Catalog
 ParameterUpdate36=1
-ParameterName37=Ratings
+ParameterName37=Operating Temperature
 ParameterUpdate37=1
-ParameterName38=RefDes
+ParameterName38=Other Names
 ParameterUpdate38=1
-ParameterName39=RoHS Information
+ParameterName39=Package / Case
 ParameterUpdate39=1
-ParameterName40=Series
+ParameterName40=Package Description
 ParameterUpdate40=1
-ParameterName41=Size / Dimension
+ParameterName41=Package Quantity
 ParameterUpdate41=1
-ParameterName42=Standard Package
+ParameterName42=Package Reference
 ParameterUpdate42=1
-ParameterName43=Supplier 1
+ParameterName43=Packaging
 ParameterUpdate43=1
-ParameterName44=Supplier Part Number 1
+ParameterName44=PCN Part Number
 ParameterUpdate44=1
-ParameterName45=Temperature Coefficient
+ParameterName45=Product Training Modules
 ParameterUpdate45=1
-ParameterName46=Thickness (Max)
+ParameterName46=Ratings
 ParameterUpdate46=1
-ParameterName47=Tol
+ParameterName47=RefDes
 ParameterUpdate47=1
-ParameterName48=Tolerance
+ParameterName48=Resistance
 ParameterUpdate48=1
-ParameterName49=Type
+ParameterName49=RoHS Information
 ParameterUpdate49=1
-ParameterName50=Val
+ParameterName50=Series
 ParameterUpdate50=1
-ParameterName51=Value
+ParameterName51=Size / Dimension
 ParameterUpdate51=1
-ParameterName52=Vendor
+ParameterName52=Standard Package
 ParameterUpdate52=1
-ParameterName53=Voltage - Rated
+ParameterName53=Supplier 1
 ParameterUpdate53=1
+ParameterName54=Supplier 2
+ParameterUpdate54=1
+ParameterName55=Supplier Part Number 1
+ParameterUpdate55=1
+ParameterName56=Supplier Part Number 2
+ParameterUpdate56=1
+ParameterName57=Temperature Coefficient
+ParameterUpdate57=1
+ParameterName58=Thickness (Max)
+ParameterUpdate58=1
+ParameterName59=Tolerance
+ParameterUpdate59=1
+ParameterName60=Type
+ParameterUpdate60=1
+ParameterName61=Value
+ParameterUpdate61=1
+ParameterName62=Vendor
+ParameterUpdate62=1
+ParameterName63=Voltage - Rated
+ParameterUpdate63=1
+ParameterName64=Width
+ParameterUpdate64=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=0805_RES
+ModelName0=CAPC2013X145X20ML20
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=CAPC2013X145X20LL20
+ModelName1=CON2_1X2_P163_VM
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=CAPC2013X145X20ML20
+ModelName2=LEDC2012X135N_SM0805UGC(Primary)
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=CAPC2013X145X20NL20
+ModelName3=LPA-C011301S-10
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=CON2_1X2_P163_VM
+ModelName4=Microchip_C04-189_MFG
 ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=LEDC2012X135N_SM0805UGC(Primary)
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=LPA-C011301S-10
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=Microchip_C04-189_MFG
-ModelUpdate7=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-ComponentLibIdentifierKind0=Any
-ComponentLibraryIdentifier0=
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=60V_Ind.SchLib
 ComponentDesignItemID0=1-770872-0
 ComponentSymbolReference0=1-770872-0
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Any
-ComponentLibraryIdentifier1=
-ComponentDesignItemID1=LPA-C011301S-10
-ComponentSymbolReference1=LPA-C011301S-10
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=60V_Ind.SchLib
+ComponentDesignItemID1=C2012X7S2A105K125AB
+ComponentSymbolReference1=C2012X7S2A105K125AB
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Any
-ComponentLibraryIdentifier2=
-ComponentDesignItemID2=LR8K4-G
-ComponentSymbolReference2=LR8K4-G
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=60V_Ind.SchLib
+ComponentDesignItemID2=KTR10EZPF40R2
+ComponentSymbolReference2=KTR10EZPF40R2
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Any
-ComponentLibraryIdentifier3=
-ComponentDesignItemID3=SM0805HCL
-ComponentSymbolReference3=SM0805HCL
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=60V_Ind.SchLib
+ComponentDesignItemID3=LPA-C011301S-10
+ComponentSymbolReference3=LPA-C011301S-10
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
 ComponentLibraryIdentifier4=60V_Ind.SchLib
-ComponentDesignItemID4=1-770872-0
-ComponentSymbolReference4=1-770872-0
+ComponentDesignItemID4=LR8K4-G
+ComponentSymbolReference4=LR8K4-G
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=60V_Ind.SchLib
-ComponentDesignItemID5=LPA-C011301S-10
-ComponentSymbolReference5=LPA-C011301S-10
+ComponentDesignItemID5=SM0805HCL
+ComponentSymbolReference5=SM0805HCL
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=60V_Ind.SchLib
-ComponentDesignItemID6=LR8K4-G
-ComponentSymbolReference6=LR8K4-G
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=60V_Ind.SchLib
-ComponentDesignItemID7=SM0805HCL
-ComponentSymbolReference7=SM0805HCL
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=Passive Components.DbLib/Resistors
-ComponentDesignItemID8=RES 0805 40.2 1%
-ComponentSymbolReference8=res
-ComponentUpdate8=1
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Library Name Only
-ComponentLibraryIdentifier9=Altium Content Vault
-ComponentDesignItemID9=CMP-2000-05454-1
-ComponentSymbolReference9=CAP-NP-2
-ComponentUpdate9=1
-ComponentIsDeviceSheet9=0
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0

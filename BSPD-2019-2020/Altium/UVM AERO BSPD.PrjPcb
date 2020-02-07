@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for UVM AERO BSPD
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -94,40 +94,6 @@ GenerateClassCluster=1
 DocumentUniqueId=NNYWBMTN
 
 [Document4]
-DocumentPath=bspd parts.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=UYROSHQB
-
-[Document5]
-DocumentPath=bspd parts.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RFBGETRS
-
-[Document6]
 DocumentPath=LatchDelay.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -144,7 +110,7 @@ DItemRevisionGUID=
 GenerateClassCluster=1
 DocumentUniqueId=JOZOOTVL
 
-[Document7]
+[Document5]
 DocumentPath=UVM AERO BSPD.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -161,7 +127,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QLXWVEDS
 
-[Document8]
+[Document6]
 DocumentPath=UVM AERO BSPD.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -178,24 +144,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
-DocumentPath=Manufacturing and BOM.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document10]
+[Document7]
 DocumentPath=Relay.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -212,7 +161,7 @@ DItemRevisionGUID=
 GenerateClassCluster=1
 DocumentUniqueId=XCSUMPTQ
 
-[Document11]
+[Document8]
 DocumentPath=UVM AERO BSPD Assembly.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -229,7 +178,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document9]
 DocumentPath=UVM AERO BSPD.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -246,7 +195,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document10]
 DocumentPath=IO and Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -263,7 +212,7 @@ DItemRevisionGUID=
 GenerateClassCluster=1
 DocumentUniqueId=EHNFIEUQ
 
-[Document14]
+[Document11]
 DocumentPath=Current Scaler.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -280,8 +229,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IHLLJMZG
 
-[Document15]
-DocumentPath=JLCPCB Outputs.OutJob
+[Document12]
+DocumentPath=bspd parts.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RFBGETRS
+
+[Document13]
+DocumentPath=bspd parts.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UYROSHQB
+
+[Document14]
+DocumentPath=UVM AERO BSPD.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -388,442 +371,374 @@ DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD-NonPlated.TX
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\NC Drill\UVM AERO BSPD-NonPlated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument16]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD-NonPlated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD-NonPlated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD-Plated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument19]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\NC Drill\UVM AERO BSPD-Plated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument20]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD-Plated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD-Plated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.DRL
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument24]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\NC Drill\UVM AERO BSPD.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument25]
+[GeneratedDocument22]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument23]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument24]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument28]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\Gerber\UVM AERO BSPD.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument29]
+[GeneratedDocument25]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument30]
+[GeneratedDocument26]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument31]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\Gerber\UVM AERO BSPD.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument32]
+[GeneratedDocument27]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument33]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\Gerber\UVM AERO BSPD.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument34]
+[GeneratedDocument28]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument35]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\Gerber\UVM AERO BSPD.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument36]
+[GeneratedDocument29]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument37]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\Gerber\UVM AERO BSPD.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument38]
+[GeneratedDocument30]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument39]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\Gerber\UVM AERO BSPD.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument40]
+[GeneratedDocument31]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument41]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\Gerber\UVM AERO BSPD.GM20
-DItemRevisionGUID=
-
-[GeneratedDocument42]
+[GeneratedDocument32]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.GM20
 DItemRevisionGUID=
 
-[GeneratedDocument43]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\Gerber\UVM AERO BSPD.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument44]
+[GeneratedDocument33]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument45]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\Gerber\UVM AERO BSPD.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument46]
+[GeneratedDocument34]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument47]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\Gerber\UVM AERO BSPD.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument48]
+[GeneratedDocument35]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument49]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\Gerber\UVM AERO BSPD.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument50]
+[GeneratedDocument36]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument51]
+[GeneratedDocument37]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument52]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\NC Drill\UVM AERO BSPD.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument53]
+[GeneratedDocument38]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument54]
+[GeneratedDocument39]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument55]
+[GeneratedDocument40]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.REP
 DItemRevisionGUID=
 
-[GeneratedDocument56]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\Gerber\UVM AERO BSPD.REP
-DItemRevisionGUID=
-
-[GeneratedDocument57]
+[GeneratedDocument41]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD.REP
 DItemRevisionGUID=
 
-[GeneratedDocument58]
+[GeneratedDocument42]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.REP
 DItemRevisionGUID=
 
-[GeneratedDocument59]
+[GeneratedDocument43]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument60]
-DocumentPath=Project Outputs for UVM AERO BSPD\JLCPCB Files\Gerber\UVM AERO BSPD.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument61]
+[GeneratedDocument44]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument62]
+[GeneratedDocument45]
 DocumentPath=Project Outputs for UVM AERO BSPD\UVM AERO BSPD - JLCPCB Files\UVM AERO BSPD.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument63]
+[GeneratedDocument46]
 DocumentPath=Project Outputs for UVM AERO BSPD\ExportSTEP\UVM AERO BSPD.step
 DItemRevisionGUID=
 
-[GeneratedDocument64]
+[GeneratedDocument47]
 DocumentPath=Project Outputs for UVM AERO BSPD\ExportSTEP\UVM AERO BSPD.x_t
 DItemRevisionGUID=
 
-[GeneratedDocument65]
+[GeneratedDocument48]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument66]
+[GeneratedDocument49]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument67]
+[GeneratedDocument50]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument68]
+[GeneratedDocument51]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument69]
+[GeneratedDocument52]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Keep-out.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument70]
+[GeneratedDocument53]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Keep-out.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument71]
+[GeneratedDocument54]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Legend_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument72]
+[GeneratedDocument55]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Legend_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument73]
+[GeneratedDocument56]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Legend_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument74]
+[GeneratedDocument57]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Legend_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument75]
+[GeneratedDocument58]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument76]
+[GeneratedDocument59]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument77]
+[GeneratedDocument60]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_2.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument78]
+[GeneratedDocument61]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_2.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument79]
+[GeneratedDocument62]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_3.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument80]
+[GeneratedDocument63]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_3.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument81]
+[GeneratedDocument64]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_4.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument82]
+[GeneratedDocument65]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_4.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument83]
+[GeneratedDocument66]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_5.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument84]
+[GeneratedDocument67]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_5.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument85]
+[GeneratedDocument68]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_6.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument86]
+[GeneratedDocument69]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_6.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument87]
+[GeneratedDocument70]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_7.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument88]
+[GeneratedDocument71]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_7.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument89]
+[GeneratedDocument72]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_8.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument90]
+[GeneratedDocument73]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_8.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument91]
+[GeneratedDocument74]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_9.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument92]
+[GeneratedDocument75]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_9.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument93]
+[GeneratedDocument76]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_10.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument94]
+[GeneratedDocument77]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_10.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument95]
+[GeneratedDocument78]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_11.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument96]
+[GeneratedDocument79]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_11.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument97]
+[GeneratedDocument80]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_12.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument98]
+[GeneratedDocument81]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_12.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument99]
+[GeneratedDocument82]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_13.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument100]
+[GeneratedDocument83]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_13.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument101]
+[GeneratedDocument84]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_14.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument102]
+[GeneratedDocument85]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_14.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument103]
+[GeneratedDocument86]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_15.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument104]
+[GeneratedDocument87]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_15.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument105]
+[GeneratedDocument88]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_16.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument106]
+[GeneratedDocument89]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_16.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument107]
+[GeneratedDocument90]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_17.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument108]
+[GeneratedDocument91]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_17.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument109]
+[GeneratedDocument92]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Mechanical_20.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument110]
+[GeneratedDocument93]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Mechanical_20.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument111]
+[GeneratedDocument94]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Pads_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument112]
+[GeneratedDocument95]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Pads_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument113]
+[GeneratedDocument96]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Pads_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument114]
+[GeneratedDocument97]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Pads_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument115]
+[GeneratedDocument98]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Paste_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument116]
+[GeneratedDocument99]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Paste_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument117]
+[GeneratedDocument100]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Paste_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument118]
+[GeneratedDocument101]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Paste_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument119]
+[GeneratedDocument102]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Profile.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument120]
+[GeneratedDocument103]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Profile.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument121]
+[GeneratedDocument104]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument122]
+[GeneratedDocument105]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument123]
+[GeneratedDocument106]
 DocumentPath=Project Outputs for UVM AERO BSPD\jlcpcb\UVM AERO BSPD_Soldermask_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument124]
+[GeneratedDocument107]
 DocumentPath=Project Outputs for UVM AERO BSPD\Manufacturing\UVM AERO BSPD_Soldermask_Top.gbr
 DItemRevisionGUID=
 
@@ -934,7 +849,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for UVM AERO BSPD
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1233,7 +1148,7 @@ OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
-Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots_Bottom 3D Body=False|AddToAllPlots_Bottom Component Outline=False|AddToAllPlots_Bottom Courtyard=False|AddToAllPlots_Mechanical 1=False|AddToAllPlots_Mechanical 12=False|AddToAllPlots_Mechanical 13=False|AddToAllPlots_Mechanical 15=False|AddToAllPlots_Mechanical 3=False|AddToAllPlots_Mechanical 4=False|AddToAllPlots_Mechanical 6=False|AddToAllPlots_Mechanical 7=False|AddToAllPlots_Mechanical 9=False|AddToAllPlots_Top 3D Body=False|AddToAllPlots_Top Assembly=False|AddToAllPlots_Top Component Outline=False|AddToAllPlots_Top Courtyard=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|LayerClassesPlot.Set= |MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|Plot_V7_1=True|Plot_V7_1_name=Mechanical Layer 17|Plot_V7_2=True|Plot_V7_2_name=Mechanical Layer 18|Plot_V7_3=True|Plot_V7_3_name=Mechanical Layer 19|Plot_V7_4=True|Plot_V7_4_name=Mechanical Layer 20|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=True|PlotMechanical11Plot=True|PlotMechanical12Plot=True|PlotMechanical13Plot=True|PlotMechanical14Plot=True|PlotMechanical15Plot=True|PlotMechanical16Plot=True|PlotMechanical1Plot=True|PlotMechanical2Plot=True|PlotMechanical3Plot=True|PlotMechanical4Plot=True|PlotMechanical5Plot=True|PlotMechanical6Plot=True|PlotMechanical7Plot=True|PlotMechanical8Plot=True|PlotMechanical9Plot=True|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView
+Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots_Bottom 3D Body=False|AddToAllPlots_Bottom Component Outline=False|AddToAllPlots_Bottom Courtyard=False|AddToAllPlots_Mechanical 1=False|AddToAllPlots_Mechanical 12=False|AddToAllPlots_Mechanical 13=False|AddToAllPlots_Mechanical 15=False|AddToAllPlots_Mechanical 3=False|AddToAllPlots_Mechanical 4=False|AddToAllPlots_Mechanical 6=False|AddToAllPlots_Mechanical 7=False|AddToAllPlots_Mechanical 9=False|AddToAllPlots_Top 3D Body=False|AddToAllPlots_Top Assembly=False|AddToAllPlots_Top Component Outline=False|AddToAllPlots_Top Courtyard=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|LayerClassesPlot.Set= |MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|Plot_V7_1=True|Plot_V7_1_name=Mechanical Layer 17|Plot_V7_2=True|Plot_V7_2_name=Mechanical Layer 18|Plot_V7_3=True|Plot_V7_3_name=Mechanical Layer 19|Plot_V7_4=True|Plot_V7_4_name=Mechanical Layer 20|Plot_V7_5=True|Plot_V7_5_name=Mechanical Layer 21|Plot_V7_6=True|Plot_V7_6_name=Mechanical Layer 22|Plot_V7_7=True|Plot_V7_7_name=Mechanical Layer 23|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=True|PlotMechanical11Plot=True|PlotMechanical12Plot=True|PlotMechanical13Plot=True|PlotMechanical14Plot=True|PlotMechanical15Plot=True|PlotMechanical16Plot=True|PlotMechanical1Plot=True|PlotMechanical2Plot=True|PlotMechanical3Plot=True|PlotMechanical4Plot=True|PlotMechanical5Plot=True|PlotMechanical6Plot=True|PlotMechanical7Plot=True|PlotMechanical8Plot=True|PlotMechanical9Plot=True|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView
 OutputType11=Plane
 OutputName11=Power-Plane Prints
 OutputDocumentPath11=
