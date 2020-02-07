@@ -731,4 +731,22 @@ F 3 "" H 7950 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7950 3900
+Text Label 10300 3100 0    50   ~ 0
+SENSOR_1
+Wire Wire Line
+	10300 3100 10650 3100
+Text Label 10300 3775 0    50   ~ 0
+SENSOR_2
+Wire Wire Line
+	10300 3775 10650 3775
+Wire Wire Line
+	10650 3775 10650 3800
+Text Label 3750 5000 2    50   ~ 0
+SENSOR_1
+Wire Wire Line
+	3750 5000 3350 5000
+Text Label 3750 5100 2    50   ~ 0
+SENSOR_2
+Wire Wire Line
+	3750 5100 3350 5100
 $EndSCHEMATC
