@@ -153,7 +153,7 @@ F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 9500 1750 50  
 $EndComp
 Wire Wire Line
 	9600 1950 9600 2100
-Text Label 10025 2100 2    50   ~ 0
+Text Label 10450 2100 2    50   ~ 0
 LED_RED+
 Text Notes 8650 3175 0    50   ~ 0
 LED OUTPUT CONNECTORS
@@ -259,7 +259,7 @@ Wire Notes Line width 31
 Wire Wire Line
 	9600 1550 9600 1450
 Wire Wire Line
-	9600 2100 10025 2100
+	9600 2100 9750 2100
 $Comp
 L Isolator:LTV-817S U1
 U 1 1 5E3364C4
@@ -566,12 +566,12 @@ F 3 "" H 9200 4875 50  0001 C CNN
 	1    9200 4875
 	1    0    0    -1  
 $EndComp
-Text Label 5625 5100 0    50   ~ 0
+Text Label 4350 4900 0    50   ~ 0
 HV_PRES
 Wire Wire Line
-	8150 5500 7300 5500
+	6225 5300 6025 5300
 Wire Wire Line
-	7300 5500 7300 5300
+	6025 5300 6025 5100
 Wire Wire Line
 	8400 1750 9300 1750
 Wire Wire Line
@@ -624,44 +624,44 @@ F 3 "" H 9600 2400 50  0001 C CNN
 	1    9600 2400
 	1    0    0    -1  
 $EndComp
-Text Label 8150 5500 2    50   ~ 0
+Text Label 7150 5300 2    50   ~ 0
 LED_GREEN_OUT
 $Comp
 L Device:R_US R9
 U 1 1 5E368A31
-P 7300 5650
-F 0 "R9" H 7368 5696 50  0000 L CNN
-F 1 "10k" H 7368 5605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7340 5640 50  0001 C CNN
-F 3 "~" H 7300 5650 50  0001 C CNN
-	1    7300 5650
+P 6025 5450
+F 0 "R9" H 6093 5496 50  0000 L CNN
+F 1 "10k" H 6093 5405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6065 5440 50  0001 C CNN
+F 3 "~" H 6025 5450 50  0001 C CNN
+	1    6025 5450
 	1    0    0    -1  
 $EndComp
-Connection ~ 7300 5500
+Connection ~ 6025 5300
 $Comp
 L power:GND #PWR020
 U 1 1 5E3698E5
-P 7300 5800
-F 0 "#PWR020" H 7300 5550 50  0001 C CNN
-F 1 "GND" H 7305 5627 50  0000 C CNN
-F 2 "" H 7300 5800 50  0001 C CNN
-F 3 "" H 7300 5800 50  0001 C CNN
-	1    7300 5800
+P 6025 5600
+F 0 "#PWR020" H 6025 5350 50  0001 C CNN
+F 1 "GND" H 6030 5427 50  0000 C CNN
+F 2 "" H 6025 5600 50  0001 C CNN
+F 3 "" H 6025 5600 50  0001 C CNN
+	1    6025 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R8
 U 1 1 5E358B59
-P 6750 5100
-F 0 "R8" V 6545 5100 50  0000 C CNN
-F 1 "100" V 6636 5100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6790 5090 50  0001 C CNN
-F 3 "~" H 6750 5100 50  0001 C CNN
-	1    6750 5100
+P 5475 4900
+F 0 "R8" V 5270 4900 50  0000 C CNN
+F 1 "100" V 5361 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5515 4890 50  0001 C CNN
+F 3 "~" H 5475 4900 50  0001 C CNN
+	1    5475 4900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6900 5100 7000 5100
+	5625 4900 5725 4900
 Text Notes 8950 1200 0    50   ~ 0
 Flipped to make cleaner\n
 Text Notes 7400 1200 0    50   ~ 0
@@ -676,7 +676,7 @@ Text Notes 6100 2500 0    50   ~ 0
 HV Present holds reset low until HV is pres\n
 Text Notes 2600 3350 0    50   ~ 0
 Low until HV is on\n
-Text Notes 5900 5350 0    50   ~ 0
+Text Notes 4625 5150 0    50   ~ 0
 When low, should switch on\n
 $Comp
 L power:+12VA #PWR02
@@ -728,42 +728,42 @@ NoConn ~ 6250 1950
 $Comp
 L Diode:1N4148WT D3
 U 1 1 5E368EB7
-P 6350 5100
-F 0 "D3" H 6350 4883 50  0000 C CNN
-F 1 "1N4148WT" H 6350 4974 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-523" H 6350 4925 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30396.pdf" H 6350 5100 50  0001 C CNN
-	1    6350 5100
+P 5075 4900
+F 0 "D3" H 5075 4683 50  0000 C CNN
+F 1 "1N4148WT" H 5075 4774 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-523" H 5075 4725 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30396.pdf" H 5075 4900 50  0001 C CNN
+	1    5075 4900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5625 5100 6200 5100
+	4350 4900 4925 4900
 Wire Wire Line
-	6500 5100 6600 5100
+	5225 4900 5325 4900
 $Comp
 L Transistor_FET:BSS84 Q1
 U 1 1 5E373EFD
-P 7200 5100
-F 0 "Q1" H 7404 5146 50  0000 L CNN
-F 1 "BSS84" H 7404 5055 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7400 5025 50  0001 L CIN
-F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 7200 5100 50  0001 L CNN
-	1    7200 5100
+P 5925 4900
+F 0 "Q1" H 6129 4946 50  0000 L CNN
+F 1 "BSS84" H 6129 4855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6125 4825 50  0001 L CIN
+F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 5925 4900 50  0001 L CNN
+	1    5925 4900
 	1    0    0    1   
 $EndComp
 $Comp
 L power:+12V #PWR0101
 U 1 1 5E38A720
-P 7300 4725
-F 0 "#PWR0101" H 7300 4575 50  0001 C CNN
-F 1 "+12V" H 7315 4898 50  0000 C CNN
-F 2 "" H 7300 4725 50  0001 C CNN
-F 3 "" H 7300 4725 50  0001 C CNN
-	1    7300 4725
+P 6025 4525
+F 0 "#PWR0101" H 6025 4375 50  0001 C CNN
+F 1 "+12V" H 6040 4698 50  0000 C CNN
+F 2 "" H 6025 4525 50  0001 C CNN
+F 3 "" H 6025 4525 50  0001 C CNN
+	1    6025 4525
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 4725 7300 4900
+	6025 4525 6025 4700
 $Comp
 L power:+12V #PWR0102
 U 1 1 5E3944AE
@@ -940,4 +940,30 @@ Wire Wire Line
 Wire Wire Line
 	8675 5875 8675 5950
 Connection ~ 8675 5875
+$Comp
+L Device:R R16
+U 1 1 5E3DA194
+P 9900 2100
+F 0 "R16" V 9693 2100 50  0000 C CNN
+F 1 "100" V 9784 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 9830 2100 50  0001 C CNN
+F 3 "~" H 9900 2100 50  0001 C CNN
+	1    9900 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10450 2100 10050 2100
+$Comp
+L Device:R R15
+U 1 1 5E3F0914
+P 6375 5300
+F 0 "R15" V 6168 5300 50  0000 C CNN
+F 1 "100" V 6259 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 6305 5300 50  0001 C CNN
+F 3 "~" H 6375 5300 50  0001 C CNN
+	1    6375 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 5300 6525 5300
 $EndSCHEMATC
