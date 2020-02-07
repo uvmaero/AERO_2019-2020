@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: 60V_Ind.GBR   2/3/2020  11:27:54 AM
+Gerber File Extension Report For: 60V_Ind.GBR   2/7/2020  2:13:44 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -32,5 +32,15 @@ Layer Extension     Layer Description
 .gbr                Mechanical 6                            
 .gbr                Board                                   
 .gbr                Bottom Courtyard                        
+.gbr                Bottom Designator                       
+.gbr                Top Designator                          
+.gbr                Dimensions                              
+.gbr                Sheet                                   
+.gbr                Fab Notes                               
+.gbr                Old Board Outlin                        
 .gbr                Profile                                 
+.gbr                Non-plated through-hole drill file      
+.gbr                Plated through-hole drill file          
+.gbr                Drill Drawing                           
+.gbr                Drill Guide                             
 ------------------------------------------------------------------------------------------

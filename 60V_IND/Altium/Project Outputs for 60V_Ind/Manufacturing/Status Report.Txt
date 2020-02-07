@@ -1,10 +1,49 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of BOM Document [60V_Ind.BomDoc]
-   Generated File[Bill of Materials-60V_Ind.xlsx]
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : PCB Document [60V_Ind.PcbDoc]
+   Generated File[60V_Ind_Copper_Signal_Top.gbr]
+   Generated File[60V_Ind_Copper_Signal_Bot.gbr]
+   Generated File[60V_Ind_Pads_Bot.gbr]
+   Generated File[60V_Ind_Pads_Top.gbr]
+   Generated File[60V_Ind_Paste_Bot.gbr]
+   Generated File[60V_Ind_Legend_Bot.gbr]
+   Generated File[60V_Ind_Soldermask_Bot.gbr]
+   Generated File[60V_Ind_Legend_Top.gbr]
+   Generated File[60V_Ind_Paste_Top.gbr]
+   Generated File[60V_Ind_Soldermask_Top.gbr]
+   Generated File[60V_Ind_Keep-out.gbr]
+   Generated File[60V_Ind_Mechanical_4.gbr]
+   Generated File[60V_Ind_Mechanical_2.gbr]
+   Generated File[60V_Ind_Mechanical_8.gbr]
+   Generated File[60V_Ind_Mechanical_10.gbr]
+   Generated File[60V_Ind_Mechanical_16.gbr]
+   Generated File[60V_Ind_Mechanical_1.gbr]
+   Generated File[60V_Ind_Mechanical_3.gbr]
+   Generated File[60V_Ind_Mechanical_7.gbr]
+   Generated File[60V_Ind_Mechanical_15.gbr]
+   Generated File[60V_Ind_Mechanical_13.gbr]
+   Generated File[60V_Ind_Mechanical_9.gbr]
+   Generated File[60V_Ind_Mechanical_11.gbr]
+   Generated File[60V_Ind_Mechanical_6.gbr]
+   Generated File[60V_Ind_Mechanical_5.gbr]
+   Generated File[60V_Ind_Mechanical_12.gbr]
+   Generated File[60V_Ind_Mechanical_21.gbr]
+   Generated File[60V_Ind_Mechanical_20.gbr]
+   Generated File[60V_Ind_Mechanical_14.gbr]
+   Generated File[60V_Ind_Mechanical_17.gbr]
+   Generated File[60V_Ind_Mechanical_19.gbr]
+   Generated File[60V_Ind_Mechanical_18.gbr]
+   Generated File[60V_Ind_Profile.gbr]
+   Generated File[60V_Ind_NPTH_Drill.gbr]
+   Generated File[60V_Ind_PTH_Drill.gbr]
+   Generated File[60V_Ind_Drawing_1.gbr]
+   Generated File[60V_Ind_Drillmap_1.gbr]
+   Generated File[60V_Ind.RUL]
+   Generated File[60V_Ind.EXTREP]
+   Generated File[60V_Ind.REP]
 
 
-Files Generated   : 1
+Files Generated   : 40
 Documents Printed : 0
 
-Finished Output Generation At 11:28:03 AM On 2/3/2020
+Finished Output Generation At 2:13:51 PM On 2/7/2020

@@ -4,17 +4,17 @@ C:\git\AERO_2019-2020\60V_IND\Altium\Project Outputs for 60V_Ind\Manufacturing\P
 ========================================================================================================================
 File Design Information:
 
-Date:       03/02/20
-Time:       11:27
-Revision:   cd3b498b96d30658048e2e957f439fdef7035a35
+Date:       07/02/20
+Time:       14:13
+Revision:   fd32ea3b559b9b983805bb16d8eb70afd6a5d0fa
 Variant:    No variations
 Units used: mil
 
-Designator Comment             Layer       Footprint                        Center-X(mil) Center-Y(mil) Rotation Description                                                                                      
-MP1        LPA-C011301S-10     TopLayer    LPA-C011301S-10                  1450.535      408.021       0        "Light Pipe Single Clear Rigid Round with Flat Top, 3mm Board Mount, Press Fit"                  
-D1         SM0805HCL           TopLayer    LEDC2012X135N_SM0805UGC(Primary) 1445.000      410.000       180      "Red 631nm LED Indication - Discrete 1.9V 0805 (2012 Metric)"                                    
-U1         LR8K4-G             TopLayer    Microchip_C04-189_MFG            1135.000      479.250       360      "Linear Voltage Regulator IC Positive Adjustable 1 Output  10mA TO-252, (D-Pak)"                 
-R1         "40.2 Ohms"         TopLayer    0805_RES                         1380.000      645.000       90       "Resistor Surface Mount, 40.2 Ohms, 0805 Footprint, 1% Tolerance 0.125W"                         
-J2         1-770872-0          BottomLayer CON2_1X2_P163_VM                 281.002       175.000       180      "Connector Header Through Hole 2 position 0.163" (4.14mm)"                                       
-J1         1-770872-0          BottomLayer CON2_1X2_P163_VM                 281.002       675.000       180      "Connector Header Through Hole 2 position 0.163" (4.14mm)"                                       
-C1         C2012X7S2A105K125AB TopLayer    CAPC2013X145X20ML20              1175.000      155.000       270      "Chip Capacitor, 1 uF, +/- 10%, 100 V, -55 to 125 degC, 0805 (2012 Metric), RoHS, Tape and Reel" 
+Designator Comment             Layer       Footprint                        Center-X(mil) Center-Y(mil) Rotation Description                                                                                                
+R1         KTR10EZPF40R2       TopLayer    RESC2012X06N_HV                  1380.000      645.000       90       "40.2 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, High Voltage Thick Film" 
+MP1        LPA-C011301S-10     TopLayer    LPA-C011301S-10                  1450.535      408.021       0        "Light Pipe Single Clear Rigid Round with Flat Top, 3mm Board Mount, Press Fit"                            
+D1         SM0805HCL           TopLayer    LEDC2012X135N_SM0805UGC(Primary) 1445.000      410.000       180      "Red 631nm LED Indication - Discrete 1.9V 0805 (2012 Metric)"                                              
+U1         LR8K4-G             TopLayer    Microchip_C04-189_MFG            1135.000      479.250       360      "Linear Voltage Regulator IC Positive Adjustable 1 Output  10mA TO-252, (D-Pak)"                           
+J2         1-770872-0          BottomLayer CON2_1X2_P163_VM                 281.002       175.000       180      "Connector Header Through Hole 2 position 0.163" (4.14mm)"                                                 
+J1         1-770872-0          BottomLayer CON2_1X2_P163_VM                 281.002       675.000       180      "Connector Header Through Hole 2 position 0.163" (4.14mm)"                                                 
+C1         C2012X7S2A105K125AB TopLayer    CAPC2013X145X20ML20              1175.000      155.000       270      "Chip Capacitor, 1 uF, +/- 10%, 100 V, -55 to 125 degC, 0805 (2012 Metric), RoHS, Tape and Reel"           

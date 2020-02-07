@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: UVM AERO BSPD.PcbDoc   2/5/2020  3:35:26 PM
+NCDrill File Report For: UVM AERO BSPD.PcbDoc   2/7/2020  2:05:22 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -9,8 +9,8 @@ ASCII Non-Plated RoundHoles File : UVM AERO BSPD-NonPlated.TXT
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
 T1      8mil (0.2mm)                                              Round             5         PTH        0.00inch (0.00mm)
-T2      9mil (0.229mm)                                            Round             10        PTH        0.00inch (0.00mm)
-T3      15mil (0.381mm)                                           Round             55        PTH        0.00inch (0.00mm)
+T2      9mil (0.229mm)                                            Round             9         PTH        0.00inch (0.00mm)
+T3      15mil (0.381mm)                                           Round             79        PTH        0.00inch (0.00mm)
 T4      20mil (0.508mm)                                           Round             9         PTH        0.00inch (0.00mm)
 T5      28mil (0.7mm)                                             Round             8         PTH        0.00inch (0.00mm)
 T6      30mil (0.762mm)                                           Round             12        PTH        0.00inch (0.00mm)
@@ -19,10 +19,9 @@ T8      39mil (1mm)                                               Round         
 T9      40mil (1.016mm)                                           Round             17        PTH        0.00inch (0.00mm)
 T10     42mil (1.06mm)                                            Round             4         PTH        0.00inch (0.00mm)
 T11     55mil (1.397mm)                                           Round             2         PTH        0.00inch (0.00mm)
-T12     57mil (1.448mm)                                           Round             2         PTH        0.00inch (0.00mm)
-T13     142mil (3.607mm)                                          Round             4         PTH        0.00inch (0.00mm)
-T14     125mil (3.175mm)                                          Round             1         NPTH       0.00inch (0.00mm)
+T12     142mil (3.607mm)                                          Round             4         PTH        0.00inch (0.00mm)
+T13     125mil (3.175mm)                                          Round             1         NPTH       0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              143
+Totals                                                                              164
 
-Total Processing Time (hh:mm:ss) : 00:00:00
+Total Processing Time (hh:mm:ss) : 00:00:01

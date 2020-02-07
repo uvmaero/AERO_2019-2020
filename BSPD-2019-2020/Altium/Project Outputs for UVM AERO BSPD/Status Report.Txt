@@ -1,10 +1,14 @@
-Output: Export STEP
-Type  : ExportSTEP
-From  : PCB Document [UVM AERO BSPD.PcbDoc]
-   Generated File[UVM AERO BSPD.step]
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 2:07:15 PM On 2/7/2020
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [needtoorder] of BOM Document [UVM AERO BSPD.BomDoc]
+   Generated File[BSPDBOM.xlsx]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 11:38:40 PM On 2/4/2020
+Finished Output Generation At 2:07:23 PM On 2/7/2020

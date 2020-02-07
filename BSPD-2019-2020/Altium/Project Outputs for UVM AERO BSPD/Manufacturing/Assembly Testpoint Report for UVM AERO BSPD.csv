@@ -12,7 +12,7 @@
 "CO5","TP12-1","2290mil","1730mil","Top","0mil","Surface mount"
 "BSPD_FLT","TP25-1","2190mil","1020mil","Top","40mil","Through hole"
 "FAULT_TIM","TP26-1","1559.252mil","748mil","Top","40mil","Through hole"
-"FAULT_DET","TP28-1","1248.465mil","1010mil","Top","40mil","Through hole"
+"FAULT_DET","TP28-1","1164.803mil","1010mil","Top","40mil","Through hole"
 "GND","TP17-1","1515mil","2585mil","Top","40mil","Through hole"
 "BRAKE_BUF","TP3-1","2712mil","2270mil","Top","40mil","Through hole"
 "CUR_IN","TP5-1","431.604mil","343.197mil","Top","40mil","Through hole"

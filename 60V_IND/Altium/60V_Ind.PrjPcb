@@ -195,64 +195,81 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document10]
+DocumentPath=As Manufactured.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind-NonPlated.TXT
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind-Plated.TXT
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.DRR
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.EXTREP
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBL
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBO
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBP
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBS
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GKO
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTL
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTO
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTP
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTS
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.LDP
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.REP
+DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.REP
 DItemRevisionGUID=
 
 [Configuration1]
@@ -612,31 +629,26 @@ OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=GOSTBOM
-OutputName3=GOST BOM
+OutputType3=ReportHierarchy
+OutputName3=Report Project Hierarchy
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=ReportHierarchy
-OutputName4=Report Project Hierarchy
+OutputType4=Script
+OutputName4=Script Output
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=Script
-OutputName5=Script Output
+OutputType5=SimpleBOM
+OutputName5=Simple BOM
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=SimpleBOM
-OutputName6=Simple BOM
+OutputType6=SinglePinNetReporter
+OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=SinglePinNetReporter
-OutputName7=Report Single Pin Nets
-OutputDocumentPath7=
-OutputVariantName7=[No Variations]
-OutputDefault7=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -867,66 +879,91 @@ Name=Export Outputs
 Description=
 TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AnsysEDB
-OutputName1=Ansys EDB
+OutputType1=AutoCAD dwg/dxf PCB
+OutputName1=AutoCAD dwg/dxf File PCB
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=AutoCAD dwg/dxf PCB
-OutputName2=AutoCAD dwg/dxf File PCB
+OutputType2=AutoCAD dwg/dxf Schematic
+OutputName2=AutoCAD dwg/dxf File Schematic
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=AutoCAD dwg/dxf Schematic
-OutputName3=AutoCAD dwg/dxf File Schematic
+OutputType3=ExportIDF
+OutputName3=Export IDF
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=ExportIDF
-OutputName4=Export IDF
+OutputType4=ExportPARASOLID
+OutputName4=Export PARASOLID
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=ExportPARASOLID
-OutputName5=Export PARASOLID
+OutputType5=ExportSTEP
+OutputName5=Export STEP
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=ExportSTEP
-OutputName6=Export STEP
+OutputType6=ExportVRML
+OutputName6=Export VRML
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=ExportVRML
-OutputName7=Export VRML
+OutputType7=MBAExportPARASOLID
+OutputName7=Export PARASOLID
 OutputDocumentPath7=
-OutputVariantName7=[No Variations]
+OutputVariantName7=
 OutputDefault7=0
-OutputType8=MBAExportPARASOLID
-OutputName8=Export PARASOLID
+OutputType8=MBAExportSTEP
+OutputName8=Export STEP
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=MBAExportSTEP
-OutputName9=Export STEP
+OutputType9=Save As/Export PCB
+OutputName9=Save As/Export PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Save As/Export PCB
-OutputName10=Save As/Export PCB
+OutputType10=Save As/Export Schematic
+OutputName10=Save As/Export Schematic
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=Save As/Export Schematic
-OutputName11=Save As/Export Schematic
+OutputType11=Specctra Design PCB
+OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Specctra Design PCB
-OutputName12=Specctra Design PCB
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

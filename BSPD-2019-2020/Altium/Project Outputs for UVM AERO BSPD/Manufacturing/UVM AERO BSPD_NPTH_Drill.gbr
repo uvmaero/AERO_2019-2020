@@ -7,9 +7,9 @@ G04 Layer_Color=0*
 G01*
 G75*
 %TA.AperFunction,ComponentDrill*%
-%ADD177C,0.125000*%
-D177*
+%ADD171C,0.125000*%
+D171*
 X2334996Y212441D02*
 D03*
-%TF.MD5,c8bdb23e6c3b94d2cd19f47ea6b54c23*%
+%TF.MD5,6ab56794690d3e1ffc6c75163ce993ec*%
 M02*
