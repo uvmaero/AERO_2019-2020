@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=+5 Pin=R29-2
+Removed Pin From Net: NetName=GND Pin=U9-2
+Removed Pin From Net: NetName=OPT_DAR Pin=U9-3
+Removed Member From Class: ClassName=U_Relay Member=R29
+Removed Member From Class: ClassName=U_Relay Member=U9
+Removed Member From Class: ClassName=PWR Member=RELAY-
+Change Component Footprint: Designator=Q1 Old Footprint=Nexperia_SOT23_0 New Footprint=NXP-SOT23_M
+Change Component Comment : Designator=Q1 Old Comment=MMBT3904,215 New Comment=BSH105,215
+Change Managed Component Library Link : Designator=Q1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=1FA7C338-41CE-443B-B289-5AA7ACB3DDB9 Old RevisionGUID= New RevisionGUID=4BDFED6C-0BD2-4D1B-AC84-EC9B2051EA65
+Change component parameters: Designator = "Q1" ("Q1"); Footprint = "Nexperia_SOT23_0"; UniqueID = "\TKVAJXIT\OQAPQCVW" ("\TKVAJXIT\OQAPQCVW")
+Change component parameters (AddParameter): Name = "Channel Type"; Value = "N"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ciss [typ] (pF)"; Value = "152"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = "TO-236AB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.nxp.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.nxp.com/documents/data_sheet/BSH105.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.nxp.com/documents/outline_drawing/sot023_po.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Coss [typ] (pF)"; Value = "71"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 1.000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ID [max] (A)"; Value = "1.05"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "NXP Semiconductors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "3-Pin Small Outline Transistor Package, Body 2.9 x 1.3 mm, Pitch 0.95 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SOT23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "06-03-16, 03/2006"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tape & Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "BSH105,215"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Qr [typ] (nC)"; Value = "19"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VDS [max] (V)"; Value = "20"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VGSth [typ] (V)"; Value = "0.57"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=OPT_DAR Pin=R30-2
+Change Net Name : Old Net Name=OPT_DAR New Net Name=RELAY_CRTL

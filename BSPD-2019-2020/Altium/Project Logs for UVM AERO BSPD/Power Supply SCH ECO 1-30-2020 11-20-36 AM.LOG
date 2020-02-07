@@ -1,0 +1,23 @@
+Replace Part C1 cap in C:\git\AERO_2019-2020\BSPD-2019-2020\Power Supply.SchDoc with cap from Passive Components.DbLib
+Replace Part C2 cap in C:\git\AERO_2019-2020\BSPD-2019-2020\Power Supply.SchDoc with cap from Passive Components.DbLib
+Replace Part C3 cap in C:\git\AERO_2019-2020\BSPD-2019-2020\Power Supply.SchDoc with cap from Passive Components.DbLib
+Update Managed Component C4 From CMP-1037-05002-1[CAP 47uF 10V 1206(3216)] To CMP-1037-05002-1[CAP 47uF 10V 1206(3216)] in Power Supply.SchDoc
+Replace Part C5 cap in C:\git\AERO_2019-2020\BSPD-2019-2020\Power Supply.SchDoc with cap from Passive Components.DbLib
+Replace Part C6 cap in C:\git\AERO_2019-2020\BSPD-2019-2020\Power Supply.SchDoc with cap from Passive Components.DbLib
+Update Managed Component C7 From CMP-1037-05002-1[CAP 47uF 10V 1206(3216)] To CMP-1037-05002-1[CAP 47uF 10V 1206(3216)] in Power Supply.SchDoc
+Update Managed Component C8 From CMP-0687-00008-1[UUD1V331MNL1GS] To CMP-0687-00008-1[UUD1V331MNL1GS] in Power Supply.SchDoc
+Update Managed Component C9 From CMP-0687-00008-1[UUD1V331MNL1GS] To CMP-0687-00008-1[UUD1V331MNL1GS] in Power Supply.SchDoc
+Update Managed Component D1 From CMP-1667-00003-1[B340A-13-F] To CMP-1667-00003-1[B340A-13-F] in Power Supply.SchDoc
+Update Managed Component D2 From CMP-1060-00481-1[SZMMSZ5243BT1G] To CMP-1060-00481-1[SZMMSZ5243BT1G] in Power Supply.SchDoc
+Update Managed Component D3 From CMP-1063-00099-1[ESD5Z12T1G] To CMP-1063-00099-1[ESD5Z12T1G] in Power Supply.SchDoc
+Replace Part F1 MF-FSMF010X-2 in C:\git\AERO_2019-2020\BSPD-2019-2020\Power Supply.SchDoc with MF-FSMF010X-2 from bspd parts.SchLib
+Update Managed Component F2 From CMP-2000-05508-1[1812L050/30PR] To CMP-2000-05508-1[1812L050/30PR] in Power Supply.SchDoc
+Replace Part FB1 Ferrite Bead in C:\git\AERO_2019-2020\BSPD-2019-2020\Power Supply.SchDoc with Ferrite Bead from Passive Components.DbLib
+Update Managed Component L1 From CMP-0007-00013-1[SRN3015-220M] To CMP-0007-00013-1[SRN3015-220M] in Power Supply.SchDoc
+Update Managed Component L2 From CMP-0222-00041-1[744231261] To CMP-0222-00041-1[744231261] in Power Supply.SchDoc
+Update Managed Component L3 From CMP-0007-00013-1[SRN3015-220M] To CMP-0007-00013-1[SRN3015-220M] in Power Supply.SchDoc
+Update Managed Component L4 From CMP-2000-05390-1[ACP3225-102-2P-T000] To CMP-2000-05390-1[ACP3225-102-2P-T000] in Power Supply.SchDoc
+Replace Part NT1 NET TIE in C:\git\AERO_2019-2020\BSPD-2019-2020\Power Supply.SchDoc with NET TIE from bspd parts.SchLib
+Replace Part PS1 TEL 3-1223 in C:\git\AERO_2019-2020\BSPD-2019-2020\Power Supply.SchDoc with TEL 3-1223 from bspd parts.SchLib
+Replace Part PS2 NMK1205SC in C:\git\AERO_2019-2020\BSPD-2019-2020\Power Supply.SchDoc with NMK1205SC from bspd parts.SchLib
+Replace Part R1 res in C:\git\AERO_2019-2020\BSPD-2019-2020\Power Supply.SchDoc with res from Passive Components.DbLib

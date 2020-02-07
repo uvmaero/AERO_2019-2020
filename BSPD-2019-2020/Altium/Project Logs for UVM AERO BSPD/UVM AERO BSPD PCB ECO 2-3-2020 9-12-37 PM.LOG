@@ -1,0 +1,65 @@
+Change Component DesignItemId : Designator=C8 Old DesignItemId=CMP-0687-00008-1 New DesignItemId=UUD1V331MNL1GS
+Change Component DesignItemId : Designator=C9 Old DesignItemId=CMP-0687-00008-1 New DesignItemId=UUD1V331MNL1GS
+Change Component Description : Designator=D9 Old Description=7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) New Description=7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) 
+Change Component Library : Designator=C8 Old Library=Altium Content Vault New Library=bspd parts.SchLib
+Change Component Library : Designator=C9 Old Library=Altium Content Vault New Library=bspd parts.SchLib
+Change Managed Component Library Link : Designator=C8 Old VaultGUID= New VaultGUID= Old ItemGUID=E33CBD63-2328-4029-8AF0-16B35AA21896 New ItemGUID= Old RevisionGUID=6B9DE67A-CB84-4EBC-B7C0-6315B0E25379 New RevisionGUID=
+Change Managed Component Library Link : Designator=C9 Old VaultGUID= New VaultGUID= Old ItemGUID=E33CBD63-2328-4029-8AF0-16B35AA21896 New ItemGUID= Old RevisionGUID=6B9DE67A-CB84-4EBC-B7C0-6315B0E25379 New RevisionGUID=
+Change component parameters: Designator = "PS1" ("PS1"); Footprint = "TEL 3-1223"; UniqueID = "\GDJTUDWI\IJCQFAES" ("\GDJTUDWI\IJCQFAES")
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C8" ("C8"); Footprint = "NIC-CAPA2-10X10_V"; UniqueID = "\GDJTUDWI\QSGCASHO" ("\GDJTUDWI\QSGCASHO")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.nichicon.co.jp/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "08/2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diameter"; Value = "10 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Endurance Time"; Value = "5000 h"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance"; Value = "0.09 Ohm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "10 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Nichicon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Nichicon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "UUD1V331MNL1GS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Diameter 10 mm, Height 10 mm, Pitch 8 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "CAPAE-D10H10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Dia382mm Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "UUD1V331MNL1GS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Capacitance"; Value = "330 uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Ripple Current (at 100kHz)"; Value = "670 mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "35 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "493-2293-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance Rated Capacitance"; Value = "-20 to 20%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C9" ("C9"); Footprint = "NIC-CAPA2-10X10_V"; UniqueID = "\GDJTUDWI\TRPGDUQY" ("\GDJTUDWI\TRPGDUQY")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.nichicon.co.jp/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "08/2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diameter"; Value = "10 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Endurance Time"; Value = "5000 h"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance"; Value = "0.09 Ohm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "10 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Nichicon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Nichicon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "UUD1V331MNL1GS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Diameter 10 mm, Height 10 mm, Pitch 8 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "CAPAE-D10H10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Dia382mm Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "UUD1V331MNL1GS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Capacitance"; Value = "330 uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Ripple Current (at 100kHz)"; Value = "670 mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "35 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "493-2293-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance Rated Capacitance"; Value = "-20 to 20%"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=U_LatchDelay Member=Component C16 CAP 0603 1PF 50V 0.05PF MLO
+Added Member To Class: ClassName=U_IO and Connectors Member=Component D8 SP0503BAHTG

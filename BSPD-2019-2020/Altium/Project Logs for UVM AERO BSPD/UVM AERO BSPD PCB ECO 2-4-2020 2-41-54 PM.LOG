@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=SHDN_IN Pin=F3-2
+Removed Pin From Net: NetName=SHDN_OUT Pin=J1-1
+Removed Member From Class: ClassName=HC Member=SHDN_IN_F
+Removed Member From Class: ClassName=PWR Member=SHDN_IN_F
+Added Pin To Net: NetName=SHDN_OUT Pin=F3-1
+Added Pin To Net: NetName=SHDN_IN Pin=K1-5
+Added Pin To Net: NetName=SHDN_IN Pin=K1-6
+Added Pin To Net: NetName=SHDN_OUT_F Pin=F3-2
+Added Pin To Net: NetName=SHDN_OUT_F Pin=J1-1
+Added Net: Name=SHDN_OUT_F
+Added Member To Class: ClassName=HC Member=Wire SHDN_OUT_F
+Added Member To Class: ClassName=PWR Member=Wire SHDN_OUT_F

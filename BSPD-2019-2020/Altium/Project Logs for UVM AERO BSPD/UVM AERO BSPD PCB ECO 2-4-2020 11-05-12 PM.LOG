@@ -1,0 +1,3 @@
+Change Component Description : Designator=D9 Old Description=7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) New Description=7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) 
+Added Member To Class: ClassName=PWR_RAIL Member=Wire IN+
+Added Member To Class: ClassName=PWR_RAIL Member=Wire IN-

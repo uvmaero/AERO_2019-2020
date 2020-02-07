@@ -1,0 +1,46 @@
+Removed Parameter ComponentLink1Description: from Part R1
+Removed Parameter ComponentLink1URL: from Part C5
+Removed Parameter ComponentLink1URL: from Part C6
+Removed Parameter ComponentLink1URL: from Part R1
+Removed Parameter ComponentLink2Description: from Part R1
+Removed Parameter ComponentLink2URL: from Part C5
+Removed Parameter ComponentLink2URL: from Part C6
+Removed Parameter ComponentLink2URL: from Part R1
+Removed Parameter ComponentLink3Description: from Part R1
+Removed Parameter ComponentLink3URL: from Part C5
+Removed Parameter ComponentLink3URL: from Part C6
+Removed Parameter ComponentLink3URL: from Part R1
+Removed Parameter ComponentLink4Description: from Part C5
+Removed Parameter ComponentLink4Description: from Part C6
+Removed Parameter ComponentLink4Description: from Part R1
+Removed Parameter ComponentLink4URL: from Part C5
+Removed Parameter ComponentLink4URL: from Part C6
+Removed Parameter ComponentLink4URL: from Part R1
+Removed Parameter EEE: from Part FB1
+Removed Parameter Features: from Part C5
+Removed Parameter Features: from Part C6
+Removed Parameter Grade: from Part FB1
+Removed Parameter Temperature Coefficient: from Part C5
+Removed Parameter Temperature Coefficient: from Part C6
+Removed Parameter Temperature Coefficient: from Part R1
+Added Parameter ComponentLink1URL= to Part C1
+Added Parameter ComponentLink1URL= to Part C2
+Added Parameter ComponentLink1URL= to Part C3
+Added Parameter ComponentLink2URL= to Part C1
+Added Parameter ComponentLink2URL= to Part C2
+Added Parameter ComponentLink2URL= to Part C3
+Added Parameter ComponentLink3URL= to Part C1
+Added Parameter ComponentLink3URL= to Part C2
+Added Parameter ComponentLink3URL= to Part C3
+Added Parameter ComponentLink4Description= to Part C1
+Added Parameter ComponentLink4Description= to Part C2
+Added Parameter ComponentLink4Description= to Part C3
+Added Parameter ComponentLink4URL= to Part C1
+Added Parameter ComponentLink4URL= to Part C2
+Added Parameter ComponentLink4URL= to Part C3
+Added Parameter Features= to Part C1
+Added Parameter Features= to Part C2
+Added Parameter Features= to Part C3
+Added Parameter Temperature Coefficient= to Part C1
+Added Parameter Temperature Coefficient= to Part C2
+Added Parameter Temperature Coefficient= to Part C3

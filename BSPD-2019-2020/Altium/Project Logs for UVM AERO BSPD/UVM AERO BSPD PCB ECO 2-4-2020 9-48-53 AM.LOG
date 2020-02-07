@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=J4 Old Footprint=1217861-1 New Footprint=1217861-1
+Change Component Description : Designator=D9 Old Description=7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) New Description=7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) 
+Added Member To Class: ClassName=U_Power Supply Member=Component L1 SRN3015-220M
+Added Member To Class: ClassName=U_Power Supply Member=Component L3 SRN3015-220M

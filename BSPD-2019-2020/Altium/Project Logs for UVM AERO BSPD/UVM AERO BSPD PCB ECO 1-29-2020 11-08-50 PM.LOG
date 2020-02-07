@@ -1,0 +1,12 @@
+Change Component Comment : Designator=R23 Old Comment=RES 0603 100 1% New Comment=200 Ohms
+Change component parameters: Designator = "R23" ("R23"); Footprint = "0603_RES"; UniqueID = "\QZBOFGNL\KJWJFWOV" ("\QZBOFGNL\KJWJFWOV")
+Change component parameters (AddParameter): Name = "Description in Visual"; Value = "Res SMT 200 0603  1%  0.1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Various"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "Various"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "P/N"; Value = "RES 0603 200 1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PCB Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power_Rating"; Value = "0.1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tol"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Val"; Value = "200"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "200"; VariantName = "[No Variations]"

@@ -37,6 +37,11 @@ IncludeDesignInRelease=0
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Release]
+ReleaseTarget=1
+ReleaseFolderPath=[OutputPath]
+ReleaseZipPath=[OutputPath][ProjectName].zip
+
 [Document1]
 DocumentPath=60V_Ind.SchDoc
 AnnotationEnabled=1
@@ -173,6 +178,83 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document9]
+DocumentPath=JLCPCB Outputs.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for 60V_Ind\UVM AERO BSPD - JLCPCB Files\60V_Ind.REP
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -183,13 +265,33 @@ OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
 [Generic_EDE]
 OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -310,7 +412,7 @@ OutputDefault23=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -403,7 +505,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -425,7 +527,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -497,7 +599,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -539,7 +641,7 @@ OutputDefault7=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -719,7 +821,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -763,7 +865,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AnsysEDB
 OutputName1=Ansys EDB
@@ -829,7 +931,7 @@ OutputDefault12=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP ColorLaserJet M253-M254
+TargetPrinter=NPI06A24B (HP LaserJet color flow MFP M575)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1205,32 +1307,32 @@ ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=60V_Ind.SchLib
-ComponentDesignItemID1=LPA-C011301S-10
-ComponentSymbolReference1=LPA-C011301S-10
+ComponentDesignItemID1=C2012X7S2A105K125AB
+ComponentSymbolReference1=C2012X7S2A105K125AB
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=60V_Ind.SchLib
-ComponentDesignItemID2=LR8K4-G
-ComponentSymbolReference2=LR8K4-G
+ComponentDesignItemID2=KTR10EZPF40R2
+ComponentSymbolReference2=KTR10EZPF40R2
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=60V_Ind.SchLib
-ComponentDesignItemID3=SM0805HCL
-ComponentSymbolReference3=SM0805HCL
+ComponentDesignItemID3=LPA-C011301S-10
+ComponentSymbolReference3=LPA-C011301S-10
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=Passive Components.DbLib/Resistors
-ComponentDesignItemID4=RES 0805 40.2 1%
-ComponentSymbolReference4=res
+ComponentLibraryIdentifier4=60V_Ind.SchLib
+ComponentDesignItemID4=LR8K4-G
+ComponentSymbolReference4=LR8K4-G
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name Only
-ComponentLibraryIdentifier5=Altium Content Vault
-ComponentDesignItemID5=CMP-2000-05454-1
-ComponentSymbolReference5=CAP-NP-2
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=60V_Ind.SchLib
+ComponentDesignItemID5=SM0805HCL
+ComponentSymbolReference5=SM0805HCL
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 FullReplace=1
@@ -1252,140 +1354,189 @@ ParameterName1=Built_By
 ParameterUpdate1=1
 ParameterName2=Capacitance
 ParameterUpdate2=1
-ParameterName3=Catalog Drawings
+ParameterName3=Case Code (Imperial)
 ParameterUpdate3=1
-ParameterName4=Category
+ParameterName4=Case Code (Metric)
 ParameterUpdate4=1
-ParameterName5=Comment
+ParameterName5=Case/Package
 ParameterUpdate5=1
-ParameterName6=Component Kind
+ParameterName6=Catalog Drawings
 ParameterUpdate6=1
-ParameterName7=Copyright
+ParameterName7=Category
 ParameterUpdate7=1
-ParameterName8=Datasheet URL
+ParameterName8=Comment
 ParameterUpdate8=1
-ParameterName9=Datasheet Version
+ParameterName9=Component Kind
 ParameterUpdate9=1
-ParameterName10=Description
+ParameterName10=Composition
 ParameterUpdate10=1
-ParameterName11=Description in Visual
+ParameterName11=Copyright
 ParameterUpdate11=1
-ParameterName12=Family
+ParameterName12=Datasheet URL
 ParameterUpdate12=1
-ParameterName13=Featured Product
+ParameterName13=Datasheet Version
 ParameterUpdate13=1
-ParameterName14=Features
+ParameterName14=Description
 ParameterUpdate14=1
-ParameterName15=Height - Seated (Max)
+ParameterName15=Family
 ParameterUpdate15=1
-ParameterName16=Kits
+ParameterName16=Featured Product
 ParameterUpdate16=1
-ParameterName17=Lead Spacing
+ParameterName17=Features
 ParameterUpdate17=1
-ParameterName18=Lead Style
+ParameterName18=Height
 ParameterUpdate18=1
-ParameterName19=Library Reference
+ParameterName19=Height - Seated (Max)
 ParameterUpdate19=1
-ParameterName20=Manufacturer
+ParameterName20=Kits
 ParameterUpdate20=1
-ParameterName21=Manufacturer P/N
+ParameterName21=Lead Spacing
 ParameterUpdate21=1
-ParameterName22=Manufacturer URL
+ParameterName22=Lead Style
 ParameterUpdate22=1
-ParameterName23=Manufacturer_Part_Number
+ParameterName23=Length
 ParameterUpdate23=1
-ParameterName24=Mounting Type
+ParameterName24=Library Reference
 ParameterUpdate24=1
-ParameterName25=Online Catalog
+ParameterName25=Manufacturer
 ParameterUpdate25=1
-ParameterName26=Operating Temperature
+ParameterName26=Manufacturer 1
 ParameterUpdate26=1
-ParameterName27=Other Names
+ParameterName27=Manufacturer Part Number
 ParameterUpdate27=1
-ParameterName28=P/N
+ParameterName28=Manufacturer Part Number 1
 ParameterUpdate28=1
-ParameterName29=Package / Case
+ParameterName29=Manufacturer URL
 ParameterUpdate29=1
-ParameterName30=Package Description
+ParameterName30=Manufacturer_Part_Number
 ParameterUpdate30=1
-ParameterName31=Package Reference
+ParameterName31=Max Operating Temperature
 ParameterUpdate31=1
-ParameterName32=Packaging
+ParameterName32=Max Power Dissipation
 ParameterUpdate32=1
-ParameterName33=PCB Package
+ParameterName33=Min Operating Temperature
 ParameterUpdate33=1
-ParameterName34=PCN Part Number
+ParameterName34=Mounting Type
 ParameterUpdate34=1
-ParameterName35=Power_Rating
+ParameterName35=Number of Terminations
 ParameterUpdate35=1
-ParameterName36=Product Training Modules
+ParameterName36=Online Catalog
 ParameterUpdate36=1
-ParameterName37=Ratings
+ParameterName37=Operating Temperature
 ParameterUpdate37=1
-ParameterName38=RefDes
+ParameterName38=Other Names
 ParameterUpdate38=1
-ParameterName39=RoHS Information
+ParameterName39=Package / Case
 ParameterUpdate39=1
-ParameterName40=Series
+ParameterName40=Package Description
 ParameterUpdate40=1
-ParameterName41=Size / Dimension
+ParameterName41=Package Quantity
 ParameterUpdate41=1
-ParameterName42=Standard Package
+ParameterName42=Package Reference
 ParameterUpdate42=1
-ParameterName43=Supplier 1
+ParameterName43=Packaging
 ParameterUpdate43=1
-ParameterName44=Supplier Part Number 1
+ParameterName44=PCN Part Number
 ParameterUpdate44=1
-ParameterName45=Temperature Coefficient
+ParameterName45=Product Training Modules
 ParameterUpdate45=1
-ParameterName46=Thickness (Max)
+ParameterName46=Ratings
 ParameterUpdate46=1
-ParameterName47=Tol
+ParameterName47=RefDes
 ParameterUpdate47=1
-ParameterName48=Tolerance
+ParameterName48=Resistance
 ParameterUpdate48=1
-ParameterName49=Type
+ParameterName49=RoHS Information
 ParameterUpdate49=1
-ParameterName50=Val
+ParameterName50=Series
 ParameterUpdate50=1
-ParameterName51=Value
+ParameterName51=Size / Dimension
 ParameterUpdate51=1
-ParameterName52=Vendor
+ParameterName52=Standard Package
 ParameterUpdate52=1
-ParameterName53=Voltage - Rated
+ParameterName53=Supplier 1
 ParameterUpdate53=1
+ParameterName54=Supplier 2
+ParameterUpdate54=1
+ParameterName55=Supplier Part Number 1
+ParameterUpdate55=1
+ParameterName56=Supplier Part Number 2
+ParameterUpdate56=1
+ParameterName57=Temperature Coefficient
+ParameterUpdate57=1
+ParameterName58=Thickness (Max)
+ParameterUpdate58=1
+ParameterName59=Tolerance
+ParameterUpdate59=1
+ParameterName60=Type
+ParameterUpdate60=1
+ParameterName61=Value
+ParameterUpdate61=1
+ParameterName62=Vendor
+ParameterUpdate62=1
+ParameterName63=Voltage - Rated
+ParameterUpdate63=1
+ParameterName64=Width
+ParameterUpdate64=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=0805_RES
+ModelName0=CAPC2013X145X20ML20
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=CAPC2013X145X20LL20
+ModelName1=CON2_1X2_P163_VM
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=CAPC2013X145X20ML20
+ModelName2=LEDC2012X135N_SM0805UGC(Primary)
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=CAPC2013X145X20NL20
+ModelName3=LPA-C011301S-10
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=CON2_1X2_P163_VM
+ModelName4=Microchip_C04-189_MFG
 ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=LEDC2012X135N_SM0805UGC(Primary)
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=LPA-C011301S-10
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=Microchip_C04-189_MFG
-ModelUpdate7=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=60V_Ind.SchLib
+ComponentDesignItemID0=1-770872-0
+ComponentSymbolReference0=1-770872-0
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=60V_Ind.SchLib
+ComponentDesignItemID1=C2012X7S2A105K125AB
+ComponentSymbolReference1=C2012X7S2A105K125AB
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=60V_Ind.SchLib
+ComponentDesignItemID2=KTR10EZPF40R2
+ComponentSymbolReference2=KTR10EZPF40R2
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=60V_Ind.SchLib
+ComponentDesignItemID3=LPA-C011301S-10
+ComponentSymbolReference3=LPA-C011301S-10
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=60V_Ind.SchLib
+ComponentDesignItemID4=LR8K4-G
+ComponentSymbolReference4=LR8K4-G
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=60V_Ind.SchLib
+ComponentDesignItemID5=SM0805HCL
+ComponentSymbolReference5=SM0805HCL
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0

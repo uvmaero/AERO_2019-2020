@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of BOM Document [60V_Ind.BomDoc]
+   Generated File[Bill of Materials-60V_Ind.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:28:03 AM On 2/3/2020

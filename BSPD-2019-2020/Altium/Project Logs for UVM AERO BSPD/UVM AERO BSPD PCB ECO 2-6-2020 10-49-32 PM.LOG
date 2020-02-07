@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=CHASS Pin=J4-1a
+Removed Pin From Net: NetName=CHASS Pin=J4-1b
+Removed Pin From Net: NetName=CHASS Pin=J4-1c
+Removed Member From Class: ClassName=U_IO and Connectors Member=J4

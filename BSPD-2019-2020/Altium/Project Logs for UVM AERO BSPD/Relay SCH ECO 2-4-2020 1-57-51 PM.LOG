@@ -1,0 +1,6 @@
+Update Managed Component D6 From CMP-1055-00486-1[NSR0340V2T1G] To CMP-1055-00486-1[NSR0340V2T1G] in Relay.SchDoc
+Replace Part D7 SM0805GCL in C:\git\AERO_2019-2020\BSPD-2019-2020\Altium\Relay.SchDoc with SM0805GCL from bspd parts.SchLib
+Update Managed Component Q1 From CMP-1258-00134-1[BSH105,215] To CMP-1258-00134-1[BSH105,215] in Relay.SchDoc
+Replace Part R29 res in C:\git\AERO_2019-2020\BSPD-2019-2020\Altium\Relay.SchDoc with res from Passive Components.DbLib
+Replace Part R30 res in C:\git\AERO_2019-2020\BSPD-2019-2020\Altium\Relay.SchDoc with res from Passive Components.DbLib
+Replace Part TP19 5117 in C:\git\AERO_2019-2020\BSPD-2019-2020\Altium\Relay.SchDoc with 5117 from bspd parts.SchLib

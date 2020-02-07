@@ -1,0 +1,109 @@
+Removed Pin From Net: NetName=+5 Pin=D6-1
+Removed Pin From Net: NetName=RELAY- Pin=D6-2
+Removed Pin From Net: NetName=SHDN_IN Pin=K1-1
+Removed Pin From Net: NetName=SHDN_OUT Pin=K1-3
+Removed Pin From Net: NetName=+5 Pin=K1-5
+Change Component Footprint: Designator=Q1 Old Footprint=NXP-SOT23_M New Footprint=DIOD-SOT23-3_V
+Change Component Footprint: Designator=K1 Old Footprint=Omron_Electronics_Inc._G5LE-1_DC5_0 New Footprint=Omron_G5V-1-DC12_MFG
+Change Component Footprint: Designator=D6 Old Footprint=ONSC-SOD-523-2-502-01_V New Footprint=MCC-SOD123_V
+Change Component Comment : Designator=Q1 Old Comment=BSH105,215 New Comment=2N7002-7-F
+Change Component Comment : Designator=D6 Old Comment=NSR0340V2T1G New Comment=1N4148W-TP
+Change Component Comment : Designator=K1 Old Comment=Relay_Omron_Electronics_Inc._G5LE-1_DC5_eec New Comment=G5V-1-DC12
+Change Managed Component Library Link : Designator=D6 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=9EE7F5FD-1217-4804-91CC-D1704F3209C6 New ItemGUID=6F7D6609-292D-4FAE-A69B-39890442B964 Old RevisionGUID=AF625D51-CDD6-466B-A219-8492B34FFF93 New RevisionGUID=5BE77227-FCA3-4EAD-99FA-EE2BDD6B30CC
+Change Managed Component Library Link : Designator=Q1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=1FA7C338-41CE-443B-B289-5AA7ACB3DDB9 New ItemGUID=93F36182-D4F6-49E1-818E-96AA09F74270 Old RevisionGUID=4BDFED6C-0BD2-4D1B-AC84-EC9B2051EA65 New RevisionGUID=BAC80EE6-624F-48D0-96A5-F0F8388957C2
+Change component parameters: Designator = "D6" ("D6"); Footprint = "ONSC-SOD-523-2-502-01_V"; UniqueID = "\TKVAJXIT\ZCFUBJYA" ("\TKVAJXIT\ZCFUBJYA")
+Change component parameters (AddParameter): Name = "Average Forward Current-Max"; Value = "0.15A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "https://datasheet.ciiva.com/16836/1n4148wsod123-16836277.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Rev. C, 07/2014"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Micro Commercial Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.mccsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Description"; Value = "2-Pin Small Outline Diode, Body 2.7 x 1.6 mm, Height 1.35 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "SOD123"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package URL"; Value = "http://www.mccsemi.com/up_pdf/1N4448W(SOD-123).pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Peak Current-Max"; Value = "2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Dissipation"; Value = "400mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Reverse Recovery Time-Max"; Value = "4ns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Reverse Voltage-Max [Vrrm]"; Value = "100V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "K1" ("K1"); Footprint = "Omron_Electronics_Inc._G5LE-1_DC5_0"; UniqueID = "\TKVAJXIT\TBCDLOCI" ("\TKVAJXIT\TBCDLOCI")
+Change component parameters (AddParameter): Name = "Ambient Temperature Range High"; Value = "+70°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ambient Temperature Range Low"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Coil Current"; Value = "12.5mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Coil Power"; Value = "150mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Coil Resistance"; Value = "960O"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Coil Type"; Value = "Non-Latching"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Upverter"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://upverter.com/upn/revision/60c0f3c9560d0c93/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Path"; Value = "datasheets/Relay_Omron_G5V-1-DC12_eec.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Description"; Value = "RELAY GEN PURPOSE SPDT 1A 125V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "Z774-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "10mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "helpURL"; Value = "https://upverter.com/upn/revision/60c0f3c9560d0c93/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Omron"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Description"; Value = "Relay; E-Mech; Low Signal; SPDT; Cur-Rtg 1A; Ctrl-V 12DC; Vol-Rtg 125/60AC/DC; PCB Mnt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "653-G5V-1-DC12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number Of Contacts"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "G5V-1-DC12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "G5V-1-DC12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "1.48127132607"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Standoff Height"; Value = "0.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "Z774-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "653-G5V-1-DC12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Switching Current"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "-40°C to +70°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range High"; Value = "+70°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range Low"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Throw Configuration"; Value = "SPDT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Verification Version"; Value = "0.0.0.1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q1" ("Q1"); Footprint = "NXP-SOT23_M"; UniqueID = "\TKVAJXIT\EUAZYFRB" ("\TKVAJXIT\EUAZYFRB")
+Change component parameters (AddParameter): Name = "Brand"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Channel Mode"; Value = "Enhancement"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/2N7002-7-F-Diodes-Inc.-datasheet-8326113.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Rev. 21-2, 02/2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Factory Pack Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fall Time"; Value = "5.6ns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Forward Transconductance - Min"; Value = "0.08S"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Id - Continuous Drain Current"; Value = "115mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "2.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.diodes.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Maximum Operating Temperature"; Value = "+150C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Minimum Operating Temperature"; Value = "-55C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Channels"; Value = "1Channel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "SOT-23-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Description"; Value = "3-Pin Small Outline Transistor, Body 2.9 x 1.3 mm, Pitch 0.96 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "SOT23-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pd - Power Dissipation"; Value = "300mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Product"; Value = "MOSFETSmallSignal"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Product Category"; Value = "MOSFET"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rds On - Drain-Source Resistance"; Value = "7.5Ohms"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rise Time"; Value = "3ns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "2N7002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "Si"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Transistor Polarity"; Value = "N-Channel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Transistor Type"; Value = "1N-Channel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "EnhancementModeFieldEffectTransistor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Typical Turn-Off Delay Time"; Value = "11ns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Typical Turn-On Delay Time"; Value = "7ns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Unit Weight"; Value = "0.000282oz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vds - Drain-Source Breakdown Voltage"; Value = "70V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vgs - Gate-Source Voltage"; Value = "20V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "1.3mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RELAY- Pin=D6-1
+Added Pin To Net: NetName=+5 Pin=D6-2
+Added Pin To Net: NetName=SHDN_IN Pin=K1-5
+Added Pin To Net: NetName=SHDN_IN Pin=K1-6
+Added Pin To Net: NetName=+5 Pin=K1-9
+Added Pin To Net: NetName=SHDN_OUT Pin=K1-10
