@@ -9,13 +9,21 @@
  */
 
 #include <Arduino.h>
-#include <mcp_can.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>
 #include <util/twi.h>
 #include <avr/sfr_defs.h>
 #include <avr/wdt.h>
-#include "include/can_ids.h"
+#include <avr/iom328p.h>
+#include <avr/eeprom.h>
+#include <avr/io.h>
+#include "can_ids.h"
+#include "defaults.h"
+#include "global.h"
+#include "mcp2515.h"
+#include "mcp2515_defs.h"
+
+
 
 
 
@@ -82,4 +90,3 @@ ISR(TIMER1_COMPA_vect){
   sei();
 
   }
-}

@@ -521,9 +521,9 @@ F 3 "" H 10500 4925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8775 3400 2    50   ~ 0
-CANH
+CAN+
 Text Label 8775 3600 2    50   ~ 0
-CANL
+CAN-
 $Comp
 L Device:R R4
 U 1 1 5E3AF9C1
@@ -550,9 +550,9 @@ Wire Wire Line
 Wire Wire Line
 	5050 4200 5050 4600
 Text Label 10325 3200 0    50   ~ 0
-CANH
+CAN+
 Text Label 10350 3900 0    50   ~ 0
-CANL
+CAN-
 $Comp
 L power:+5V #PWR0118
 U 1 1 5E3F472C
