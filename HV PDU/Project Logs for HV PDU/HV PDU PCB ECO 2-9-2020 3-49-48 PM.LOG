@@ -1,0 +1,64 @@
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=J? NewDesignator=J2
+Change Component Designator: OldDesignator=J? NewDesignator=J3
+Change Component Designator: OldDesignator=J? NewDesignator=J4
+Change Component Designator: OldDesignator=J? NewDesignator=J5
+Change Component Designator: OldDesignator=J? NewDesignator=J6
+Change Component Designator: OldDesignator=J? NewDesignator=J7
+Change Component Designator: OldDesignator=J? NewDesignator=J8
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Added Component: Designator=R1(L25)
+Add component (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Wirewound"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "14.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "14.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Flame Retardant Coating"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Vitreous Enamel Coated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead/Base Style"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "50.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Ohmite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "L25J20KE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "350°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "25W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Bolt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminals"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "25W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "20kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "L25J20KE-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "260ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Lug"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "625V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (AC)"; Value = "22V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "625V"; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=NetJ?_1a New Net Name=NetJ6_1a
+Added Pin To Net: NetName=NetJ3_1a Pin=J3-1a
+Added Pin To Net: NetName=NetJ3_1a Pin=J3-1b
+Added Pin To Net: NetName=NetJ3_1a Pin=J3-1c
+Added Net: Name=NetJ3_1a
+Added Pin To Net: NetName=NetJ4_1a Pin=J4-1a
+Added Pin To Net: NetName=NetJ4_1a Pin=J4-1b
+Added Pin To Net: NetName=NetJ4_1a Pin=J4-1c
+Added Net: Name=NetJ4_1a
+Added Pin To Net: NetName=NetJ5_1a Pin=J5-1a
+Added Pin To Net: NetName=NetJ5_1a Pin=J5-1b
+Added Pin To Net: NetName=NetJ5_1a Pin=J5-1c
+Added Net: Name=NetJ5_1a
+Added Member To Class: ClassName=HV PDU Member=Component J1 1-770872-0
+Added Member To Class: ClassName=HV PDU Member=Component J2 1-770872-0
+Added Member To Class: ClassName=HV PDU Member=Component J3 1217861-1
+Added Member To Class: ClassName=HV PDU Member=Component J4 1217861-1
+Added Member To Class: ClassName=HV PDU Member=Component J5 1217861-1
+Added Member To Class: ClassName=HV PDU Member=Component J7 1-770872-0
+Added Member To Class: ClassName=HV PDU Member=Component J8 1-770872-0
+Added Member To Class: ClassName=HV PDU Member=Component R1 L25J20KE
+Added Member To Class: ClassName=HV PDU Member=Component R3 45F10KE
+Added Room: Name=HV PDU

@@ -1,0 +1,12 @@
+Added Component: Designator=NT1(60MIL_TIE DL)
+Add component (AddParameter): Name = "ClassName"; Value = "TS-_COMP"; VariantName = "[No Variations]"
+Added Component: Designator=NT2(60MIL_TIE DL)
+Add component (AddParameter): Name = "ClassName"; Value = "TS-_COMP"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=HVINT- Pin=NT1-1
+Added Pin To Net: NetName=HV- Pin=NT1-2
+Added Pin To Net: NetName=TSAL- Pin=NT2-1
+Added Pin To Net: NetName=HV- Pin=NT2-2
+Added Member To Class: ClassName=HV PDU Member=Component NT1 NET TIE
+Added Member To Class: ClassName=TS-_COMP Member=Component NT1 NET TIE
+Added Member To Class: ClassName=HV PDU Member=Component NT2 NET TIE
+Added Member To Class: ClassName=TS-_COMP Member=Component NT2 NET TIE

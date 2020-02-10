@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=GND Pin=D1-2
+Removed Pin From Net: NetName=GND Pin=J9-2
+Removed Pin From Net: NetName=GND Pin=K1-5
+Added Component: Designator=NT4(20MIL_TIE)
+Added Pin To Net: NetName=GND Pin=NT4-2
+Change Net Name : Old Net Name=GND New Net Name=SHLD
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=GND Pin=J9-2
+Added Pin To Net: NetName=GND Pin=K1-5
+Added Pin To Net: NetName=GND Pin=NT4-1
+Added Net: Name=GND
+Added Member To Class: ClassName=HV PDU Member=Component NT4 NET TIE
+Added Member To Class: ClassName=GLV Member=Wire SHLD

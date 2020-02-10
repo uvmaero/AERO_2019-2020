@@ -1,0 +1,48 @@
+Added Parameter FNet= to Part F1
+Added Parameter FNet= to Part F2
+Added Parameter FNet= to Part F3
+Added Parameter FNet= to Part F4
+Added Parameter FNet= to Part F6
+Added Parameter FuseCurrent= to Part F2
+Added Parameter FuseCurrent= to Part F3
+Added Parameter FuseCurrent= to Part F4
+Added Parameter FuseCurrent= to Part F6
+Added Parameter FuseVoltage= to Part F2
+Added Parameter FuseVoltage= to Part F3
+Added Parameter FuseVoltage= to Part F4
+Added Parameter FuseVoltage= to Part F6
+Replace Symbol from D1 D-AK-2 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with D-AK-2 from Altium Content Vault
+Replace Symbol from F1 0031.8201 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 0031.8201 from AERO Parts.IntLib
+Replace Symbol from F2 0031.8201 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 0031.8201 from AERO Parts.IntLib
+Replace Symbol from F3 0031.8201 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 0031.8201 from AERO Parts.IntLib
+Replace Symbol from F4 0031.8201 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 0031.8201 from AERO Parts.IntLib
+Replace Symbol from F5 MF-FSMF010X-2 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with MF-FSMF010X-2 from bspd parts.SchLib
+Replace Symbol from F6 0031.8201 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 0031.8201 from AERO Parts.IntLib
+Replace Symbol from J1 1-770872-0 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1-770872-0 from bspd parts.SchLib
+Replace Symbol from J2 1-770872-0 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1-770872-0 from bspd parts.SchLib
+Replace Symbol from J3 1217861-1 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1217861-1 from bspd parts.SchLib
+Replace Symbol from J4 1217861-1 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1217861-1 from bspd parts.SchLib
+Replace Symbol from J5 1217861-1 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1217861-1 from bspd parts.SchLib
+Replace Symbol from J6 1217861-1 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1217861-1 from bspd parts.SchLib
+Replace Symbol from J7 1-770872-0 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1-770872-0 from bspd parts.SchLib
+Replace Symbol from J8 1-770872-0 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1-770872-0 from bspd parts.SchLib
+Replace Symbol from J9 B2B-PH-K-S(LF)(SN) in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with B2B-PH-K-S(LF)(SN) from AERO Parts.IntLib
+Replace Symbol from J10 1-770872-0 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1-770872-0 from bspd parts.SchLib
+Replace Symbol from J11 1-770872-0 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1-770872-0 from bspd parts.SchLib
+Replace Symbol from J12 1-770872-0 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1-770872-0 from bspd parts.SchLib
+Replace Symbol from J13 1-770872-0 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1-770872-0 from bspd parts.SchLib
+Replace Symbol from J14 1-770872-0 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1-770872-0 from bspd parts.SchLib
+Replace Symbol from J15 1-770872-0 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1-770872-0 from bspd parts.SchLib
+Replace Symbol from K1 G2RL-14-DC12 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with G2RL-14-DC12 from AERO Parts.SchLib
+Replace Symbol from MTG1 MTG in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with MTG from Hardware.DbLib
+Replace Symbol from MTG2 MTG in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with MTG from Hardware.DbLib
+Replace Symbol from MTG3 MTG in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with MTG from Hardware.DbLib
+Replace Symbol from MTG4 MTG in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with MTG from Hardware.DbLib
+Replace Symbol from NT1 NET TIE in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with NET TIE from AERO Parts.IntLib
+Replace Symbol from NT2 NET TIE in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with NET TIE from AERO Parts.IntLib
+Replace Symbol from NT3 NET TIE in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with NET TIE from AERO Parts.IntLib
+Replace Symbol from NT4 NET TIE in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with NET TIE from AERO Parts.SchLib
+Replace Symbol from P1 1317G13 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 1317G13 from AERO Parts.IntLib
+Replace Symbol from R1 L25J20KE in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with L25J20KE from AERO Parts.IntLib
+Replace Symbol from R2 45F10KE in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 45F10KE from AERO Parts.IntLib
+Replace Symbol from R3 45F10KE in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 45F10KE from AERO Parts.IntLib

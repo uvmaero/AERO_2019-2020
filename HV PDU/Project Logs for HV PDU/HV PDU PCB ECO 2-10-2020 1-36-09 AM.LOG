@@ -1,0 +1,5 @@
+Change Physical Footprint: Designator=K1 Old Footprint=G2RL_NoPin3 New Footprint=G2RL_NoPin3
+Change Physical Footprint: Designator=NT1 Old Footprint=60MIL_TIE DL New Footprint=60MIL_TIE DL
+Change Physical Footprint: Designator=NT2 Old Footprint=60MIL_TIE DL New Footprint=60MIL_TIE DL
+Change Physical Footprint: Designator=NT3 Old Footprint=60MIL_TIE DL New Footprint=60MIL_TIE DL
+Change Physical Footprint: Designator=R2 Old Footprint=45F10KE New Footprint=45F10KE

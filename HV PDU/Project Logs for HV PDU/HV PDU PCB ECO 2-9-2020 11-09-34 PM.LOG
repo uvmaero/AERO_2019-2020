@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=J3 Old Footprint=te-1217861-1 New Footprint=te-1217861-1
+Change Component Footprint: Designator=J4 Old Footprint=te-1217861-1 New Footprint=te-1217861-1
+Change Component Footprint: Designator=J5 Old Footprint=te-1217861-1 New Footprint=te-1217861-1
+Change Component Footprint: Designator=J6 Old Footprint=te-1217861-1 New Footprint=te-1217861-1
+Added Member To Class: ClassName=GLV Member=Component J3 1217861-1
+Added Member To Class: ClassName=HV PDU Member=Component J3 1217861-1
+Added Member To Class: ClassName=GLV Member=Component J4 1217861-1
+Added Member To Class: ClassName=HV PDU Member=Component J4 1217861-1

@@ -1,0 +1,10 @@
+Removed Parameter Current Rating:10A from Part F1
+Removed Parameter Fuse Current:10A from Part F1
+Removed Parameter Illumination Type:Illuminated from Part F1
+Removed Parameter Voltage:500V from Part F1
+Removed Parameter Voltage Rating (AC):500V from Part F1
+Removed Parameter Voltage Rating (DC):500V from Part F1
+Removed Parameter Voltage Rating:250V from Part F1
+Added Parameter FuseCurrent= to Part F1
+Added Parameter FuseVoltage= to Part F1
+Replace Symbol from F1 0031.8201 in C:\git\AERO_2019-2020\HV PDU\HV PDU.SchDoc with 0031.8201 from AERO Parts.IntLib
