@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.2032)
     (user_trace_width 0.508)
     (trace_clearance 0.2032)
     (zone_clearance 0.508)
@@ -86,9 +86,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerbers/"))
   )
 
   (net 0 "")
@@ -122,16 +122,6 @@
     (add_net /~FAULT_IND_2)
     (add_net /~FAULT_IND_3)
     (add_net GND)
-    (add_net "Net-(J1-Pad4)")
-    (add_net "Net-(J1-Pad5)")
-    (add_net "Net-(J1-Pad6)")
-    (add_net "Net-(J1-Pad8)")
-    (add_net "Net-(J3-Pad2)")
-    (add_net "Net-(J3-Pad5)")
-    (add_net "Net-(J3-Pad6)")
-    (add_net "Net-(J3-Pad7)")
-    (add_net "Net-(J3-Pad8)")
-    (add_net "Net-(J3-Pad9)")
   )
 
   (net_class USB ""
@@ -3414,7 +3404,7 @@
   (segment (start 61.679799 120.618457) (end 62.333543 121.272201) (width 0.508) (layer F.Cu) (net 12))
   (segment (start 81.839342 99.252) (end 61.679799 119.411543) (width 0.508) (layer F.Cu) (net 12))
 
-  (zone (net 5) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 5) (net_name GND) (layer F.Cu) (tstamp 5DDB3543) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3709,7 +3699,7 @@
       )
     )
   )
-  (zone (net 5) (net_name GND) (layer B.Cu) (tstamp 5DD100E0) (hatch edge 0.508)
+  (zone (net 5) (net_name GND) (layer B.Cu) (tstamp 5DDB3540) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

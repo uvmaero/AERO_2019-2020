@@ -1,0 +1,25 @@
+Change Component Footprint: Designator=J2 Old Footprint=B4B-PH-K New Footprint=B4B-XH-A(LF)(SN)
+Change Component Comment : Designator=J2 Old Comment=B4B-PH-K-S(LF)(SN) New Comment=B4B-XH-A(LF)(SN)
+Change component parameters: Designator = "J2" ("J2"); Footprint = "B4B-PH-K"; UniqueID = "\VZHVTRYP" ("\VZHVTRYP")
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Apr-09"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.jst.com/home2.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "No of Positions"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Style/Orientation"; Value = "StraightHeader/Plug"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Newark"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "73M9436"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Crimp"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "ShroudedHeader"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=GLV+ Pin=J3-2
+Change Net Name : Old Net Name=D+ New Net Name=EM_D_P
+Change Net Name : Old Net Name=D- New Net Name=EM_D_N
+Added Pin To Net: NetName=HECS1 Pin=J3-3
+Added Net: Name=HECS1
+Added Pin To Net: NetName=HECS2 Pin=J3-4
+Added Net: Name=HECS2
+Added Pin To Net: NetName=HECS3 Pin=J3-5
+Added Net: Name=HECS3
+Added Class: Name=HECS[1..3]
+Added Differential Pair: Name=EM_D
+Added Class: Name=CAN
