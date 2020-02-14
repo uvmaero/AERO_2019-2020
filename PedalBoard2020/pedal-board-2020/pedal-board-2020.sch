@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:pedal-board-2020-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega328P-AU U1
+L pedal-board-2020-rescue:ATmega328P-AU-MCU_Microchip_ATmega U1
 U 1 1 5E386332
 P 2750 4200
 F 0 "U1" H 2125 2500 50  0000 C CNN

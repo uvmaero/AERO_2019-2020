@@ -43,6 +43,23 @@ ReleaseFolderPath=[OutputPath]
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
+DocumentPath=..\..\..\..\Users\Public\Documents\Altium\Kicad BOM.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document2]
 DocumentPath=TOP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -59,7 +76,7 @@ DItemRevisionGUID=
 GenerateClassCluster=1
 DocumentUniqueId=QDBFQOWU
 
-[Document2]
+[Document3]
 DocumentPath=Power Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -76,7 +93,7 @@ DItemRevisionGUID=
 GenerateClassCluster=1
 DocumentUniqueId=KWFRCRUP
 
-[Document3]
+[Document4]
 DocumentPath=Comparator.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -93,7 +110,7 @@ DItemRevisionGUID=
 GenerateClassCluster=1
 DocumentUniqueId=NNYWBMTN
 
-[Document4]
+[Document5]
 DocumentPath=LatchDelay.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -110,7 +127,7 @@ DItemRevisionGUID=
 GenerateClassCluster=1
 DocumentUniqueId=JOZOOTVL
 
-[Document5]
+[Document6]
 DocumentPath=UVM AERO BSPD.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -127,7 +144,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QLXWVEDS
 
-[Document6]
+[Document7]
 DocumentPath=UVM AERO BSPD.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -144,7 +161,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document8]
 DocumentPath=Relay.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -161,7 +178,7 @@ DItemRevisionGUID=
 GenerateClassCluster=1
 DocumentUniqueId=XCSUMPTQ
 
-[Document8]
+[Document9]
 DocumentPath=UVM AERO BSPD Assembly.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -178,7 +195,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document10]
 DocumentPath=UVM AERO BSPD.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -195,7 +212,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document11]
 DocumentPath=IO and Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -212,7 +229,7 @@ DItemRevisionGUID=
 GenerateClassCluster=1
 DocumentUniqueId=EHNFIEUQ
 
-[Document11]
+[Document12]
 DocumentPath=Current Scaler.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -229,7 +246,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IHLLJMZG
 
-[Document12]
+[Document13]
 DocumentPath=bspd parts.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -246,7 +263,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RFBGETRS
 
-[Document13]
+[Document14]
 DocumentPath=bspd parts.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -263,7 +280,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYROSHQB
 
-[Document14]
+[Document15]
 DocumentPath=UVM AERO BSPD.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -280,7 +297,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document16]
 DocumentPath=JLCPCB Outputs.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -297,7 +314,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document17]
 DocumentPath=Manufacturing and BOM.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -314,7 +331,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document18]
 DocumentPath=As Manufactured.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1

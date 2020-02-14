@@ -1,0 +1,10 @@
+Output: Export VRML
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [HV Box Connector Board.PcbDoc]
+   Generated File[HV Box Connector Board.wrl]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 10:30:15 PM On 2/10/2020

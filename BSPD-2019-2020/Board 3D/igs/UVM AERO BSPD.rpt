@@ -1,0 +1,138 @@
+*****************************************************************
+      SolidWorks Corporation - IGES Processor Status Report
+*****************************************************************
+=================================================================
+General Information
+=================================================================
+Sending System Product I.D.  : Solid Edge
+Receiving System Product I.D.: Unknown
+File Name                    : UVM AERO BSPD.igs
+Sending System               : By Siemens PLM Incorporated
+Preprocessor Version         : XPlus GENERIC/IGES 22.0.50
+File Creation Date           : 20200210.215258
+Model Creation Date          : 20200210.215258
+Units                        : MM
+Model Space Scale            : 1
+Author                       : Author
+Organization                 : Title
+
+
+=================================================================
+Entity Processing Information
+=================================================================
+WARNING: DE#   261, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   297, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   333, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   369, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   405, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   441, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   477, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   513, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   549, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   585, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   621, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   657, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   693, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   729, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   765, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   801, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   837, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   873, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   909, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   945, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#   981, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1017, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1053, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1089, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1125, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1161, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1197, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1233, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1269, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1305, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1341, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1377, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1413, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1449, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1485, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1521, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1557, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1593, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1629, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1665, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1701, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1737, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1773, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1809, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1845, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1881, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1917, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1953, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  1989, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2025, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2061, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2097, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2133, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2169, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2205, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2241, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2277, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2313, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2349, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2385, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2421, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2457, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2493, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2529, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2565, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2601, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2637, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2673, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2709, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2745, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#  2781, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#124193, TYPE   144: Error repaired by using 3D trim curves.
+WARNING: DE#132243, TYPE   144: Error repaired by using 3D trim curves.
+
+
+=================================================================
+Precision analysis of IGES file:
+=================================================================
+  Most prevalent number of significant digits:               4
+  Highest number of significant digits:                      8
+  Average number of significant digits:                5.87755
+  Maximum distance to origin:                          1.32846
+  Minimum distance to origin:                         0.744864
+  Effective number of significant digits:              7.44945
+
+
+=================================================================
+Entity Summary
+=================================================================
+-----------------------------------------------------------------
+Type Name                                         Count Converted
+---- ----                                         ----- ---------
+102  Composite curve                               8632      8632
+124  Transformation matrix                          200       200
+126  Rational B-spline curve                      41088     41088
+128  Rational B-spline surface                     4003      4003
+142  Curve on a parametric surface                 4316      4316
+144  Trimmed parametric surface                    4003      4003
+308  Subfigure definition                           348       348
+314  Color definition                              4003      4003
+408  Singular subfigure instance                    455       455
+_________________________________________________________________
+
+
+=================================================================
+Result Summary
+=================================================================
+SolidWorks Feature Type                Count
+-----------------------                -----
+Solid feature(s)                       160
+Surface feature(s)                     15
+Curve/Sketch feature(s)                0
+--------------------------------------------
+Start time: Monday, February 10, 2020 21:53:50
+Finish time: Monday, February 10, 2020 21:54:41
+Processing time: 0 days, 00 hours, 00 mins, 51 secs

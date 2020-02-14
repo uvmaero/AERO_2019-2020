@@ -52,7 +52,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=XMBAKVYZ
 
 [Document2]
 DocumentPath=..\..\..\Users\Public\Documents\Altium\AERO Parts\AERO Parts.PcbLib
@@ -69,7 +69,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=LJNGOFMJ
 
 [Document3]
 DocumentPath=HV PDU.SchDoc
@@ -139,9 +139,34 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document7]
+DocumentPath=General Outputs.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for HV PDU\Design Rule Check - HV PDU.html
 DItemRevisionGUID=
+
+[Parameter1]
+Name=ProjAuth
+Value=Andrew Katz
+
+[Parameter2]
+Name=ProjName
+Value=HV PDU
 
 [Configuration1]
 Name=Sources
@@ -1160,13 +1185,7 @@ ComponentDesignItemID0=NET TIE
 ComponentSymbolReference0=NET TIE
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=AERO Parts.SchLib
-ComponentDesignItemID1=NET TIE
-ComponentSymbolReference1=NET TIE
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-FullReplace=1
+FullReplace=0
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
 PreserveParameterLocations=1
@@ -1290,23 +1309,30 @@ ComponentUpdate12=1
 ComponentIsDeviceSheet12=0
 
 [NetInfos]
-Net1=NetName=EM+|NetColor=$006E6EFF
-Net2=NetName=GND|NetColor=$0000BE00
-Net3=NetName=HV-|NetColor=$00FF6E6E
-Net4=NetName=HV_DIS_F|NetColor=$006E6EFF
-Net5=NetName=HV_DIS_RLY|NetColor=$00FF6E6E
-Net6=NetName=HV+|NetColor=$006E6EFF
-Net7=NetName=HVINT-|NetColor=$00FF6E6E
-Net8=NetName=HVINT+|NetColor=$006E6EFF
-Net9=NetName=IMD-|NetColor=$00FF6E6E
-Net10=NetName=IMD+|NetColor=$006E6EFF
-Net11=NetName=SHDN_FUSED|NetColor=$0000BE00
-Net12=NetName=SHDN+|NetColor=$0000BE00
-Net13=NetName=SHLD|NetColor=$0000BE00
-Net14=NetName=TSAL-|NetColor=$00FF6E6E
-Net15=NetName=TSAL+|NetColor=$006E6EFF
-Net16=NetName=TSMP-|NetColor=$00FF6E6E
-Net17=NetName=TSMP+|NetColor=$006E6EFF
+Net1=NetName=BL|NetColor=$00FF6EFF
+Net2=NetName=BR|NetColor=$00FF6EFF
+Net3=NetName=EM_MTG|NetColor=$006E6EFF
+Net4=NetName=EM+|NetColor=$006E6EFF
+Net5=NetName=GND|NetColor=$0000BE00
+Net6=NetName=HV-|NetColor=$00FF6E6E
+Net7=NetName=HV_DIS_F|NetColor=$006E6EFF
+Net8=NetName=HV_DIS_RLY|NetColor=$006E6EFF
+Net9=NetName=HV_DIS_RLY_-|NetColor=$00FF6E6E
+Net10=NetName=HV+|NetColor=$006E6EFF
+Net11=NetName=HVINT-|NetColor=$00FF6E6E
+Net12=NetName=HVINT+|NetColor=$006E6EFF
+Net13=NetName=IMD-|NetColor=$00FF6E6E
+Net14=NetName=IMD+|NetColor=$006E6EFF
+Net15=NetName=RLY_MTG|NetColor=$00FF6EFF
+Net16=NetName=SHDN_FUSED|NetColor=$0000BE00
+Net17=NetName=SHDN+|NetColor=$0000BE00
+Net18=NetName=SHLD|NetColor=$0000BE00
+Net19=NetName=TL|NetColor=$00FF6EFF
+Net20=NetName=TR|NetColor=$00FF6EFF
+Net21=NetName=TSAL-|NetColor=$00FF6E6E
+Net22=NetName=TSAL+|NetColor=$006E6EFF
+Net23=NetName=TSMP-|NetColor=$00FF6E6E
+Net24=NetName=TSMP+|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0

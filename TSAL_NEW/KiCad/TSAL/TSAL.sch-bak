@@ -803,7 +803,7 @@ U 1 1 5E3CF9BB
 P 9175 3850
 F 0 "J3" H 9093 3525 50  0000 C CNN
 F 1 "Conn_01x03" H 9093 3616 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 9175 3850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9175 3850 50  0001 C CNN
 F 3 "~" H 9175 3850 50  0001 C CNN
 	1    9175 3850
 	-1   0    0    1   

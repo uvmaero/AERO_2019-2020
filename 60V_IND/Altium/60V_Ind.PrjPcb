@@ -43,6 +43,23 @@ ReleaseFolderPath=[OutputPath]
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
+DocumentPath=..\..\..\..\Users\Public\Documents\Altium\Kicad BOM.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document2]
 DocumentPath=60V_Ind.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -59,7 +76,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EOALXZJB
 
-[Document2]
+[Document3]
 DocumentPath=60V_Ind.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -76,7 +93,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LHAPIPNQ
 
-[Document3]
+[Document4]
 DocumentPath=60V_Ind.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -93,7 +110,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IXUQBBYD
 
-[Document4]
+[Document5]
 DocumentPath=60V_Ind.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -110,7 +127,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BKDXXLPS
 
-[Document5]
+[Document6]
 DocumentPath=60V_Ind.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -127,7 +144,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document7]
 DocumentPath=60V_Ind Assembly.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -144,7 +161,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document8]
 DocumentPath=60V_Ind.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -161,7 +178,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document9]
 DocumentPath=60V_Ind.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -178,7 +195,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document10]
 DocumentPath=JLCPCB Outputs.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -195,7 +212,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document11]
 DocumentPath=As Manufactured.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -245,30 +262,26 @@ DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GM5
-DItemRevisionGUID=
-
-[GeneratedDocument10]
 DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for 60V_Ind\60V_IND - JLCPCB Files\60V_Ind.REP
 DItemRevisionGUID=
 
