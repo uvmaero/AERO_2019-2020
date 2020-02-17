@@ -247,20 +247,8 @@ F 3 "~" V 5475 2010 50  0001 C CNN
 $EndComp
 Text Notes 5275 1600 0    50   ~ 0
 BATTERY CELLS
-Text GLabel 6250 3400 0    50   Input ~ 0
+Text GLabel 5475 3500 0    50   Input ~ 0
 CAN+
-Text GLabel 6250 3575 0    50   Input ~ 0
+Text GLabel 5475 3675 0    50   Input ~ 0
 CAN-
-Text GLabel 6250 3775 0    50   Input ~ 0
-GND
-Text Notes 5625 3700 0    50   ~ 0
-CAN \nInterface\nDevice
-Wire Notes Line
-	6275 3300 5600 3300
-Wire Notes Line
-	5600 3300 5600 3850
-Wire Notes Line
-	5600 3850 6275 3850
-Wire Notes Line
-	6275 3850 6275 3300
 $EndSCHEMATC
