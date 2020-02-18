@@ -26,8 +26,6 @@ F 3 "~" H 2900 2725 50  0001 C CNN
 $EndComp
 Text Label 3675 2225 2    50   ~ 0
 +12V
-Wire Wire Line
-	3675 2225 3200 2225
 Text Label 3675 2325 2    50   ~ 0
 CELL_RX+
 Wire Wire Line
@@ -70,8 +68,6 @@ Wire Wire Line
 	3675 3225 3200 3225
 Text Label 2275 2225 0    50   ~ 0
 GROUND
-Wire Wire Line
-	2275 2225 2700 2225
 Text Label 2275 2325 0    50   ~ 0
 CELL_RX-
 Wire Wire Line
@@ -156,99 +152,289 @@ INPUT_1
 Wire Wire Line
 	2275 3725 2700 3725
 Text Notes 2750 1800 0    50   ~ 0
-BMS G1\nCONTROL UNIT
+BMS G1\nCONTROL UNIT\n(EMUS)
 $Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5E4AE01D
-P 7200 2225
-F 0 "J?" H 7280 2267 50  0000 L CNN
-F 1 "Conn_01x04" H 7280 2176 50  0000 L CNN
-F 2 "" H 7200 2225 50  0001 C CNN
-F 3 "~" H 7200 2225 50  0001 C CNN
-	1    7200 2225
+P 7575 2225
+F 0 "J?" H 7655 2267 50  0001 L CNN
+F 1 "Cell Group Module" V 7675 1750 50  0000 L CNN
+F 2 "" H 7575 2225 50  0001 C CNN
+F 3 "~" H 7575 2225 50  0001 C CNN
+	1    7575 2225
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5E4AE797
-P 7200 2500
-F 0 "J?" H 7280 2492 50  0000 L CNN
-F 1 "Conn_01x02" H 7280 2401 50  0000 L CNN
-F 2 "" H 7200 2500 50  0001 C CNN
-F 3 "~" H 7200 2500 50  0001 C CNN
-	1    7200 2500
+P 7575 2500
+F 0 "J?" H 7655 2492 50  0001 L CNN
+F 1 "Conn_01x02" H 7655 2401 50  0001 L CNN
+F 2 "" H 7575 2500 50  0001 C CNN
+F 3 "~" H 7575 2500 50  0001 C CNN
+	1    7575 2500
 	1    0    0    -1  
 $EndComp
-Text Label 6450 2125 0    50   ~ 0
+Text Label 6950 2125 0    50   ~ 0
 TOP_CELL+
-Wire Wire Line
-	6450 2125 7000 2125
-Text Label 6450 2225 0    50   ~ 0
+Text Label 6950 2225 0    50   ~ 0
 UP
-Wire Wire Line
-	6450 2225 7000 2225
-Text Label 6450 2325 0    50   ~ 0
+Text Label 6950 2325 0    50   ~ 0
 TOP_CELL-
-Wire Wire Line
-	6450 2325 7000 2325
-Text Label 6475 2500 0    50   ~ 0
+Text Label 7000 2500 0    50   ~ 0
 DN
-Wire Wire Line
-	6475 2500 7000 2500
-Text Label 6475 2600 0    50   ~ 0
+Text Label 7000 2600 0    50   ~ 0
 BOT_CELL
-Wire Wire Line
-	6475 2600 7000 2600
-Text Notes 6550 1950 0    50   ~ 0
-CELL GROUP MODULE\n
+Text Notes 7275 1950 0    50   ~ 0
+G1 CAN CELL \nGROUP MODULE\n(EMUS)
 $Comp
 L Device:Battery_Cell BT?
 U 1 1 5E4BAAA6
-P 5475 2550
-F 0 "BT?" H 5593 2646 50  0001 L CNN
-F 1 "Battery_Cell" H 5593 2555 50  0001 L CNN
-F 2 "" V 5475 2610 50  0001 C CNN
-F 3 "~" V 5475 2610 50  0001 C CNN
-	1    5475 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Battery_Cell BT?
-U 1 1 5E4BAEBF
-P 5475 2850
-F 0 "BT?" H 5593 2946 50  0001 L CNN
-F 1 "Battery_Cell" H 5593 2855 50  0001 L CNN
-F 2 "" V 5475 2910 50  0001 C CNN
-F 3 "~" V 5475 2910 50  0001 C CNN
-	1    5475 2850
+P 5250 2975
+F 0 "BT?" H 5368 3071 50  0001 L CNN
+F 1 "Battery_Cell" H 5368 2980 50  0001 L CNN
+F 2 "" V 5250 3035 50  0001 C CNN
+F 3 "~" V 5250 3035 50  0001 C CNN
+	1    5250 2975
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Battery_Cell BT?
 U 1 1 5E4BA49F
-P 5475 2250
-F 0 "BT?" H 5593 2346 50  0001 L CNN
-F 1 "Battery_Cell" H 5593 2255 50  0001 L CNN
-F 2 "" V 5475 2310 50  0001 C CNN
-F 3 "~" V 5475 2310 50  0001 C CNN
-	1    5475 2250
+P 5250 2500
+F 0 "BT?" H 5368 2596 50  0001 L CNN
+F 1 "Battery_Cell" H 5368 2505 50  0001 L CNN
+F 2 "" V 5250 2560 50  0001 C CNN
+F 3 "~" V 5250 2560 50  0001 C CNN
+	1    5250 2500
 	1    0    0    -1  
 $EndComp
+Text Notes 5375 1400 2    50   ~ 0
+BATTERY CELLS\nTotal of 6 in Series\nEnergus Li2x4p25RT
+Text GLabel 5175 4175 0    50   Input ~ 0
+CAN+
+Text GLabel 5175 4350 0    50   Input ~ 0
+CAN-
+Text GLabel 5175 4550 0    50   Input ~ 0
+GND
+Text Notes 4550 4425 0    50   ~ 0
+CAN \nInterface\nDevice
+Wire Notes Line
+	5200 4075 4525 4075
+Wire Notes Line
+	4525 4075 4525 4625
+Wire Notes Line
+	4525 4625 5200 4625
+Wire Notes Line
+	5200 4625 5200 4075
 $Comp
 L Device:Battery_Cell BT?
 U 1 1 5E4BA2E1
-P 5475 1950
-F 0 "BT?" H 5593 2046 50  0001 L CNN
-F 1 "Battery_Cell" H 5593 1955 50  0001 L CNN
-F 2 "" V 5475 2010 50  0001 C CNN
-F 3 "~" V 5475 2010 50  0001 C CNN
-	1    5475 1950
+P 5250 2000
+F 0 "BT?" H 5368 2096 50  0001 L CNN
+F 1 "Battery_Cell" H 5368 2005 50  0001 L CNN
+F 2 "" V 5250 2060 50  0001 C CNN
+F 3 "~" V 5250 2060 50  0001 C CNN
+	1    5250 2000
 	1    0    0    -1  
 $EndComp
-Text Notes 5275 1600 0    50   ~ 0
-BATTERY CELLS
-Text GLabel 5475 3500 0    50   Input ~ 0
+Text GLabel 6225 1900 0    50   Input ~ 0
+UP
+Text GLabel 6225 2025 0    50   Input ~ 0
+DN
+Text GLabel 5750 1900 2    50   Input ~ 0
+CELL+
+Text GLabel 5750 2025 2    50   Input ~ 0
+CELL-
+Wire Notes Line
+	5725 1825 6275 1825
+Wire Notes Line
+	6275 1825 6275 2100
+Wire Notes Line
+	6275 2100 5725 2100
+Wire Notes Line
+	5725 2100 5725 1825
+Text Notes 5725 1800 0    50   ~ 0
+G1 Small Type\nCell Module\n(EMUS)
+Text GLabel 6225 2375 0    50   Input ~ 0
+UP
+Text GLabel 6225 2500 0    50   Input ~ 0
+DN
+Text GLabel 5750 2375 2    50   Input ~ 0
+CELL+
+Text GLabel 5750 2500 2    50   Input ~ 0
+CELL-
+Wire Notes Line
+	5725 2300 6275 2300
+Wire Notes Line
+	6275 2300 6275 2575
+Wire Notes Line
+	6275 2575 5725 2575
+Wire Notes Line
+	5725 2575 5725 2300
+Text GLabel 6225 2850 0    50   Input ~ 0
+UP
+Text GLabel 6225 2975 0    50   Input ~ 0
+DN
+Text GLabel 5750 2850 2    50   Input ~ 0
+CELL+
+Text GLabel 5750 2975 2    50   Input ~ 0
+CELL-
+Wire Notes Line
+	5725 2775 6275 2775
+Wire Notes Line
+	6275 2775 6275 3050
+Wire Notes Line
+	6275 3050 5725 3050
+Wire Notes Line
+	5725 3050 5725 2775
+Wire Wire Line
+	5250 2600 5250 2775
+Wire Wire Line
+	5250 3075 5625 3075
+Wire Wire Line
+	6725 3075 6725 2600
+Wire Wire Line
+	6625 2500 6625 2975
+Wire Wire Line
+	6625 2975 6225 2975
+Wire Wire Line
+	6625 2500 7375 2500
+Wire Wire Line
+	6225 2850 6400 2850
+Wire Wire Line
+	6400 2850 6400 2500
+Wire Wire Line
+	6400 2500 6225 2500
+Wire Wire Line
+	6225 2375 6400 2375
+Wire Wire Line
+	6400 2375 6400 2025
+Wire Wire Line
+	6400 2025 6225 2025
+Wire Wire Line
+	6225 1900 6625 1900
+Wire Wire Line
+	6625 1900 6625 2225
+Wire Wire Line
+	6625 2225 7375 2225
+Wire Wire Line
+	6700 1500 5625 1500
+Wire Wire Line
+	5250 1500 5250 1800
+Wire Wire Line
+	5625 1900 5625 1500
+Wire Wire Line
+	5625 1900 5750 1900
+Connection ~ 5625 1500
+Wire Wire Line
+	5625 1500 5250 1500
+Wire Wire Line
+	6350 2225 6475 2325
+Wire Wire Line
+	6475 2325 7375 2325
+Wire Wire Line
+	5750 2025 5650 2025
+Wire Wire Line
+	5650 2025 5650 2100
+Wire Wire Line
+	5650 2100 5250 2100
+Connection ~ 5250 2100
+Wire Wire Line
+	5750 2375 5650 2375
+Wire Wire Line
+	5650 2375 5650 2300
+Wire Wire Line
+	5650 2300 5250 2300
+Connection ~ 5250 2300
+Wire Wire Line
+	5250 2100 5250 2300
+Wire Wire Line
+	6350 2225 5650 2225
+Wire Wire Line
+	5650 2225 5650 2100
+Connection ~ 5650 2100
+Wire Wire Line
+	5750 2850 5625 2850
+Wire Wire Line
+	5625 2850 5625 2775
+Wire Wire Line
+	5625 2775 5250 2775
+Connection ~ 5250 2775
+Wire Wire Line
+	5750 2975 5625 2975
+Wire Wire Line
+	5625 2975 5625 3075
+Connection ~ 5625 3075
+Wire Wire Line
+	5625 3075 6725 3075
+Wire Wire Line
+	6725 2600 7375 2600
+Wire Wire Line
+	6700 1500 6700 2125
+Wire Wire Line
+	6700 2125 7375 2125
+Wire Notes Line
+	6925 2725 6925 1975
+$Comp
+L power:+12V #PWR?
+U 1 1 5E51C4B6
+P 3800 2225
+F 0 "#PWR?" H 3800 2075 50  0001 C CNN
+F 1 "+12V" H 3815 2398 50  0000 C CNN
+F 2 "" H 3800 2225 50  0001 C CNN
+F 3 "" H 3800 2225 50  0001 C CNN
+	1    3800 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2225 3800 2225
+$Comp
+L power:GND #PWR?
+U 1 1 5E51E673
+P 2050 2225
+F 0 "#PWR?" H 2050 1975 50  0001 C CNN
+F 1 "GND" H 2055 2052 50  0000 C CNN
+F 2 "" H 2050 2225 50  0001 C CNN
+F 3 "" H 2050 2225 50  0001 C CNN
+	1    2050 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2225 2700 2225
+Text Notes 4575 4050 0    50   ~ 0
+Ixxat \nUSB-to-CAN V2
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5E5496DE
+P 7825 2375
+F 0 "J?" H 7743 2042 50  0001 C CNN
+F 1 "Conn_01x04" H 7743 2041 50  0001 C CNN
+F 2 "" H 7825 2375 50  0001 C CNN
+F 3 "~" H 7825 2375 50  0001 C CNN
+	1    7825 2375
+	-1   0    0    1   
+$EndComp
+Text Label 8250 2175 2    50   ~ 0
 CAN+
-Text GLabel 5475 3675 0    50   Input ~ 0
+Wire Wire Line
+	8250 2175 8025 2175
+Text Label 8250 2275 2    50   ~ 0
 CAN-
+Wire Wire Line
+	8250 2275 8025 2275
+Text Label 8250 2375 2    50   ~ 0
+GND
+Wire Wire Line
+	8250 2375 8025 2375
+Text Label 8250 2475 2    50   ~ 0
+12V
+Wire Wire Line
+	8250 2475 8025 2475
+Wire Notes Line
+	8300 1975 8300 2725
+Wire Notes Line
+	6925 1975 8300 1975
+Wire Notes Line
+	6925 2725 8300 2725
 $EndSCHEMATC
