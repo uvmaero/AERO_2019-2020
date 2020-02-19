@@ -1,0 +1,23 @@
+Removed Member From Class: ClassName=U_DCDC Member=C23
+Removed Member From Class: ClassName=U_DCDC Member=FB2
+Removed Member From Class: ClassName=U_DCDC Member=R14
+Removed Member From Class: ClassName=U_DCDC Member=R15
+Change Component Footprint: Designator=R9 Old Footprint=RR01 New Footprint=RR01_VERT
+Added Member To Class: ClassName=Top Member=Component C4 CS45-B2GA151K-NKA
+Added Member To Class: ClassName=Top Member=Component C6 CAP 0805 10UF 16V 20% X7R
+Added Member To Class: ClassName=Top Member=Component C12 CAP 0805 10UF 16V 20% X7R
+Added Member To Class: ClassName=Top Member=Component C16 CAP 0603 10UF 25V 20% X5R
+Added Member To Class: ClassName=Top Member=Component C17 CAP 0603 0.1UF 16V 10% X7R
+Added Member To Class: ClassName=U_DCDC Member=Component C25 B32021A3472K289
+Added Member To Class: ClassName=U_DCDC Member=Component C28 B32021A3472K289
+Added Member To Class: ClassName=U_DCDC Member=Component C29 CAP 0805 0.1UF 100V 10% X7R
+Added Member To Class: ClassName=U_DCDC Member=Component C30 CAP 0805 0.1UF 100V 10% X7R
+Added Member To Class: ClassName=Top Member=Component FB1 Ferrite Chip 2500 Ohms
+Added Member To Class: ClassName=Top Member=Component FB2 Ferrite Chip 2500 Ohms
+Added Member To Class: ClassName=U_DCDC Member=Component FB3 Ferrite Chip 50 Ohms
+Added Member To Class: ClassName=Top Member=Component R6 RES 0603 10K 1%
+Added Member To Class: ClassName=Top Member=Component R7 RES 0603 10K 1%
+Added Member To Class: ClassName=U_Filter Member=Component R8 MHR0422SA107F70
+Added Member To Class: ClassName=U_Current Sense Member=Component R16 RES 0603 10 1%
+Added Member To Class: ClassName=U_DCDC Member=Component R17 91AR50KLF
+Added Member To Class: ClassName=U_DCDC Member=Component R18 RES 0805 6.8K 1%

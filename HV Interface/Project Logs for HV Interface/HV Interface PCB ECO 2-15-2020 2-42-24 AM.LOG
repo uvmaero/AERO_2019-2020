@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=HV- Pin=C27-1
+Removed Pin From Net: NetName=HV+ Pin=C27-2
+Removed Pin From Net: NetName=HV- Pin=C28-1
+Removed Pin From Net: NetName=HV+ Pin=C28-2
+Change Component Footprint: Designator=C1 Old Footprint=ECA-1VM472 New Footprint=ECA-1VM472
+Change Component Footprint: Designator=C2 Old Footprint=ECA-1VM472 New Footprint=ECA-1VM472
+Change Component Footprint: Designator=C3 Old Footprint=ECA-1VM472 New Footprint=ECA-1VM472
+Change Component Footprint: Designator=C6 Old Footprint=ECA-1VM472 New Footprint=ECA-1VM472
+Change Component Footprint: Designator=L2 Old Footprint=WE-HCI-7050 New Footprint=WE-HCI-7050
+Added Component: Designator=C28(B32674D(31.5X20))
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://en.tdk.eu/inf/20/20/db/fc_2009/MKP_B32774_778.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "EPCOS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "B32774D4226K000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = "8829455P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/8829455P"; VariantName = "[No Variations]"

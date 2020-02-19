@@ -1,0 +1,26 @@
+Change Component Footprint: Designator=C5 Old Footprint=ECA-1VM472 New Footprint=ECA-1VM472
+Change Component Footprint: Designator=C10 Old Footprint=ECA-1VM472 New Footprint=ECA-1VM472
+Added Component: Designator=L?(SLC1175)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.coilcraft.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Component Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.coilcraft.com/pdf_viewer/showpdf.cfm?f=pdf_store:slc1175.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Octopart Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://octopart.com/partsearch/#search/requestData&q=SLC1175-151ME"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DCR Typ (mohms)"; Value = "0.252(Max)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description in Visual"; Value = "Inductor SMT 150nH 35.5(Max)AIrms 0.252(Max)mOhms"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "150nH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Irms (A)"; Value = "35.5(Max)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Isat (A)"; Value = "76(Max)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Coilcraft"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "SLC1175-151ME"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range"; Value = "-40 to +85 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P/N"; Value = "SLC1175-151ME"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB Package"; Value = "NON-STD SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shielding"; Value = "Shielded"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Top Member=Component C5 ECA-1VM472
+Added Member To Class: ClassName=Top Member=Component C10 ECA-1VM472
+Added Member To Class: ClassName=Top Member=Component C11 CAP 0805 0.1UF 100V 10% X7R
+Added Member To Class: ClassName=Top Member=Component L? Inductor
+Added Member To Class: ClassName=Top Member=Component R3 RR01JR75TB
+Added Member To Class: ClassName=Top Member=Component R4 TWW5J2R0E

@@ -1,0 +1,8 @@
+Replace Part A1 VicorASM_ALT in C:\git\AERO_2019-2020\HV Interface\DCDC.SchDoc with VicorASM_ALT from AERO Parts.SchLib
+Replace Part C26 cap in C:\git\AERO_2019-2020\HV Interface\DCDC.SchDoc with cap from Passive Components.DbLib
+Replace Part C27 cap in C:\git\AERO_2019-2020\HV Interface\DCDC.SchDoc with cap from Passive Components.DbLib
+Replace Part FB3 Ferrite Bead in C:\git\AERO_2019-2020\HV Interface\DCDC.SchDoc with Ferrite Bead from Passive Components.DbLib
+Replace Part J5 22-23-2031 in C:\git\AERO_2019-2020\HV Interface\DCDC.SchDoc with 22-23-2031 from AERO Parts.SchLib
+Replace Part J6 B2B-PH-K-S(LF)(SN) in C:\git\AERO_2019-2020\HV Interface\DCDC.SchDoc with B2B-PH-K-S(LF)(SN) from AERO Parts.IntLib
+Replace Part R13 91AR50KLF in C:\git\AERO_2019-2020\HV Interface\DCDC.SchDoc with 91AR50KLF from AERO Parts.IntLib
+Replace Part R14 res in C:\git\AERO_2019-2020\HV Interface\DCDC.SchDoc with res from Passive Components.DbLib

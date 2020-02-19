@@ -1,0 +1,5 @@
+Replace Part C29 cap in C:\git\AERO_2019-2020\HV Interface\Current Sense.SchDoc with cap from Passive Components.DbLib
+Replace Part C30 cap in C:\git\AERO_2019-2020\HV Interface\Current Sense.SchDoc with cap from Passive Components.DbLib
+Replace Part R13 res in C:\git\AERO_2019-2020\HV Interface\Current Sense.SchDoc with res from Passive Components.DbLib
+Replace Part R14 res in C:\git\AERO_2019-2020\HV Interface\Current Sense.SchDoc with res from Passive Components.DbLib
+Update Managed Component U2 From CMP-0704-00003-2[INA219AIDR] To CMP-0704-00003-2[INA219AIDR] in Current Sense.SchDoc

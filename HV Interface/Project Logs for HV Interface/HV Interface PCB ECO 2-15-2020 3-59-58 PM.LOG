@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=J7 Old Footprint=MOLX-22-23-2031_V New Footprint=MOLX-22-23-2031_V
+Added Member To Class: ClassName=Current Sense Member=Component C29 CAP 0603 0.1UF 10V 10% X7R
+Added Member To Class: ClassName=Top Member=Component R5 15FR010E
+Added Member To Class: ClassName=Top Member=Component R6 RES 0603 16.9K 1%
+Added Member To Class: ClassName=Top Member=Component R7 91AR50KLF
+Added Member To Class: ClassName=Top Member=Component R8 RES 0603 10K 1%
+Added Member To Class: ClassName=Top Member=Component R9 RES 0805 6.8K 1%
+Added Member To Class: ClassName=Top Member=Component R10 RES 0603 10K 1%
+Added Member To Class: ClassName=Filter Member=Component R11 MHR0422SA107F70

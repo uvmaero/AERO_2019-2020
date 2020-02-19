@@ -1,0 +1,224 @@
+Removed Pin From Net: NetName=EN Pin=C4-1
+Removed Pin From Net: NetName=HV- Pin=C4-2
+Removed Pin From Net: NetName=TRIM_BIAS Pin=C6-1
+Removed Pin From Net: NetName=HV- Pin=C6-2
+Removed Pin From Net: NetName=EN Pin=FB1-1
+Removed Pin From Net: NetName=EN_FB Pin=FB1-2
+Removed Pin From Net: NetName=TRIM_BIAS Pin=R6-3
+Removed Pin From Net: NetName=HV- Pin=R8-1
+Removed Pin From Net: NetName=TRIM_BIAS Pin=R8-2
+Removed Pin From Net: NetName=EN Pin=U1-17
+Removed Member From Class: ClassName=Top Member=C18
+Removed Member From Class: ClassName=Top Member=C19
+Removed Member From Class: ClassName=Top Member=FB3
+Removed Member From Class: ClassName=Top Member=R8
+Removed Member From Class: ClassName=Top Member=R9
+Removed Member From Class: ClassName=FB2_Nets Member=+5
+Removed Member From Class: ClassName=C9_Nets Member=GND
+Removed Member From Class: ClassName=C10_Nets Member=GND
+Removed Member From Class: ClassName=C11_Nets Member=HV-
+Removed Member From Class: ClassName=C8_Nets Member=NetC8_2
+Removed Member From Class: ClassName=C9_Nets Member=NetC8_2
+Removed Member From Class: ClassName=C10_Nets Member=NetC8_2
+Removed Member From Class: ClassName=FB2_Nets Member=NetC8_2
+Removed Member From Class: ClassName=U1_Nets Member=NetC8_2
+Removed Member From Class: ClassName=C11_Nets Member=NetC11_2
+Removed Member From Class: ClassName=U1_Nets Member=NetC11_2
+Removed Member From Class: ClassName=C17_Nets Member=NetC17_2
+Removed Member From Class: ClassName=L1_Nets Member=NetC17_2
+Removed Member From Class: ClassName=PS1_Nets Member=NetC17_2
+Change Component Designator: OldDesignator=C5 NewDesignator=C4
+Change Component Designator: OldDesignator=C7 NewDesignator=C5
+Change Component Designator: OldDesignator=C8 NewDesignator=C6
+Change Component Designator: OldDesignator=C9 NewDesignator=C7
+Change Component Designator: OldDesignator=C10 NewDesignator=C8
+Change Component Designator: OldDesignator=C11 NewDesignator=C9
+Change Component Designator: OldDesignator=C12 NewDesignator=C10
+Change Component Designator: OldDesignator=C13 NewDesignator=C11
+Change Component Designator: OldDesignator=C14 NewDesignator=C12
+Change Component Designator: OldDesignator=C15 NewDesignator=C13
+Change Component Designator: OldDesignator=C16 NewDesignator=C14
+Change Component Designator: OldDesignator=C17 NewDesignator=C15
+Change Component Designator: OldDesignator=C18 NewDesignator=C16
+Change Component Designator: OldDesignator=C19 NewDesignator=C17
+Change Component Designator: OldDesignator=C20 NewDesignator=C18
+Change Component Designator: OldDesignator=C21 NewDesignator=C19
+Change Component Designator: OldDesignator=C22 NewDesignator=C20
+Change Component Designator: OldDesignator=C23 NewDesignator=C21
+Change Component Designator: OldDesignator=C24 NewDesignator=C22
+Change Component Designator: OldDesignator=C25 NewDesignator=C23
+Change Component Designator: OldDesignator=C26 NewDesignator=C25
+Change Component Designator: OldDesignator=C27 NewDesignator=C24
+Change Component Designator: OldDesignator=C28 NewDesignator=C26
+Change Component Designator: OldDesignator=C29 NewDesignator=C28
+Change Component Designator: OldDesignator=C30 NewDesignator=C27
+Change Component Designator: OldDesignator=FB2 NewDesignator=FB1
+Change Component Designator: OldDesignator=FB3 NewDesignator=FB2
+Change Component Designator: OldDesignator=R7 NewDesignator=R6
+Change Component Designator: OldDesignator=R9 NewDesignator=R7
+Change Component Designator: OldDesignator=R10 NewDesignator=R8
+Change Component Designator: OldDesignator=R11 NewDesignator=R9
+Change Component Designator: OldDesignator=R12 NewDesignator=R10
+Change Component Designator: OldDesignator=R13 NewDesignator=R11
+Change Component Designator: OldDesignator=R14 NewDesignator=R12
+Change Component Designator: OldDesignator=R15 NewDesignator=R13
+Change Component Designator: OldDesignator=R16 NewDesignator=R14
+Change Component Designator: OldDesignator=R17 NewDesignator=R15
+Change Component Designator: OldDesignator=R18 NewDesignator=R16
+Added Component: Designator=C29(0805_CAP)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Component Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Octopart Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description in Visual"; Value = "Cap SMT 0805 0.1UF 100V 10%  Cer X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Various"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "Various"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P/N"; Value = "CAP 0805 0.1UF 100V 10% X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Val"; Value = "0.1UF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1UF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vol"; Value = "100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Added Component: Designator=C30(0805_CAP)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Component Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Octopart Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description in Visual"; Value = "Cap SMT 0805 0.1UF 100V 10%  Cer X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Various"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "Various"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P/N"; Value = "CAP 0805 0.1UF 100V 10% X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Val"; Value = "0.1UF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1UF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vol"; Value = "100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Added Component: Designator=FB3(1206)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Component Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.we-online.com/eisos/pdf/742792114.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Octopart Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://octopart.com/partsearch/#search/requestData&q=742792114"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current (mA)"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance (ohms)"; Value = "0.02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description in Visual"; Value = "Ferrite SMT 3000mA 50Ohm Dif Mode 1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Filter type"; Value = "Differential Mode - Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "100 MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance at Freq (ohms)"; Value = "50"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "742792114"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range"; Value = "-55 to +125 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P/N"; Value = "742792114"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Usage"; Value = "Power Supply"; VariantName = "[No Variations]"
+Added Component: Designator=R17(TT_Electronics_91AR50KLF_0)
+Add component (AddParameter): Name = "Category"; Value = "Variable Resistors and Potentiometers"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Cermet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "9.78mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.2inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "9.53mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TT BI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "91AR50KLF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Turns"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "50kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "987-1625-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Taper"; Value = "Linear"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "100ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Potentiometer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.85g"; VariantName = "[No Variations]"
+Added Component: Designator=R18(0805_RES)
+Add component (AddParameter): Name = "Description in Visual"; Value = "Res SMT 6.8K 0805  1%  0.125W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Various"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "Various"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P/N"; Value = "RES 0805 6.8K 1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_Rating"; Value = "0.125W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Val"; Value = "6.8K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "6.8K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=EN Pin=C29-1
+Added Pin To Net: NetName=HV- Pin=C29-2
+Added Pin To Net: NetName=TRIM_BIAS Pin=C30-1
+Added Pin To Net: NetName=HV- Pin=C30-2
+Added Pin To Net: NetName=EN Pin=FB3-1
+Added Pin To Net: NetName=EN_FB Pin=FB3-2
+Added Pin To Net: NetName=EN_FB Pin=J6-2
+Added Pin To Net: NetName=TRIM Pin=R17-2
+Added Pin To Net: NetName=TRIM_BIAS Pin=R17-3
+Added Pin To Net: NetName=HV- Pin=R18-1
+Added Pin To Net: NetName=TRIM_BIAS Pin=R18-2
+Change Net Name : Old Net Name=NetC8_2 New Net Name=NetC6_2
+Change Net Name : Old Net Name=NetC11_2 New Net Name=NetC9_2
+Change Net Name : Old Net Name=NetC17_2 New Net Name=NetC15_2
+Change Class Name : Old Net Name=C4_Nets New Net Name=C29_Nets
+Change Class Name : Old Net Name=C5_Nets New Net Name=C13_Nets
+Change Class Name : Old Net Name=C6_Nets New Net Name=R18_Nets
+Change Class Name : Old Net Name=C7_Nets New Net Name=C5_Nets
+Change Class Name : Old Net Name=C14_Nets New Net Name=C12_Nets
+Change Class Name : Old Net Name=C15_Nets New Net Name=C4_Nets
+Change Class Name : Old Net Name=C16_Nets New Net Name=C14_Nets
+Change Class Name : Old Net Name=C19_Nets New Net Name=C16_Nets
+Change Class Name : Old Net Name=C20_Nets New Net Name=C18_Nets
+Change Class Name : Old Net Name=C21_Nets New Net Name=C19_Nets
+Change Class Name : Old Net Name=C22_Nets New Net Name=C20_Nets
+Change Class Name : Old Net Name=C23_Nets New Net Name=C21_Nets
+Change Class Name : Old Net Name=C24_Nets New Net Name=C22_Nets
+Change Class Name : Old Net Name=C25_Nets New Net Name=C23_Nets
+Change Class Name : Old Net Name=C26_Nets New Net Name=C25_Nets
+Change Class Name : Old Net Name=C27_Nets New Net Name=C24_Nets
+Change Class Name : Old Net Name=C28_Nets New Net Name=C26_Nets
+Change Class Name : Old Net Name=C29_Nets New Net Name=C28_Nets
+Change Class Name : Old Net Name=C30_Nets New Net Name=C27_Nets
+Change Class Name : Old Net Name=FB1_Nets New Net Name=FB3_Nets
+Change Class Name : Old Net Name=R7_Nets New Net Name=R6_Nets
+Change Class Name : Old Net Name=R9_Nets New Net Name=R7_Nets
+Change Class Name : Old Net Name=R10_Nets New Net Name=R8_Nets
+Change Class Name : Old Net Name=R11_Nets New Net Name=R9_Nets
+Change Class Name : Old Net Name=R12_Nets New Net Name=R10_Nets
+Change Class Name : Old Net Name=R13_Nets New Net Name=R11_Nets
+Change Class Name : Old Net Name=R14_Nets New Net Name=R12_Nets
+Change Class Name : Old Net Name=R15_Nets New Net Name=R13_Nets
+Change Class Name : Old Net Name=R16_Nets New Net Name=R14_Nets
+Change Class Name : Old Net Name=R17_Nets New Net Name=R15_Nets
+Change Class Name : Old Net Name=R18_Nets New Net Name=R16_Nets
+Added Class: Name=C6_Nets
+Added Class: Name=C7_Nets
+Added Class: Name=C15_Nets
+Added Class: Name=C30_Nets
+Added Class: Name=FB1_Nets
+Added Class: Name=R17_Nets
+Added Member To Class: ClassName=U_DCDC Member=Component C29 CAP 0805 0.1UF 100V 10% X7R
+Added Member To Class: ClassName=U_DCDC Member=Component C30 CAP 0805 0.1UF 100V 10% X7R
+Added Member To Class: ClassName=U_DCDC Member=Component FB3 Ferrite Chip 50 Ohms
+Added Member To Class: ClassName=U_DCDC Member=Component R17 91AR50KLF
+Added Member To Class: ClassName=U_DCDC Member=Component R18 RES 0805 6.8K 1%
+Added Member To Class: ClassName=C17_Nets Member=Wire +5
+Added Member To Class: ClassName=FB2_Nets Member=Wire 3.3_HV
+Added Member To Class: ClassName=C9_Nets Member=Wire HV-
+Added Member To Class: ClassName=C10_Nets Member=Wire HV-
+Added Member To Class: ClassName=C8_Nets Member=Wire NetC6_2
+Added Member To Class: ClassName=U1_Nets Member=Wire NetC6_2
+Added Member To Class: ClassName=C9_Nets Member=Wire NetC9_2
+Added Member To Class: ClassName=C10_Nets Member=Wire NetC9_2
+Added Member To Class: ClassName=C11_Nets Member=Wire NetC9_2
+Added Member To Class: ClassName=FB2_Nets Member=Wire NetC9_2
+Added Member To Class: ClassName=U1_Nets Member=Wire NetC9_2
+Added Member To Class: ClassName=L1_Nets Member=Wire NetC15_2
+Added Member To Class: ClassName=PS1_Nets Member=Wire NetC15_2

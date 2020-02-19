@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=CAN_STBY Pin=R17-2
+Removed Pin From Net: NetName=CAN_STBY Pin=U4-8
+Removed Member From Class: ClassName=R17_Nets Member=CAN_STBY
+Removed Member From Class: ClassName=U4_Nets Member=TX
+Removed Member From Class: ClassName=U7_Nets Member=TX
+Added Pin To Net: NetName=CAN_STBY Pin=U4-1
+Added Pin To Net: NetName=CAN_STBY Pin=U7-1
+Added Pin To Net: NetName=STBY Pin=R17-2
+Added Pin To Net: NetName=STBY Pin=U4-8
+Added Net: Name=STBY
+Added Member To Class: ClassName=U7_Nets Member=Wire CAN_STBY
+Added Member To Class: ClassName=R17_Nets Member=Wire STBY
+Added Member To Class: ClassName=U4_Nets Member=Wire STBY

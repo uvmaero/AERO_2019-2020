@@ -1,0 +1,16 @@
+Removed Member From Class: ClassName=U2_Nets Member=DCDC_FAULT
+Removed Member From Class: ClassName=U7_Nets Member=RX_CAN
+Removed Member From Class: ClassName=R17_Nets Member=STBY
+Removed Member From Class: ClassName=U4_Nets Member=STBY
+Removed Member From Class: ClassName=U7_Nets Member=TX_CAN
+Added Pin To Net: NetName=CAN_STBY Pin=R17-2
+Added Pin To Net: NetName=DCDC_FLT Pin=U2-2
+Added Pin To Net: NetName=CAN_STBY Pin=U4-8
+Added Pin To Net: NetName=DCDC_EN Pin=U6-26
+Added Pin To Net: NetName=TX Pin=U7-1
+Added Pin To Net: NetName=RX Pin=U7-2
+Added Member To Class: ClassName=R17_Nets Member=Wire CAN_STBY
+Added Member To Class: ClassName=U4_Nets Member=Wire CAN_STBY
+Added Member To Class: ClassName=U2_Nets Member=Wire DCDC_FLT
+Added Member To Class: ClassName=U7_Nets Member=Wire RX
+Added Member To Class: ClassName=U7_Nets Member=Wire TX

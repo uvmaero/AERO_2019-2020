@@ -1,0 +1,19 @@
+Change Component Footprint: Designator=J7 Old Footprint=Con 1x3 UART New Footprint=Con 1x3 UART
+Change Component Footprint: Designator=U3A Old Footprint=D0008A_N New Footprint=D0008A_N
+Change Component Footprint: Designator=U3B Old Footprint=D0008A_N New Footprint=D0008A_N
+Change Component Footprint: Designator=U3C Old Footprint=D0008A_N New Footprint=D0008A_N
+Change Component Footprint: Designator=C6 Old Footprint=ECA-1VM472 New Footprint=ECA-1VM472
+Change Component Footprint: Designator=C29 Old Footprint=ECA-1VM472 New Footprint=ECA-1VM472
+Change Component Footprint: Designator=C30 Old Footprint=ECA-1VM472 New Footprint=ECA-1VM472
+Change Component Footprint: Designator=C31 Old Footprint=ECA-1VM472 New Footprint=ECA-1VM472
+Change Component Footprint: Designator=L4 Old Footprint=IND_1225AS-H-120M=P2 New Footprint=IND_1225AS-H-120M=P2
+Change Component Footprint: Designator=J5 Old Footprint=MOLX-22-23-2031_V New Footprint=MOLX-22-23-2031_V
+Change Component Footprint: Designator=Y1 Old Footprint=MURA-CSTCE_G_A-3_V New Footprint=MURA-CSTCE_G_A-3_V
+Change Component Footprint: Designator=C32 Old Footprint=NIC-CAPA2-10X10_V New Footprint=NIC-CAPA2-10X10_V
+Change Component Footprint: Designator=C33 Old Footprint=NIC-CAPA2-10X10_V New Footprint=NIC-CAPA2-10X10_V
+Change Component Footprint: Designator=D6 Old Footprint=ONSC-SOD-523-2-502-01_V New Footprint=ONSC-SOD-523-2-502-01_V
+Change Component Footprint: Designator=SW1 Old Footprint=TECO-FSMSMTR_V New Footprint=TECO-FSMSMTR_V
+Change Component Footprint: Designator=L1 Old Footprint=WE-HCI-7050 New Footprint=WE-HCI-7050
+Added Differential Pair: Name=CURA
+Added Differential Pair: Name=CURB
+Added Differential Pair: Name=CURC

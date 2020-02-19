@@ -1,0 +1,21 @@
+Change Component Footprint: Designator=R17 Old Footprint=25J New Footprint=15F
+Change Component Footprint: Designator=C1 Old Footprint=ECA-1VM472 New Footprint=ECA-1VM472
+Change Component Footprint: Designator=C2 Old Footprint=ECA-1VM472 New Footprint=ECA-1VM472
+Change Component Footprint: Designator=L1 Old Footprint=WE-HCI-7050 New Footprint=WE-HCI-7050
+Added Member To Class: ClassName=Top Member=Component C1 ECA-1VM472
+Added Member To Class: ClassName=Top Member=Component C2 ECA-1VM472
+Added Member To Class: ClassName=Top Member=Component C3 CAP 0805 0.1UF 100V 10% X7R
+Added Member To Class: ClassName=Top Member=Component C4 GRM188R6YA475KE15D
+Added Member To Class: ClassName=Top Member=Component C5 CAP 0603 0.1UF 16V 10% X7R
+Added Member To Class: ClassName=Filter Member=Component C6 B32021A3472K289
+Added Member To Class: ClassName=Filter Member=Component C10 C1812C334KCRACAUTO
+Added Member To Class: ClassName=Filter Member=Component C26 B32776T4166K000
+Added Member To Class: ClassName=Top Member=Component D1 STPS20L15G-TR
+Added Member To Class: ClassName=Top Member=Component F1 3557-2
+Added Member To Class: ClassName=Top Member=Component J1 Wire 20 AWG
+Added Member To Class: ClassName=Filter Member=Component L1 744314101
+Added Member To Class: ClassName=Filter Member=Component L2 B82722J2302N001
+Added Member To Class: ClassName=Top Member=Component R2 TWW5J2R0E
+Added Member To Class: ClassName=Top Member=Component R3 RES 0805 10M 1%
+Added Member To Class: ClassName=Top Member=Component R4 RES 2512 20 1%
+Added Member To Class: ClassName=Top Member=Component R9 RES 2512 20 1%

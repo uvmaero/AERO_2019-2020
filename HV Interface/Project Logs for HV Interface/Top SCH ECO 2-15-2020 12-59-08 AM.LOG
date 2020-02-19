@@ -1,0 +1,56 @@
+Replace Part A1 VicorASM in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with VicorASM from AERO Parts.IntLib
+Replace Part C1 ECA-1VM472 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with ECA-1VM472 from AERO Parts.IntLib
+Replace Part C2 ECA-1VM472 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with ECA-1VM472 from AERO Parts.IntLib
+Replace Part C3 cap in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with cap from Passive Components.DbLib
+Update Managed Component C4 From CMP-2006-02545-1[GRM188R6YA475KE15D] To CMP-2006-02545-1[GRM188R6YA475KE15D] in Top.SchDoc
+Replace Part C5 cap in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with cap from Passive Components.DbLib
+Replace Part C7 B32021A3472K289 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with B32021A3472K289 from AERO Parts.IntLib
+Replace Part C8 B32021A3472K289 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with B32021A3472K289 from AERO Parts.IntLib
+Replace Part C9 ECA-1VM472 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with ECA-1VM472 from AERO Parts.IntLib
+Replace Part C11 cap in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with cap from Passive Components.DbLib
+Replace Part C12 B32021A3472K289 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with B32021A3472K289 from AERO Parts.IntLib
+Replace Part C13 B32021A3472K289 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with B32021A3472K289 from AERO Parts.IntLib
+Replace Part C15 CS45-B2GA151K-NKA in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with CS45-B2GA151K-NKA from AERO Parts.IntLib
+Replace Part C16 cap in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with cap from Passive Components.DbLib
+Replace Part C17 cap in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with cap from Passive Components.DbLib
+Replace Part C18 cap in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with cap from Passive Components.DbLib
+Replace Part C19 cap in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with cap from Passive Components.DbLib
+Replace Part C20 cap in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with cap from Passive Components.DbLib
+Replace Part C21 cap in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with cap from Passive Components.DbLib
+Replace Part C22 cap in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with cap from Passive Components.DbLib
+Replace Part C23 cap in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with cap from Passive Components.DbLib
+Replace Part C24 CS45-B2GA151K-NKA in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with CS45-B2GA151K-NKA from AERO Parts.IntLib
+Replace Part C25 cap in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with cap from Passive Components.DbLib
+Replace Part C27 cap in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with cap from Passive Components.DbLib
+Replace Part D1 STPS20L15G-TR in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with STPS20L15G-TR from AERO Parts.IntLib
+Replace Part D2 STPS20L15G-TR in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with STPS20L15G-TR from AERO Parts.IntLib
+Replace Part F1 3557-2 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with 3557-2 from AERO Parts.IntLib
+Replace Part F2 3557-2 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with 3557-2 from AERO Parts.IntLib
+Replace Part FB1 Ferrite Bead in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with Ferrite Bead from Passive Components.DbLib
+Replace Part FB2 Ferrite Bead in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with Ferrite Bead from Passive Components.DbLib
+Replace Part FB3 Ferrite Bead in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with Ferrite Bead from Passive Components.DbLib
+Replace Part J1 Wire (No BOM) in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with Wire (No BOM) from Connectors.DbLib
+Replace Part J2 IPL1-110-01-F-D-RA-K in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with IPL1-110-01-F-D-RA-K from AERO Parts.IntLib
+Replace Part J3 1-770872-0 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with 1-770872-0 from AERO Parts.IntLib
+Replace Part J4 1-770872-0 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with 1-770872-0 from AERO Parts.IntLib
+Replace Part J5 1-770872-0 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with 1-770872-0 from AERO Parts.IntLib
+Replace Part J6 1-770872-0 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with 1-770872-0 from AERO Parts.IntLib
+Update Managed Component L3 From CMP-0227-00543-1[744764112] To CMP-0227-00543-1[744764112] in Top.SchDoc
+Replace Part PS1 R-78E5.0-0.5 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with R-78E5.0-0.5 from AERO Parts.IntLib
+Replace Part R1 91AR50KLF in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with 91AR50KLF from AERO Parts.IntLib
+Replace Part R2 TWW5J2R0E in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with TWW5J2R0E from AERO Parts.IntLib
+Replace Part R3 res in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with res from Passive Components.DbLib
+Replace Part R4 res in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with res from Passive Components.DbLib
+Replace Part R5 res in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with res from Passive Components.DbLib
+Replace Part R6 res in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with res from Passive Components.DbLib
+Replace Part R7 res in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with res from Passive Components.DbLib
+Replace Part R8 res in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with res from Passive Components.DbLib
+Replace Part R9 res in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with res from Passive Components.DbLib
+Replace Part R12 res in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with res from Passive Components.DbLib
+Replace Part R13 res in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with res from Passive Components.DbLib
+Replace Part R14 res in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with res from Passive Components.DbLib
+Replace Part R15 res in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with res from Passive Components.DbLib
+Replace Part R16 res in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with res from Passive Components.DbLib
+Replace Part R17 15FR010E in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with 15FR010E from AERO Parts.IntLib
+Replace Part R18 res in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with res from Passive Components.DbLib
+Replace Part U1 ADUM5211ARSZ-RL7 in C:\git\AERO_2019-2020\HV Interface\Top.SchDoc with ADUM5211ARSZ-RL7 from AERO Parts.IntLib
