@@ -1,0 +1,79 @@
+Removed Member From Class: ClassName=U_MCU Member=R28
+Removed Member From Class: ClassName=U_MCU Member=R33
+Removed Member From Class: ClassName=U_PWR_DIST Member=R33
+Removed Member From Class: ClassName=U_PWR_DIST Member=R34
+Removed Member From Class: ClassName=R34_Nets Member=NetR32_1
+Removed Member From Class: ClassName=U8_Nets Member=NetR32_1
+Change Component Footprint: Designator=L5 Old Footprint=IND_1225AS-H-120M=P2 New Footprint=IND_1225AS-H-120M=P2
+Change Component Footprint: Designator=J7 Old Footprint=MOLX-22-23-2031_V New Footprint=MOLX-22-23-2031_V
+Change Component Footprint: Designator=C34 Old Footprint=NIC-CAPA2-10X10_V New Footprint=NIC-CAPA2-10X10_V
+Change Component Footprint: Designator=C35 Old Footprint=NIC-CAPA2-10X10_V New Footprint=NIC-CAPA2-10X10_V
+Change Component Footprint: Designator=C8 Old Footprint=NICHICON_10X12.5 New Footprint=NICHICON_10X12.5
+Change Component Footprint: Designator=C6 Old Footprint=Nichicon_18x25 New Footprint=Nichicon_18x25
+Change Component Footprint: Designator=C7 Old Footprint=Nichicon_18x25 New Footprint=Nichicon_18x25
+Change Component Footprint: Designator=C9 Old Footprint=Nichicon_18x25 New Footprint=Nichicon_18x25
+Change Component Footprint: Designator=C32 Old Footprint=Nichicon_18x25 New Footprint=Nichicon_18x25
+Change Component Footprint: Designator=C33 Old Footprint=Nichicon_18x25 New Footprint=Nichicon_18x25
+Change Component Footprint: Designator=D10 Old Footprint=ONSC-SOD-523-2-502-01_V New Footprint=ONSC-SOD-523-2-502-01_V
+Change Component Footprint: Designator=L2 Old Footprint=PA2607.1xxNLT New Footprint=PA2607.1xxNLT
+Change Component Footprint: Designator=L1 Old Footprint=WE-HCI-7050 New Footprint=WE-HCI-7050
+Change Component Designator: OldDesignator=R23 NewDesignator=R25
+Change Component Designator: OldDesignator=R24 NewDesignator=R26
+Change Component Designator: OldDesignator=R25 NewDesignator=R27
+Change Component Designator: OldDesignator=R26 NewDesignator=R28
+Change Component Designator: OldDesignator=R27 NewDesignator=R29
+Change Component Designator: OldDesignator=R28 NewDesignator=R30
+Change Component Designator: OldDesignator=R29 NewDesignator=R31
+Change Component Designator: OldDesignator=R30 NewDesignator=R32
+Change Component Designator: OldDesignator=R31 NewDesignator=R33
+Change Component Designator: OldDesignator=R32 NewDesignator=R34
+Change Component Designator: OldDesignator=R33 NewDesignator=R35
+Change Component Designator: OldDesignator=R34 NewDesignator=R36
+Change Component Designator: OldDesignator=R35 NewDesignator=R37
+Change Component Designator: OldDesignator=R36 NewDesignator=R38
+Change Component Designator: OldDesignator=R37 NewDesignator=R39
+Added Component: Designator=R23(0603_RES)
+Add component (AddParameter): Name = "Description in Visual"; Value = "Res SMT 2.2K 0603  1%  0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Various"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "Various"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P/N"; Value = "RES 0603 2.2K 1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_Rating"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Val"; Value = "2.2K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2K"; VariantName = "[No Variations]"
+Added Component: Designator=R24(0603_RES)
+Add component (AddParameter): Name = "Description in Visual"; Value = "Res SMT 2.2K 0603  1%  0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Various"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "Various"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P/N"; Value = "RES 0603 2.2K 1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power_Rating"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Val"; Value = "2.2K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D3-2
+Added Pin To Net: NetName=I2C.SDA Pin=R23-1
+Added Pin To Net: NetName=+5_MCU Pin=R23-2
+Added Pin To Net: NetName=I2C.SCL Pin=R24-1
+Added Pin To Net: NetName=+5_MCU Pin=R24-2
+Change Net Name : Old Net Name=NetR32_1 New Net Name=NetR34_1
+Added Member To Class: ClassName=U_MCU Member=Component R23 RES 0603 2.2K 1%
+Added Member To Class: ClassName=U_MCU Member=Component R24 RES 0603 2.2K 1%
+Added Member To Class: ClassName=U_MCU Member=Component R25 RES 0603 100K 1%
+Added Member To Class: ClassName=U_MCU Member=Component R26 RES 0603 1K 1%
+Added Member To Class: ClassName=U_MCU Member=Component R27 RES 0603 10K 1%
+Added Member To Class: ClassName=U_PWR_DIST Member=Component R29 RES 0805 10M 1%
+Added Member To Class: ClassName=U_PWR_DIST Member=Component R30 RES 2512 20 1%
+Added Member To Class: ClassName=U_PWR_DIST Member=Component R31 RES 2512 20 1%
+Added Member To Class: ClassName=U_PWR_DIST Member=Component R32 RES 0805 2 1%
+Added Member To Class: ClassName=U_IO Member=Component R35 RES 0603 11.5K 1%
+Added Member To Class: ClassName=U_IO Member=Component R36 RES 0603 1K 1%
+Added Member To Class: ClassName=U_IO Member=Component R37 RES 0603 10K 1%
+Added Member To Class: ClassName=U_IO Member=Component R38 RES 0603 10K 0.1%
+Added Member To Class: ClassName=U_IO Member=Component R39 RES 0603 10K 0.1%
+Added Member To Class: ClassName=R34_Nets Member=Wire NetR34_1
+Added Member To Class: ClassName=U8_Nets Member=Wire NetR34_1

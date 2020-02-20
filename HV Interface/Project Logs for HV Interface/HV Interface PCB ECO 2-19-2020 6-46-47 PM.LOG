@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=+12_ANTIBROWNOUT Pin=C31-1
+Removed Pin From Net: NetName=GND Pin=C31-2
+Removed Member From Class: ClassName=U_PWR_DIST Member=C31
+Added Pin To Net: NetName=BSPD_FAULT Pin=D2-2
+Added Pin To Net: NetName=BENDER_PWM Pin=D3-2
