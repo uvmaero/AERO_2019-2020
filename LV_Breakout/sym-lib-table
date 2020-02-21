@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name LV_Breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/LV_Breakout-rescue.lib)(options "")(descr ""))
+  (lib (name T9VV1K15-12S)(type Legacy)(uri "C:/Users/Andrew A. Katz/Downloads/T9VV1K15-12S/T9VV1K15-12S.lib")(options "")(descr ""))
+)
