@@ -1,0 +1,520 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 9800 2425 0    50   ~ 0
+Main Ampseal
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J?
+U 1 1 5E4DB13C
+P 7300 2600
+F 0 "J?" H 7350 3017 50  0000 C CNN
+F 1 "BMS" H 7350 2926 50  0000 C CNN
+F 2 "" H 7300 2600 50  0001 C CNN
+F 3 "~" H 7300 2600 50  0001 C CNN
+	1    7300 2600
+	1    0    0    -1  
+$EndComp
+Text Label 9025 2625 0    50   ~ 0
+FROM_BRB
+Wire Wire Line
+	9025 2725 9025 2625
+Text Label 9025 2825 0    50   ~ 0
+TO_BRB
+Wire Wire Line
+	9025 2925 9025 2825
+Wire Wire Line
+	9025 3125 9025 3225
+Connection ~ 9025 3225
+Wire Wire Line
+	9025 3325 9025 3225
+Text Label 9025 3025 0    50   ~ 0
+SHUTDOWN_OUT
+Text Label 5300 4850 2    50   ~ 0
+DCDC_IN
+Text Label 5300 4625 2    50   ~ 0
+GLV_IN
+Text Label 9025 3225 0    50   ~ 0
+DCDC_IN
+$Comp
+L Device:Fuse F?
+U 1 1 5E4EA6D2
+P 4800 4850
+F 0 "F?" V 4875 4725 50  0000 C CNN
+F 1 "Fuse" V 4875 4875 50  0000 C CNN
+F 2 "" V 4730 4850 50  0001 C CNN
+F 3 "~" H 4800 4850 50  0001 C CNN
+	1    4800 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5E53995D
+P 4800 4625
+F 0 "F?" V 4603 4625 50  0000 C CNN
+F 1 "Fuse" V 4694 4625 50  0000 C CNN
+F 2 "" V 4730 4625 50  0001 C CNN
+F 3 "~" H 4800 4625 50  0001 C CNN
+	1    4800 4625
+	0    1    1    0   
+$EndComp
+Text Notes 3800 3850 0    50   ~ 0
+RELAY\nGLV OR DCDC
+$Comp
+L Relay:DIPxx-1Axx-11x K?
+U 1 1 5E50AD48
+P 3950 4500
+F 0 "K?" V 3383 4500 50  0000 C CNN
+F 1 "RT314A03" V 3474 4500 50  0000 C CNN
+F 2 "Relay_THT:Relay_SPDT_Schrack-RT1-16A-FormC_RM5mm" H 5500 4450 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT1_bistable&DocType=DS&DocLang=English" H 3950 4500 50  0001 C CNN
+	1    3950 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5E50D205
+P 3425 4700
+F 0 "#PWR?" H 3425 4550 50  0001 C CNN
+F 1 "+12V" H 3440 4873 50  0000 C CNN
+F 2 "" H 3425 4700 50  0001 C CNN
+F 3 "" H 3425 4700 50  0001 C CNN
+	1    3425 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 4700 3650 4700
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E543DF9
+P 4325 5500
+F 0 "J?" H 4405 5492 50  0000 L CNN
+F 1 "GLV_IN" H 4275 5625 50  0000 L CNN
+F 2 "" H 4325 5500 50  0001 C CNN
+F 3 "~" H 4325 5500 50  0001 C CNN
+	1    4325 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 5500 4125 5500
+Wire Wire Line
+	4125 5600 3825 5600
+Wire Wire Line
+	3825 5600 3825 5500
+Wire Wire Line
+	3825 5700 4125 5700
+Wire Wire Line
+	4125 5800 3825 5800
+Wire Wire Line
+	3825 5700 3825 5800
+Text Notes 4000 5350 0    50   ~ 0
+GLV_IN
+Text Label 3825 5500 0    50   ~ 0
+GLV_IN
+$Comp
+L power:GND #PWR?
+U 1 1 5E54DEB7
+P 9025 6025
+F 0 "#PWR?" H 9025 5775 50  0001 C CNN
+F 1 "GND" H 9030 5852 50  0000 C CNN
+F 2 "" H 9025 6025 50  0001 C CNN
+F 3 "" H 9025 6025 50  0001 C CNN
+	1    9025 6025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9025 5825 9025 5925
+Connection ~ 9025 5925
+Wire Wire Line
+	9025 5925 9025 6025
+Connection ~ 9025 6025
+Wire Wire Line
+	5300 4625 4950 4625
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E565086
+P 4325 5700
+F 0 "J?" H 4405 5692 50  0000 L CNN
+F 1 "TO_BRB" H 4250 5450 50  0000 L CNN
+F 2 "" H 4325 5700 50  0001 C CNN
+F 3 "~" H 4325 5700 50  0001 C CNN
+	1    4325 5700
+	1    0    0    -1  
+$EndComp
+Text Label 3825 5700 0    50   ~ 0
+TO_BRB
+$Comp
+L Device:Fuse F?
+U 1 1 5E565C3A
+P 3600 5650
+F 0 "F?" H 3660 5696 50  0000 L CNN
+F 1 "Fuse" H 3660 5605 50  0000 L CNN
+F 2 "" V 3530 5650 50  0001 C CNN
+F 3 "~" H 3600 5650 50  0001 C CNN
+	1    3600 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 5500 3600 5500
+Connection ~ 3825 5500
+Wire Wire Line
+	3825 5800 3600 5800
+Connection ~ 3825 5800
+Text Label 9050 3925 0    50   ~ 0
+CAN+
+Wire Wire Line
+	9050 4025 9050 3925
+Text Label 9050 4125 0    50   ~ 0
+CAN-
+Wire Wire Line
+	9050 4225 9050 4125
+Text Label 9050 4325 0    50   ~ 0
+SENSOR_1
+Text Label 9050 4425 0    50   ~ 0
+SENSOR_2
+Text Label 9050 4525 0    50   ~ 0
+SENSOR_3
+Text Label 9050 4625 0    50   ~ 0
+SENSOR_4
+Text Label 9050 4725 0    50   ~ 0
+SENSOR_5
+Text Label 9050 4825 0    50   ~ 0
+SENSOR_6
+Wire Wire Line
+	9825 3325 9025 3325
+Wire Wire Line
+	9025 3225 9825 3225
+Wire Wire Line
+	9825 3125 9025 3125
+Wire Wire Line
+	9025 3025 9825 3025
+Wire Wire Line
+	9825 2925 9025 2925
+Wire Wire Line
+	9025 2825 9825 2825
+Wire Wire Line
+	9825 6025 9025 6025
+Wire Wire Line
+	9825 5925 9025 5925
+Wire Wire Line
+	9825 5825 9025 5825
+Wire Wire Line
+	9050 4825 9825 4825
+Wire Wire Line
+	9825 2725 9025 2725
+Wire Wire Line
+	9825 4725 9050 4725
+Wire Wire Line
+	9825 4625 9050 4625
+Wire Wire Line
+	9825 4525 9050 4525
+Wire Wire Line
+	9825 4425 9050 4425
+Wire Wire Line
+	9050 4325 9825 4325
+Wire Wire Line
+	9825 4225 9050 4225
+Wire Wire Line
+	9050 4125 9825 4125
+Wire Wire Line
+	9825 4025 9050 4025
+Wire Wire Line
+	9050 3925 9825 3925
+Wire Wire Line
+	9025 2625 9825 2625
+$Comp
+L Connector_Generic:Conn_01x35 J?
+U 1 1 5E4D7AFB
+P 10025 4325
+F 0 "J?" H 10105 4367 50  0000 L CNN
+F 1 "Conn_01x23" H 10105 4276 50  0000 L CNN
+F 2 "" H 10025 4325 50  0001 C CNN
+F 3 "~" H 10025 4325 50  0001 C CNN
+	1    10025 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 5725 9025 5725
+Wire Wire Line
+	9025 5725 9025 5825
+Connection ~ 9025 5825
+Text Label 4750 4300 2    50   ~ 0
+FROM_BRB
+Wire Wire Line
+	4750 4300 4250 4300
+Wire Wire Line
+	5300 4850 4950 4850
+Wire Wire Line
+	4650 4625 4500 4625
+Wire Wire Line
+	4500 4625 4500 4700
+Wire Wire Line
+	4250 4700 4500 4700
+Wire Wire Line
+	4500 4850 4500 4700
+Connection ~ 4500 4700
+Wire Wire Line
+	4500 4850 4650 4850
+$Comp
+L power:GND #PWR?
+U 1 1 5E5D2FB4
+P 3425 4225
+F 0 "#PWR?" H 3425 3975 50  0001 C CNN
+F 1 "GND" H 3430 4052 50  0000 C CNN
+F 2 "" H 3425 4225 50  0001 C CNN
+F 3 "" H 3425 4225 50  0001 C CNN
+	1    3425 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4300 3650 4225
+Wire Wire Line
+	3650 4225 3425 4225
+$Comp
+L Device:Fuse F?
+U 1 1 5E5D6B87
+P 2475 4300
+F 0 "F?" V 2278 4300 50  0000 C CNN
+F 1 "RINEHART" V 2369 4300 50  0000 C CNN
+F 2 "" V 2405 4300 50  0001 C CNN
+F 3 "~" H 2475 4300 50  0001 C CNN
+	1    2475 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5E5D75B1
+P 2475 4600
+F 0 "F?" V 2278 4600 50  0000 C CNN
+F 1 "BMS" V 2369 4600 50  0000 C CNN
+F 2 "" V 2405 4600 50  0001 C CNN
+F 3 "~" H 2475 4600 50  0001 C CNN
+	1    2475 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5E5D7BB1
+P 2475 4900
+F 0 "F?" V 2278 4900 50  0000 C CNN
+F 1 "SHUTDOWN" V 2369 4900 50  0000 C CNN
+F 2 "" V 2405 4900 50  0001 C CNN
+F 3 "~" H 2475 4900 50  0001 C CNN
+	1    2475 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5E5D7FCE
+P 2475 5200
+F 0 "F?" V 2278 5200 50  0000 C CNN
+F 1 "DAQ" V 2369 5200 50  0000 C CNN
+F 2 "" V 2405 5200 50  0001 C CNN
+F 3 "~" H 2475 5200 50  0001 C CNN
+	1    2475 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5E5D8594
+P 2475 5500
+F 0 "F?" V 2278 5500 50  0000 C CNN
+F 1 "Fuse" V 2369 5500 50  0000 C CNN
+F 2 "" V 2405 5500 50  0001 C CNN
+F 3 "~" H 2475 5500 50  0001 C CNN
+	1    2475 5500
+	0    1    1    0   
+$EndComp
+Text Label 6625 2400 0    50   ~ 0
+BMS_PWR
+Wire Wire Line
+	6625 2400 7100 2400
+$Comp
+L power:+12V #PWR?
+U 1 1 5E5DD682
+P 2925 4300
+F 0 "#PWR?" H 2925 4150 50  0001 C CNN
+F 1 "+12V" H 2940 4473 50  0000 C CNN
+F 2 "" H 2925 4300 50  0001 C CNN
+F 3 "" H 2925 4300 50  0001 C CNN
+	1    2925 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2925 4300 2625 4300
+Wire Wire Line
+	2925 4300 2925 4600
+Wire Wire Line
+	2925 4600 2625 4600
+Connection ~ 2925 4300
+Wire Wire Line
+	2625 4900 2925 4900
+Wire Wire Line
+	2925 4900 2925 4600
+Connection ~ 2925 4600
+Wire Wire Line
+	2625 5200 2925 5200
+Wire Wire Line
+	2925 5200 2925 4900
+Connection ~ 2925 4900
+Wire Wire Line
+	2625 5500 2925 5500
+Wire Wire Line
+	2925 5500 2925 5200
+Connection ~ 2925 5200
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E5F0877
+P 1750 5550
+F 0 "J?" H 1668 5225 50  0000 C CNN
+F 1 "Conn_01x02" H 1668 5316 50  0000 C CNN
+F 2 "" H 1750 5550 50  0001 C CNN
+F 3 "~" H 1750 5550 50  0001 C CNN
+	1    1750 5550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2325 5500 1950 5500
+Wire Wire Line
+	1950 5500 1950 5450
+Wire Wire Line
+	1950 5500 1950 5550
+Connection ~ 1950 5500
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E5F9B6E
+P 1750 5250
+F 0 "J?" H 1668 4925 50  0000 C CNN
+F 1 "Conn_01x02" H 1668 5016 50  0000 C CNN
+F 2 "" H 1750 5250 50  0001 C CNN
+F 3 "~" H 1750 5250 50  0001 C CNN
+	1    1750 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2325 5200 1950 5200
+Wire Wire Line
+	1950 5200 1950 5150
+Wire Wire Line
+	1950 5200 1950 5250
+Connection ~ 1950 5200
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E5FED9B
+P 1750 4950
+F 0 "J?" H 1668 4625 50  0000 C CNN
+F 1 "Conn_01x02" H 1668 4716 50  0000 C CNN
+F 2 "" H 1750 4950 50  0001 C CNN
+F 3 "~" H 1750 4950 50  0001 C CNN
+	1    1750 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2325 4900 1950 4900
+Wire Wire Line
+	1950 4900 1950 4850
+Wire Wire Line
+	1950 4900 1950 4950
+Connection ~ 1950 4900
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E5FEDA9
+P 1750 4650
+F 0 "J?" H 1668 4325 50  0000 C CNN
+F 1 "Conn_01x02" H 1668 4416 50  0000 C CNN
+F 2 "" H 1750 4650 50  0001 C CNN
+F 3 "~" H 1750 4650 50  0001 C CNN
+	1    1750 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2325 4600 1950 4600
+Wire Wire Line
+	1950 4600 1950 4550
+Wire Wire Line
+	1950 4600 1950 4650
+Connection ~ 1950 4600
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E606774
+P 1750 4350
+F 0 "J?" H 1668 4025 50  0000 C CNN
+F 1 "Conn_01x02" H 1668 4116 50  0000 C CNN
+F 2 "" H 1750 4350 50  0001 C CNN
+F 3 "~" H 1750 4350 50  0001 C CNN
+	1    1750 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2325 4300 1950 4300
+Wire Wire Line
+	1950 4300 1950 4250
+Wire Wire Line
+	1950 4300 1950 4350
+Connection ~ 1950 4300
+Wire Wire Line
+	9825 3425 9025 3425
+Wire Wire Line
+	9025 3425 9025 3325
+Connection ~ 9025 3325
+Text Label 6625 2500 0    50   ~ 0
+USB+
+Text Label 6625 2600 0    50   ~ 0
+USB-
+Text Label 6625 2700 0    50   ~ 0
+USB_5V
+Text Label 6625 2800 0    50   ~ 0
+USB_GND
+Text Label 9050 4925 0    50   ~ 0
+SENSOR_7
+Wire Wire Line
+	9050 4925 9825 4925
+Text Label 8075 2400 2    50   ~ 0
+CAN+
+Text Label 8075 2500 2    50   ~ 0
+CAN-
+$Comp
+L power:GND #PWR?
+U 1 1 5E6492D7
+P 8075 2800
+F 0 "#PWR?" H 8075 2550 50  0001 C CNN
+F 1 "GND" H 8080 2627 50  0000 C CNN
+F 2 "" H 8075 2800 50  0001 C CNN
+F 3 "" H 8075 2800 50  0001 C CNN
+	1    8075 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8075 2800 7600 2800
+Wire Wire Line
+	8075 2500 7600 2500
+Wire Wire Line
+	7600 2400 8075 2400
+Wire Wire Line
+	7100 2500 6625 2500
+Wire Wire Line
+	7100 2600 6625 2600
+Wire Wire Line
+	7100 2700 6625 2700
+Wire Wire Line
+	6625 2800 7100 2800
+Text Label 8075 2600 2    50   ~ 0
+BMS_FAULT
+Wire Wire Line
+	8075 2600 7600 2600
+Text Label 9050 3825 0    50   ~ 0
+BMS_FAULT
+Wire Wire Line
+	9050 3825 9825 3825
+$EndSCHEMATC
