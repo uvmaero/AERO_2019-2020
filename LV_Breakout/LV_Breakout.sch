@@ -2,9 +2,9 @@ EESchema Schematic File Version 4
 LIBS:LV_Breakout-cache
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -14,228 +14,180 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 5450 4775 2    50   ~ 0
-FROM_BRB
-Text Label 3100 5025 0    50   ~ 0
-DCDC_IN
-Text Label 3100 5250 0    50   ~ 0
-GLV_IN
-$Comp
-L Device:Fuse F10
-U 1 1 5E4EA6D2
-P 3600 5025
-F 0 "F10" V 3525 5025 50  0000 C CNN
-F 1 "DCDC" V 3675 5050 50  0000 C CNN
-F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 3530 5025 50  0001 C CNN
-F 3 "~" H 3600 5025 50  0001 C CNN
-	1    3600 5025
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:Fuse F9
 U 1 1 5E53995D
-P 3600 5250
-F 0 "F9" V 3403 5250 50  0000 C CNN
-F 1 "Main GLV" V 3494 5250 50  0000 C CNN
-F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 3530 5250 50  0001 C CNN
-F 3 "~" H 3600 5250 50  0001 C CNN
-	1    3600 5250
+P 3350 5100
+F 0 "F9" V 3153 5100 50  0000 C CNN
+F 1 "Main GLV" V 3244 5100 50  0000 C CNN
+F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 3280 5100 50  0001 C CNN
+F 3 "~" H 3350 5100 50  0001 C CNN
+	1    3350 5100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3100 5250 3450 5250
-Wire Wire Line
-	3100 5025 3450 5025
-Wire Wire Line
-	3750 5250 3900 5250
-Wire Wire Line
-	3900 5250 3900 5175
-Wire Wire Line
-	3900 5025 3900 5175
-Connection ~ 3900 5175
-Wire Wire Line
-	3900 5025 3750 5025
-Wire Wire Line
 	4950 5950 4600 5950
-Text Label 1950 6100 0    50   ~ 0
+Text Label 7550 2750 0    50   ~ 0
 FAN_PWR
-Connection ~ 2925 5800
-Text Label 1950 5200 0    50   ~ 0
+Connection ~ 8525 2450
+Text Label 7550 1850 0    50   ~ 0
 COOL_PWR
 Wire Wire Line
-	2325 6100 1950 6100
+	7925 2750 7550 2750
 Wire Wire Line
-	2925 6100 2925 5800
+	8525 2750 8525 2450
 Wire Wire Line
-	2625 6100 2925 6100
+	8225 2750 8525 2750
 $Comp
 L Device:Fuse F4
 U 1 1 5E63D115
-P 2475 5200
-F 0 "F4" V 2278 5200 50  0000 C CNN
-F 1 "COOL" V 2369 5200 50  0000 C CNN
-F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 2405 5200 50  0001 C CNN
-F 3 "~" H 2475 5200 50  0001 C CNN
-	1    2475 5200
+P 8075 1850
+F 0 "F4" V 7878 1850 50  0000 C CNN
+F 1 "COOL" V 7969 1850 50  0000 C CNN
+F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 8005 1850 50  0001 C CNN
+F 3 "~" H 8075 1850 50  0001 C CNN
+	1    8075 1850
 	0    1    1    0   
 $EndComp
-Text Label 1950 5800 0    50   ~ 0
+Text Label 7550 2450 0    50   ~ 0
 LV_PWR
-Text Label 1725 4300 0    50   ~ 0
+Text Label 7325 950  0    50   ~ 0
 SHUTDOWN_OUT
-Text Label 1950 4900 0    50   ~ 0
+Text Label 7550 1550 0    50   ~ 0
 RINE_PWR
 Wire Wire Line
-	1725 4600 2325 4600
-Text Label 1725 4600 0    50   ~ 0
+	7325 1250 7925 1250
+Text Label 7325 1250 0    50   ~ 0
 BMS+DAQ_PWR
-Connection ~ 2925 5500
+Connection ~ 8525 2150
 Wire Wire Line
-	2325 5800 1950 5800
+	7925 2450 7550 2450
 Wire Wire Line
-	2925 5800 2925 5500
+	8525 2450 8525 2150
 Wire Wire Line
-	2625 5800 2925 5800
+	8225 2450 8525 2450
 $Comp
 L Device:Fuse F6
 U 1 1 5E4FDB95
-P 2475 5800
-F 0 "F6" V 2278 5800 50  0000 C CNN
-F 1 "LV PWR" V 2369 5800 50  0000 C CNN
-F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 2405 5800 50  0001 C CNN
-F 3 "~" H 2475 5800 50  0001 C CNN
-	1    2475 5800
+P 8075 2450
+F 0 "F6" V 7878 2450 50  0000 C CNN
+F 1 "LV PWR" V 7969 2450 50  0000 C CNN
+F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 8005 2450 50  0001 C CNN
+F 3 "~" H 8075 2450 50  0001 C CNN
+	1    8075 2450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2325 4300 1725 4300
+	7925 950  7325 950 
 Wire Wire Line
-	2325 4900 1950 4900
+	7925 1550 7550 1550
 Wire Wire Line
-	2325 5200 1950 5200
+	7925 1850 7550 1850
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5E5F0877
-P 1625 5300
-F 0 "J1" V 1625 5450 50  0000 C CNN
-F 1 "LOGIC_PWR" V 1725 5350 50  0000 C CNN
-F 2 "AERO-footprints:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 1625 5300 50  0001 C CNN
-F 3 "~" H 1625 5300 50  0001 C CNN
-	1    1625 5300
+P 7225 1950
+F 0 "J1" V 7225 2100 50  0000 C CNN
+F 1 "LOGIC_PWR" V 7325 2000 50  0000 C CNN
+F 2 "AERO-footprints:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 7225 1950 50  0001 C CNN
+F 3 "~" H 7225 1950 50  0001 C CNN
+	1    7225 1950
 	0    -1   -1   0   
 $EndComp
-Connection ~ 2925 5200
+Connection ~ 8525 1850
 Wire Wire Line
-	2925 5500 2925 5200
+	8525 2150 8525 1850
 Wire Wire Line
-	2625 5500 2925 5500
-Connection ~ 2925 4900
+	8225 2150 8525 2150
+Connection ~ 8525 1550
 Wire Wire Line
-	2925 5200 2925 4900
+	8525 1850 8525 1550
 Wire Wire Line
-	2625 5200 2925 5200
-Connection ~ 2925 4600
+	8225 1850 8525 1850
+Connection ~ 8525 1250
 Wire Wire Line
-	2925 4900 2925 4600
+	8525 1550 8525 1250
 Wire Wire Line
-	2625 4900 2925 4900
-Connection ~ 2925 4300
+	8225 1550 8525 1550
+Connection ~ 8525 950 
 Wire Wire Line
-	2925 4600 2625 4600
+	8525 1250 8225 1250
 Wire Wire Line
-	2925 4300 2925 4600
+	8525 950  8525 1250
 Wire Wire Line
-	2925 4300 2625 4300
+	8525 950  8225 950 
 $Comp
 L power:+12V #PWR0103
 U 1 1 5E5DD682
-P 2925 4300
-F 0 "#PWR0103" H 2925 4150 50  0001 C CNN
-F 1 "+12V" H 2940 4473 50  0000 C CNN
-F 2 "" H 2925 4300 50  0001 C CNN
-F 3 "" H 2925 4300 50  0001 C CNN
-	1    2925 4300
+P 8525 950
+F 0 "#PWR0103" H 8525 800 50  0001 C CNN
+F 1 "+12V" H 8540 1123 50  0000 C CNN
+F 2 "" H 8525 950 50  0001 C CNN
+F 3 "" H 8525 950 50  0001 C CNN
+	1    8525 950 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Fuse F5
 U 1 1 5E5D8594
-P 2475 5500
-F 0 "F5" V 2278 5500 50  0000 C CNN
-F 1 "LOGIC" V 2369 5500 50  0000 C CNN
-F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 2405 5500 50  0001 C CNN
-F 3 "~" H 2475 5500 50  0001 C CNN
-	1    2475 5500
+P 8075 2150
+F 0 "F5" V 7878 2150 50  0000 C CNN
+F 1 "LOGIC" V 7969 2150 50  0000 C CNN
+F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 8005 2150 50  0001 C CNN
+F 3 "~" H 8075 2150 50  0001 C CNN
+	1    8075 2150
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Fuse F7
 U 1 1 5E5D7FCE
-P 2475 6100
-F 0 "F7" V 2278 6100 50  0000 C CNN
-F 1 "FAN" V 2369 6100 50  0000 C CNN
-F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 2405 6100 50  0001 C CNN
-F 3 "~" H 2475 6100 50  0001 C CNN
-	1    2475 6100
+P 8075 2750
+F 0 "F7" V 7878 2750 50  0000 C CNN
+F 1 "FAN" V 7969 2750 50  0000 C CNN
+F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 8005 2750 50  0001 C CNN
+F 3 "~" H 8075 2750 50  0001 C CNN
+	1    8075 2750
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Fuse F1
 U 1 1 5E5D7BB1
-P 2475 4300
-F 0 "F1" V 2278 4300 50  0000 C CNN
-F 1 "SHUTDOWN" V 2369 4300 50  0000 C CNN
-F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 2405 4300 50  0001 C CNN
-F 3 "~" H 2475 4300 50  0001 C CNN
-	1    2475 4300
+P 8075 950
+F 0 "F1" V 7878 950 50  0000 C CNN
+F 1 "SHUTDOWN" V 7969 950 50  0000 C CNN
+F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 8005 950 50  0001 C CNN
+F 3 "~" H 8075 950 50  0001 C CNN
+	1    8075 950 
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Fuse F2
 U 1 1 5E5D75B1
-P 2475 4600
-F 0 "F2" V 2278 4600 50  0000 C CNN
-F 1 "BMS" V 2369 4600 50  0000 C CNN
-F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 2405 4600 50  0001 C CNN
-F 3 "~" H 2475 4600 50  0001 C CNN
-	1    2475 4600
+P 8075 1250
+F 0 "F2" V 7878 1250 50  0000 C CNN
+F 1 "BMS" V 7969 1250 50  0000 C CNN
+F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 8005 1250 50  0001 C CNN
+F 3 "~" H 8075 1250 50  0001 C CNN
+	1    8075 1250
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Fuse F3
 U 1 1 5E5D6B87
-P 2475 4900
-F 0 "F3" V 2278 4900 50  0000 C CNN
-F 1 "RINEHART" V 2369 4900 50  0000 C CNN
-F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 2405 4900 50  0001 C CNN
-F 3 "~" H 2475 4900 50  0001 C CNN
-	1    2475 4900
+P 8075 1550
+F 0 "F3" V 7878 1550 50  0000 C CNN
+F 1 "RINEHART" V 7969 1550 50  0000 C CNN
+F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 8005 1550 50  0001 C CNN
+F 3 "~" H 8075 1550 50  0001 C CNN
+	1    8075 1550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4150 4700 3925 4700
-Wire Wire Line
-	4150 4775 4150 4700
-$Comp
-L power:GND #PWR0102
-U 1 1 5E5D2FB4
-P 3925 4700
-F 0 "#PWR0102" H 3925 4450 50  0001 C CNN
-F 1 "GND" H 3930 4527 50  0000 C CNN
-F 2 "" H 3925 4700 50  0001 C CNN
-F 3 "" H 3925 4700 50  0001 C CNN
-	1    3925 4700
-	1    0    0    -1  
-$EndComp
-Connection ~ 4075 5950
-Wire Wire Line
-	4075 5950 4300 5950
 $Comp
 L Device:Fuse F8
 U 1 1 5E565C3A
 P 4450 5950
 F 0 "F8" V 4375 5900 50  0000 L CNN
-F 1 "BRB" V 4525 5850 50  0000 L CNN
+F 1 "BRB, 2A" V 4525 5850 50  0000 L CNN
 F 2 "AERO-footprints:Fuseholder_Blade_Mini_Keystone_3568" V 4380 5950 50  0001 C CNN
 F 3 "~" H 4450 5950 50  0001 C CNN
 	1    4450 5950
@@ -243,40 +195,8 @@ F 3 "~" H 4450 5950 50  0001 C CNN
 $EndComp
 Text Label 4950 5950 2    50   ~ 0
 TO_BRB
-Text Label 4075 5850 2    50   ~ 0
+Text Notes 2425 4700 2    50   ~ 0
 GLV_IN
-Text Notes 3675 5650 2    50   ~ 0
-GLV_IN
-Wire Wire Line
-	4075 5850 4075 5950
-Wire Wire Line
-	3775 5850 4075 5850
-Wire Wire Line
-	4075 5950 3775 5950
-$Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 5E543DF9
-P 3575 5950
-F 0 "J2" H 3655 5942 50  0000 L CNN
-F 1 "GLV_IN" H 3525 6075 50  0000 L CNN
-F 2 "AERO-footprints:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 3575 5950 50  0001 C CNN
-F 3 "~" H 3575 5950 50  0001 C CNN
-	1    3575 5950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5050 5175 4825 5175
-$Comp
-L power:+12V #PWR0101
-U 1 1 5E50D205
-P 5050 5175
-F 0 "#PWR0101" H 5050 5025 50  0001 C CNN
-F 1 "+12V" H 5065 5348 50  0000 C CNN
-F 2 "" H 5050 5175 50  0001 C CNN
-F 3 "" H 5050 5175 50  0001 C CNN
-	1    5050 5175
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	9850 5050 9050 5050
 Text Label 9850 5050 2    50   ~ 0
@@ -549,19 +469,17 @@ Text Label 5450 3300 2    50   ~ 0
 SENSOR_1
 Wire Wire Line
 	3800 2800 4375 2800
-Text Notes 4275 4275 0    50   ~ 0
-RELAY\nGLV OR DCDC
 Wire Wire Line
-	1725 5500 2325 5500
+	7325 2150 7925 2150
 $Comp
 L power:GND #PWR0109
 U 1 1 5E7F9F43
-P 1625 5500
-F 0 "#PWR0109" H 1625 5250 50  0001 C CNN
-F 1 "GND" H 1630 5327 50  0000 C CNN
-F 2 "" H 1625 5500 50  0001 C CNN
-F 3 "" H 1625 5500 50  0001 C CNN
-	1    1625 5500
+P 7225 2150
+F 0 "#PWR0109" H 7225 1900 50  0001 C CNN
+F 1 "GND" H 7230 1977 50  0000 C CNN
+F 2 "" H 7225 2150 50  0001 C CNN
+F 3 "" H 7225 2150 50  0001 C CNN
+	1    7225 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -587,8 +505,6 @@ Wire Wire Line
 Wire Wire Line
 	7925 5325 7300 5325
 Connection ~ 7300 5325
-Wire Wire Line
-	7300 5325 7300 5225
 Wire Wire Line
 	7925 5125 7300 5125
 Wire Wire Line
@@ -659,21 +575,283 @@ F 3 "~" H 4575 3000 50  0001 C CNN
 	1    4575 3000
 	1    0    0    -1  
 $EndComp
+Text Notes 3750 4050 0    50   ~ 0
+Fuses for each source are upstream
+Text Label 1150 5200 0    50   ~ 0
+DCDC_IN
+Text Label 1150 5050 0    50   ~ 0
+BATT_IN
+Text Notes 4275 4275 0    50   ~ 0
+RELAY\nGLV OR DCDC
 $Comp
-L AERO_custom_symbols:T9VV1K15-12S K1
-U 1 1 5E50EFF5
-P 4525 4975
-F 0 "K1" V 3958 4975 50  0000 C CNN
-F 1 "T9VV1K15-12S" V 4049 4975 50  0000 C CNN
-F 2 "AERO-footprints:RELAY_T9VV1K15-12S" H 4875 4925 50  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=Power_PCB_Relay_T9V_Solar&DocType=DS&DocLang=English" H 4525 4975 50  0001 C CNN
-	1    4525 4975
+L power:GND #PWR05
+U 1 1 5E5DA536
+P 3600 4700
+F 0 "#PWR05" H 3600 4450 50  0001 C CNN
+F 1 "GND" V 3605 4572 50  0000 R CNN
+F 2 "" H 3600 4700 50  0001 C CNN
+F 3 "" H 3600 4700 50  0001 C CNN
+	1    3600 4700
 	0    1    1    0   
 $EndComp
+Text Label 4250 4700 0    50   ~ 0
+FROM_BRB
 Wire Wire Line
-	4150 4775 4225 4775
+	4650 4700 4200 4700
 Wire Wire Line
-	4825 4775 5450 4775
+	3500 5100 3600 5100
+$Comp
+L power:+12V #PWR06
+U 1 1 5E5F9121
+P 4650 5100
+F 0 "#PWR06" H 4650 4950 50  0001 C CNN
+F 1 "+12V" V 4665 5228 50  0000 L CNN
+F 2 "" H 4650 5100 50  0001 C CNN
+F 3 "" H 4650 5100 50  0001 C CNN
+	1    4650 5100
+	0    1    1    0   
+$EndComp
+$Sheet
+S 1800 4850 1000 700 
+U 5E605CFB
+F0 "GLV_COMB" 50
+F1 "GLV_COMB.sch" 50
+F2 "VBATT" I L 1800 5050 50 
+F3 "V_DCDC" I L 1800 5200 50 
+F4 "GLV_RLY" O R 2800 5100 50 
+F5 "SDA" B R 2800 5350 50 
+F6 "SCL" I R 2800 5450 50 
+$EndSheet
 Wire Wire Line
-	3900 5175 4225 5175
+	2800 5100 3200 5100
+Wire Wire Line
+	1150 5050 1800 5050
+Wire Wire Line
+	1150 5200 1800 5200
+Wire Wire Line
+	3000 5350 2800 5350
+Wire Wire Line
+	3000 5450 2800 5450
+Text Label 2900 5350 0    50   ~ 0
+SDA
+Text Label 2900 5450 0    50   ~ 0
+SCL
+$Comp
+L Device:C C1
+U 1 1 5E62B8F0
+P 1450 2650
+F 0 "C1" H 1565 2696 50  0000 L CNN
+F 1 "C" H 1565 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1488 2500 50  0001 C CNN
+F 3 "~" H 1450 2650 50  0001 C CNN
+	1    1450 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5E62C009
+P 2650 2650
+F 0 "C5" H 2765 2696 50  0000 L CNN
+F 1 "C" H 2765 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2688 2500 50  0001 C CNN
+F 3 "~" H 2650 2650 50  0001 C CNN
+	1    2650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:R-78E5.0-0.5 U1
+U 1 1 5E62C758
+P 2050 2500
+F 0 "U1" H 2050 2742 50  0000 C CNN
+F 1 "R-78E5.0-0.5" H 2050 2651 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT" H 2100 2250 50  0001 L CIN
+F 3 "https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf" H 2050 2500 50  0001 C CNN
+	1    2050 2500
+	1    0    0    -1  
+$EndComp
+Text Notes 1150 2050 0    50   ~ 0
+Consider filter on input, see datasheet
+$Comp
+L power:+5V #PWR04
+U 1 1 5E62D566
+P 2650 2500
+F 0 "#PWR04" H 2650 2350 50  0001 C CNN
+F 1 "+5V" H 2665 2673 50  0000 C CNN
+F 2 "" H 2650 2500 50  0001 C CNN
+F 3 "" H 2650 2500 50  0001 C CNN
+	1    2650 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2500 2650 2500
+Connection ~ 2650 2500
+Wire Wire Line
+	1750 2500 1450 2500
+$Comp
+L power:+12V #PWR01
+U 1 1 5E639E7E
+P 1450 2500
+F 0 "#PWR01" H 1450 2350 50  0001 C CNN
+F 1 "+12V" H 1465 2673 50  0000 C CNN
+F 2 "" H 1450 2500 50  0001 C CNN
+F 3 "" H 1450 2500 50  0001 C CNN
+	1    1450 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1450 2500
+Wire Wire Line
+	1450 2800 2050 2800
+Connection ~ 2050 2800
+Wire Wire Line
+	2050 2800 2650 2800
+Text Notes 1900 6950 0    50   ~ 0
+Still needs DAQ, Other ampseal/molex/whatever, MCU, etc\n\nHas ideal diode and current monitor built in now, along with bulk storage caps
+$Comp
+L power:GND #PWR02
+U 1 1 5E641137
+P 2050 2800
+F 0 "#PWR02" H 2050 2550 50  0001 C CNN
+F 1 "GND" H 2055 2627 50  0000 C CNN
+F 2 "" H 2050 2800 50  0001 C CNN
+F 3 "" H 2050 2800 50  0001 C CNN
+	1    2050 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5E648E39
+P 1350 7200
+F 0 "R1" V 1145 7200 50  0000 C CNN
+F 1 "RR01J2R0TB" V 1236 7200 50  0000 C CNN
+F 2 "AERO-footprints:NeOhm_RR01_Vert" V 1390 7190 50  0001 C CNN
+F 3 "~" H 1350 7200 50  0001 C CNN
+	1    1350 7200
+	0    1    1    0   
+$EndComp
+Text Label 2900 5100 0    50   ~ 0
+GLV_IN
+Wire Wire Line
+	3775 5950 4300 5950
+Text Label 3850 5950 0    50   ~ 0
+GLV_IN
+Text Label 2050 4000 0    50   ~ 0
+BATT_IN
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5E67D588
+P 1825 4000
+F 0 "J2" H 1743 3675 50  0000 C CNN
+F 1 "BATT_IN" H 1743 3766 50  0000 C CNN
+F 2 "AERO-footprints:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 1825 4000 50  0001 C CNN
+F 3 "~" H 1825 4000 50  0001 C CNN
+	1    1825 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2050 4000 2025 4000
+Wire Wire Line
+	2025 3900 2025 4000
+Connection ~ 2025 4000
+Text Notes 1000 3600 0    50   ~ 0
+Not sure how battery is actually conneting to this but I'm leaving that to you
+Text Label 850  7200 0    50   ~ 0
+GLV_IN
+Wire Wire Line
+	850  7200 1200 7200
+$Comp
+L Device:CP1 C2
+U 1 1 5E69E9A0
+P 1600 7350
+F 0 "C2" H 1715 7396 50  0000 L CNN
+F 1 "URS1E472MHD" H 1715 7305 50  0000 L CNN
+F 2 "AERO-footprints:CAP_18x25_NICH" H 1600 7350 50  0001 C CNN
+F 3 "~" H 1600 7350 50  0001 C CNN
+	1    1600 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C3
+U 1 1 5E69F99F
+P 2000 7350
+F 0 "C3" H 2115 7396 50  0000 L CNN
+F 1 "URS1E472MHD" H 2115 7305 50  0000 L CNN
+F 2 "AERO-footprints:CAP_18x25_NICH" H 2000 7350 50  0001 C CNN
+F 3 "~" H 2000 7350 50  0001 C CNN
+	1    2000 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C4
+U 1 1 5E6A03F2
+P 2400 7350
+F 0 "C4" H 2515 7396 50  0000 L CNN
+F 1 "URS1E472MHD" H 2515 7305 50  0000 L CNN
+F 2 "AERO-footprints:CAP_18x25_NICH" H 2400 7350 50  0001 C CNN
+F 3 "~" H 2400 7350 50  0001 C CNN
+	1    2400 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5E6A0EC7
+P 2750 7350
+F 0 "R2" H 2818 7396 50  0000 L CNN
+F 1 "50M" H 2818 7305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2790 7340 50  0001 C CNN
+F 3 "~" H 2750 7350 50  0001 C CNN
+	1    2750 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 7500 2000 7500
+Connection ~ 2000 7500
+Wire Wire Line
+	2000 7500 2100 7500
+Connection ~ 2400 7500
+Wire Wire Line
+	2400 7500 2750 7500
+$Comp
+L power:GND #PWR03
+U 1 1 5E6A917D
+P 2100 7500
+F 0 "#PWR03" H 2100 7250 50  0001 C CNN
+F 1 "GND" H 2105 7327 50  0000 C CNN
+F 2 "" H 2100 7500 50  0001 C CNN
+F 3 "" H 2100 7500 50  0001 C CNN
+	1    2100 7500
+	1    0    0    -1  
+$EndComp
+Connection ~ 2100 7500
+Wire Wire Line
+	2100 7500 2400 7500
+Wire Wire Line
+	1500 7200 1600 7200
+Connection ~ 1600 7200
+Wire Wire Line
+	1600 7200 2000 7200
+Connection ~ 2000 7200
+Wire Wire Line
+	2000 7200 2400 7200
+Connection ~ 2400 7200
+Wire Wire Line
+	2400 7200 2750 7200
+Text Label 1950 7200 0    50   ~ 0
+VCAP_AB
+Text Notes 4200 4600 0    50   ~ 0
+This part exists and works!
+Wire Wire Line
+	7300 5325 7300 5225
+Wire Wire Line
+	4650 5100 4200 5100
+$Comp
+L AERO_custom_symbols:T9VV1K15-12S K1
+U 1 1 5E5C42EC
+P 3900 4900
+F 0 "K1" V 3333 4900 50  0000 C CNN
+F 1 "T9VV1K15-12S" V 3424 4900 50  0000 C CNN
+F 2 "AERO-footprints:RELAY_T9VV1K15-12S" H 4250 4850 50  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=Power_PCB_Relay_T9V_Solar&DocType=DS&DocLang=English" H 3900 4900 50  0001 C CNN
+	1    3900 4900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
