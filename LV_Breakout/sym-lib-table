@@ -2,4 +2,5 @@
   (lib (name LV_Breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/LV_Breakout-rescue.lib)(options "")(descr ""))
   (lib (name T9VV1K15-12S)(type Legacy)(uri "C:/Users/Andrew A. Katz/Downloads/T9VV1K15-12S/T9VV1K15-12S.lib")(options "")(descr "")(disabled))
   (lib (name 2020-02-22_01-11-25)(type Legacy)(uri "C:/Users/Andrew A. Katz/Downloads/ul_LM74700QDBVTQ1(1)/KiCAD/2020-02-22_01-11-25/2020-02-22_01-11-25.lib")(options "")(descr "")(disabled))
+  (lib (name pedal-board-2020-rescue)(type Legacy)(uri /home/george/Documents/GitHub/AERO_2019-2020/PedalBoard2020/pedal-board-2020/pedal-board-2020-rescue.lib)(options "")(descr ""))
 )
