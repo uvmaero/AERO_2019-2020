@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=D2 Old Footprint=MCC-SOD123_V New Footprint=Vishay_1N4148W-E3-08
+Added Pin To Net: NetName=GND Pin=D2-A
+Added Pin To Net: NetName=FAN2- Pin=D2-K

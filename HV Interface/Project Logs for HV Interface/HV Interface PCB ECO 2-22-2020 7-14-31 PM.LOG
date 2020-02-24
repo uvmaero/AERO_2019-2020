@@ -1,0 +1,6 @@
+Added Component: Designator=J8(KSTN240)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "36-240-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D3-2
+Added Member To Class: ClassName=U_DCDC Member=Component J8 BASE
