@@ -655,28 +655,28 @@ Wire Wire Line
 Wire Wire Line
 	9425 2775 8750 2775
 Wire Wire Line
+	10050 2125 10625 2125
+Wire Wire Line
+	10050 2925 10625 2925
+Wire Wire Line
 	10050 1325 10625 1325
 Wire Wire Line
-	10050 1225 10625 1225
+	10050 2025 10625 2025
 Wire Wire Line
-	10050 1125 10625 1125
+	10625 2825 10050 2825
 Wire Wire Line
-	10050 1025 10625 1025
-Wire Wire Line
-	10625 925  10050 925 
-Wire Wire Line
-	10625 825  10050 825 
-Text Label 10050 825  0    50   ~ 0
+	10625 2725 10050 2725
+Text Label 10050 2725 0    50   ~ 0
 Sensor_1
-Text Label 10050 925  0    50   ~ 0
+Text Label 10050 2825 0    50   ~ 0
 Sensor_2
-Text Label 10050 1025 0    50   ~ 0
+Text Label 10050 2025 0    50   ~ 0
 Sensor_3
-Text Label 10050 1125 0    50   ~ 0
-Sensor_4
-Text Label 10050 1225 0    50   ~ 0
-Sensor_5
 Text Label 10050 1325 0    50   ~ 0
+Sensor_4
+Text Label 10050 2925 0    50   ~ 0
+Sensor_5
+Text Label 10050 2125 0    50   ~ 0
 Sensor_6
 Text Label 3000 2675 2    50   ~ 0
 Sensor_10
@@ -687,77 +687,77 @@ Sensor_8
 Text Label 3000 1775 2    50   ~ 0
 Sensor_7
 Wire Wire Line
-	10625 1625 10050 1625
-Text Label 10050 1825 0    50   ~ 0
+	10625 2225 10050 2225
+Text Label 10050 2625 0    50   ~ 0
 CAN+
 Wire Wire Line
 	10050 1425 10625 1425
 Wire Wire Line
 	10050 1525 10625 1525
 Wire Wire Line
-	10050 1725 10625 1725
-Text Label 10050 1725 0    50   ~ 0
+	10050 3025 10625 3025
+Text Label 10050 3025 0    50   ~ 0
 Sensor_10
-Text Label 10050 1625 0    50   ~ 0
+Text Label 10050 2225 0    50   ~ 0
 Sensor_9
 Text Label 10050 1525 0    50   ~ 0
 Sensor_8
 Text Label 10050 1425 0    50   ~ 0
 Sensor_7
 Wire Wire Line
-	10050 1825 10625 1825
-Text Label 10050 2025 0    50   ~ 0
+	10050 2625 10625 2625
+Text Label 10050 2525 0    50   ~ 0
 CAN-
 Wire Wire Line
 	10050 1925 10625 1925
 $Comp
 L power:GND #PWR026
 U 1 1 5E62FDAB
-P 10275 3025
-F 0 "#PWR026" H 10275 2775 50  0001 C CNN
-F 1 "GND" H 10280 2852 50  0000 C CNN
-F 2 "" H 10275 3025 50  0001 C CNN
-F 3 "" H 10275 3025 50  0001 C CNN
-	1    10275 3025
+P 9875 1225
+F 0 "#PWR026" H 9875 975 50  0001 C CNN
+F 1 "GND" H 9880 1052 50  0000 C CNN
+F 2 "" H 9875 1225 50  0001 C CNN
+F 3 "" H 9875 1225 50  0001 C CNN
+	1    9875 1225
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10275 3025 10625 3025
+	9875 1225 10625 1225
 Wire Wire Line
-	10625 2925 10275 2925
+	10625 1125 9875 1125
 Wire Wire Line
-	10275 2925 10275 3025
-Connection ~ 10275 3025
+	9875 1125 9875 1225
+Connection ~ 9875 1225
 Wire Wire Line
-	10625 2825 10275 2825
+	10625 1025 9875 1025
 Wire Wire Line
-	10275 2825 10275 2925
-Connection ~ 10275 2925
+	9875 1025 9875 1125
+Connection ~ 9875 1125
 Wire Wire Line
-	10625 2725 10275 2725
+	10625 925  9875 925 
 Wire Wire Line
-	10275 2725 10275 2825
-Connection ~ 10275 2825
-Text Label 10050 2325 0    50   ~ 0
+	9875 925  9875 1025
+Connection ~ 9875 1025
+Text Label 10050 2425 0    50   ~ 0
 RINEHART_RX
 Wire Wire Line
-	10050 2325 10625 2325
-Text Label 10050 2225 0    50   ~ 0
+	10050 2425 10625 2425
+Text Label 10050 2325 0    50   ~ 0
 RINEHART_TX
 Wire Wire Line
-	10050 2225 10625 2225
-Text Label 10050 2425 0    50   ~ 0
+	10050 2325 10625 2325
+Text Label 10050 1725 0    50   ~ 0
 BMS_FAULT
 Wire Wire Line
-	10050 2425 10625 2425
+	10050 1725 10625 1725
 Text Label 10050 1925 0    50   ~ 0
 CAN+
 Wire Wire Line
-	10050 2025 10625 2025
-Text Label 10050 2125 0    50   ~ 0
+	10050 2525 10625 2525
+Text Label 10050 1825 0    50   ~ 0
 CAN-
 Wire Wire Line
-	10050 2125 10625 2125
+	10050 1825 10625 1825
 $Comp
 L Connector_Generic:Conn_01x06 J7
 U 1 1 5E685331
@@ -878,18 +878,18 @@ Text Notes 6375 2750 0    50   ~ 0
 USB Port \nfor BMS
 Text Notes 5975 750  0    50   ~ 0
 Serial Port\nfor RineHart
-Text Notes 10325 725  0    50   ~ 0
+Text Notes 11625 675  0    50   ~ 0
 Main Ampseal
-Text Label 10050 2525 0    50   ~ 0
+Text Label 10050 1625 0    50   ~ 0
 EMUS_TX+
-Text Label 10050 2625 0    50   ~ 0
+Text Label 10050 825  0    50   ~ 0
 EMUS_TX-
-Text Notes 11075 2625 0    50   ~ 0
+Text Notes 10825 3550 0    50   ~ 0
 EMUS TX- is for \nEMUS Current Monitor RX
 Wire Wire Line
-	10625 2525 10050 2525
+	10625 1625 10050 1625
 Wire Wire Line
-	10625 2625 10050 2625
+	10625 825  10050 825 
 $Comp
 L Device:R R1
 U 1 1 5E55ED38
