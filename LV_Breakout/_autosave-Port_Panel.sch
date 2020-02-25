@@ -148,7 +148,7 @@ AR Path="/5E92F3A2" Ref="J5"  Part="1"
 AR Path="/5E92554D/5E92F3A2" Ref="J?"  Part="1" 
 F 0 "J5" H 6132 3617 50  0000 C CNN
 F 1 "USB_B" H 6132 3526 50  0000 C CNN
-F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 6225 3100 50  0001 C CNN
+F 2 "Connector_USB:USB_B_TE_5787834_Vertical" H 6225 3100 50  0001 C CNN
 F 3 " ~" H 6225 3100 50  0001 C CNN
 	1    6075 3150
 	1    0    0    -1  
