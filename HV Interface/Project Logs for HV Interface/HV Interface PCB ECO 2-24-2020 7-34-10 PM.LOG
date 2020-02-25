@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=DCDC_CAP Pin=C6-1
+Removed Member From Class: ClassName=U_DCDC Member=C6
+Removed Member From Class: ClassName=A1_Nets Member=OUT-
+Removed Member From Class: ClassName=C9_Nets Member=OUT-
+Removed Member From Class: ClassName=C12_Nets Member=OUT-
+Removed Member From Class: ClassName=C43_Nets Member=OUT-
+Removed Member From Class: ClassName=C44_Nets Member=OUT-
+Removed Member From Class: ClassName=C45_Nets Member=OUT-
+Removed Member From Class: ClassName=C46_Nets Member=OUT-
+Removed Member From Class: ClassName=TS Member=PGND
+Added Pin To Net: NetName=OUT- Pin=C7-2
+Added Pin To Net: NetName=OUT- Pin=C8-2
+Added Pin To Net: NetName=OUT- Pin=C42-2
+Added Pin To Net: NetName=OUT- Pin=J4-2
+Added Pin To Net: NetName=OUT- Pin=NT1-2
+Added Pin To Net: NetName=OUT- Pin=R33-1
+Change Net Name : Old Net Name=OUT- New Net Name=PGND
+Added Class: Name=HICUR
+Added Member To Class: ClassName=A1_Nets Member=Wire PGND
+Added Member To Class: ClassName=C9_Nets Member=Wire PGND
+Added Member To Class: ClassName=C12_Nets Member=Wire PGND
+Added Member To Class: ClassName=C43_Nets Member=Wire PGND
+Added Member To Class: ClassName=C44_Nets Member=Wire PGND
+Added Member To Class: ClassName=C45_Nets Member=Wire PGND
+Added Member To Class: ClassName=C46_Nets Member=Wire PGND

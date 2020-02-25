@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=CHASS2 Pin=J9-35
+Removed Pin From Net: NetName=CHASS2 Pin=J10-4
+Added Pin To Net: NetName=CHASS2 Pin=J9-12
+Added Pin To Net: NetName=CHASS2 Pin=J10-3
+Change Net Name : Old Net Name=CHASS2 New Net Name=CHASS1
+Added Pin To Net: NetName=CHASS2 Pin=J9-35
+Added Pin To Net: NetName=CHASS2 Pin=J10-4
+Added Net: Name=CHASS2

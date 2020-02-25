@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=GND Pin=J14-2
+Change Component Designator: OldDesignator=NT? NewDesignator=NT2
+Added Pin To Net: NetName=PGND Pin=J14-2

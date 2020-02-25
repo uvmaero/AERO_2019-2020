@@ -86,7 +86,7 @@ AR Path="/5E92F376" Ref="J6"  Part="1"
 AR Path="/5E92554D/5E92F376" Ref="J?"  Part="1" 
 F 0 "J6" H 8096 4254 50  0000 R CNN
 F 1 "RJ45" H 8096 4345 50  0000 R CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 8425 4275 50  0001 C CNN
+F 2 "Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical" V 8425 4275 50  0001 C CNN
 F 3 "~" V 8425 4275 50  0001 C CNN
 	1    8425 4250
 	1    0    0    1   
@@ -798,15 +798,15 @@ CAN-
 $Comp
 L Connector:RJ45 J9
 U 1 1 5E6A2329
-P 9725 4250
+P 9725 4350
 AR Path="/5E6A2329" Ref="J9"  Part="1" 
 AR Path="/5E92554D/5E6A2329" Ref="J?"  Part="1" 
-F 0 "J9" H 9396 4254 50  0000 R CNN
-F 1 "RJ45" H 9396 4345 50  0000 R CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 9725 4275 50  0001 C CNN
-F 3 "~" V 9725 4275 50  0001 C CNN
-	1    9725 4250
-	-1   0    0    1   
+F 0 "J9" H 9396 4354 50  0000 R CNN
+F 1 "RJ45" H 9396 4445 50  0000 R CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 9725 4375 50  0001 C CNN
+F 3 "~" V 9725 4375 50  0001 C CNN
+	1    9725 4350
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	8825 3950 9325 3950

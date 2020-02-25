@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:TSAL-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -966,10 +967,4 @@ F 3 "~" H 6375 5300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7150 5300 6525 5300
-$Sheet
-S 11200 4375 850  775 
-U 5E4DECE7
-F0 "Sheet5E4DECE6" 50
-F1 "file5E4DECE6.sch" 50
-$EndSheet
 $EndSCHEMATC

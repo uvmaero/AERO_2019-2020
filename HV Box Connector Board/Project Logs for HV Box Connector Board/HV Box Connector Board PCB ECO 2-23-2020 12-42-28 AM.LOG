@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=GND Pin=J9-24
+Removed Pin From Net: NetName=GND Pin=J9-25
+Removed Pin From Net: NetName=GND Pin=J9-26
+Removed Pin From Net: NetName=GND Pin=J9-27
+Removed Pin From Net: NetName=GND Pin=J9-28
+Added Component: Designator=NT?(60MIL_TIE)
+Added Pin To Net: NetName=GND Pin=NT?-1
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 255, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 255, 110)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 255, 110)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 255)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 255)
+Added Pin To Net: NetName=PGND Pin=J9-24
+Added Pin To Net: NetName=PGND Pin=J9-25
+Added Pin To Net: NetName=PGND Pin=J9-26
+Added Pin To Net: NetName=PGND Pin=J9-27
+Added Pin To Net: NetName=PGND Pin=J9-28
+Added Pin To Net: NetName=PGND Pin=NT?-2
+Added Net: Name=PGND
+Added Class: Name=HIGH_CUR
+Added Class: Name=MED_CUR
+Added Member To Class: ClassName=HV Box Connector Board Member=Component NT? NET TIE

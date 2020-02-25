@@ -1,0 +1,89 @@
+Removed Member From Class: ClassName=D3_Nets Member=TSAL_NTC
+Removed Member From Class: ClassName=J5_Nets Member=TSAL_NTC
+Removed Member From Class: ClassName=R39_Nets Member=TSAL_NTC
+Removed Member From Class: ClassName=U6_Nets Member=TSAL_NTC
+Added Component: Designator=H1(S8131-46R)
+Add component (AddParameter): Name = "Body Material"; Value = "Bronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Wire Protection and Management"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Silver,Natural"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Female"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.14inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inside Diameter"; Value = "1.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "10mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Harwin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "S8131-46R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Bronze,Tin,Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material Thickness"; Value = "0.008inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "952-1579-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.315inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wire/Cable Color"; Value = "Grey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wire/Cable Diameter"; Value = "3mm"; VariantName = "[No Variations]"
+Added Component: Designator=J11(B10B-PHDSS)
+Add component (AddParameter): Name = "Category"; Value = "Headers and Wire Housings"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Natural"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper Alloy,Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Mating Length"; Value = "0.114inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin,Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Detent"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "9.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Color"; Value = "Beige"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Polyamide"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "11.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "B10B-PHDSS(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (AC)"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-25°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "0.079inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "455-1762-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D3-2
+Added Pin To Net: NetName=BASE Pin=H1-1
+Added Pin To Net: NetName=BASE Pin=H1-1
+Added Pin To Net: NetName=CAN_N Pin=J11-1
+Added Pin To Net: NetName=+GLV Pin=J11-2
+Added Pin To Net: NetName=CAN_P Pin=J11-3
+Added Pin To Net: NetName=BSPD_FAULT Pin=J11-7
+Added Pin To Net: NetName=BENDER_PWM Pin=J11-8
+Added Pin To Net: NetName=CUR_OUT Pin=J11-9
+Added Pin To Net: NetName=FAN2_PWM Pin=J11-10
+Change Net Name : Old Net Name=TSAL_NTC New Net Name=EXT_NTC
+Added Pin To Net: NetName=BRAKE_OUT Pin=J11-5
+Added Net: Name=BRAKE_OUT
+Added Pin To Net: NetName=EXT_NTC_N Pin=J11-4
+Added Net: Name=EXT_NTC_N
+Added Pin To Net: NetName=EXT_NTC_P Pin=J11-6
+Added Net: Name=EXT_NTC_P
+Added Class: Name=H1_Nets
+Added Class: Name=J11_Nets
+Added Member To Class: ClassName=U_DCDC Member=Component H1 S8131-46R
+Added Member To Class: ClassName=Top Member=Component J11 B10B-PHDSS(LF)(SN)
+Added Member To Class: ClassName=D3_Nets Member=Wire EXT_NTC
+Added Member To Class: ClassName=J5_Nets Member=Wire EXT_NTC
+Added Member To Class: ClassName=R39_Nets Member=Wire EXT_NTC
+Added Member To Class: ClassName=U6_Nets Member=Wire EXT_NTC

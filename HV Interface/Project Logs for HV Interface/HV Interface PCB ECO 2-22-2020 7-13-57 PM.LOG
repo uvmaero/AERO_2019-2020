@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=+5_AVCC Pin=U6-20
+Added Component: Designator=C32(0603_CAP)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Component Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Octopart Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description in Visual"; Value = "Cap SMT 0603 0.1UF 25V 10%  Cer X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Various"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "Various"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P/N"; Value = "CAP 0603 0.1UF 25V 10% X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Val"; Value = "0.1UF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1UF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vol"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "25V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C32-1
+Added Pin To Net: NetName=BSPD_FAULT Pin=D2-2
+Added Pin To Net: NetName=BENDER_PWM Pin=D3-2
+Added Pin To Net: NetName=AREF Pin=C32-2
+Added Pin To Net: NetName=AREF Pin=U6-20
+Added Net: Name=AREF
+Added Class: Name=C32_Nets
+Added Class: Name=J8_Nets
+Added Member To Class: ClassName=U_MCU Member=Component C32 CAP 0603 0.1UF 25V 10% X7R
+Added Member To Class: ClassName=U6_Nets Member=Wire AREF

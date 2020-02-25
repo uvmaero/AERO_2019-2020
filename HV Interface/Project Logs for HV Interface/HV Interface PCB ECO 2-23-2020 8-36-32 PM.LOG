@@ -1,0 +1,90 @@
+Removed Pin From Net: NetName=GND Pin=A1-4
+Removed Pin From Net: NetName=GND Pin=C6-2
+Removed Pin From Net: NetName=GND Pin=C7-2
+Removed Pin From Net: NetName=GND Pin=C8-2
+Removed Pin From Net: NetName=GND Pin=C9-2
+Removed Pin From Net: NetName=GND Pin=C12-2
+Removed Pin From Net: NetName=+5_MCU Pin=D7-A
+Removed Pin From Net: NetName=+GLV Pin=J3-1
+Removed Pin From Net: NetName=GND Pin=J3-2
+Removed Pin From Net: NetName=DCDC_EN Pin=U6-26
+Removed Member From Class: ClassName=U_MCU Member=D7
+Removed Member From Class: ClassName=U_MCU Member=R21
+Removed Member From Class: ClassName=J3_Nets Member=+GLV
+Removed Member From Class: ClassName=U6_Nets Member=\LED3
+Removed Member From Class: ClassName=A1_Nets Member=GND
+Removed Member From Class: ClassName=C6_Nets Member=GND
+Removed Member From Class: ClassName=C7_Nets Member=GND
+Removed Member From Class: ClassName=C8_Nets Member=GND
+Removed Member From Class: ClassName=C9_Nets Member=GND
+Removed Member From Class: ClassName=C12_Nets Member=GND
+Removed Member From Class: ClassName=J3_Nets Member=GND
+Added Component: Designator=C33(NIC-CAPA2-10X10_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.nichicon.co.jp/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "08/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "10 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Endurance Time"; Value = "5000 h"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "0.09 Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "10 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nichicon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Nichicon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "UUD1V331MNL1GS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Diameter 10 mm, Height 10 mm, Pitch 8 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "CAPAE-D10H10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Dia382mm Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "UUD1V331MNL1GS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Capacitance"; Value = "330 uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Ripple Current (at 100kHz)"; Value = "670 mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "35 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "493-2293-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance Rated Capacitance"; Value = "-20 to 20%"; VariantName = "[No Variations]"
+Added Component: Designator=U1(SOIC-SO18_N)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.microchip.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "revE, Aug-2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "18-Lead Plastic Small Outline (SO) - Wide 7.50mm Body [SOIC]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOIC-SO18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "revBB, Aug-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RevisionNote"; Value = "URLs added."; VariantName = "[No Variations]"
+Added Pin To Net: NetName=12V_CAP Pin=C33-1
+Added Pin To Net: NetName=GND Pin=C33-2
+Added Pin To Net: NetName=BSPD_FAULT Pin=D2-2
+Added Pin To Net: NetName=BENDER_PWM Pin=D3-2
+Added Pin To Net: NetName=+DCDC_OUT Pin=J3-1
+Added Pin To Net: NetName=DCDC_EN Pin=U6-2
+Added Pin To Net: NetName=HV_VOL Pin=U6-26
+Added Net: Name=HV_VOL
+Added Pin To Net: NetName=PGND Pin=A1-4
+Added Pin To Net: NetName=PGND Pin=C6-2
+Added Pin To Net: NetName=PGND Pin=C7-2
+Added Pin To Net: NetName=PGND Pin=C8-2
+Added Pin To Net: NetName=PGND Pin=C9-2
+Added Pin To Net: NetName=PGND Pin=C12-2
+Added Pin To Net: NetName=PGND Pin=J3-2
+Added Net: Name=PGND
+Added Class: Name=C33_Nets
+Added Class: Name=U1_Nets
+Added Member To Class: ClassName=U_PWR_DIST Member=Component C33 UUD1V331MNL1GS
+Added Member To Class: ClassName=U_DCDC Member=Component U1 MCP23008T-E/SO
+Added Member To Class: ClassName=J3_Nets Member=Wire +DCDC_OUT
+Added Member To Class: ClassName=U6_Nets Member=Wire HV_VOL
+Added Member To Class: ClassName=A1_Nets Member=Wire PGND
+Added Member To Class: ClassName=C6_Nets Member=Wire PGND
+Added Member To Class: ClassName=C7_Nets Member=Wire PGND
+Added Member To Class: ClassName=C8_Nets Member=Wire PGND
+Added Member To Class: ClassName=C9_Nets Member=Wire PGND
+Added Member To Class: ClassName=C12_Nets Member=Wire PGND
+Added Member To Class: ClassName=J3_Nets Member=Wire PGND

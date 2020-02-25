@@ -145,7 +145,7 @@ U 1 1 5E55A94A
 P 6250 3900
 F 0 "R8" H 6318 3900 50  0000 L CNN
 F 1 "KRL6432E-M-R003-F-T1" H 6318 3855 50  0001 L CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 6290 3890 50  0001 C CNN
+F 2 "AERO_FOOT:KRL6432E-M-R003-F-T1" V 6290 3890 50  0001 C CNN
 F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition19_en.pdf" H 6250 3900 50  0001 C CNN
 	1    6250 3900
 	1    0    0    -1  
@@ -298,7 +298,7 @@ U 1 1 5E5743C7
 P 2300 2200
 F 0 "R3" H 2368 2200 50  0000 L CNN
 F 1 "KRL6432E-M-R003-F-T1" H 2368 2155 50  0001 L CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 2340 2190 50  0001 C CNN
+F 2 "AERO_FOOT:KRL6432E-M-R003-F-T1" V 2340 2190 50  0001 C CNN
 F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition19_en.pdf" H 2300 2200 50  0001 C CNN
 	1    2300 2200
 	1    0    0    -1  
