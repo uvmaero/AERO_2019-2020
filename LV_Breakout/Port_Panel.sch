@@ -532,8 +532,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 2475 2600 2475
 Wire Wire Line
-	3000 2575 2600 2575
-Wire Wire Line
 	3000 2675 2600 2675
 $Comp
 L power:GND #PWR04
@@ -603,32 +601,28 @@ F 3 "~" H 10825 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise J8
+L Connector_Generic:Conn_02x06_Counter_Clockwise J8
 U 1 1 5E5B056E
 P 8450 2775
 F 0 "J8" H 8500 3192 50  0000 C CNN
-F 1 "B10B-PHDSS(LF)(SN)" H 8500 3101 50  0000 C CNN
-F 2 "Connector_JST:JST_PHD_B10B-PHDSS_2x05_P2.00mm_Vertical" H 8450 2775 50  0001 C CNN
+F 1 "B12B-PUDSS-1(LF)(SN)" H 8500 3101 50  0000 C CNN
+F 2 "Connector_JST:JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical" H 8450 2775 50  0001 C CNN
 F 3 "~" H 8450 2775 50  0001 C CNN
 	1    8450 2775
 	1    0    0    -1  
 $EndComp
-Text Label 7650 2575 0    50   ~ 0
-BMS_USB_GND
 Wire Wire Line
 	7650 2575 8250 2575
-Text Label 7650 2675 0    50   ~ 0
+Text Label 7650 2575 0    50   ~ 0
 BMS_USB+
 Wire Wire Line
 	7650 2675 8250 2675
-Text Label 7650 2775 0    50   ~ 0
+Text Label 7650 2675 0    50   ~ 0
 BMS_USB-
 Wire Wire Line
 	7650 2775 8250 2775
-Text Label 7650 2875 0    50   ~ 0
+Text Label 9275 3075 2    50   ~ 0
 BMS_FAULT
-Wire Wire Line
-	7650 2875 8250 2875
 Text Label 7650 2975 0    50   ~ 0
 CAN+
 Wire Wire Line
@@ -636,15 +630,15 @@ Wire Wire Line
 $Comp
 L power:GND #PWR025
 U 1 1 5E5C1626
-P 9425 2775
-F 0 "#PWR025" H 9425 2525 50  0001 C CNN
-F 1 "GND" H 9430 2602 50  0000 C CNN
-F 2 "" H 9425 2775 50  0001 C CNN
-F 3 "" H 9425 2775 50  0001 C CNN
-	1    9425 2775
+P 7550 3075
+F 0 "#PWR025" H 7550 2825 50  0001 C CNN
+F 1 "GND" H 7555 2902 50  0000 C CNN
+F 2 "" H 7550 3075 50  0001 C CNN
+F 3 "" H 7550 3075 50  0001 C CNN
+	1    7550 3075
 	1    0    0    -1  
 $EndComp
-Text Label 9275 2875 2    50   ~ 0
+Text Label 7650 2775 0    50   ~ 0
 CAN-
 Wire Wire Line
 	9275 2875 8750 2875
@@ -666,9 +660,9 @@ Wire Wire Line
 	10625 2825 10050 2825
 Wire Wire Line
 	10625 2725 10050 2725
-Text Label 10050 2725 0    50   ~ 0
-Sensor_1
 Text Label 10050 2825 0    50   ~ 0
+Sensor_1
+Text Label 10050 2225 0    50   ~ 0
 Sensor_2
 Text Label 10050 2025 0    50   ~ 0
 Sensor_3
@@ -678,10 +672,6 @@ Text Label 10050 2925 0    50   ~ 0
 Sensor_5
 Text Label 10050 2125 0    50   ~ 0
 Sensor_6
-Text Label 3000 2675 2    50   ~ 0
-Sensor_10
-Text Label 3000 2575 2    50   ~ 0
-Sensor_9
 Text Label 3000 2475 2    50   ~ 0
 Sensor_8
 Text Label 3000 1775 2    50   ~ 0
@@ -696,17 +686,11 @@ Wire Wire Line
 	10050 1525 10625 1525
 Wire Wire Line
 	10050 3025 10625 3025
-Text Label 10050 3025 0    50   ~ 0
-Sensor_10
-Text Label 10050 2225 0    50   ~ 0
-Sensor_9
 Text Label 10050 1525 0    50   ~ 0
 Sensor_8
-Text Label 10050 1425 0    50   ~ 0
-Sensor_7
 Wire Wire Line
 	10050 2625 10625 2625
-Text Label 10050 2525 0    50   ~ 0
+Text Label 10050 2725 0    50   ~ 0
 CAN-
 Wire Wire Line
 	10050 1925 10625 1925
@@ -738,23 +722,23 @@ Wire Wire Line
 Wire Wire Line
 	9875 925  9875 1025
 Connection ~ 9875 1025
-Text Label 10050 2425 0    50   ~ 0
+Text Label 10050 1625 0    50   ~ 0
 RINEHART_RX
 Wire Wire Line
 	10050 2425 10625 2425
-Text Label 10050 2325 0    50   ~ 0
+Text Label 10050 825  0    50   ~ 0
 RINEHART_TX
 Wire Wire Line
 	10050 2325 10625 2325
-Text Label 10050 1725 0    50   ~ 0
+Text Label 10050 2525 0    50   ~ 0
 BMS_FAULT
 Wire Wire Line
 	10050 1725 10625 1725
-Text Label 10050 1925 0    50   ~ 0
+Text Label 10050 1825 0    50   ~ 0
 CAN+
 Wire Wire Line
 	10050 2525 10625 2525
-Text Label 10050 1825 0    50   ~ 0
+Text Label 10050 1925 0    50   ~ 0
 CAN-
 Wire Wire Line
 	10050 1825 10625 1825
@@ -827,16 +811,14 @@ Wire Wire Line
 $Comp
 L power:+12V #PWR024
 U 1 1 5E6CC3D5
-P 9425 2675
-F 0 "#PWR024" H 9425 2525 50  0001 C CNN
-F 1 "+12V" H 9440 2848 50  0000 C CNN
-F 2 "" H 9425 2675 50  0001 C CNN
-F 3 "" H 9425 2675 50  0001 C CNN
-	1    9425 2675
+P 9425 2775
+F 0 "#PWR024" H 9425 2625 50  0001 C CNN
+F 1 "+12V" H 9440 2948 50  0000 C CNN
+F 2 "" H 9425 2775 50  0001 C CNN
+F 3 "" H 9425 2775 50  0001 C CNN
+	1    9425 2775
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8750 2675 9425 2675
 Text Label 7950 1275 0    50   ~ 0
 SDA
 Wire Wire Line
@@ -878,13 +860,13 @@ Text Notes 6375 2750 0    50   ~ 0
 USB Port \nfor BMS
 Text Notes 5975 750  0    50   ~ 0
 Serial Port\nfor RineHart
-Text Notes 11625 675  0    50   ~ 0
+Text Notes 10100 625  0    50   ~ 0
 Main Ampseal
-Text Label 10050 1625 0    50   ~ 0
-EMUS_TX+
-Text Label 10050 825  0    50   ~ 0
-EMUS_TX-
-Text Notes 10825 3550 0    50   ~ 0
+Text Label 9250 2675 2    50   ~ 0
+EMUS_Curr2
+Text Label 10050 2325 0    50   ~ 0
+EMUS_Curr1
+Text Notes 10100 3375 0    50   ~ 0
 EMUS TX- is for \nEMUS Current Monitor RX
 Wire Wire Line
 	10625 1625 10050 1625
@@ -1023,4 +1005,84 @@ Text Label 2975 2175 2    50   ~ 0
 CLK
 Wire Wire Line
 	2975 2175 2600 2175
+Text Notes 8200 5475 0    50   ~ 0
+fan control\n
+Text Label 3000 2675 2    50   ~ 0
+FAN_SIG
+Text Label 8025 5675 0    50   ~ 0
+FAN_SIG
+Wire Wire Line
+	8025 5675 8475 5675
+$Comp
+L Device:R R5
+U 1 1 5E5C2565
+P 8475 5825
+F 0 "R5" H 8545 5871 50  0000 L CNN
+F 1 "100" H 8545 5780 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8405 5825 50  0001 C CNN
+F 3 "~" H 8475 5825 50  0001 C CNN
+	1    8475 5825
+	1    0    0    -1  
+$EndComp
+Connection ~ 8475 5675
+Wire Wire Line
+	8475 5675 8625 5675
+$Comp
+L power:GND #PWR0101
+U 1 1 5E5C32FB
+P 8925 6100
+F 0 "#PWR0101" H 8925 5850 50  0001 C CNN
+F 1 "GND" H 8930 5927 50  0000 C CNN
+F 2 "" H 8925 6100 50  0001 C CNN
+F 3 "" H 8925 6100 50  0001 C CNN
+	1    8925 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8475 5975 8475 6100
+Wire Wire Line
+	8475 6100 8925 6100
+Wire Wire Line
+	8925 6100 8925 5875
+Connection ~ 8925 6100
+Text Label 8925 5250 0    50   ~ 0
+FAN_OUT
+Wire Wire Line
+	8925 5250 8925 5475
+Text Label 10050 3025 0    50   ~ 0
+FAN_OUT
+$Comp
+L Transistor_FET:PSMN5R2-60YL Q1
+U 1 1 5E5DFCCF
+P 8825 5675
+F 0 "Q1" H 9030 5721 50  0000 L CNN
+F 1 "PSMN5R2-60YL" H 9030 5630 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK56" H 8975 5675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PSMN5R2-60YL.pdf" H 8825 5675 50  0001 C CNN
+	1    8825 5675
+	1    0    0    -1  
+$EndComp
+Text Label 10050 1425 0    50   ~ 0
+Sensor_7
+Text Label 10050 2425 0    50   ~ 0
+EMUS_Curr2
+Text Label 9250 2575 2    50   ~ 0
+EMUS_Curr1
+Text Label 10050 1725 0    50   ~ 0
+EMUS_Curr3
+Text Label 9275 2875 2    50   ~ 0
+EMUS_Curr3
+Wire Wire Line
+	9275 3075 8750 3075
+Wire Wire Line
+	9250 2575 8750 2575
+Wire Wire Line
+	9250 2675 8750 2675
+Wire Wire Line
+	7550 3075 8250 3075
+Wire Wire Line
+	7550 2875 7550 3075
+Wire Wire Line
+	7550 2875 8250 2875
+Connection ~ 7550 3075
 $EndSCHEMATC

@@ -553,7 +553,7 @@ F 3 "~" H 8875 3425 50  0001 C CNN
 	1    8875 3425
 	0    1    1    0   
 $EndComp
-Text Label 4425 6125 2    50   ~ 0
+Text Label 3725 6125 0    50   ~ 0
 DAQ_PWR
 Text Label 9125 2225 0    50   ~ 0
 LOGIC
@@ -726,4 +726,17 @@ Wire Wire Line
 	7400 2575 8400 2575
 Wire Wire Line
 	8200 2475 8400 2475
+$Comp
+L Device:Polyfuse F11
+U 1 1 5E5ACD10
+P 4275 6125
+F 0 "F11" V 4050 6125 50  0000 C CNN
+F 1 "1812L075/24" V 4141 6125 50  0000 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 4325 5925 50  0001 L CNN
+F 3 "~" H 4275 6125 50  0001 C CNN
+	1    4275 6125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3725 6125 4125 6125
 $EndSCHEMATC
