@@ -530,7 +530,7 @@ Wire Wire Line
 Connection ~ 4425 6300
 Wire Wire Line
 	9100 6200 9900 6200
-Text Label 9900 4700 2    50   ~ 0
+Text Label 9900 6200 2    50   ~ 0
 FROM_BRB
 Wire Wire Line
 	9100 4500 9900 4500
@@ -689,7 +689,7 @@ $EndComp
 Wire Wire Line
 	10050 4200 9900 4200
 Connection ~ 9900 4200
-Text Label 9900 6200 2    50   ~ 0
+Text Label 9900 4700 2    50   ~ 0
 LV_PWR
 Wire Wire Line
 	9900 5200 9900 5100
