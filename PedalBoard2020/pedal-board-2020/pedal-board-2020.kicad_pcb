@@ -1,9 +1,9 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
     (drawings 6)
-    (tracks 258)
+    (tracks 263)
     (zones 0)
     (modules 17)
     (nets 25)
@@ -1024,6 +1024,11 @@
   (segment (start 108.839 101.411) (end 108.839 102.386) (width 0.36) (layer F.Cu) (net 1))
   (segment (start 110.109 103.656) (end 110.109 106.361) (width 0.36) (layer F.Cu) (net 1))
   (segment (start 108.839 102.386) (end 110.109 103.656) (width 0.36) (layer F.Cu) (net 1))
+  (via (at 102.7684 98.4504) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
+  (segment (start 102.362 98.8568) (end 102.362 100.838) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 102.7684 98.4504) (end 102.362 98.8568) (width 0.25) (layer F.Cu) (net 1))
+  (via (at 98.3996 99.568) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
+  (via (at 104.521 88.392) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (segment (start 105.048 72.314) (end 105.048 73.474) (width 0.36) (layer F.Cu) (net 2))
   (segment (start 105.048 70.709) (end 105.048 72.314) (width 0.36) (layer F.Cu) (net 2))
   (segment (start 105.048 68.434) (end 105.048 73.474) (width 0.36) (layer F.Cu) (net 2))
@@ -1523,6 +1528,12 @@
         (xy 102.435 100.711) (xy 102.509 100.711) (xy 102.509 100.965) (xy 102.435 100.965) (xy 102.435 100.985)
         (xy 102.289 100.985) (xy 102.289 100.965) (xy 102.215 100.965) (xy 102.215 100.711) (xy 102.289 100.711)
         (xy 102.289 100.691) (xy 102.435 100.691)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 102.747001 98.63053) (xy 102.691658 98.61324) (xy 102.59375 98.603) (xy 102.489002 98.707748) (xy 102.489002 98.703582)
+        (xy 102.747 98.445583)
       )
     )
     (filled_polygon
