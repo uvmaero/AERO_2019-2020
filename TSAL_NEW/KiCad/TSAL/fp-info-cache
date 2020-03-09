@@ -1,4 +1,4 @@
-58547971187702
+58544649237702
 AERO_FOOT
 87583-2010BLF
 USB - A USB 2.0 Receptacle Connector 4 Position 
@@ -48,13 +48,6 @@ DIP1549W45P254L3404H940Q24
 0
 24
 24
-AERO_FOOT
-DO-214AA
-DO214AC PACKAGE. MONODIRECTIONAL.
-DO214AC PACKAGE. MONODIRECTIONAL.
-0
-2
-2
 AERO_FOOT
 DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm
 9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 9.9mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 11.32mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
@@ -232,6 +225,13 @@ TE_1217861-1
 1
 AERO_FOOT
 TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770866-x, 2 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+2
+2
+AERO_FOOT
+TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical_ASM
 Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770866-x, 2 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
 connector TE MATE-N-LOK side entry
 0

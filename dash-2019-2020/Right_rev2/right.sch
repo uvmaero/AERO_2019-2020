@@ -175,7 +175,7 @@ L Connector_Generic:Conn_02x03_Odd_Even J12
 U 1 1 5BB5B7F7
 P 10400 1400
 F 0 "J12" H 10450 1717 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 10450 1626 50  0000 C CNN
+F 1 "Header ICSP" H 10450 1626 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10400 1400 50  0001 C CNN
 F 3 "~" H 10400 1400 50  0001 C CNN
 	1    10400 1400
@@ -596,7 +596,7 @@ L Connector_Generic:Conn_01x03 J11
 U 1 1 5E4244E7
 P 9350 5950
 F 0 "J11" H 9268 5625 50  0000 C CNN
-F 1 "Conn_01x03" H 9268 5716 50  0000 C CNN
+F 1 "Header 100Mil 1x3" H 9268 5716 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9350 5950 50  0001 C CNN
 F 3 "~" H 9350 5950 50  0001 C CNN
 	1    9350 5950
@@ -1326,4 +1326,142 @@ F 3 "~" H 1300 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 2350 1450 2350
+Text Notes 5900 5100 0    50   ~ 0
+fuse should be on input not output
+Text Notes 5900 5200 0    50   ~ 0
+Fuse before cap
+Text Notes 2250 2750 0    50   ~ 0
+Consider changeing to a fet. 
+Text Notes 1550 1100 0    50   ~ 0
+Button needs a pulldown resistor. 
+Text Notes 1550 1200 0    50   ~ 0
+Part numbers for right angle headers? Consider PH for some of these. Make sure parts are correct for right angle.
+Text Notes 7300 6200 0    50   ~ 0
+what is TP14 and the power led for?
+Text Notes 7200 6350 0    50   ~ 0
+I put in some led partnumbers, and checked resistances for any leds driven by resistors.
+Text Notes 10100 5850 0    50   ~ 0
+label on pcb
+$Comp
+L AERO_custom_symbols:Wire JP?
+U 1 1 5E68041A
+P 13050 2650
+F 0 "JP?" V 13050 2838 50  0000 L CNN
+F 1 "Wire" H 13050 2800 50  0001 C CNN
+F 2 "AERO_FOOT:Wire_16AWG" H 13250 2650 50  0001 C CNN
+F 3 "~" H 13250 2650 50  0001 C CNN
+	1    13050 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E680F1E
+P 13050 2650
+F 0 "#PWR?" H 13050 2400 50  0001 C CNN
+F 1 "GND" H 13055 2477 50  0000 C CNN
+F 2 "" H 13050 2650 50  0001 C CNN
+F 3 "" H 13050 2650 50  0001 C CNN
+	1    13050 2650
+	1    0    0    -1  
+$EndComp
+Text Notes 12750 2400 0    50   ~ 0
+To allow for grounding of the front metal
+Text Notes 9150 4850 0    50   ~ 0
+Cap for areff, additional cap for VCC (there are 2 VCC pins)
+Text Notes 2350 4400 0    50   ~ 0
+Simpler way to wire: See left
+$Comp
+L Switch:SW_SPDT S?
+U 1 1 5E68AE8E
+P -1300 4050
+F 0 "S?" H -1300 4353 60  0000 C CNN
+F 1 "100SP1T1B4M2QE" H -1300 4247 60  0000 C CNN
+F 2 "DigiKey_Lib:Toggle_Switch_100SP1T1B4M2QE" H -1100 4250 60  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/T111597.pdf" H -1100 4350 60  0001 L CNN
+F 4 "EG2355-ND" H -1100 4450 60  0001 L CNN "Digi-Key_PN"
+F 5 "100SP1T1B4M2QE" H -1100 4550 60  0001 L CNN "MPN"
+F 6 "Switches" H -1100 4650 60  0001 L CNN "Category"
+F 7 "Toggle Switches" H -1100 4750 60  0001 L CNN "Family"
+F 8 "http://spec_sheets.e-switch.com/specs/T111597.pdf" H -1100 4850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/e-switch/100SP1T1B4M2QE/EG2355-ND/378824" H -1100 4950 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TOGGLE SPDT 5A 120V" H -1100 5050 60  0001 L CNN "Description"
+F 11 "E-Switch" H -1100 5150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H -1100 5250 60  0001 L CNN "Status"
+	1    -1300 4050
+	1    0    0    -1  
+$EndComp
+Text Label -500 3950 2    50   ~ 0
+COOLING_MODE
+$Comp
+L power:GND #PWR?
+U 1 1 5E68AE98
+P -1600 4200
+F 0 "#PWR?" H -1600 3950 50  0001 C CNN
+F 1 "GND" H -1595 4027 50  0000 C CNN
+F 2 "" H -1600 4200 50  0001 C CNN
+F 3 "" H -1600 4200 50  0001 C CNN
+	1    -1600 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1600 4200 -1600 4050
+Wire Wire Line
+	-1600 4050 -1500 4050
+$Comp
+L Device:R R?
+U 1 1 5E691C08
+P -400 3800
+F 0 "R?" H -330 3846 50  0000 L CNN
+F 1 "RES 0603 10k 1%" H -330 3755 50  0000 L CNN
+F 2 "" V -470 3800 50  0001 C CNN
+F 3 "~" H -400 3800 50  0001 C CNN
+	1    -400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E6925E8
+P -400 3650
+F 0 "#PWR?" H -400 3500 50  0001 C CNN
+F 1 "+5V" H -385 3823 50  0000 C CNN
+F 2 "" H -400 3650 50  0001 C CNN
+F 3 "" H -400 3650 50  0001 C CNN
+	1    -400 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1100 3950 -400 3950
+NoConn ~ -1100 4150
+Text Notes 3050 4800 0    50   ~ 0
+Why do string pots use 12V in?\nUse opamps to buffer, or change gain.\n They should be using 5V. We can talk about this.
+Text Notes 3100 5550 0    50   ~ 0
+Assuming sensor gives pulse when magnet passes. These should go to timer pins (timer IN)
+Text Notes 2800 6400 0    50   ~ 0
+Consider fusing 5V out, I will put the part in if you think you should
+$Comp
+L Device:Polyfuse F?
+U 1 1 5E6ACF8C
+P 3900 9400
+F 0 "F?" V 3675 9400 50  0000 C CNN
+F 1 "MF-MSMF050" V 3766 9400 50  0000 C CNN
+F 2 "AERO_FOOT:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 3950 9200 50  0001 L CNN
+F 3 "~" H 3900 9400 50  0001 C CNN
+	1    3900 9400
+	0    1    1    0   
+$EndComp
+Text Notes 2500 8700 0    50   ~ 0
+Consider the following input protection and anti brownout circuit
+$Comp
+L Device:R_US R?
+U 1 1 5E6BA7FB
+P 5100 9400
+F 0 "R?" V 4895 9400 50  0000 C CNN
+F 1 "RES 0805 2 1%" V 4986 9400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5140 9390 50  0001 C CNN
+F 3 "~" H 5100 9400 50  0001 C CNN
+	1    5100 9400
+	0    1    1    0   
+$EndComp
+Text Notes 4800 9650 0    50   ~ 0
+should be 0805 not 0603\n
 $EndSCHEMATC
