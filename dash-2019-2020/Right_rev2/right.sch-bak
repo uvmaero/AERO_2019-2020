@@ -1180,11 +1180,11 @@ F 3 "~" H 3575 1475 50  0001 C CNN
 	1    3575 1475
 	-1   0    0    1   
 $EndComp
-Text Label 4350 1375 2    50   ~ 0
+Text Label 4350 1475 2    50   ~ 0
 SHUTDOWN_IN
 Wire Wire Line
 	4350 1375 3775 1375
-Text Label 4350 1475 2    50   ~ 0
+Text Label 4350 1375 2    50   ~ 0
 SHUTDOWN_OUT
 Wire Wire Line
 	4350 1475 3775 1475
