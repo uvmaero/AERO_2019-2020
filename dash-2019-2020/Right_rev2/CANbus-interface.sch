@@ -395,4 +395,27 @@ Wire Wire Line
 	6750 3150 7450 3150
 Wire Wire Line
 	6750 3250 7450 3250
+Text Notes 8200 3950 0    50   ~ 0
+None of the testpoints here are (strictly) needed
+Text Notes 4950 2550 0    50   ~ 0
+Add cann termination resistor, consider\nadding RC circuits for reset pins (add a \ncap, value of 1uf-1nf, going to other\nvoltage rail) STRONGLY consider adding \nthe common mode choke I added above.
+$Comp
+L Device:EMI_Filter_CommonMode L1
+U 1 1 5E6B7D9A
+P 5200 2000
+F 0 "L1" H 5200 2281 50  0000 C CNN
+F 1 "SRF4532" H 5200 2190 50  0000 C CNN
+F 2 "AERO_FOOT:SRF4532-220Y" H 5200 2040 50  0001 C CNN
+F 3 "~" H 5200 2040 50  0001 C CNN
+	1    5200 2000
+	1    0    0    -1  
+$EndComp
+Text Notes 5550 1900 0    50   ~ 0
+canh_in
+Text Notes 4600 1900 0    50   ~ 0
+canh_out
+Text Notes 5550 2100 0    50   ~ 0
+canl_in
+Text Notes 4600 2100 0    50   ~ 0
+canl_out
 $EndSCHEMATC

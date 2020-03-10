@@ -79,7 +79,7 @@ L Device:LED D4
 U 1 1 5BB4FB2B
 P 9000 1100
 F 0 "D4" H 9000 1200 50  0000 C CNN
-F 1 "LED" H 9000 1000 50  0000 C CNN
+F 1 "SM0805GCL" H 9000 1000 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 1100 50  0001 C CNN
 F 3 "~" H 9000 1100 50  0001 C CNN
 	1    9000 1100
@@ -90,7 +90,7 @@ L Device:LED D5
 U 1 1 5BB4FB89
 P 9000 1450
 F 0 "D5" H 9000 1550 50  0000 C CNN
-F 1 "LED" H 9000 1350 50  0000 C CNN
+F 1 "SM0805HCL" H 9000 1350 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 1450 50  0001 C CNN
 F 3 "~" H 9000 1450 50  0001 C CNN
 	1    9000 1450
@@ -101,7 +101,7 @@ L Device:R_US R2
 U 1 1 5BB510BF
 P 9350 1100
 F 0 "R2" V 9145 1100 50  0000 C CNN
-F 1 "1k" V 9236 1100 50  0000 C CNN
+F 1 "1.5k" V 9236 1100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9390 1090 50  0001 C CNN
 F 3 "~" H 9350 1100 50  0001 C CNN
 	1    9350 1100
@@ -112,7 +112,7 @@ L Device:R_US R3
 U 1 1 5BB51120
 P 9350 1450
 F 0 "R3" V 9145 1450 50  0000 C CNN
-F 1 "1k" V 9236 1450 50  0000 C CNN
+F 1 "1.5k" V 9236 1450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9390 1440 50  0001 C CNN
 F 3 "~" H 9350 1450 50  0001 C CNN
 	1    9350 1450
@@ -175,7 +175,7 @@ L Connector_Generic:Conn_02x03_Odd_Even J12
 U 1 1 5BB5B7F7
 P 10400 1400
 F 0 "J12" H 10450 1717 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 10450 1626 50  0000 C CNN
+F 1 "Header 2x3 0.1in" H 10450 1626 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10400 1400 50  0001 C CNN
 F 3 "~" H 10400 1400 50  0001 C CNN
 	1    10400 1400
@@ -289,7 +289,7 @@ L Device:R_US R1
 U 1 1 5DFA16DF
 P 2400 3300
 F 0 "R1" H 2468 3346 50  0000 L CNN
-F 1 "R_US" H 2468 3255 50  0000 L CNN
+F 1 "RES 0603 10k 1%" H 2468 3255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2440 3290 50  0001 C CNN
 F 3 "~" H 2400 3300 50  0001 C CNN
 	1    2400 3300
@@ -563,7 +563,7 @@ L Connector_Generic:Conn_01x03 J11
 U 1 1 5E4244E7
 P 9350 5950
 F 0 "J11" H 9268 5625 50  0000 C CNN
-F 1 "Conn_01x03" H 9268 5716 50  0000 C CNN
+F 1 "Header 1x3 0.1in" H 9268 5716 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9350 5950 50  0001 C CNN
 F 3 "~" H 9350 5950 50  0001 C CNN
 	1    9350 5950
@@ -764,7 +764,7 @@ U 1 1 5DFA5CBB
 P 1350 4550
 F 0 "S1" H 1350 4853 60  0000 C CNN
 F 1 "100SP1T1B4M2QE" H 1350 4747 60  0000 C CNN
-F 2 "DigiKey_Lib:Toggle_Switch_100SP1T1B4M2QE" H 1550 4750 60  0001 L CNN
+F 2 "AERO_FOOT:Toggle_Switch_100SP1T1B4M2QE" H 1550 4750 60  0001 L CNN
 F 3 "http://spec_sheets.e-switch.com/specs/T111597.pdf" H 1550 4850 60  0001 L CNN
 F 4 "EG2355-ND" H 1550 4950 60  0001 L CNN "Digi-Key_PN"
 F 5 "100SP1T1B4M2QE" H 1550 5050 60  0001 L CNN "MPN"
@@ -830,7 +830,7 @@ L Device:Thermistor TH1
 U 1 1 5E0DD800
 P 2400 3650
 F 0 "TH1" H 2505 3696 50  0000 L CNN
-F 1 "Thermistor" H 2505 3605 50  0000 L CNN
+F 1 "NCU18XH103F60RB" H 2505 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 3650 50  0001 C CNN
 F 3 "~" H 2400 3650 50  0001 C CNN
 	1    2400 3650
@@ -1155,7 +1155,7 @@ L Device:LED D1
 U 1 1 5E6919BF
 P 7075 6000
 F 0 "D1" H 7068 5745 50  0000 C CNN
-F 1 "LED" H 7068 5836 50  0000 C CNN
+F 1 "SM0805YCL" H 7068 5836 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7075 6000 50  0001 C CNN
 F 3 "~" H 7075 6000 50  0001 C CNN
 	1    7075 6000
@@ -1166,8 +1166,8 @@ L Device:Polyfuse F1
 U 1 1 5E6925D2
 P 6400 5550
 F 0 "F1" V 6175 5550 50  0000 C CNN
-F 1 "1812L075/24" V 6266 5550 50  0000 C CNN
-F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 6450 5350 50  0001 L CNN
+F 1 "MF-MSMF050" V 6266 5550 50  0000 C CNN
+F 2 "AERO_FOOT:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 6450 5350 50  0001 L CNN
 F 3 "~" H 6400 5550 50  0001 C CNN
 	1    6400 5550
 	0    1    1    0   
@@ -1177,7 +1177,7 @@ L Device:R R5
 U 1 1 5E621D24
 P 7075 5700
 F 0 "R5" H 7145 5746 50  0000 L CNN
-F 1 "330" H 7145 5655 50  0000 L CNN
+F 1 "1.5k" H 7145 5655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7005 5700 50  0001 C CNN
 F 3 "~" H 7075 5700 50  0001 C CNN
 	1    7075 5700
@@ -1283,10 +1283,10 @@ Wire Wire Line
 Wire Wire Line
 	3050 7000 2650 7000
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0113
 U 1 1 5E6A8867
 P 2650 5200
-F 0 "#PWR?" H 2650 5050 50  0001 C CNN
+F 0 "#PWR0113" H 2650 5050 50  0001 C CNN
 F 1 "+12V" V 2665 5328 50  0000 L CNN
 F 2 "" H 2650 5200 50  0001 C CNN
 F 3 "" H 2650 5200 50  0001 C CNN
@@ -1294,10 +1294,10 @@ F 3 "" H 2650 5200 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0120
 U 1 1 5E6A8871
 P 2650 5300
-F 0 "#PWR?" H 2650 5150 50  0001 C CNN
+F 0 "#PWR0120" H 2650 5150 50  0001 C CNN
 F 1 "+12V" V 2665 5428 50  0000 L CNN
 F 2 "" H 2650 5300 50  0001 C CNN
 F 3 "" H 2650 5300 50  0001 C CNN
@@ -1312,4 +1312,273 @@ Text Label 3225 5000 2    50   ~ 0
 SHUTDOWN_OUT
 Wire Wire Line
 	3225 5000 2650 5000
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5E6CAAE9
+P 3575 1475
+F 0 "J4" H 3493 1150 50  0000 C CNN
+F 1 "1-770966-0" H 3493 1241 50  0000 C CNN
+F 2 "AERO_FOOT:1-770966-0" H 3575 1475 50  0001 C CNN
+F 3 "~" H 3575 1475 50  0001 C CNN
+	1    3575 1475
+	-1   0    0    1   
+$EndComp
+Text Label 4350 1375 2    50   ~ 0
+SHUTDOWN_IN
+Wire Wire Line
+	4350 1375 3775 1375
+Text Label 4350 1475 2    50   ~ 0
+SHUTDOWN_OUT
+Wire Wire Line
+	4350 1475 3775 1475
+Text Notes 6650 2200 0    50   ~ 0
+add decap for aref, and 1 more cap, there are 2 vcc, 1 avcc
+Text Notes 2200 7250 0    50   ~ 0
+TVS should be added to DAMPER lines and speed sensors\n
+Text Notes 3700 5900 0    50   ~ 0
+Why are string pots 12V? If the whole \nrange isn't used, this should be dealt with\n via an opamp. At a minimum, there s\nhould be a clamping diode to ensure\n 12V can't reach the MCU
+Text Notes 5750 6850 0    50   ~ 0
+Fuse should go before regulator. I changed \nfootprint and PN to a 500mA, due to buck \nconverter eff.\n\nSee the suggested topology below the sheet
+$Comp
+L Device:D_Schottky D2
+U 1 1 5E69D459
+P 5900 8800
+F 0 "D2" H 5900 8584 50  0000 C CNN
+F 1 "B340A-13-F1" H 5900 8675 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 5900 8800 50  0001 C CNN
+F 3 "~" H 5900 8800 50  0001 C CNN
+	1    5900 8800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F2
+U 1 1 5E6A9901
+P 5250 8800
+F 0 "F2" V 5025 8800 50  0000 C CNN
+F 1 "MF-MSMF050" V 5116 8800 50  0000 C CNN
+F 2 "AERO_FOOT:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 5300 8600 50  0001 L CNN
+F 3 "~" H 5250 8800 50  0001 C CNN
+	1    5250 8800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead FB1
+U 1 1 5E6C65FA
+P 7350 8800
+F 0 "FB1" V 7076 8800 50  0000 C CNN
+F 1 "742792097" V 7167 8800 50  0000 C CNN
+F 2 "AERO_FOOT:FB_0805" V 7280 8800 50  0001 C CNN
+F 3 "~" H 7350 8800 50  0001 C CNN
+	1    7350 8800
+	0    1    1    0   
+$EndComp
+Text Notes 7700 8750 0    50   ~ 0
+To recom
+Text Notes 7700 8850 0    50   ~ 0
+and recom decap
+Text Notes 4700 8750 0    50   ~ 0
++12 In
+Text Notes 5300 9900 0    50   ~ 0
+I skipped the usual common mode choke here for space, but normally it would be here.
+$Comp
+L Device:D_Zener D9
+U 1 1 5E6D0547
+P 6300 8950
+F 0 "D9" V 6254 9029 50  0000 L CNN
+F 1 "SZMMSZ5243BT1G" H 6200 8850 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6300 8950 50  0001 C CNN
+F 3 "~" H 6300 8950 50  0001 C CNN
+	1    6300 8950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5E6DA406
+P 6300 9100
+F 0 "#PWR0121" H 6300 8850 50  0001 C CNN
+F 1 "GND" H 6305 8927 50  0000 C CNN
+F 2 "" H 6300 9100 50  0001 C CNN
+F 3 "" H 6300 9100 50  0001 C CNN
+	1    6300 9100
+	1    0    0    -1  
+$EndComp
+Text Label 5500 8800 0    50   ~ 0
+F+
+Text Label 6450 8800 0    50   ~ 0
+D+
+Text Notes 7700 8950 0    50   ~ 0
+This should be the +12 net, and one incomming +12 should be made to +12_IN
+Wire Wire Line
+	7200 8800 6950 8800
+Connection ~ 6300 8800
+Wire Wire Line
+	6300 8800 6050 8800
+Wire Wire Line
+	5750 8800 5400 8800
+Text Notes 2450 4500 0    50   ~ 0
+Hall effect should go to timer input pins on atmega for easy pulse decoding
+Text Notes 4450 2550 0    50   ~ 0
+Many of the test points are not necessary
+Text Notes 10900 5350 1    50   ~ 0
+Reset should ahve an RC timer on it. I can send example.
+Text Notes 11000 3550 1    50   ~ 0
+Try to route MCU CLK. See info near switch
+$Comp
+L Switch:SW_SPDT S2
+U 1 1 5E71C27A
+P -2800 4300
+F 0 "S2" H -2800 4603 60  0000 C CNN
+F 1 "100SP1T1B4M2QE" H -2800 4497 60  0000 C CNN
+F 2 "AERO_FOOT:Toggle_Switch_100SP1T1B4M2QE" H -2600 4500 60  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/T111597.pdf" H -2600 4600 60  0001 L CNN
+F 4 "EG2355-ND" H -2600 4700 60  0001 L CNN "Digi-Key_PN"
+F 5 "100SP1T1B4M2QE" H -2600 4800 60  0001 L CNN "MPN"
+F 6 "Switches" H -2600 4900 60  0001 L CNN "Category"
+F 7 "Toggle Switches" H -2600 5000 60  0001 L CNN "Family"
+F 8 "http://spec_sheets.e-switch.com/specs/T111597.pdf" H -2600 5100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/e-switch/100SP1T1B4M2QE/EG2355-ND/378824" H -2600 5200 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TOGGLE SPDT 5A 120V" H -2600 5300 60  0001 L CNN "Description"
+F 11 "E-Switch" H -2600 5400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H -2600 5500 60  0001 L CNN "Status"
+	1    -2800 4300
+	1    0    0    -1  
+$EndComp
+Text Label -2000 4200 2    50   ~ 0
+COOLING_MODE
+Wire Wire Line
+	-2600 4200 -2200 4200
+Wire Wire Line
+	-3100 4450 -3100 4300
+Wire Wire Line
+	-3100 4300 -3000 4300
+Text Notes 250  5150 0    50   ~ 0
+There is a much better (and easier) \nway to do this switch. You also need\n pullups/pulldowns. See left-offsheet.
+NoConn ~ -2600 4400
+$Comp
+L Device:C C1
+U 1 1 5E72C53A
+P -2200 4350
+F 0 "C1" H -2085 4396 50  0000 L CNN
+F 1 "0.1uF" H -2085 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -2162 4200 50  0001 C CNN
+F 3 "~" H -2200 4350 50  0001 C CNN
+	1    -2200 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ -2200 4200
+$Comp
+L power:GND #PWR0122
+U 1 1 5E72D307
+P -2200 4500
+F 0 "#PWR0122" H -2200 4250 50  0001 C CNN
+F 1 "GND" H -2195 4327 50  0000 C CNN
+F 2 "" H -2200 4500 50  0001 C CNN
+F 3 "" H -2200 4500 50  0001 C CNN
+	1    -2200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5E72EB5A
+P -1800 4050
+F 0 "R9" H -1730 4096 50  0000 L CNN
+F 1 "10k" H -1730 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1870 4050 50  0001 C CNN
+F 3 "~" H -1800 4050 50  0001 C CNN
+	1    -1800 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2200 4200 -1800 4200
+$Comp
+L power:+5V #PWR0123
+U 1 1 5E7366CF
+P -1800 3900
+F 0 "#PWR0123" H -1800 3750 50  0001 C CNN
+F 1 "+5V" H -1785 4073 50  0000 C CNN
+F 2 "" H -1800 3900 50  0001 C CNN
+F 3 "" H -1800 3900 50  0001 C CNN
+	1    -1800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5E740A4C
+P 6950 8950
+F 0 "R10" H 7020 8996 50  0000 L CNN
+F 1 "RES 0805 2 1%" H 7020 8905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6880 8950 50  0001 C CNN
+F 3 "~" H 6950 8950 50  0001 C CNN
+	1    6950 8950
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 8800
+Wire Wire Line
+	6950 8800 6300 8800
+Text Notes 6700 8950 0    50   ~ 0
+0805
+$Comp
+L Device:CP1 C2
+U 1 1 5E7435DF
+P 6950 9350
+F 0 "C2" H 7065 9396 50  0000 L CNN
+F 1 "UUD1V331MNL1GS" H 7065 9305 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 6950 9350 50  0001 C CNN
+F 3 "~" H 6950 9350 50  0001 C CNN
+	1    6950 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C9
+U 1 1 5E74449B
+P 7250 9350
+F 0 "C9" H 7365 9396 50  0000 L CNN
+F 1 "UUD1V331MNL1GS" H 7365 9305 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 7250 9350 50  0001 C CNN
+F 3 "~" H 7250 9350 50  0001 C CNN
+	1    7250 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5E745097
+P 6950 9500
+F 0 "#PWR0124" H 6950 9250 50  0001 C CNN
+F 1 "GND" H 6955 9327 50  0000 C CNN
+F 2 "" H 6950 9500 50  0001 C CNN
+F 3 "" H 6950 9500 50  0001 C CNN
+	1    6950 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 9500 6950 9500
+Connection ~ 6950 9500
+Wire Wire Line
+	7250 9200 6950 9200
+Wire Wire Line
+	6950 9100 6950 9200
+Connection ~ 6950 9200
+Text Label 7000 9200 0    50   ~ 0
+VCAP
+Text Notes 7300 9650 0    50   ~ 0
+caps are for anti brownout
+Text Notes 2200 1050 0    50   ~ 0
+Make sure all full correct parts are in asap after shipping board.
+$Comp
+L power:GND #PWR0125
+U 1 1 5E71C284
+P -3100 4450
+F 0 "#PWR0125" H -3100 4200 50  0001 C CNN
+F 1 "GND" H -3095 4277 50  0000 C CNN
+F 2 "" H -3100 4450 50  0001 C CNN
+F 3 "" H -3100 4450 50  0001 C CNN
+	1    -3100 4450
+	1    0    0    -1  
+$EndComp
+Text Notes -3300 5000 0    50   ~ 0
+Currently in pull up config. 
+Text Notes 2250 8050 0    50   ~ 0
+Consider reannotating when you finish
+Text Notes 10100 6350 0    50   ~ 0
+Label on board
 $EndSCHEMATC
