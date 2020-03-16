@@ -1,5 +1,0 @@
-Added Pin To Net: NetName=HV_IN+ Pin=J3-1
-Added Pin To Net: NetName=HV_IN+ Pin=J3-2
-Added Pin To Net: NetName=HV_IN- Pin=J5-1
-Added Pin To Net: NetName=HV_IN- Pin=J5-2
-Added Member To Class: ClassName=Top Member=Component J7 22-23-2031

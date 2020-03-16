@@ -1,5 +1,0 @@
-Change Component Footprint: Designator=A1 Old Footprint=VICOR_SOCKET_MOD New Footprint=VICOR_SOCKET_MOD_VERT
-Added Member To Class: ClassName=Top Member=Component J2 DF22-4P-7.92DS(05)
-Added Member To Class: ClassName=Top Member=Component J4 1-770872-0
-Added Member To Class: ClassName=Top Member=Component J5 B2B-PH-K-S(LF)(SN)
-Added Member To Class: ClassName=U_DCDC Member=Component J6 22-23-2031

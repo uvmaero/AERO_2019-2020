@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 10:24:11 PM On 2/28/2020
+
+Output: Export PARASOLID
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [HV Box Connector Board.PcbDoc]
+   Generated File[HV Box Connector Board.x_t]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 10:24:19 PM On 2/28/2020

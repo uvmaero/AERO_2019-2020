@@ -6,3 +6,15 @@ HV PDU/History/
 BSPD-2019-2020/Project Logs for UVM AERO BSPD/
 
 *.drc
+
+*.SchDocPreview
+
+60V_IND/Altium/History/
+
+BSPD-2019-2020/Altium/History/
+
+BSPD-2019-2020/Altium/__Previews/
+
+*.AnnotationPreview
+
+*.LOG

@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=SHDN_OUT Pin=F3-2
-Removed Member From Class: ClassName=U_IO and Connectors Member=F3
-Removed Member From Class: ClassName=HC Member=SHDN_OUT_F
-Removed Member From Class: ClassName=PWR Member=SHDN_OUT_F
-Change Component Description : Designator=D9 Old Description=7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) New Description=7V (Typ) Clamp 1A (8/20µs) Ipp Tvs Diode Surface Mount fSC (SOD-923) 
-Added Pin To Net: NetName=SHDN_OUT Pin=J1-1

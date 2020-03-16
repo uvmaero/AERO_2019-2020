@@ -1,5 +1,0 @@
-Removed Member From Class: ClassName=TS+ Member=HV_DIS_RLY_-
-Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 110)
-Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 110, 255)
-Added Member To Class: ClassName=TS+ Member=Wire HV_DIS_RLY
-Added Member To Class: ClassName=TS Member=Wire HV_DIS_RLY

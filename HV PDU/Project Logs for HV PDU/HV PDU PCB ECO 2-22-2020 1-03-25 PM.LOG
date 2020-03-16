@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=HV_DIS_RLY Pin=R4-1
-Removed Pin From Net: NetName=HV_DIS_RLY_- Pin=R4-2
-Removed Member From Class: ClassName=HV PDU Member=R5
-Change Component Designator: OldDesignator=R5 NewDesignator=R4

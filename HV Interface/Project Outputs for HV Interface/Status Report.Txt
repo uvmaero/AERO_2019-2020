@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [HV Interface.PcbDoc]
+   Generated File[HV Interface-RoundHoles.TXT]
+   Generated File[HV Interface-SlotHoles.TXT]
+   Generated File[HV Interface.LDP]
+   Generated File[HV Interface.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 7:05:14 PM On 2/29/2020

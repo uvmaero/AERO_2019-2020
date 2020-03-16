@@ -370,8 +370,8 @@ Variation4=Designator=C6|UniqueId=\GDJTUDWI\HNQLSAUC|Kind=1|AlternatePart=
 Variation5=Designator=C7|UniqueId=\GDJTUDWI\HTMLNVNU|Kind=1|AlternatePart= 
 Variation6=Designator=C9|UniqueId=\GDJTUDWI\TRPGDUQY|Kind=1|AlternatePart= 
 Variation7=Designator=R5|UniqueId=\WXVZRCSH\GIQACGQP|Kind=1|AlternatePart= 
-Variation8=Designator=R10|UniqueId=\WXVZRCSH\IPONTQQR|Kind=1|AlternatePart= 
-Variation9=Designator=R15|UniqueId=\WXVZRCSH\URDEDUHQ|Kind=1|AlternatePart= 
+Variation8=Designator=R6|UniqueId=\WXVZRCSH\IPONTQQR|Kind=1|AlternatePart= 
+Variation9=Designator=R11|UniqueId=\WXVZRCSH\URDEDUHQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant3]
@@ -379,8 +379,67 @@ UniqueID=7C9A114E-AFE2-46D8-ABA9-635813B62DE3
 Description=Built
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
-ParamVariationCount=0
+VariationCount=1
+Variation1=Designator=FB1|UniqueId=\GDJTUDWI\XTRDIKFH|Kind=2|AlternatePart=Ferrite Chip 1000 Ohms|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\Public\Documents\Altium\Common Library\Passive Components.DbLib/EMI Ferrite Beads and Chips|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=742792096|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Passive Components.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=EMI Ferrite Beads and Chips|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=0805|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue=Ferrite Chip 1000 Ohms
+ParamDesignator1=FB1
+ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator2=FB1
+ParamVariation3=ParameterName=ComponentLink1Description|VariantValue=Manufacturer Website
+ParamDesignator3=FB1
+ParamVariation4=ParameterName=ComponentLink1URL|VariantValue=http://www.we-online.com
+ParamDesignator4=FB1
+ParamVariation5=ParameterName=ComponentLink2Description|VariantValue=Component Datasheet
+ParamDesignator5=FB1
+ParamVariation6=ParameterName=ComponentLink2URL|VariantValue=http://www.we-online.com/eisos/pdf/742792096.pdf
+ParamDesignator6=FB1
+ParamVariation7=ParameterName=ComponentLink3Description|VariantValue=Octopart Link
+ParamDesignator7=FB1
+ParamVariation8=ParameterName=ComponentLink3URL|VariantValue=http://octopart.com/partsearch/#search/requestData&q=742792096
+ParamDesignator8=FB1
+ParamVariation9=ParameterName=Current (mA)|VariantValue=1000
+ParamDesignator9=FB1
+ParamVariation10=ParameterName=Database Table Name|VariantValue=EMI Ferrite Beads and Chips
+ParamDesignator10=FB1
+ParamVariation11=ParameterName=DC Resistance (ohms)|VariantValue=0.3
+ParamDesignator11=FB1
+ParamVariation12=ParameterName=Description|VariantValue=Ferrite Chip 1000 mA 1000 Ohms Differential Mode - Single 0805 Footprint
+ParamDesignator12=FB1
+ParamVariation13=ParameterName=Description in Visual|VariantValue=Ferrite SMT 1000mA 1000Ohm Dif Mode 0805
+ParamDesignator13=FB1
+ParamVariation14=ParameterName=Filter type|VariantValue=Differential Mode - Single
+ParamDesignator14=FB1
+ParamVariation15=ParameterName=Footprint|VariantValue=0805
+ParamDesignator15=FB1
+ParamVariation16=ParameterName=Frequency|VariantValue=100 MHz
+ParamDesignator16=FB1
+ParamVariation17=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator17=FB1
+ParamVariation18=ParameterName=Impedance at Freq (ohms)|VariantValue=1000
+ParamDesignator18=FB1
+ParamVariation19=ParameterName=Library Reference|VariantValue=742792096
+ParamDesignator19=FB1
+ParamVariation20=ParameterName=Manufacturer|VariantValue=Wurth Electronics
+ParamDesignator20=FB1
+ParamVariation21=ParameterName=Manufacturer P/N|VariantValue=742792096
+ParamDesignator21=FB1
+ParamVariation22=ParameterName=Operating Temperature Range|VariantValue=-55 to +125 °C
+ParamDesignator22=FB1
+ParamVariation23=ParameterName=P/N|VariantValue=742792096
+ParamDesignator23=FB1
+ParamVariation24=ParameterName=PCB3D|VariantValue= 
+ParamDesignator24=FB1
+ParamVariation25=ParameterName=PCB Package|VariantValue=0805
+ParamDesignator25=FB1
+ParamVariation26=ParameterName=Pin Info|VariantValue= 
+ParamDesignator26=FB1
+ParamVariation27=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator27=FB1
+ParamVariation28=ParameterName=Simulation|VariantValue= 
+ParamDesignator28=FB1
+ParamVariation29=ParameterName=Usage|VariantValue=Power Supply
+ParamDesignator29=FB1
+ParamVariationCount=29
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for UVM AERO BSPD\BSPD - JLCPCB Files\UVM AERO BSPD.DRR
@@ -433,6 +492,14 @@ DItemRevisionGUID=
 [GeneratedDocument13]
 DocumentPath=Project Outputs for UVM AERO BSPD\BSPD - JLCPCB Files\UVM AERO BSPD.TXT
 DItemRevisionGUID=
+
+[Parameter1]
+Name=ProjAuth
+Value=Andrew Katz
+
+[Parameter2]
+Name=ProjName
+Value=BSPD
 
 [Configuration1]
 Name=Sources
@@ -889,6 +956,11 @@ OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=GOSTBOM
+OutputName7=GOST BOM
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1174,6 +1246,11 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=AnsysEDB
+OutputName12=Ansys EDB
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

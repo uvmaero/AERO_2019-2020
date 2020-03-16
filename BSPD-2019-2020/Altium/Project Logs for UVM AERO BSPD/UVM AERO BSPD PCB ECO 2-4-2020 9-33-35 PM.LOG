@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=SHDN_OUT Pin=F3-1
-Removed Pin From Net: NetName=SHDN_OUT_F Pin=F3-2
-Added Pin To Net: NetName=SHDN_OUT_F Pin=F3-1
-Added Pin To Net: NetName=SHDN_OUT Pin=F3-2

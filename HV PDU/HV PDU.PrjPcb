@@ -38,6 +38,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=..\..\..\Users\Public\Documents\Altium\Kicad BOM.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document2]
 DocumentPath=HV PDU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -54,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LMKYBNRK
 
-[Document2]
+[Document3]
 DocumentPath=HV PDU.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,8 +88,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VXVQRHSL
 
-[Document3]
+[Document4]
 DocumentPath=General Outputs.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=JLCPCB.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document6]
+DocumentPath=HV PDU.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -92,13 +143,73 @@ DocumentUniqueId=
 DocumentPath=Project Outputs for HV PDU\Design Rule Check - HV PDU.html
 DItemRevisionGUID=
 
-[Parameter1]
-Name=ProjAuth
-Value=Andrew Katz
+[GeneratedDocument2]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU-RoundHoles.TXT
+DItemRevisionGUID=
 
-[Parameter2]
+[GeneratedDocument3]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU.GM32
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for HV PDU\HVPDU-JLC-Gerbers\HV PDU.REP
+DItemRevisionGUID=
+
+[Parameter1]
 Name=ProjName
 Value=HV PDU
+
+[Parameter2]
+Name=ProjAuth
+Value=Andrew Katz
 
 [Configuration1]
 Name=Sources
@@ -116,7 +227,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -237,7 +348,7 @@ OutputDefault23=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -332,7 +443,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -354,7 +465,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -426,7 +537,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -468,7 +579,7 @@ OutputDefault7=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -648,7 +759,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -692,7 +803,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -758,7 +869,7 @@ OutputDefault12=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1114,7 +1225,7 @@ GlobalIndexSortLocation=0
 
 [PrjClassGen]
 CompClassManualEnabled=1
-CompClassManualRoomEnabled=1
+CompClassManualRoomEnabled=0
 NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
 NetClassAutoNamedHarnessEnabled=1
@@ -1270,23 +1381,24 @@ Net6=NetName=GND|NetColor=$0000BE00
 Net7=NetName=HV-|NetColor=$00FF6E6E
 Net8=NetName=HV_DIS_F|NetColor=$006E6EFF
 Net9=NetName=HV_DIS_RLY|NetColor=$006E6EFF
-Net10=NetName=HV_DIS_RLY_-|NetColor=$00FF6E6E
-Net11=NetName=HV_IND|NetColor=$00FF6EFF
-Net12=NetName=HV+|NetColor=$006E6EFF
-Net13=NetName=HVINT-|NetColor=$00FF6E6E
-Net14=NetName=HVINT+|NetColor=$006E6EFF
-Net15=NetName=IMD-|NetColor=$00FF6E6E
-Net16=NetName=IMD+|NetColor=$006E6EFF
-Net17=NetName=RLY_MTG|NetColor=$00FF6EFF
-Net18=NetName=SHDN_FUSED|NetColor=$0000BE00
-Net19=NetName=SHDN+|NetColor=$0000BE00
-Net20=NetName=SHLD|NetColor=$0000BE00
-Net21=NetName=TL|NetColor=$00FF6EFF
-Net22=NetName=TR|NetColor=$00FF6EFF
-Net23=NetName=TSAL-|NetColor=$00FF6E6E
-Net24=NetName=TSAL+|NetColor=$006E6EFF
-Net25=NetName=TSMP-|NetColor=$00FF6E6E
-Net26=NetName=TSMP+|NetColor=$006E6EFF
+Net10=NetName=HV_DIS_RLY-|NetColor=$00FF6E6E
+Net11=NetName=HV_DIS_RLY_-|NetColor=$00FF6E6E
+Net12=NetName=HV_IND|NetColor=$00FF6EFF
+Net13=NetName=HV+|NetColor=$006E6EFF
+Net14=NetName=HVINT-|NetColor=$00FF6E6E
+Net15=NetName=HVINT+|NetColor=$006E6EFF
+Net16=NetName=IMD-|NetColor=$00FF6E6E
+Net17=NetName=IMD+|NetColor=$006E6EFF
+Net18=NetName=RLY_MTG|NetColor=$00FF6EFF
+Net19=NetName=SHDN_FUSED|NetColor=$0000BE00
+Net20=NetName=SHDN+|NetColor=$0000BE00
+Net21=NetName=SHLD|NetColor=$0000BE00
+Net22=NetName=TL|NetColor=$00FF6EFF
+Net23=NetName=TR|NetColor=$00FF6EFF
+Net24=NetName=TSAL-|NetColor=$00FF6E6E
+Net25=NetName=TSAL+|NetColor=$006E6EFF
+Net26=NetName=TSMP-|NetColor=$00FF6E6E
+Net27=NetName=TSMP+|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0

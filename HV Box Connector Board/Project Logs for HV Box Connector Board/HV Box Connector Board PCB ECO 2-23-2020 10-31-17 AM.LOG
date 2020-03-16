@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=J9-31
-Added Component: Designator=NT3(20MIL_TIE)
-Added Pin To Net: NetName=GND Pin=NT3-1
-Added Pin To Net: NetName=TSAL_GND Pin=J9-31
-Added Pin To Net: NetName=TSAL_GND Pin=NT3-2
-Added Net: Name=TSAL_GND
-Added Member To Class: ClassName=HV Box Connector Board Member=Component NT3 NET TIE

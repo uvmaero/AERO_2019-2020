@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=MTG1-1
-Removed Pin From Net: NetName=GND Pin=MTG2-1
-Removed Member From Class: ClassName=MTG1_Nets Member=GND
-Removed Member From Class: ClassName=MTG2_Nets Member=GND
-Added Pin To Net: NetName=PGND Pin=MTG1-1
-Added Member To Class: ClassName=MTG1_Nets Member=Wire PGND

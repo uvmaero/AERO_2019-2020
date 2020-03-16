@@ -1,5 +1,0 @@
-Change Physical Footprint: Designator=D1 Old Footprint=LEDC2012X135N_SM0805UGC(Primary) New Footprint=LEDC2012X135N_SM0805UGC(Primary)
-Change Physical Footprint: Designator=J1 Old Footprint=CON2_1X2_P163_VM New Footprint=CON2_1X2_P163_VM
-Change Physical Footprint: Designator=J2 Old Footprint=CON2_1X2_P163_VM New Footprint=CON2_1X2_P163_VM
-Change Physical Footprint: Designator=MP1 Old Footprint=LPA-C011301S-10 New Footprint=LPA-C011301S-10
-Change Physical Footprint: Designator=U1 Old Footprint=Microchip_C04-189_MFG New Footprint=Microchip_C04-189_MFG

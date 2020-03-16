@@ -1,4 +1,0 @@
-Change component parameters: Designator = "NT1" ("NT1"); Footprint = "60MIL_TIE"; UniqueID = "\YYWGNTQH" ("\YYWGNTQH")
-Change component parameters (AddParameter): Name = "ClassName"; Value = "NET_TIE"; VariantName = "[No Variations]"
-Added Class: Name=NET_TIE
-Added Room: Name=NET_TIE

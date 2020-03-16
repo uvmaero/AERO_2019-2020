@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=FAULT_BUF Pin=D8-1
-Removed Pin From Net: NetName=CUR_OUT Pin=D8-4
-Added Pin To Net: NetName=CUR_OUT Pin=D8-1
-Added Pin To Net: NetName=FAULT_BUF Pin=D8-4

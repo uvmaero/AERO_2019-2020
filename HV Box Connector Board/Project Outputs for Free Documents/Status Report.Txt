@@ -1,10 +1,12 @@
-Output: Export VRML
-Type  : ExportSTEP
-From  : Variant [[No Variations]] of PCB Document [HV Box Connector Board.PcbDoc]
-   Generated File[HV Box Connector Board.wrl]
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [HV Box Connector Board.PcbDoc]
+   Generated File[HV Box Connector Board.TXT]
+   Generated File[HV Box Connector Board.LDP]
+   Generated File[HV Box Connector Board.DRR]
 
 
-Files Generated   : 1
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 10:30:15 PM On 2/10/2020
+Finished Output Generation At 12:24:14 AM On 3/2/2020

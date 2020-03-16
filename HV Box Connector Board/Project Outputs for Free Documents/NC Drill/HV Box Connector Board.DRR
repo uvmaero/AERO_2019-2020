@@ -1,0 +1,27 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: HV Box Connector Board.PcbDoc   3/2/2020  12:24:13 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : HV Box Connector Board.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      15mil (0.381mm)                                           Round             359       PTH        0.00inch (0.00mm)
+T2      28mil (0.7mm)                                             Round             12        PTH        0.00inch (0.00mm)
+T3      35mil (0.9mm)                                             Round             17        PTH        0.00inch (0.00mm)
+T4      39mil (0.991mm)                                           Round             6         PTH        0.00inch (0.00mm)
+T5      39mil (1mm)                                               Round             9         PTH        0.00inch (0.00mm)
+T6      42mil (1.06mm)                                            Round             4         PTH        0.00inch (0.00mm)
+T7      43mil (1.1mm)                                             Round             5         PTH        0.00inch (0.00mm)
+T8      55mil (1.397mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T9      57mil (1.448mm)                                           Round             8         PTH        0.00inch (0.00mm)
+T10     67mil (1.7mm)                                             Round             2         PTH        0.00inch (0.00mm)
+T11     69mil (1.753mm)                                           Round             35        PTH        0.00inch (0.00mm)
+T12     63mil (1.6mm)                                             Round             1         NPTH       0.00inch (0.00mm)
+T13     79mil (2.007mm)                                           Round             4         NPTH       0.00inch (0.00mm)
+T14     125mil (3.175mm)                                          Round             1         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              465
+
+Total Processing Time (hh:mm:ss) : 00:00:00

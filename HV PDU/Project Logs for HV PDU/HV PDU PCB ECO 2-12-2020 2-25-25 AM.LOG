@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=HV_DIS_F Pin=K1-14
-Removed Member From Class: ClassName=GLV Member=F5
-Added Member To Class: ClassName=GLV Member=Component F6 MF-FSMF010X-2
-Added Member To Class: ClassName=HV PDU Member=Component F6 MF-FSMF010X-2

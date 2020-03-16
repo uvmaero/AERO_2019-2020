@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=BSPD_FAULT Pin=D1-2
-Removed Pin From Net: NetName=CUR_OUT Pin=D1-3
-Added Pin To Net: NetName=CUR_OUT Pin=D1-2
-Added Pin To Net: NetName=BSPD_FAULT Pin=D1-3

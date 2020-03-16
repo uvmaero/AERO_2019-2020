@@ -38,6 +38,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=..\..\..\Users\Public\Documents\Altium\Kicad BOM.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document2]
 DocumentPath=HV Box Connector Board.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -54,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=1
 DocumentUniqueId=QRSFLWPO
 
-[Document2]
+[Document3]
 DocumentPath=HV Box Connector Board.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CVLGWDOK
 
-[Document3]
+[Document4]
 DocumentPath=General Outputs.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,8 +105,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document5]
 DocumentPath=HV Box Connector Board.Annotation
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document6]
+DocumentPath=JLCPCB.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document7]
+DocumentPath=HV Box Connector Board.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -110,7 +161,8 @@ UniqueID=A3AE955C-FFA8-4FEB-A61D-4F1AE5727D03
 Description=As-Built
 AllowFabrication=1
 ParameterCount=0
-VariationCount=0
+VariationCount=1
+Variation1=Designator=R3|UniqueId=\QBWNREHX|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -118,14 +170,126 @@ DocumentPath=Project Outputs for HV Box Connector Board\Design Rule Check - HV B
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Free Documents\ExportSTEP\HV Box Connector Board.step
+DocumentPath=Project Outputs for Free Documents\NC Drill\HV Box Connector Board.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Free Documents\ExportSTEP\HV Box Connector Board.wrl
+DocumentPath=Project Outputs for HV Box Connector Board\HVCB-JLCPCB-Gerbers\HV Box Connector Board.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
+DocumentPath=Project Outputs for Free Documents\Gerber\HV Box Connector Board.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for HV Box Connector Board\HVCB-JLCPCB-Gerbers\HV Box Connector Board.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Free Documents\Gerber\HV Box Connector Board.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for HV Box Connector Board\HVCB-JLCPCB-Gerbers\HV Box Connector Board.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Free Documents\Gerber\HV Box Connector Board.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for HV Box Connector Board\HVCB-JLCPCB-Gerbers\HV Box Connector Board.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Free Documents\Gerber\HV Box Connector Board.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for HV Box Connector Board\HVCB-JLCPCB-Gerbers\HV Box Connector Board.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Free Documents\Gerber\HV Box Connector Board.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for HV Box Connector Board\HVCB-JLCPCB-Gerbers\HV Box Connector Board.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Free Documents\Gerber\HV Box Connector Board.GM30
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for HV Box Connector Board\HVCB-JLCPCB-Gerbers\HV Box Connector Board.GM30
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Free Documents\Gerber\HV Box Connector Board.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for HV Box Connector Board\HVCB-JLCPCB-Gerbers\HV Box Connector Board.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Free Documents\Gerber\HV Box Connector Board.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for HV Box Connector Board\HVCB-JLCPCB-Gerbers\HV Box Connector Board.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Free Documents\Gerber\HV Box Connector Board.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for HV Box Connector Board\HVCB-JLCPCB-Gerbers\HV Box Connector Board.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Free Documents\Gerber\HV Box Connector Board.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for HV Box Connector Board\HVCB-JLCPCB-Gerbers\HV Box Connector Board.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for Free Documents\NC Drill\HV Box Connector Board.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for HV Box Connector Board\HVCB-JLCPCB-Gerbers\HV Box Connector Board.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for Free Documents\Gerber\HV Box Connector Board.REP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for HV Box Connector Board\HVCB-JLCPCB-Gerbers\HV Box Connector Board.REP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for Free Documents\ExportSTEP\HV Box Connector Board.step
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for Free Documents\NC Drill\HV Box Connector Board.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for HV Box Connector Board\HVCB-JLCPCB-Gerbers\HV Box Connector Board.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for Free Documents\ExportSTEP\HV Box Connector Board.wrl
+DItemRevisionGUID=
+
+[GeneratedDocument32]
 DocumentPath=Project Outputs for Free Documents\ExportSTEP\HV Box Connector Board.x_t
 DItemRevisionGUID=
 
@@ -157,7 +321,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -278,7 +442,7 @@ OutputDefault23=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -371,7 +535,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -393,7 +557,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -465,7 +629,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -507,7 +671,7 @@ OutputDefault7=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -687,7 +851,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -731,7 +895,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -797,7 +961,7 @@ OutputDefault12=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Brother DCP-L2550DW series
+TargetPrinter=NPI8472A9 (HP Color LaserJet M254dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1173,136 +1337,178 @@ ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=AERO Parts.IntLib
-ComponentDesignItemID1=1-776231-1
-ComponentSymbolReference1=1-776231-1
+ComponentDesignItemID1=1217861-1
+ComponentSymbolReference1=1217861-1
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=AERO Parts.IntLib
-ComponentDesignItemID2=B2B-PH-K-S(LF)(SN)
-ComponentSymbolReference2=B2B-PH-K-S(LF)(SN)
+ComponentDesignItemID2=1225AS-H-120M=P2
+ComponentSymbolReference2=1225AS-H-120M=P2
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=AERO Parts.IntLib
-ComponentDesignItemID3=B2B-XH-A(LF)(SN)
-ComponentSymbolReference3=B2B-XH-A(LF)(SN)
+ComponentDesignItemID3=1-770872-0
+ComponentSymbolReference3=1-770872-0
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
 ComponentLibraryIdentifier4=AERO Parts.IntLib
-ComponentDesignItemID4=B5B-XH-A(LF)(SN)
-ComponentSymbolReference4=B5B-XH-A(LF)(SN)
+ComponentDesignItemID4=1-776231-1
+ComponentSymbolReference4=1-776231-1
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=AERO Parts.IntLib
-ComponentDesignItemID5=B6B-XH-A(LF)(SN)
-ComponentSymbolReference5=B6B-XH-A(LF)(SN)
+ComponentDesignItemID5=1N4148W-E3-08
+ComponentSymbolReference5=1N4148W-E3-08
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
 ComponentLibraryIdentifier6=AERO Parts.IntLib
-ComponentDesignItemID6=DF22-2P-7.92DSA(05)
-ComponentSymbolReference6=DF22-2P-7.92DSA(05)
+ComponentDesignItemID6=B10B-PHDSS(LF)(SN)
+ComponentSymbolReference6=B10B-PHDSS(LF)(SN)
 ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
 ComponentLibraryIdentifier7=AERO Parts.IntLib
-ComponentDesignItemID7=DMN3404L-7
-ComponentSymbolReference7=DMN3404L-7
+ComponentDesignItemID7=B2B-PH-K-S(LF)(SN)
+ComponentSymbolReference7=B2B-PH-K-S(LF)(SN)
 ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
 ComponentLibraryIdentifier8=AERO Parts.IntLib
-ComponentDesignItemID8=NET TIE
-ComponentSymbolReference8=NET TIE
+ComponentDesignItemID8=B2B-XH-A(LF)(SN)
+ComponentSymbolReference8=B2B-XH-A(LF)(SN)
 ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=AERO Parts.IntLib
-ComponentDesignItemID9=URS1E222MHD
-ComponentSymbolReference9=URS1E222MHD
+ComponentDesignItemID9=B3B-PH-K-S(LF)(SN)
+ComponentSymbolReference9=B3B-PH-K-S(LF)(SN)
 ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=bspd parts.SchLib
-ComponentDesignItemID10=1217861-1
-ComponentSymbolReference10=1217861-1
+ComponentLibraryIdentifier10=AERO Parts.IntLib
+ComponentDesignItemID10=B4B-PH-K-S(LF)(SN)
+ComponentSymbolReference10=B4B-PH-K-S(LF)(SN)
 ComponentUpdate10=1
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=bspd parts.SchLib
-ComponentDesignItemID11=1-770872-0
-ComponentSymbolReference11=1-770872-0
+ComponentLibraryIdentifier11=AERO Parts.IntLib
+ComponentDesignItemID11=B4B-XH-A(LF)(SN)
+ComponentSymbolReference11=B4B-XH-A(LF)(SN)
 ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=bspd parts.SchLib
-ComponentDesignItemID12=B4B-PH-K-S(LF)(SN)
-ComponentSymbolReference12=B4B-PH-K-S(LF)(SN)
+ComponentLibraryIdentifier12=AERO Parts.IntLib
+ComponentDesignItemID12=B5B-XH-A(LF)(SN)
+ComponentSymbolReference12=B5B-XH-A(LF)(SN)
 ComponentUpdate12=1
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=bspd parts.SchLib
-ComponentDesignItemID13=B4B-XH-A(LF)(SN)
-ComponentSymbolReference13=B4B-XH-A(LF)(SN)
+ComponentLibraryIdentifier13=AERO Parts.IntLib
+ComponentDesignItemID13=B6B-XH-A(LF)(SN)
+ComponentSymbolReference13=B6B-XH-A(LF)(SN)
 ComponentUpdate13=1
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=bspd parts.SchLib
+ComponentLibraryIdentifier14=AERO Parts.IntLib
 ComponentDesignItemID14=B8B-PH-K-S(LF)(SN)
 ComponentSymbolReference14=B8B-PH-K-S(LF)(SN)
 ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=Passive Components.DbLib/Fuses Resettable
-ComponentDesignItemID15=NANOSMDC050F/13.2-2
-ComponentSymbolReference15=fuse
+ComponentLibraryIdentifier15=AERO Parts.IntLib
+ComponentDesignItemID15=DF22-2P-7.92DSA(05)
+ComponentSymbolReference15=DF22-2P-7.92DSA(05)
 ComponentUpdate15=1
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=Passive Components.DbLib/Resistors
-ComponentDesignItemID16=RES 0603 10K 1%
-ComponentSymbolReference16=res
+ComponentLibraryIdentifier16=AERO Parts.IntLib
+ComponentDesignItemID16=DMN3404L-7
+ComponentSymbolReference16=DMN3404L-7
 ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 ComponentLibIdentifierKind17=Library Name And Type
-ComponentLibraryIdentifier17=Passive Components.DbLib/Resistors
-ComponentDesignItemID17=RES 0603 1K 1%
-ComponentSymbolReference17=res
+ComponentLibraryIdentifier17=AERO Parts.IntLib
+ComponentDesignItemID17=NET TIE
+ComponentSymbolReference17=NET TIE
 ComponentUpdate17=1
 ComponentIsDeviceSheet17=0
 ComponentLibIdentifierKind18=Library Name And Type
-ComponentLibraryIdentifier18=Passive Components.DbLib/Resistors
-ComponentDesignItemID18=RES 0603 2.2K 1%
-ComponentSymbolReference18=res
+ComponentLibraryIdentifier18=AERO Parts.IntLib
+ComponentDesignItemID18=R-78E5.0-0.5
+ComponentSymbolReference18=R-78E5.0-0.5
 ComponentUpdate18=1
 ComponentIsDeviceSheet18=0
 ComponentLibIdentifierKind19=Library Name And Type
-ComponentLibraryIdentifier19=Passive Components.DbLib/Resistors
-ComponentDesignItemID19=RES 0805 10M 1%
-ComponentSymbolReference19=res
+ComponentLibraryIdentifier19=AERO Parts.IntLib
+ComponentDesignItemID19=URS1E222MHD
+ComponentSymbolReference19=URS1E222MHD
 ComponentUpdate19=1
 ComponentIsDeviceSheet19=0
 ComponentLibIdentifierKind20=Library Name And Type
-ComponentLibraryIdentifier20=Passive Components.DbLib/Resistors
-ComponentDesignItemID20=RES 1206 2 1%
-ComponentSymbolReference20=res
+ComponentLibraryIdentifier20=Passive Components.DbLib/Capacitors
+ComponentDesignItemID20=CAP 0603 10UF 25V 20% X5R
+ComponentSymbolReference20=cap
 ComponentUpdate20=1
 ComponentIsDeviceSheet20=0
-ComponentLibIdentifierKind21=Library Name Only
-ComponentLibraryIdentifier21=Altium Content Vault
-ComponentDesignItemID21=CMP-1667-00003-1
-ComponentSymbolReference21=DSKY-AK-2
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=Passive Components.DbLib/Capacitors
+ComponentDesignItemID21=CAP 0603 4.7UF 35V 10% X5R
+ComponentSymbolReference21=cap
 ComponentUpdate21=1
 ComponentIsDeviceSheet21=0
-ComponentLibIdentifierKind22=Library Name Only
-ComponentLibraryIdentifier22=Altium Content Vault
-ComponentDesignItemID22=CMP-2000-04993-1
-ComponentSymbolReference22=D-AK-2
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=Passive Components.DbLib/Fuses Resettable
+ComponentDesignItemID22=NANOSMDC050F/13.2-2
+ComponentSymbolReference22=fuse
 ComponentUpdate22=1
 ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=Passive Components.DbLib/Resistors
+ComponentDesignItemID23=RES 0603 0 5%
+ComponentSymbolReference23=res
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=Passive Components.DbLib/Resistors
+ComponentDesignItemID24=RES 0603 10K 1%
+ComponentSymbolReference24=res
+ComponentUpdate24=1
+ComponentIsDeviceSheet24=0
+ComponentLibIdentifierKind25=Library Name And Type
+ComponentLibraryIdentifier25=Passive Components.DbLib/Resistors
+ComponentDesignItemID25=RES 0603 1K 1%
+ComponentSymbolReference25=res
+ComponentUpdate25=1
+ComponentIsDeviceSheet25=0
+ComponentLibIdentifierKind26=Library Name And Type
+ComponentLibraryIdentifier26=Passive Components.DbLib/Resistors
+ComponentDesignItemID26=RES 0603 2.2K 1%
+ComponentSymbolReference26=res
+ComponentUpdate26=1
+ComponentIsDeviceSheet26=0
+ComponentLibIdentifierKind27=Library Name And Type
+ComponentLibraryIdentifier27=Passive Components.DbLib/Resistors
+ComponentDesignItemID27=RES 0805 10M 1%
+ComponentSymbolReference27=res
+ComponentUpdate27=1
+ComponentIsDeviceSheet27=0
+ComponentLibIdentifierKind28=Library Name And Type
+ComponentLibraryIdentifier28=Passive Components.DbLib/Resistors
+ComponentDesignItemID28=RES 1206 2 1%
+ComponentSymbolReference28=res
+ComponentUpdate28=1
+ComponentIsDeviceSheet28=0
+ComponentLibIdentifierKind29=Library Name Only
+ComponentLibraryIdentifier29=Altium Content Vault
+ComponentDesignItemID29=CMP-1667-00003-1
+ComponentSymbolReference29=DSKY-AK-2
+ComponentUpdate29=1
+ComponentIsDeviceSheet29=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1316,417 +1522,519 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Average Forward Current-Max
+ParameterName0=Approvals
 ParameterUpdate0=1
-ParameterName1=Body Material
+ParameterName1=Average Rectified Current
 ParameterUpdate1=1
-ParameterName2=Body Plating
+ParameterName2=Body Material
 ParameterUpdate2=1
-ParameterName3=Built_By
+ParameterName3=Body Plating
 ParameterUpdate3=1
-ParameterName4=Capacitance
+ParameterName4=Built_By
 ParameterUpdate4=1
-ParameterName5=Case Code (Imperial)
+ParameterName5=Capacitance
 ParameterUpdate5=1
-ParameterName6=Case Code (Metric)
+ParameterName6=Case Code (Imperial)
 ParameterUpdate6=1
-ParameterName7=Case/Package
+ParameterName7=Case Code (Metric)
 ParameterUpdate7=1
-ParameterName8=Case\Package
+ParameterName8=Case/Package
 ParameterUpdate8=1
-ParameterName9=Category
+ParameterName9=Case\Package
 ParameterUpdate9=1
-ParameterName10=Circuit Application
+ParameterName10=Category
 ParameterUpdate10=1
-ParameterName11=Color
+ParameterName11=Circuit Application
 ParameterUpdate11=1
-ParameterName12=Comment
+ParameterName12=Color
 ParameterUpdate12=1
-ParameterName13=Component Kind
+ParameterName13=Comment
 ParameterUpdate13=1
-ParameterName14=ComponentLink1Description
+ParameterName14=Component Kind
 ParameterUpdate14=1
-ParameterName15=ComponentLink1URL
+ParameterName15=ComponentLink1Description
 ParameterUpdate15=1
-ParameterName16=ComponentLink2Description
+ParameterName16=ComponentLink1URL
 ParameterUpdate16=1
-ParameterName17=ComponentLink2URL
+ParameterName17=ComponentLink2Description
 ParameterUpdate17=1
-ParameterName18=ComponentLink3Description
+ParameterName18=ComponentLink2URL
 ParameterUpdate18=1
-ParameterName19=ComponentLink3URL
+ParameterName19=ComponentLink3Description
 ParameterUpdate19=1
-ParameterName20=Connector System
+ParameterName20=ComponentLink3URL
 ParameterUpdate20=1
-ParameterName21=Connector Type
+ParameterName21=ComponentLink4Description
 ParameterUpdate21=1
-ParameterName22=Contact Material
+ParameterName22=ComponentLink4URL
 ParameterUpdate22=1
-ParameterName23=Contact Mating Length
+ParameterName23=Composition
 ParameterUpdate23=1
-ParameterName24=Contact Plating
+ParameterName24=Connector System
 ParameterUpdate24=1
-ParameterName25=Contact Resistance
+ParameterName25=Connector Type
 ParameterUpdate25=1
-ParameterName26=Continuous Drain Current (ID)
+ParameterName26=Contact Current Rating
 ParameterUpdate26=1
-ParameterName27=Copyright
+ParameterName27=Contact Gender
 ParameterUpdate27=1
-ParameterName28=Current Rating
+ParameterName28=Contact Material
 ParameterUpdate28=1
-ParameterName29=Datasheet URL
+ParameterName29=Contact Mating Length
 ParameterUpdate29=1
-ParameterName30=Datasheet Version
+ParameterName30=Contact Plating
 ParameterUpdate30=1
-ParameterName31=DatasheetVersion
+ParameterName31=Contact Resistance
 ParameterUpdate31=1
-ParameterName32=Depth
+ParameterName32=Contact Retention
 ParameterUpdate32=1
-ParameterName33=Description
+ParameterName33=Continuous Drain Current (ID)
 ParameterUpdate33=1
-ParameterName34=Description in Visual
+ParameterName34=Copyright
 ParameterUpdate34=1
-ParameterName35=Diameter
+ParameterName35=Core Material
 ParameterUpdate35=1
-ParameterName36=Dielectric Material
+ParameterName36=Current Rating
 ParameterUpdate36=1
-ParameterName37=Dissipation Factor
+ParameterName37=Datasheet Path
 ParameterUpdate37=1
-ParameterName38=Drain to Source Breakdown Voltage
+ParameterName38=Datasheet Path1
 ParameterUpdate38=1
-ParameterName39=Drain to Source Resistance
+ParameterName39=Datasheet URL
 ParameterUpdate39=1
-ParameterName40=Drain to Source Voltage (Vdss)
+ParameterName40=Datasheet Version
 ParameterUpdate40=1
-ParameterName41=Element Configuration
+ParameterName41=DatasheetVersion
 ParameterUpdate41=1
-ParameterName42=Elements
+ParameterName42=DC Resistance (DCR)
 ParameterUpdate42=1
-ParameterName43=ELV
+ParameterName43=Depth
 ParameterUpdate43=1
-ParameterName44=Fall Time
+ParameterName44=Description
 ParameterUpdate44=1
-ParameterName45=Fastening Type
+ParameterName45=Description in Visual
 ParameterUpdate45=1
-ParameterName46=Flammability Rating
+ParameterName46=Diameter
 ParameterUpdate46=1
-ParameterName47=Forward Current
+ParameterName47=Dielectric Material
 ParameterUpdate47=1
-ParameterName48=Forward Voltage
+ParameterName48=Digikey Description
 ParameterUpdate48=1
-ParameterName49=Gate to Source Voltage (Vgs)
+ParameterName49=Digikey Part Number
 ParameterUpdate49=1
-ParameterName50=Gender
+ParameterName50=Dissipation Factor
 ParameterUpdate50=1
-ParameterName51=Height
+ParameterName51=Drain to Source Breakdown Voltage
 ParameterUpdate51=1
-ParameterName52=Height - Seated (Max)
+ParameterName52=Drain to Source Resistance
 ParameterUpdate52=1
-ParameterName53=Hold Current
+ParameterName53=Drain to Source Voltage (Vdss)
 ParameterUpdate53=1
-ParameterName54=Hold Current (mA)
+ParameterName54=Efficiency
 ParameterUpdate54=1
-ParameterName55=Hole Diameter
+ParameterName55=Element Configuration
 ParameterUpdate55=1
-ParameterName56=Housing Color
+ParameterName56=Elements
 ParameterUpdate56=1
-ParameterName57=Housing Material
+ParameterName57=ELV
 ParameterUpdate57=1
-ParameterName58=Input Capacitance
+ParameterName58=Fall Time
 ParameterUpdate58=1
-ParameterName59=Insulated Wire Support
+ParameterName59=Fastening Type
 ParameterUpdate59=1
-ParameterName60=Insulation
+ParameterName60=Features
 ParameterUpdate60=1
-ParameterName61=Insulation Resistance
+ParameterName61=Flammability Rating
 ParameterUpdate61=1
-ParameterName62=Lead Diameter
+ParameterName62=Forward Current
 ParameterUpdate62=1
-ParameterName63=Lead Free
+ParameterName63=Forward Voltage
 ParameterUpdate63=1
-ParameterName64=Lead Pitch
+ParameterName64=Gate to Source Voltage (Vgs)
 ParameterUpdate64=1
-ParameterName65=Leakage Current
+ParameterName65=Gender
 ParameterUpdate65=1
-ParameterName66=Length
+ParameterName66=Height
 ParameterUpdate66=1
-ParameterName67=Library Reference
+ParameterName67=Height - Seated (Max)
 ParameterUpdate67=1
-ParameterName68=Life (Hours)
+ParameterName68=helpURL
 ParameterUpdate68=1
-ParameterName69=Manufacturer
+ParameterName69=Hold Current
 ParameterUpdate69=1
-ParameterName70=Manufacturer P/N
+ParameterName70=Hold Current (mA)
 ParameterUpdate70=1
-ParameterName71=Manufacturer Part Number
+ParameterName71=Hole Diameter
 ParameterUpdate71=1
-ParameterName72=Manufacturer URL
+ParameterName72=Housing Color
 ParameterUpdate72=1
-ParameterName73=Manufacturer_Part_Number
+ParameterName73=Housing Material
 ParameterUpdate73=1
-ParameterName74=Material
+ParameterName74=Inductance
 ParameterUpdate74=1
-ParameterName75=Mating Tab Width
+ParameterName75=Input Capacitance
 ParameterUpdate75=1
-ParameterName76=Max Current (A)
+ParameterName76=Input Voltage Range
 ParameterUpdate76=1
-ParameterName77=Max Current Rating
+ParameterName77=Insulated Wire Support
 ParameterUpdate77=1
-ParameterName78=Max Operating Temperature
+ParameterName78=Insulation
 ParameterUpdate78=1
-ParameterName79=Max Power Dissipation
+ParameterName79=Insulation Resistance
 ParameterUpdate79=1
-ParameterName80=Max Surge Current
+ParameterName80=Lead Diameter
 ParameterUpdate80=1
-ParameterName81=Max Voltage (V)
+ParameterName81=Lead Free
 ParameterUpdate81=1
-ParameterName82=Max Voltage Rating (AC)
+ParameterName82=Lead Pitch
 ParameterUpdate82=1
-ParameterName83=Max Voltage Rating (DC)
+ParameterName83=Leakage Current
 ParameterUpdate83=1
-ParameterName84=Min Operating Temperature
+ParameterName84=Length
 ParameterUpdate84=1
-ParameterName85=Mount
+ParameterName85=Library Path1
 ParameterUpdate85=1
-ParameterName86=Mounting Technology
+ParameterName86=Library Ref1
 ParameterUpdate86=1
-ParameterName87=No of Positions
+ParameterName87=Library Reference
 ParameterUpdate87=1
-ParameterName88=Nominal Vgs
+ParameterName88=Life (Hours)
 ParameterUpdate88=1
-ParameterName89=Number of Channels
+ParameterName89=Manufacturer
 ParameterUpdate89=1
-ParameterName90=Number of Contacts
+ParameterName90=Manufacturer P/N
 ParameterUpdate90=1
-ParameterName91=Number of Elements
+ParameterName91=Manufacturer Part Number
 ParameterUpdate91=1
-ParameterName92=Number of Pins
+ParameterName92=Manufacturer URL
 ParameterUpdate92=1
-ParameterName93=Number of Poles
+ParameterName93=Manufacturer_Part_Number
 ParameterUpdate93=1
-ParameterName94=Number of Ports
+ParameterName94=Material
 ParameterUpdate94=1
-ParameterName95=Number of Positions
+ParameterName95=Mating Alignment
 ParameterUpdate95=1
-ParameterName96=Number of Rows
+ParameterName96=Mating Retention
 ParameterUpdate96=1
-ParameterName97=Number of Signal Positions
+ParameterName97=Mating Tab Width
 ParameterUpdate97=1
-ParameterName98=Number of Terminals
+ParameterName98=Max Current (A)
 ParameterUpdate98=1
-ParameterName99=On-State Resistance
+ParameterName99=Max Current Rating
 ParameterUpdate99=1
-ParameterName100=Orientation
+ParameterName100=Max Forward Surge Current (Ifsm)
 ParameterUpdate100=1
-ParameterName101=P/N
+ParameterName101=Max Operating Temperature
 ParameterUpdate101=1
-ParameterName102=Package Description
+ParameterName102=Max Power Dissipation
 ParameterUpdate102=1
-ParameterName103=Package Quantity
+ParameterName103=Max Repetitive Reverse Voltage (Vrrm)
 ParameterUpdate103=1
-ParameterName104=Package Reference
+ParameterName104=Max Reverse Leakage Current
 ParameterUpdate104=1
-ParameterName105=Package URL
+ParameterName105=Max Reverse Voltage (DC)
 ParameterUpdate105=1
-ParameterName106=PackageDescription
+ParameterName106=Max Surge Current
 ParameterUpdate106=1
-ParameterName107=PackageReference
+ParameterName107=Max Voltage (V)
 ParameterUpdate107=1
-ParameterName108=Packaging
+ParameterName108=Max Voltage Rating (AC)
 ParameterUpdate108=1
-ParameterName109=PCB Mount Alignment
+ParameterName109=Max Voltage Rating (DC)
 ParameterUpdate109=1
-ParameterName110=PCB Mount Retention
+ParameterName110=Max# Capacitive Load
 ParameterUpdate110=1
-ParameterName111=PCB Package
+ParameterName111=Min Operating Temperature
 ParameterUpdate111=1
-ParameterName112=PCB Thickness
+ParameterName112=Mount
 ParameterUpdate112=1
-ParameterName113=Peak Current-Max
+ParameterName113=Mounting Technology
 ParameterUpdate113=1
-ParameterName114=Peak Reverse Current
+ParameterName114=Mouser Part Number
 ParameterUpdate114=1
-ParameterName115=Pins
+ParameterName115=No of Positions
 ParameterUpdate115=1
-ParameterName116=Pitch
+ParameterName116=Nominal Vgs
 ParameterUpdate116=1
-ParameterName117=Plating
+ParameterName117=Number of Channels
 ParameterUpdate117=1
-ParameterName118=Power Dissipation
+ParameterName118=Number of Circuits
 ParameterUpdate118=1
-ParameterName119=Power_Rating
+ParameterName119=Number of Contacts
 ParameterUpdate119=1
-ParameterName120=Radiation Hardening
+ParameterName120=Number of Elements
 ParameterUpdate120=1
-ParameterName121=Rds On Max
+ParameterName121=Number of Pins
 ParameterUpdate121=1
-ParameterName122=REACH SVHC
+ParameterName122=Number of Poles
 ParameterUpdate122=1
-ParameterName123=RefDes
+ParameterName123=Number of Ports
 ParameterUpdate123=1
-ParameterName124=Resistance (max) (Ohms)
+ParameterName124=Number of Positions
 ParameterUpdate124=1
-ParameterName125=Resistance (min) (Ohms)
+ParameterName125=Number of Power Positions
 ParameterUpdate125=1
-ParameterName126=Reverse Recovery Time-Max
+ParameterName126=Number of Rows
 ParameterUpdate126=1
-ParameterName127=Reverse Voltage-Max [Vrrm]
+ParameterName127=Number of Signal Positions
 ParameterUpdate127=1
-ParameterName128=Ripple Current
+ParameterName128=Number of Terminals
 ParameterUpdate128=1
-ParameterName129=Rise Time
+ParameterName129=On-State Resistance
 ParameterUpdate129=1
-ParameterName130=RoHSCompliant
+ParameterName130=Orientation
 ParameterUpdate130=1
-ParameterName131=Row Spacing
+ParameterName131=Output Current
 ParameterUpdate131=1
-ParameterName132=Sealable
+ParameterName132=Output Voltage
 ParameterUpdate132=1
-ParameterName133=Shielding
+ParameterName133=P/N
 ParameterUpdate133=1
-ParameterName134=Style/Orientation
+ParameterName134=Package
 ParameterUpdate134=1
-ParameterName135=Supplier 1
+ParameterName135=Package Quantity
 ParameterUpdate135=1
-ParameterName136=Supplier 2
+ParameterName136=PackageDescription
 ParameterUpdate136=1
-ParameterName137=Supplier Part Number 1
+ParameterName137=PackageReference
 ParameterUpdate137=1
-ParameterName138=Supplier Part Number 2
+ParameterName138=Packaging
 ParameterUpdate138=1
-ParameterName139=Tab Length
+ParameterName139=Part Number
 ParameterUpdate139=1
-ParameterName140=Tab Thickness
+ParameterName140=PCB Mount Alignment
 ParameterUpdate140=1
-ParameterName141=Tab Width
+ParameterName141=PCB Mount Retention
 ParameterUpdate141=1
-ParameterName142=Terminal Material
+ParameterName142=PCB Mounting Orientation
 ParameterUpdate142=1
-ParameterName143=Termination
+ParameterName143=PCB Package
 ParameterUpdate143=1
-ParameterName144=Threshold Voltage
+ParameterName144=PCB Thickness
 ParameterUpdate144=1
-ParameterName145=Time to Trip
+ParameterName145=Peak Non-Repetitive Surge Current
 ParameterUpdate145=1
-ParameterName146=Time to Trip (sec)
+ParameterName146=Peak Reverse Current
 ParameterUpdate146=1
-ParameterName147=Tol
+ParameterName147=Pins
 ParameterUpdate147=1
-ParameterName148=Tolerance
+ParameterName148=Pitch
 ParameterUpdate148=1
-ParameterName149=Trip Current
+ParameterName149=Plating
 ParameterUpdate149=1
-ParameterName150=Trip Current (mA)
+ParameterName150=Plating Thickness
 ParameterUpdate150=1
-ParameterName151=Turn-Off Delay Time
+ParameterName151=Power Dissipation
 ParameterUpdate151=1
-ParameterName152=Turn-On Delay Time
+ParameterName152=Power_Rating
 ParameterUpdate152=1
-ParameterName153=Type
+ParameterName153=Price
 ParameterUpdate153=1
-ParameterName154=Val
+ParameterName154=Radiation Hardening
 ParameterUpdate154=1
-ParameterName155=Value
+ParameterName155=Rds On Max
 ParameterUpdate155=1
-ParameterName156=Vendor
+ParameterName156=REACH SVHC
 ParameterUpdate156=1
-ParameterName157=Voltage Rating
+ParameterName157=Recovery Time
 ParameterUpdate157=1
-ParameterName158=Voltage Rating (AC)
+ParameterName158=RefDes
 ParameterUpdate158=1
-ParameterName159=Voltage Rating (DC)
+ParameterName159=Resistance (max) (Ohms)
 ParameterUpdate159=1
-ParameterName160=Weight
+ParameterName160=Resistance (min) (Ohms)
 ParameterUpdate160=1
-ParameterName161=Width
+ParameterName161=Reverse Recovery Time
 ParameterUpdate161=1
-ParameterName162=Wire/Cable Gauge
+ParameterName162=Ripple Current
 ParameterUpdate162=1
-ParameterName163=Working Voltage
+ParameterName163=Rise Time
 ParameterUpdate163=1
+ParameterName164=RoHS
+ParameterUpdate164=1
+ParameterName165=RoHSCompliant
+ParameterUpdate165=1
+ParameterName166=Row Spacing
+ParameterUpdate166=1
+ParameterName167=Saturation Current
+ParameterUpdate167=1
+ParameterName168=Sealable
+ParameterUpdate168=1
+ParameterName169=Shielding
+ParameterUpdate169=1
+ParameterName170=Strain Relief
+ParameterUpdate170=1
+ParameterName171=Style/Orientation
+ParameterUpdate171=1
+ParameterName172=Supplier 1
+ParameterUpdate172=1
+ParameterName173=Supplier 2
+ParameterUpdate173=1
+ParameterName174=Supplier Part Number 1
+ParameterUpdate174=1
+ParameterName175=Supplier Part Number 2
+ParameterUpdate175=1
+ParameterName176=Tab Length
+ParameterUpdate176=1
+ParameterName177=Tab Thickness
+ParameterUpdate177=1
+ParameterName178=Tab Width
+ParameterUpdate178=1
+ParameterName179=Temperature
+ParameterUpdate179=1
+ParameterName180=Temperature Coefficient
+ParameterUpdate180=1
+ParameterName181=Temperature Range High
+ParameterUpdate181=1
+ParameterName182=Temperature Range Low
+ParameterUpdate182=1
+ParameterName183=Terminal Material
+ParameterUpdate183=1
+ParameterName184=Termination
+ParameterUpdate184=1
+ParameterName185=Test Frequency
+ParameterUpdate185=1
+ParameterName186=Threshold Voltage
+ParameterUpdate186=1
+ParameterName187=Time to Trip
+ParameterUpdate187=1
+ParameterName188=Time to Trip (sec)
+ParameterUpdate188=1
+ParameterName189=Tol
+ParameterUpdate189=1
+ParameterName190=Tolerance
+ParameterUpdate190=1
+ParameterName191=Trip Current
+ParameterUpdate191=1
+ParameterName192=Trip Current (mA)
+ParameterUpdate192=1
+ParameterName193=Turn-Off Delay Time
+ParameterUpdate193=1
+ParameterName194=Turn-On Delay Time
+ParameterUpdate194=1
+ParameterName195=Type
+ParameterUpdate195=1
+ParameterName196=Val
+ParameterUpdate196=1
+ParameterName197=Value
+ParameterUpdate197=1
+ParameterName198=VDE Tested
+ParameterUpdate198=1
+ParameterName199=Vendor
+ParameterUpdate199=1
+ParameterName200=Vol
+ParameterUpdate200=1
+ParameterName201=Voltage
+ParameterUpdate201=1
+ParameterName202=Voltage Rating
+ParameterUpdate202=1
+ParameterName203=Voltage Rating (AC)
+ParameterUpdate203=1
+ParameterName204=Voltage Rating (DC)
+ParameterUpdate204=1
+ParameterName205=Weight
+ParameterUpdate205=1
+ParameterName206=Width
+ParameterUpdate206=1
+ParameterName207=Wire/Cable Gauge
+ParameterUpdate207=1
+ParameterName208=Working Voltage
+ParameterUpdate208=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=0603_RES
+ModelName0=0603_CAP
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=0805_RES
+ModelName1=0603_RES
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=10MIL_TIE
+ModelName2=0805_RES
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=1206_FUSE_40H
+ModelName3=10MIL_TIE
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=1206_RES_28H
+ModelName4=1206_FUSE_40H
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=20MIL EXPOSED TIE
+ModelName5=1206_RES_28H
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=20MIL_TIE
+ModelName6=20MIL EXPOSED TIE
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=20MIL_TIE_THT
+ModelName7=20MIL_TIE
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=60MIL_TIE
+ModelName8=20MIL_TIE_THT
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=60MIL_TIE DL
+ModelName9=60MIL_TIE
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=B2B-XH-A(LF)(SN)
+ModelName10=60MIL_TIE DL
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=B4B-PH-K
+ModelName11=B10B-PHDSS
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=B4B-XH-A(LF)(SN)
+ModelName12=B2B-XH-A(LF)(SN)
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=B8B-PH-K
+ModelName13=B3B-PH-K
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=Bel_0ZCF0200AF2C_0
+ModelName14=B4B-PH-K
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=CON2_1X2_P163_VM
+ModelName15=B4B-XH-A(LF)(SN)
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=CON2_1X2_P163_VM_ALT
+ModelName16=B8B-PH-K
 ModelUpdate16=1
 ModelType17=PCBLIB
-ModelName17=CONN_B6B-XH-A(LF
+ModelName17=Bel_0ZCF0200AF2C_0
 ModelUpdate17=1
 ModelType18=PCBLIB
-ModelName18=DF22-2P-7.92DSA_05_0
+ModelName18=CON2_1X2_P163_VM
 ModelUpdate18=1
 ModelType19=PCBLIB
-ModelName19=DIOD-SMA-2_V
+ModelName19=CONN_B6B-XH-A(LF
 ModelUpdate19=1
 ModelType20=PCBLIB
-ModelName20=JST_B5B-XH-A_LF_SN_0
+ModelName20=DF22-2P-7.92DSA_05_0
 ModelUpdate20=1
 ModelType21=PCBLIB
-ModelName21=JST_Sales_America_Inc._B2B-PH-K-S_LF_SN_0
+ModelName21=DIOD-SMA-2_V
 ModelUpdate21=1
 ModelType22=PCBLIB
-ModelName22=MCC-SOD123_V
+ModelName22=IND_1225AS-H-120M=P2
 ModelUpdate22=1
 ModelType23=PCBLIB
-ModelName23=Nichicon_18x15
+ModelName23=JST_B5B-XH-A_LF_SN_0
 ModelUpdate23=1
 ModelType24=PCBLIB
-ModelName24=SOT23-FET-DI
+ModelName24=JST_Sales_America_Inc._B2B-PH-K-S_LF_SN_0
 ModelUpdate24=1
 ModelType25=PCBLIB
-ModelName25=TE_1-776231-1
+ModelName25=Nichicon_18x15
 ModelUpdate25=1
 ModelType26=PCBLIB
-ModelName26=te-1217861-1
+ModelName26=RECOM_R-785.0-X.X
 ModelUpdate26=1
+ModelType27=PCBLIB
+ModelName27=SOT23-FET-DI
+ModelUpdate27=1
+ModelType28=PCBLIB
+ModelName28=TE_1-776231-1
+ModelUpdate28=1
+ModelType29=PCBLIB
+ModelName29=te-1217861-1
+ModelUpdate29=1
+ModelType30=PCBLIB
+ModelName30=Vishay_1N4148W-E3-08
+ModelUpdate30=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1737,22 +2045,25 @@ PartTypes=0
 [NetInfos]
 Net1=NetName=+12_ANTIBROWNOUT|NetColor=$00FF6EFF
 Net2=NetName=+5_BRAKE|NetColor=$00FF6EFF
-Net3=NetName=+DCDC|NetColor=$00FFFF6E
-Net4=NetName=+EM|NetColor=$00FF6EFF
-Net5=NetName=+GLV|NetColor=$00FF6EFF
-Net6=NetName=BENDER_FUSED|NetColor=$00FF6EFF
-Net7=NetName=CHASS1|NetColor=$006EFF6E
-Net8=NetName=CHASS2|NetColor=$006EFF6E
-Net9=NetName=EM_FUSED|NetColor=$00FF6EFF
-Net10=NetName=FAN2-|NetColor=$00FF6EFF
-Net11=NetName=FAN2+|NetColor=$00FF6EFF
-Net12=NetName=GND|NetColor=$00FF6EFF
-Net13=NetName=GND_BRAKE|NetColor=$00FF6EFF
-Net14=NetName=GND_EM|NetColor=$00FF6EFF
-Net15=NetName=PGND|NetColor=$00FFFF6E
-Net16=NetName=SHDN_IN|NetColor=$00FF6EFF
-Net17=NetName=SHDN_OUT|NetColor=$00FF6EFF
-Net18=NetName=TSAL_GND|NetColor=$00FF6EFF
+Net3=NetName=+5_HECS|NetColor=$00FF6EFF
+Net4=NetName=+DCDC|NetColor=$00FFFF6E
+Net5=NetName=+EM|NetColor=$00FF6EFF
+Net6=NetName=+GLV|NetColor=$00FF6EFF
+Net7=NetName=BENDER_FUSED|NetColor=$00FF6EFF
+Net8=NetName=CHASS1|NetColor=$006EFF6E
+Net9=NetName=CHASS2|NetColor=$006EFF6E
+Net10=NetName=EM_FUSED|NetColor=$00FF6EFF
+Net11=NetName=FAN2-|NetColor=$00FF6EFF
+Net12=NetName=FAN2+|NetColor=$00FF6EFF
+Net13=NetName=GND|NetColor=$00FF6EFF
+Net14=NetName=GND_BRAKE|NetColor=$00FF6EFF
+Net15=NetName=GND_EM|NetColor=$00FF6EFF
+Net16=NetName=LIN|NetColor=$00FF6EFF
+Net17=NetName=PGND|NetColor=$00FFFF6E
+Net18=NetName=RECOMIN|NetColor=$00FF6EFF
+Net19=NetName=SHDN_IN|NetColor=$00FF6EFF
+Net20=NetName=SHDN_OUT|NetColor=$00FF6EFF
+Net21=NetName=TSAL_GND|NetColor=$00FF6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0

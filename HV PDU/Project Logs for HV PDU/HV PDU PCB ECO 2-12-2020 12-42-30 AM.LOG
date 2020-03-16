@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=HV_DIS_F Pin=K1-11
-Removed Pin From Net: NetName=HV_DIS_RLY Pin=K1-14
-Added Pin To Net: NetName=HV_DIS_RLY Pin=K1-11
-Added Pin To Net: NetName=HV_DIS_F Pin=K1-14

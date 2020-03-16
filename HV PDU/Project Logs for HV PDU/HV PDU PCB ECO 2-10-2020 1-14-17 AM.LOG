@@ -1,4 +1,0 @@
-Change Component Footprint: Designator=NT1 Old Footprint=60MIL_TIE New Footprint=60MIL_TIE DL
-Change Component Footprint: Designator=NT2 Old Footprint=60MIL_TIE New Footprint=60MIL_TIE DL
-Change Component Footprint: Designator=NT3 Old Footprint=60MIL_TIE New Footprint=60MIL_TIE DL
-Change Room Scope: Old Scope=InStructureClass('TS+') New Scope=InComponentClass('TS+_COMP')

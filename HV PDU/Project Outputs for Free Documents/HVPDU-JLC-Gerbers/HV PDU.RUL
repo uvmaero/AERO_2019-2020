@@ -1,0 +1,11 @@
+DRC Rules Export File for PCB: C:\git\AERO_2019-2020\HV PDU\HV PDU.PcbDoc
+RuleKind=Clearance|RuleName=MTG|Scope=Board|Minimum=393.70
+RuleKind=SolderMaskExpansion|RuleName=tent|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=TSOther|Scope=Board|Minimum=40.00
+RuleKind=Clearance|RuleName=TsGlvClr|Scope=Board|Minimum=393.70
+RuleKind=Clearance|RuleName=TsTsClr|Scope=Board|Minimum=334.65
+RuleKind=Width|RuleName=TSWidth|Scope=Board|Minimum=40.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

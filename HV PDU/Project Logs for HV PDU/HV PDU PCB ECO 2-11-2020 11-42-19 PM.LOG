@@ -1,3 +1,0 @@
-Added Pin To Net: NetName=RLY_MTG Pin=K1-3
-Added Net: Name=RLY_MTG
-Added Member To Class: ClassName=MTG Member=Wire RLY_MTG
