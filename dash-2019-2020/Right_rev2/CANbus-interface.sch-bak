@@ -1,0 +1,319 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_CAN_LIN:MCP2551-I-SN U?
+U 1 1 5DD648A6
+P 4500 3350
+AR Path="/5DD648A6" Ref="U?"  Part="1" 
+AR Path="/5DD62EE6/5DD648A6" Ref="U3"  Part="1" 
+F 0 "U3" H 4800 3700 50  0000 C CNN
+F 1 "MCP2551-I-SN" H 4150 3700 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4500 2850 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf" H 4500 3350 50  0001 C CNN
+	1    4500 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DD648AC
+P 4500 2950
+AR Path="/5DD648AC" Ref="#PWR?"  Part="1" 
+AR Path="/5DD62EE6/5DD648AC" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 4500 2800 50  0001 C CNN
+F 1 "+5V" H 4515 3123 50  0000 C CNN
+F 2 "" H 4500 2950 50  0001 C CNN
+F 3 "" H 4500 2950 50  0001 C CNN
+	1    4500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DD648B2
+P 4500 3750
+AR Path="/5DD648B2" Ref="#PWR?"  Part="1" 
+AR Path="/5DD62EE6/5DD648B2" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 4500 3500 50  0001 C CNN
+F 1 "GND" H 4505 3577 50  0000 C CNN
+F 2 "" H 4500 3750 50  0001 C CNN
+F 3 "" H 4500 3750 50  0001 C CNN
+	1    4500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5DD648B8
+P 5050 3750
+AR Path="/5DD648B8" Ref="R?"  Part="1" 
+AR Path="/5DD62EE6/5DD648B8" Ref="R7"  Part="1" 
+F 0 "R7" H 5150 3750 50  0000 L CNN
+F 1 "10k" H 5100 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5090 3740 50  0001 C CNN
+F 3 "~" H 5050 3750 50  0001 C CNN
+	1    5050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3550 5050 3550
+Wire Wire Line
+	5050 3550 5050 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5DD648C0
+P 5050 3900
+AR Path="/5DD648C0" Ref="#PWR?"  Part="1" 
+AR Path="/5DD62EE6/5DD648C0" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 5050 3650 50  0001 C CNN
+F 1 "GND" H 5055 3727 50  0000 C CNN
+F 2 "" H 5050 3900 50  0001 C CNN
+F 3 "" H 5050 3900 50  0001 C CNN
+	1    5050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5DD648C6
+P 5400 4150
+AR Path="/5DD648C6" Ref="R?"  Part="1" 
+AR Path="/5DD62EE6/5DD648C6" Ref="R8"  Part="1" 
+F 0 "R8" H 5200 4200 50  0000 L CNN
+F 1 "10k" H 5150 4100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5440 4140 50  0001 C CNN
+F 3 "~" H 5400 4150 50  0001 C CNN
+	1    5400 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4300 5400 4350
+Wire Wire Line
+	5400 4350 5550 4350
+$Comp
+L power:+5V #PWR?
+U 1 1 5DD648CE
+P 5400 4000
+AR Path="/5DD648CE" Ref="#PWR?"  Part="1" 
+AR Path="/5DD62EE6/5DD648CE" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 5400 3850 50  0001 C CNN
+F 1 "+5V" H 5415 4173 50  0000 C CNN
+F 2 "" H 5400 4000 50  0001 C CNN
+F 3 "" H 5400 4000 50  0001 C CNN
+	1    5400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DD648D4
+P 6150 4550
+AR Path="/5DD648D4" Ref="#PWR?"  Part="1" 
+AR Path="/5DD62EE6/5DD648D4" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 6150 4300 50  0001 C CNN
+F 1 "GND" H 6155 4377 50  0000 C CNN
+F 2 "" H 6150 4550 50  0001 C CNN
+F 3 "" H 6150 4550 50  0001 C CNN
+	1    6150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DD648DA
+P 6150 2950
+AR Path="/5DD648DA" Ref="#PWR?"  Part="1" 
+AR Path="/5DD62EE6/5DD648DA" Ref="#PWR056"  Part="1" 
+F 0 "#PWR056" H 6150 2800 50  0001 C CNN
+F 1 "+5V" H 6165 3123 50  0000 C CNN
+F 2 "" H 6150 2950 50  0001 C CNN
+F 3 "" H 6150 2950 50  0001 C CNN
+	1    6150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD648E4
+P 4200 4100
+AR Path="/5DD648E4" Ref="C?"  Part="1" 
+AR Path="/5DD62EE6/5DD648E4" Ref="C6"  Part="1" 
+F 0 "C6" H 4315 4146 50  0000 L CNN
+F 1 "0.1uF" H 4315 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4238 3950 50  0001 C CNN
+F 3 "~" H 4200 4100 50  0001 C CNN
+	1    4200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD648EA
+P 4700 4100
+AR Path="/5DD648EA" Ref="C?"  Part="1" 
+AR Path="/5DD62EE6/5DD648EA" Ref="C7"  Part="1" 
+F 0 "C7" H 4815 4146 50  0000 L CNN
+F 1 "0.1uF" H 4815 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4738 3950 50  0001 C CNN
+F 3 "~" H 4700 4100 50  0001 C CNN
+	1    4700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DD648F4
+P 4200 3950
+AR Path="/5DD648F4" Ref="#PWR?"  Part="1" 
+AR Path="/5DD62EE6/5DD648F4" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 4200 3800 50  0001 C CNN
+F 1 "+5V" H 4215 4123 50  0000 C CNN
+F 2 "" H 4200 3950 50  0001 C CNN
+F 3 "" H 4200 3950 50  0001 C CNN
+	1    4200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DD648FA
+P 4200 4250
+AR Path="/5DD648FA" Ref="#PWR?"  Part="1" 
+AR Path="/5DD62EE6/5DD648FA" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 4200 4000 50  0001 C CNN
+F 1 "GND" H 4205 4077 50  0000 C CNN
+F 2 "" H 4200 4250 50  0001 C CNN
+F 3 "" H 4200 4250 50  0001 C CNN
+	1    4200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DD64900
+P 4700 3950
+AR Path="/5DD64900" Ref="#PWR?"  Part="1" 
+AR Path="/5DD62EE6/5DD64900" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 4700 3800 50  0001 C CNN
+F 1 "+5V" H 4715 4123 50  0000 C CNN
+F 2 "" H 4700 3950 50  0001 C CNN
+F 3 "" H 4700 3950 50  0001 C CNN
+	1    4700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DD64906
+P 4700 4250
+AR Path="/5DD64906" Ref="#PWR?"  Part="1" 
+AR Path="/5DD62EE6/5DD64906" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 4700 4000 50  0001 C CNN
+F 1 "GND" H 4705 4077 50  0000 C CNN
+F 2 "" H 4700 4250 50  0001 C CNN
+F 3 "" H 4700 4250 50  0001 C CNN
+	1    4700 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3250 5150 3250
+Wire Wire Line
+	5150 3250 5250 3150
+Wire Wire Line
+	5250 3150 5550 3150
+Wire Wire Line
+	5000 3150 5150 3150
+Wire Wire Line
+	5150 3150 5250 3250
+$Comp
+L power:GND #PWR?
+U 1 1 5DD6492E
+P 7500 4350
+AR Path="/5DD6492E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD62EE6/5DD6492E" Ref="#PWR058"  Part="1" 
+F 0 "#PWR058" H 7500 4100 50  0001 C CNN
+F 1 "GND" H 7505 4177 50  0000 C CNN
+F 2 "" H 7500 4350 50  0001 C CNN
+F 3 "" H 7500 4350 50  0001 C CNN
+	1    7500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_CAN_LIN:MCP2515-xSO U?
+U 1 1 5DD64939
+P 6150 3750
+AR Path="/5DD64939" Ref="U?"  Part="1" 
+AR Path="/5DD62EE6/5DD64939" Ref="U4"  Part="1" 
+F 0 "U4" H 6150 4731 50  0000 C CNN
+F 1 "MCP2515-xSO" H 6150 4640 50  0000 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 6150 2850 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf" H 6250 2950 50  0001 C CNN
+	1    6150 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3250 3675 3250
+Wire Wire Line
+	4000 3450 3675 3450
+Text HLabel 3125 3250 0    50   BiDi ~ 0
+CAN+
+Text HLabel 3125 3450 0    50   BiDi ~ 0
+CAN-
+Text HLabel 7450 3150 2    50   Input ~ 0
+MOSI
+Text HLabel 7450 3250 2    50   Output ~ 0
+MISO
+Text HLabel 7450 3350 2    50   Input ~ 0
+~CS
+Text HLabel 7450 3450 2    50   Input ~ 0
+SCK
+$Comp
+L Device:Resonator Y1
+U 1 1 5DDBE773
+P 7500 4050
+F 0 "Y1" H 7500 4298 50  0000 C CNN
+F 1 "Resonator" H 7500 4207 50  0000 C CNN
+F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm" H 7475 4050 50  0001 C CNN
+F 3 "~" H 7475 4050 50  0001 C CNN
+	1    7500 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4250 7500 4350
+Text GLabel 6850 4150 2    50   Input ~ 0
+MCU_CLK
+Wire Wire Line
+	7650 3950 7650 4050
+Wire Wire Line
+	6750 4150 6850 4150
+Wire Wire Line
+	6750 3150 7450 3150
+Wire Wire Line
+	6750 3250 7450 3250
+$Comp
+L Device:EMI_Filter_CommonMode L1
+U 1 1 5E6B7D9A
+P 3475 3350
+F 0 "L1" H 3475 3631 50  0000 C CNN
+F 1 "SRF4532" H 3475 3540 50  0000 C CNN
+F 2 "AERO_FOOT:SRF4532-220Y" H 3475 3390 50  0001 C CNN
+F 3 "~" H 3475 3390 50  0001 C CNN
+	1    3475 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4050 7350 4050
+Wire Wire Line
+	6750 3950 7650 3950
+Wire Wire Line
+	6750 3350 7450 3350
+Wire Wire Line
+	6750 3450 7450 3450
+Wire Wire Line
+	5250 3250 5550 3250
+Wire Wire Line
+	3275 3250 3125 3250
+Wire Wire Line
+	3275 3450 3125 3450
+$EndSCHEMATC

@@ -16,66 +16,66 @@ $EndDescr
 $Comp
 L Power_Protection:SP0502BAHT D1
 U 1 1 5E92F356
-P 8775 6025
+P 7775 6025
 AR Path="/5E92F356" Ref="D1"  Part="1" 
 AR Path="/5E92554D/5E92F356" Ref="D?"  Part="1" 
-F 0 "D1" H 8980 6071 50  0000 L CNN
-F 1 "SP0502BAHT" H 8980 5980 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9000 5975 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 8900 6150 50  0001 C CNN
-	1    8775 6025
+F 0 "D1" H 7980 6071 50  0000 L CNN
+F 1 "SP0502BAHT" H 7980 5980 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8000 5975 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 7900 6150 50  0001 C CNN
+	1    7775 6025
 	1    0    0    -1  
 $EndComp
-Text Label 8850 5550 2    50   ~ 0
+Text Label 7850 5550 2    50   ~ 0
 BMS_USB+
-Text Label 8825 5650 2    50   ~ 0
+Text Label 7825 5650 2    50   ~ 0
 BMS_USB-
 Wire Wire Line
-	8825 5650 8675 5650
+	7825 5650 7675 5650
 Wire Wire Line
-	8875 5825 8875 5550
+	7875 5825 7875 5550
 Wire Wire Line
-	8375 5550 8875 5550
+	7375 5550 7875 5550
 Wire Wire Line
-	8675 5650 8675 5825
-Connection ~ 8675 5650
+	7675 5650 7675 5825
+Connection ~ 7675 5650
 Wire Wire Line
-	8675 5650 8375 5650
-Text Label 8900 5350 2    50   ~ 0
+	7675 5650 7375 5650
+Text Label 7900 5350 2    50   ~ 0
 BMS_USB_5V
 Wire Wire Line
-	8900 5350 8375 5350
+	7900 5350 7375 5350
 $Comp
 L power:GND #PWR015
 U 1 1 5E92F366
-P 8025 6050
+P 7025 6050
 AR Path="/5E92F366" Ref="#PWR015"  Part="1" 
 AR Path="/5E92554D/5E92F366" Ref="#PWR?"  Part="1" 
-F 0 "#PWR015" H 8025 5800 50  0001 C CNN
-F 1 "GND" H 8030 5877 50  0000 C CNN
-F 2 "" H 8025 6050 50  0001 C CNN
-F 3 "" H 8025 6050 50  0001 C CNN
-	1    8025 6050
+F 0 "#PWR015" H 7025 5800 50  0001 C CNN
+F 1 "GND" H 7030 5877 50  0000 C CNN
+F 2 "" H 7025 6050 50  0001 C CNN
+F 3 "" H 7025 6050 50  0001 C CNN
+	1    7025 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7975 5950 8025 5950
+	6975 5950 7025 5950
 Wire Wire Line
-	8025 5950 8025 6050
-Connection ~ 8025 5950
+	7025 5950 7025 6050
+Connection ~ 7025 5950
 Wire Wire Line
-	8025 5950 8075 5950
+	7025 5950 7075 5950
 $Comp
 L power:GND #PWR020
 U 1 1 5E92F370
-P 8775 6225
+P 7775 6225
 AR Path="/5E92F370" Ref="#PWR020"  Part="1" 
 AR Path="/5E92554D/5E92F370" Ref="#PWR?"  Part="1" 
-F 0 "#PWR020" H 8775 5975 50  0001 C CNN
-F 1 "GND" H 8780 6052 50  0000 C CNN
-F 2 "" H 8775 6225 50  0001 C CNN
-F 3 "" H 8775 6225 50  0001 C CNN
-	1    8775 6225
+F 0 "#PWR020" H 7775 5975 50  0001 C CNN
+F 1 "GND" H 7780 6052 50  0000 C CNN
+F 2 "" H 7775 6225 50  0001 C CNN
+F 3 "" H 7775 6225 50  0001 C CNN
+	1    7775 6225
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -143,14 +143,14 @@ $EndComp
 $Comp
 L Connector:USB_B J5
 U 1 1 5E92F3A2
-P 8075 5550
+P 7075 5550
 AR Path="/5E92F3A2" Ref="J5"  Part="1" 
 AR Path="/5E92554D/5E92F3A2" Ref="J?"  Part="1" 
-F 0 "J5" H 8132 6017 50  0000 C CNN
-F 1 "USB_B" H 8132 5926 50  0000 C CNN
-F 2 "Connector_USB:USB_B_TE_5787834_Vertical" H 8225 5500 50  0001 C CNN
-F 3 " ~" H 8225 5500 50  0001 C CNN
-	1    8075 5550
+F 0 "J5" H 7132 6017 50  0000 C CNN
+F 1 "USB_B" H 7132 5926 50  0000 C CNN
+F 2 "Connector_USB:USB_B_TE_5787834_Vertical" H 7225 5500 50  0001 C CNN
+F 3 " ~" H 7225 5500 50  0001 C CNN
+	1    7075 5550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -394,7 +394,7 @@ Sensor_5
 Text Label 10050 2125 0    50   ~ 0
 Sensor_6
 Text Label 3000 2475 2    50   ~ 0
-Sensor_8
+BRAKE_SIG
 Text Label 3000 1775 2    50   ~ 0
 Sensor_7
 Wire Wire Line
@@ -408,7 +408,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 3025 10625 3025
 Text Label 10050 1525 0    50   ~ 0
-Sensor_8
+BRAKE_OUT
 Wire Wire Line
 	10050 2625 10625 2625
 Text Label 10050 2725 0    50   ~ 0
@@ -560,18 +560,16 @@ Text Notes 9250 775  0    50   ~ 0
 Jumper from\nLVPDU
 Text Notes 8500 2325 0    50   ~ 0
 OUTPUT\nTo BMS Unit
-Text Notes 8375 5150 0    50   ~ 0
+Text Notes 7375 5150 0    50   ~ 0
 USB Port \nfor BMS
 Text Notes 4350 750  0    50   ~ 0
 Serial Port\nfor RineHart
-Text Notes 10100 625  0    50   ~ 0
+Text Notes 10125 700  0    50   ~ 0
 Main Ampseal
 Text Label 9250 2675 2    50   ~ 0
 EMUS_Curr2
 Text Label 10050 2325 0    50   ~ 0
 EMUS_Curr1
-Text Notes 10100 3375 0    50   ~ 0
-EMUS TX- is for \nEMUS Current Monitor RX
 Wire Wire Line
 	10625 1625 10050 1625
 Wire Wire Line
@@ -648,7 +646,7 @@ L Connector:DB9_Male_MountingHoles J1
 U 1 1 5E589081
 P 6550 1600
 F 0 "J1" H 6525 2350 50  0000 L CNN
-F 1 "171-009-113R001" H 6150 2225 50  0000 L CNN
+F 1 "171-009-113R911" H 6150 2225 50  0000 L CNN
 F 2 "Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles" H 6550 1600 50  0001 C CNN
 F 3 " ~" H 6550 1600 50  0001 C CNN
 	1    6550 1600
@@ -1361,4 +1359,66 @@ Wire Wire Line
 	8300 1275 8525 1275
 Wire Wire Line
 	8150 1375 9175 1375
+Text Notes 10225 625  0    50   ~ 0
+Port Panel
+Text Notes 8600 5575 0    50   ~ 0
+BRAKE LIGHT\n
+Text Label 8425 5775 0    50   ~ 0
+BRAKE_SIG
+Wire Wire Line
+	8425 5775 8875 5775
+$Comp
+L Device:R R6
+U 1 1 5E61A375
+P 8875 5925
+F 0 "R6" H 8945 5971 50  0000 L CNN
+F 1 "100" H 8945 5880 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8805 5925 50  0001 C CNN
+F 3 "~" H 8875 5925 50  0001 C CNN
+	1    8875 5925
+	1    0    0    -1  
+$EndComp
+Connection ~ 8875 5775
+Wire Wire Line
+	8875 5775 9025 5775
+$Comp
+L power:GND #PWR0112
+U 1 1 5E61A381
+P 9325 6200
+F 0 "#PWR0112" H 9325 5950 50  0001 C CNN
+F 1 "GND" H 9330 6027 50  0000 C CNN
+F 2 "" H 9325 6200 50  0001 C CNN
+F 3 "" H 9325 6200 50  0001 C CNN
+	1    9325 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8875 6075 8875 6200
+Wire Wire Line
+	8875 6200 9325 6200
+Wire Wire Line
+	9325 6200 9325 5975
+Connection ~ 9325 6200
+Text Label 9325 5350 0    50   ~ 0
+BRAKE_OUT
+Wire Wire Line
+	9325 5350 9325 5575
+$Comp
+L Transistor_FET:PSMN5R2-60YL Q2
+U 1 1 5E61A391
+P 9225 5775
+F 0 "Q2" H 9430 5821 50  0000 L CNN
+F 1 "PSMN5R2-60YL" H 9430 5730 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK56" H 9375 5775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PSMN5R2-60YL.pdf" H 9225 5775 50  0001 C CNN
+	1    9225 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 1900 5700 1900
+Wire Wire Line
+	5700 1900 5700 1300
+Connection ~ 5700 1300
+Text Notes 8100 7375 0    50   ~ 0
+Rear DAQ and Panel Pass Through\nG.Spearing\n20.0303
 $EndSCHEMATC
