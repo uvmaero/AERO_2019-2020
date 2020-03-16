@@ -1,4 +1,11 @@
-58547971187702
+77560258492702
+AERO_FOOT
+1-770966-0
+
+
+0
+2
+2
 AERO_FOOT
 87583-2010BLF
 USB - A USB 2.0 Receptacle Connector 4 Position 
@@ -49,16 +56,23 @@ DIP1549W45P254L3404H940Q24
 24
 24
 AERO_FOOT
-DO-214AA
-DO214AC PACKAGE. MONODIRECTIONAL.
-DO214AC PACKAGE. MONODIRECTIONAL.
-0
-2
-2
-AERO_FOOT
 DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm
 9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 9.9mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 11.32mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
 9-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 9.9mm mounting-holes-distance 25mm mounting-hole-offset 25mm
+0
+11
+10
+AERO_FOOT
+DSUB-9_Female_TALL_DE09-SE-1-BL-JS
+9-pin D-Sub connector, straight/vertical, THT-mount, female, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector straight vertical THT female pitch 2.77x2.84mm mounting holes distance 25mm
+0
+11
+10
+AERO_FOOT
+DSUB-9_Male_TALL_DE09-PE-1-BL-JS
+9-pin D-Sub connector, straight/vertical, THT-mount, male, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
 0
 11
 10
@@ -76,6 +90,20 @@ DSUB-15-HD_Female_Vertical_P2.29x1.98mm_MountingHoles
 0
 17
 16
+AERO_FOOT
+FB_0805
+PAS-IND-INDUCTOR-2
+
+0
+2
+2
+AERO_FOOT
+Female_DB9_171-009-213R911
+9-pin D-Sub connector, straight/vertical, THT-mount, male, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
+0
+11
+10
 AERO_FOOT
 Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder
 Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
@@ -154,6 +182,13 @@ Connector
 3
 3
 AERO_FOOT
+Male_DB9_171-009-113R911
+9-pin D-Sub connector, straight/vertical, THT-mount, male, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
+0
+11
+10
+AERO_FOOT
 NeOhm_RR01_Vert
 Resistor, Axial_DIN0309 series, Axial, Vertical, pin pitch=2.54mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor Axial_DIN0309 series Axial Vertical pin pitch 2.54mm 0.5W = 1/2W length 9mm diameter 3.2mm
@@ -182,12 +217,26 @@ RJ45
 8
 8
 AERO_FOOT
+RJ45_OST_PJ012-8P8CX_Vertical
+RJ45 vertical connector http://www.on-shore.com/wp-content/uploads/2015/09/PJ012-8P8CX.pdf
+RJ45 PJ012
+0
+8
+8
+AERO_FOOT
 ROX3SJ10K
 
 
 0
 2
 2
+AERO_FOOT
+Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering
+SMD Resomator/Filter Murata CSTCE, https://www.murata.com/en-eu/products/productdata/8801162264606/SPEC-CSTNE16M0VH3C000R0.pdf
+SMD SMT ceramic resonator filter
+0
+3
+3
 AERO_FOOT
 SRF4532-220Y
 
@@ -217,6 +266,13 @@ TE_1-776228-1_23P_VERT
 23
 23
 AERO_FOOT
+TE_1-776228-1_23P_VERT_ASM
+
+
+0
+23
+23
+AERO_FOOT
 TE_1-776228-2_23P_VERT
 
 
@@ -238,6 +294,13 @@ connector TE MATE-N-LOK side entry
 2
 2
 AERO_FOOT
+TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical_ASM
+Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770866-x, 2 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
+connector TE MATE-N-LOK side entry
+0
+2
+2
+AERO_FOOT
 TE_MATE-N-LOK_1-770874-x_2x02_P4.14mm_Vertical
 Molex Mini-Universal MATE-N-LOK, old mpn/engineering number: 1-770874-x, 2 Pins per row (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82181_SOFTSHELL_HIGH_DENSITY&DocType=CS&DocLang=EN), generated with kicad-footprint-generator
 connector TE MATE-N-LOK side entry
@@ -252,9 +315,30 @@ TUSB4020BIPHPR
 49
 49
 AERO_FOOT
+Toggle_Switch_100SP1T1B4M2QE
+http://spec_sheets.e-switch.com/specs/T111597.pdf
+
+0
+3
+3
+AERO_FOOT
 USB_B_OST_USB-B1HSxx_Horizontal
 USB B receptacle, Horizontal, through-hole, http://www.on-shore.com/wp-content/uploads/2015/09/usb-b1hsxx.pdf
 USB-B receptacle horizontal through-hole
 0
 6
 5
+AERO_FOOT
+USB_B_TE_5787834_Vertical
+http://www.mouser.com/ds/2/418/NG_CD_5787834_A4-669110.pdf
+USB_B USB B vertical female connector
+0
+6
+5
+AERO_FOOT
+Wire_16AWG
+
+
+0
+1
+1
