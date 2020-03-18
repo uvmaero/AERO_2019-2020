@@ -700,7 +700,7 @@ L Connector_Generic:Conn_01x05 J5
 U 1 1 5DD49BD7
 P 2050 1800
 F 0 "J5" H 1975 2225 50  0000 C CNN
-F 1 "B5B-PH-SM4-TB(LF)(SN)" H 1950 2125 50  0000 C CNN
+F 1 "S5B-PH-K-S(LF)(SN)" H 1950 2125 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal" H 2050 1800 50  0001 C CNN
 F 3 "~" H 2050 1800 50  0001 C CNN
 	1    2050 1800
@@ -1355,4 +1355,6 @@ F 3 "" H 3750 5900 50  0001 C CNN
 	1    3750 5900
 	1    0    0    -1  
 $EndComp
+Text Notes 700  8750 0    50   ~ 0
+Notes for future:\nFuse should be before Recom\nThere should be anti brownout caps and polarity protection\nConsider the "Power Switch" thing\nLook into better MCUs\nCreate common subschematics for CAN, Power supply, etc
 $EndSCHEMATC

@@ -1,0 +1,38 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: HV Interface.PcbDoc   3/17/2020  10:43:33 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : HV Interface-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : HV Interface-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : HV Interface-SlotHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      15mil (0.381mm)                                           Round             256       PTH        0.00inch (0.00mm)
+T2      20mil (0.508mm)                                           Round             32        PTH        0.00inch (0.00mm)
+T3      27mil (0.686mm)                                           Round             1         PTH        0.00inch (0.00mm)
+T4      28mil (0.7mm)                                             Round             6         PTH        0.00inch (0.00mm)
+T5      30mil (0.762mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T6      31mil (0.79mm)                                            Round             3         PTH        0.00inch (0.00mm)
+T7      32mil (0.8mm)                                             Round             4         PTH        0.00inch (0.00mm)
+T8      35mil (0.889mm)                                           Round             12        PTH        0.00inch (0.00mm)
+T9      35mil (0.9mm)                                             Round             10        PTH        0.00inch (0.00mm)
+T10     39mil (1mm)                                               Round             21        PTH        0.00inch (0.00mm)
+T11     40mil (1.016mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T12     40mil (1.016mm)                                           Slot              4         PTH        0.00inch (0.00mm)
+T13     42mil (1.06mm)                                            Round             3         PTH        0.00inch (0.00mm)
+T14     43mil (1.1mm)                                             Round             6         PTH        0.00inch (0.00mm)
+T15     43mil (1.105mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T16     51mil (1.3mm)                                             Round             2         PTH        0.00inch (0.00mm)
+T17     55mil (1.397mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T18     60mil (1.524mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T19     126mil (3.2mm)                                            Round             4         PTH        0.00inch (0.00mm)
+T20     142mil (3.607mm)                                          Round             2         PTH        0.00inch (0.00mm)
+T21     63mil (1.6mm)                                             Round             2         NPTH       0.00inch (0.00mm)
+T22     125mil (3.175mm)                                          Round             2         NPTH       0.00inch (0.00mm)
+T23     142mil (3.607mm)                                          Round             3         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              387
+
+Total Processing Time (hh:mm:ss) : 00:00:00

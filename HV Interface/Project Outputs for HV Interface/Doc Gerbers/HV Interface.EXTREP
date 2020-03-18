@@ -1,0 +1,44 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: HV Interface.GBR   3/17/2020  10:43:35 AM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GM2                Top Component Center                    
+.GM3                Top Component Outline                   
+.GM4                Top 3D Body                             
+.GM5                Top Courtyard                           
+.GM6                Bottom Courtyard                        
+.GM7                Mechanical 7                            
+.GM8                Bottom 3D Body                          
+.GM9                Bottom Component Center                 
+.GM10               Top Assembly                            
+.GM11               Assembly Notes                          
+.GM12               Mechanical 12                           
+.GM13               Mechanical 13                           
+.GM14               Bottom Assembly                         
+.GM15               Mechanical 15                           
+.GM16               Bottom Component Outline                
+.GM17               Sheet                                   
+.GM18               Dimensions                              
+.GM19               Fab Notes                               
+.GM25               Isolation                               
+.GM50               Board                                   
+.GM32767            Route Guide                             
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+------------------------------------------------------------------------------------------
