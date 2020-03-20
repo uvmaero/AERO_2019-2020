@@ -301,17 +301,6 @@ F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/l
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D1
-U 1 1 5E36B817
-P 2875 6550
-F 0 "D1" H 2875 6334 50  0000 C CNN
-F 1 "B340A-13-F1" H 2875 6425 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 2875 6550 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/ON-Semiconductor/NRVBA340T3G-VF01?qs=sGAEpiMZZMtQ8nqTKtFS%2FBUuz6Zx2fl0nkUZ8AQMe%2FG2T6l318akZg%3D%3D" H 2875 6550 50  0001 C CNN
-	1    2875 6550
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:D_TVS D2
 U 1 1 5E36E078
 P 3200 6700
@@ -823,4 +812,15 @@ Text Notes 5275 5975 0    50   ~ 0
 HV_PRES Low when off\n+12V when on
 Wire Wire Line
 	5425 4100 6100 4100
+$Comp
+L Device:D_Schottky D1
+U 1 1 5E36B817
+P 2875 6550
+F 0 "D1" H 2875 6334 50  0000 C CNN
+F 1 "B340A-13-F1" H 2875 6425 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 2875 6550 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/ON-Semiconductor/NRVBA340T3G-VF01?qs=sGAEpiMZZMtQ8nqTKtFS%2FBUuz6Zx2fl0nkUZ8AQMe%2FG2T6l318akZg%3D%3D" H 2875 6550 50  0001 C CNN
+	1    2875 6550
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
