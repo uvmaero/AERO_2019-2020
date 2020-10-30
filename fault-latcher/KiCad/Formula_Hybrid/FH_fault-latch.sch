@@ -913,7 +913,7 @@ F 1 "2N7002" H 3930 2420 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3925 2300 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3725 2375 50  0001 L CNN
 	1    3725 2375
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:2N7002 Q2
@@ -924,7 +924,7 @@ F 1 "2N7002" H 5705 2445 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 2325 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5500 2400 50  0001 L CNN
 	1    5500 2400
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:2N7002 Q3
@@ -935,7 +935,7 @@ F 1 "2N7002" H 7380 2445 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7375 2325 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7175 2400 50  0001 L CNN
 	1    7175 2400
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:2N7002 Q4
@@ -946,7 +946,7 @@ F 1 "2N7002" H 9230 2795 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9225 2675 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 9025 2750 50  0001 L CNN
 	1    9025 2750
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Connection ~ 8925 2950
 Wire Wire Line
@@ -960,7 +960,7 @@ F 1 "2N7002" H 9425 2550 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9850 2325 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 9650 2400 50  0001 L CNN
 	1    9650 2400
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Connection ~ 9850 2400
 $Comp
@@ -1058,10 +1058,10 @@ F 3 "" H 2250 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0124
 U 1 1 5E4DAE11
 P 9300 4900
-F 0 "#PWR?" H 9300 4750 50  0001 C CNN
+F 0 "#PWR0124" H 9300 4750 50  0001 C CNN
 F 1 "+12V" H 9315 5073 50  0000 C CNN
 F 2 "" H 9300 4900 50  0001 C CNN
 F 3 "" H 9300 4900 50  0001 C CNN
@@ -1071,10 +1071,10 @@ $EndComp
 Wire Wire Line
 	9300 4900 9950 4900
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0125
 U 1 1 5E4E15DD
 P 9300 5000
-F 0 "#PWR?" H 9300 4750 50  0001 C CNN
+F 0 "#PWR0125" H 9300 4750 50  0001 C CNN
 F 1 "GND" H 9305 4827 50  0000 C CNN
 F 2 "" H 9300 5000 50  0001 C CNN
 F 3 "" H 9300 5000 50  0001 C CNN
@@ -1083,4 +1083,35 @@ F 3 "" H 9300 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9300 5000 9950 5000
+Wire Wire Line
+	6050 5025 6050 5225
+Wire Wire Line
+	6050 5225 6550 5225
+Connection ~ 6550 5225
+$Comp
+L Device:R R6
+U 1 1 5EA1FD37
+P 5775 5675
+F 0 "R6" H 5845 5721 50  0000 L CNN
+F 1 "10k" H 5845 5630 50  0000 L CNN
+F 2 "" V 5705 5675 50  0001 C CNN
+F 3 "~" H 5775 5675 50  0001 C CNN
+	1    5775 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0126
+U 1 1 5EA204D9
+P 5775 5525
+F 0 "#PWR0126" H 5775 5375 50  0001 C CNN
+F 1 "+5V" H 5790 5698 50  0000 C CNN
+F 2 "" H 5775 5525 50  0001 C CNN
+F 3 "" H 5775 5525 50  0001 C CNN
+	1    5775 5525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5775 5825 5500 5825
+Text Notes 3300 3425 0    50   ~ 0
+Fault Directions:\nBMS: Driven low when OK, floating during fault\nTMS: Driven low during when OK, floating during fault\nIMD: Driven high when OK, driven low during fault
 $EndSCHEMATC

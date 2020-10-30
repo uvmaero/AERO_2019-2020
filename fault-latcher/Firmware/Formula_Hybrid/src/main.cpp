@@ -9,28 +9,23 @@
  */
 
 #include <Arduino.h>
+#include <mcp_can.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>
 #include <util/twi.h>
 #include <avr/sfr_defs.h>
 #include <avr/wdt.h>
-#include <avr/iom328p.h>
-#include <avr/eeprom.h>
-#include <avr/io.h>
-#include "can_ids.h"
-#include "defaults.h"
-#include "global.h"
-#include "mcp2515.h"
-#include "mcp2515_defs.h"
 
+#define PIN_SPI_CAN_CS 9
 
+unsigned long lastSendDaqMessage = 0;
 
+MCP_CAN CAN(PIN_SPI_CAN_CS);     // Set CS pin
 
+// "Send" CANbus address defines
+#define ID_FAULTLATCHER_FAULTS 0x79
 
-// Pedal Board CAN IDs
-#define ID_BASE 0X74
-#define ID_RESET ID_BASE
-#define ID_FAULT ID_BASE+5
+#define DAQ_CAN_INTERVAL_MS 100
 
 // Fault indicator pins
 #define PIN_BMS_IND 2
@@ -38,55 +33,49 @@
 #define PIN_TMS2_IND 4
 #define PIN_IMD_IND 5
 
+// Fault States
+// 1 is faulted 0 is clear
+uint16_t BMS_Fault = 1; // BMS
+uint16_t TMS1_Fault = 1; // Temp Pack1
+uint16_t TMS2_Fault = 1; // Temp Pack2
+uint16_t TMS_Fault = TMS1_Fault | TMS2_Fault; // TEMP Fault Either Pack 1 or Pack 2
+uint16_t IMD_Fault = 1; // IMD
+
+void sendDaqData();
+
 void setup(){
+  // pin mode setup
 
-  // set PB2 as output 
-  DDRB |= (1<< PORTB2);
-
-  // set pullups on fault inputs
-  PORTD |= (1 << PIN_BMS_IND) | (1 << PIN_TMS1_IND) | (1 << PIN_TMS2_IND) | (1 << PIN_IMD_IND);
-
-  // Initialize Timer for 10Hz interval
-  TCCR1A = (1 << WGM01); // CTC Mode
-  TCCR1B = (0x05 << CS10); // f_timer = f_cpu/1024 => 7812Hz
-  OCR1A = 718 // set comparator A => f_out=10Hz
-  TIMSK1 = (1 << OCIE1A); // enable comparator A interrupt
-
-  // turn off interrupts while setting up MCP2515
-  cli();
-
-  // wait untill MCP2515 is initialized
-  while (!mcp2515_init()) _delay_ms(100);
-
-  // enable interrupts
-  sei();
-
-  // main application loop
-  while(1) continue;
-  
+  //Initialize CANbus interface
+  while (CAN_OK != CAN.begin(CAN_500KBPS)) { //Check we can talk to CAN
+    lastSendDaqMessage = millis();
+  }
 }
 
-ISR(TIMER1_COMPA_vect){
-  // read fault values
-  uint8_t bms_fault = !bit_is_set(PIND, PIN_BMS_IND);
-  uint8_t tms1_fault = !bit_is_set(PIND, PIN_TMS1_IND);
-  uint8_t tms2_fault = !bit_is_set(PIND, PIN_TMS2_IND);
-  uint8_t imd_fault = !bit_is_set(PIND, PIN_IMD_IND);
+void loop(){
+  // if(millis() > (lastSendDaqMessage + DAQ_CAN_INTERVAL_MS)){
+  //   sendDaqData();
+  // }
+  
 
-  // construct message
-  tCAN msg = {
-    .id = ID_FAULT,
-    .header.rtr = false, 
-    .header.length = 1,
-    .data[0] = bms_fault | tms1_fault << 1 | tms2_fault << 2 | imd_fault << 3
-  };
+}
+
+void sendDaqData() {
   // turn off interrupts while sending CAN message
   cli();
 
-  // send message
-  mcp2515_send_message(&msg);
+  // Build DAQ data message
+  unsigned char bufToSend[8] = {0, 0, 0, 0, 0, 0, 0, 0};
+  bufToSend[0] << 0 & 1;
+  bufToSend[0] = TMS1_Fault;
+  bufToSend[0] = TMS2_Fault; 
+  bufToSend[0] = IMD_Fault;
+  
 
-  // renable interrupts
+  // send the message
+  CAN.sendMsgBuf(ID_FAULTLATCHER_FAULTS, 0, 8, bufToSend);
+
+  // reenable interrupts
   sei();
+}
 
-  }

@@ -1,0 +1,17 @@
+Device,ID,Message
+PedalBoard,0x2D,Base
+"",0x32,Data
+"",0x33,Get Pedal
+"",0x34,Set Pedal
+"",0x35,Set Torque
+"",0x36,Precharge Status
+Rinehart,0x0C0,Command
+"",0x0C1,Param Request
+"",0x0C2,Param Response
+"",0x0A4,Digital In
+"",0x0A7,Voltage
+Dash,0x6A,Base
+"",0x1C,Dash Daq
+"","",""
+"","",""
+"","",""

@@ -13,13 +13,8 @@
 
 #include <Arduino.h>
 #include <mcp_can.h>
-#include <avr/interrupt.h>
-#include <util/delay.h>
-#include <util/twi.h>
-#include <avr/sfr_defs.h>
-#include <avr/wdt.h>
 
-#define DEBUG
+// #define DEBUG // set Debug status serial print output
 
 // "Send" CANbus address defines
 // CANbus bootloader IDs
@@ -33,7 +28,7 @@
 #define ID_START              ID_BASE + 5
 #define ID_COOLING_MODE       ID_BASE + 6
 #define ID_REGEN_VALS         ID_BASE + 7
-#define ID_DASH_SELF_TEST     ID_BASE + 8
+#define ID_DASH_SELF_TEST     ID_BASE + 8 // 072#00000000
 #define ID_DAQ_DATA           0x1C
 
 // "Receive" CANbus address defines
@@ -48,17 +43,16 @@
 #define ID_PEDALBOARD_STATE_STATUS //TODO: light up RTD button led based on this
 
 // Pin defines
-#define PIN_RTD_INDICATOR     8
-#define PIN_RTD_BTN           9
+#define PIN_RTD_INDICATOR     8 // horn
+#define PIN_RTD_BTN           9 // start button
 #define PIN_SPI_CAN_CS        10
 #define PIN_LED1              20
 #define PIN_LED2              21
-#define PIN_POT_COAST         14
-#define PIN_POT_BRAKE         15
-#define PIN_DAMPER_RIGHT      16
-#define PIN_DAMPER_LEFT       17
-#define PIN_COOLING_MODE_1    18
-#define PIN_COOLING_MODE_2    19
+#define PIN_POT_BRAKE         A0
+#define PIN_POT_COAST         A1
+#define PIN_DAMPER_RIGHT      A2
+#define PIN_DAMPER_LEFT       A3
+#define PIN_COOLING_MODE      A4
 #define PIN_WHEEL_SPEED_RIGHT 2
 #define PIN_WHEEL_SPEED_LEFT  3
 #define PIN_LED_OE            4
@@ -118,11 +112,12 @@ bool wsl_detected = false, wsr_detected = false;
 uint8_t wheel_speed_left, wheel_speed_right;
 uint8_t sample_accumulator = 0;
 
-long lastSendDaqMessage = 0;
-long lastSendCoolingStatus = 0;
+unsigned long lastSendDaqMessage = 0;
+unsigned long lastSendCoolingStatus = 0;
 
 // damper position
 uint16_t damper_left=0,damper_right=0;
+uint8_t coastAccel = 0, brakeSteer = 0;
 
 // STP16CP05 data "register"
 uint16_t ext_leds = 0;
@@ -174,16 +169,14 @@ void dashSelfTest(){
   // turn off interrupts
   cli();
 
-  // turn on everything
-  digitalWrite(PIN_RTD_INDICATOR, HIGH);
+  // turn on all leds
   for(int i=0; i<16;i++){
     setExtLED(i,HIGH);
   }
 
   delayMicroseconds(SELFTEST_DELAY_US);
 
-  // turn off everything
-  digitalWrite(PIN_RTD_INDICATOR, LOW);
+  // turn off all leds;
   for(int i=0; i<16;i++){
     setExtLED(i,LOW);
   }
@@ -200,15 +193,16 @@ void dashSelfTest(){
   delay(SELFTEST_DELAY_US);
   digitalWrite(PIN_RTD_INDICATOR, LOW);
 
+
+
   // test for buttons etc
-  bool coastKnobIsWorking = false, brakeKnobIsWorking = false, coolingModeSwitchUpIsWorking = false, coolingModeSwitchDownIsWorking = false, rtdButtonIsWorking = false;
+  bool coastKnobIsWorking = false, brakeKnobIsWorking = false, coolingModeSwitchIsWorking = false, rtdButtonIsWorking = false;
 
   uint8_t coastKnobInitialValue = analogRead(PIN_POT_COAST);
   uint8_t brakeKnobInitialValue = analogRead(PIN_POT_BRAKE);
-  bool coolingModeUpInitialValue = digitalRead(PIN_COOLING_MODE_1);
-  bool CoolingModeDownInitialValue = digitalRead(PIN_COOLING_MODE_2);
+  bool coolingModeInitialValue = digitalRead(PIN_COOLING_MODE);
   // only can continue if all knobs have been rotated and different values read + all buttons/switches have toggled states
-  while(!coastKnobIsWorking and !brakeKnobIsWorking and !coolingModeSwitchUpIsWorking and !rtdButtonIsWorking){
+  while(!coastKnobIsWorking and !brakeKnobIsWorking and !coolingModeSwitchIsWorking and !rtdButtonIsWorking){
     if(!digitalRead(PIN_RTD_BTN)){
       rtdButtonIsWorking = !digitalRead(PIN_RTD_BTN);
     }
@@ -221,12 +215,8 @@ void dashSelfTest(){
       brakeKnobIsWorking = true;
     }
 
-    if(coolingModeUpInitialValue != digitalRead(PIN_COOLING_MODE_1)){
-      coolingModeSwitchUpIsWorking = true;
-    }
-
-    if(CoolingModeDownInitialValue != digitalRead(PIN_COOLING_MODE_2)){
-      coolingModeSwitchDownIsWorking = true;
+    if(coolingModeInitialValue != digitalRead(PIN_COOLING_MODE)){
+      coolingModeSwitchIsWorking = true;
     }
 
   }
@@ -236,9 +226,9 @@ void dashSelfTest(){
 void filterCan(unsigned long canId, unsigned char buf[8]) {
   switch (canId) {
     case ID_FAULTLATCHER_FAULTS:
-      setExtLED(EXTPIN_FAULT_BMS_1, (buf[0] >> 0) & 1); /// BMS fault is 0th bit of buf[0]
-      setExtLED(EXTPIN_FAULT_TMS_3, ((buf[0] >> 1) & 1) || ((buf[0] >> 2) & 1)); // TMS faults are 1st and 2nd bits of buf[0]
-      setExtLED(EXTPIN_FAULT_GFD_2, (buf[0] >> 3) & 3);
+      setExtLED(EXTPIN_FAULT_BMS_1, (buf[0]) & 1); /// BMS fault is 0th bit of buf[]
+      setExtLED(EXTPIN_FAULT_TMS_3, (buf[1]) & 1); // TMS faults are 1st bits of buf[]
+      setExtLED(EXTPIN_FAULT_GFD_2, (buf[2]) & 1); // GFD faul is the 2nd bit of buff[]
       break;
     case ID_RINEHART_TEMPS1:{
       for (int i = 0; i < 4; i++) {
@@ -298,17 +288,28 @@ void sampleDampers(){
   damper_right = damper_right / NUM_DAMPER_ADC_SAMPLES;
 }
 
+void samplePots(){
+
+    coastAccel = analogRead(PIN_POT_COAST);
+
+    brakeSteer = analogRead(PIN_POT_BRAKE);
+
+}
+
+
 void sendDaqData() {
     cli();
     
     sampleDampers();
+    samplePots();
     uint16_t damper_left_mapped = map(damper_left, 0, 1024, 0, 3170);
     uint16_t damper_right_mapped = map(damper_right, 0, 1024, 0, 3170);
-
+    int coast_mapped = map(coastAccel, 0, 1024, 0, 255);
+    int brake_mapped = map(brakeSteer, 0, 1024, 0, 255);
     // Build DAQ data message
     unsigned char bufToSend[8] = {0, 0, 0, 0, 0, 0, 0, 0};
-    bufToSend[0] = wheel_speed_left;
-    bufToSend[1] = wheel_speed_right;
+    bufToSend[0] = coast_mapped & 0xFF;
+    bufToSend[1] = brake_mapped & 0xFF;
     bufToSend[2] = damper_left_mapped & 0xFF;
     bufToSend[3] = (damper_left_mapped >> 8) & 0xFF;
     bufToSend[4] = damper_right_mapped & 0xFF;
@@ -341,8 +342,7 @@ void setup() {
   pinMode(PIN_LED1, OUTPUT);
   pinMode(PIN_LED2, OUTPUT);
   pinMode(PIN_RTD_INDICATOR, OUTPUT);
-  pinMode(PIN_COOLING_MODE_1, INPUT_PULLUP);
-  pinMode(PIN_COOLING_MODE_2, INPUT_PULLUP);
+  pinMode(PIN_COOLING_MODE, INPUT);
 
   // STP16C05 pins - disable latch, disable output
   digitalWrite(PIN_LED_LE, LOW);
@@ -379,21 +379,21 @@ void loop() {
   unsigned char len = 0;
   unsigned char buf[8];
 
-  if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming
-    CAN.readMsgBuf(&len, buf);    // read data,  len: data length, buf: data buf
+  // if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming
+  //   CAN.readMsgBuf(&len, buf);    // read data,  len: data length, buf: data buf
 
-    filterCan(CAN.getCanId(), buf);
-  }
+  //   filterCan(CAN.getCanId(), buf);
+  // }
 
   if(millis() > (lastSendDaqMessage + DAQ_CAN_INTERVAL_MS)){
     lastSendDaqMessage = millis();
     sendDaqData();
   }
 
-  if(millis() > (lastSendCoolingStatus + COOLING_STATUS_CAN_INTERVAL_MS)){
-    lastSendCoolingStatus = millis();
-    sendCoolingStatus(digitalRead(PIN_COOLING_MODE_2));
-  }
+  // if(millis() > (lastSendCoolingStatus + COOLING_STATUS_CAN_INTERVAL_MS)){
+  //   lastSendCoolingStatus = millis();
+  //   sendCoolingStatus(digitalRead(PIN_COOLING_MODE));
+  // }
 }
 
 // Consistent interrupt for sampling wheel speed sensors
