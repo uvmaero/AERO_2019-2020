@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:packman-2019-2020-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -87,7 +86,7 @@ CAN+
 Text Label 1450 2850 2    50   ~ 0
 CAN-
 $Comp
-L MCU_Microchip_ATmega:ATmega328P-AU U2
+L packman-2019-2020-rescue:ATmega328P-AU-MCU_Microchip_ATmega U2
 U 1 1 5C4CE3D1
 P 4250 2550
 F 0 "U2" H 4100 2550 50  0000 C CNN
