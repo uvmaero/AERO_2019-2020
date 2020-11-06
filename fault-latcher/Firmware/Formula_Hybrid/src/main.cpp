@@ -2,9 +2,9 @@
  * Copyright 2020, George Spearing, UVM AERO
  * 
  * Fault Latcher Code. 
- *  - Reads faults over CAN
- *  - Set relay states in 'faulted' value
- *  - Buttons clear 'faulted' message
+ *  - Sends fault value over CAN
+ *  - Read relay states for value
+ *  - Buttons clear fault and close relay (if fault persists, relay stays open)
  * 
  */
 
@@ -16,7 +16,7 @@
 #include <avr/sfr_defs.h>
 #include <avr/wdt.h>
 
-#define PIN_SPI_CAN_CS 9
+#define PIN_SPI_CAN_CS 9 // CAN chip
 
 unsigned long lastSendDaqMessage = 0;
 
@@ -27,7 +27,7 @@ MCP_CAN CAN(PIN_SPI_CAN_CS);     // Set CS pin
 
 #define DAQ_CAN_INTERVAL_MS 100
 
-// Fault indicator pins
+// Fault indicator pins 
 #define PIN_BMS_IND 2
 #define PIN_TMS1_IND 3
 #define PIN_TMS2_IND 4
@@ -45,6 +45,10 @@ void sendDaqData();
 
 void setup(){
   // pin mode setup
+  pinMode(PIN_BMS_IND, INPUT);
+  pinMode(PIN_TMS1_IND, INPUT);
+  pinMode(PIN_TMS2_IND, INPUT);
+  pinMode(PIN_IMD_IND, INPUT);
 
   //Initialize CANbus interface
   while (CAN_OK != CAN.begin(CAN_500KBPS)) { //Check we can talk to CAN
@@ -53,11 +57,14 @@ void setup(){
 }
 
 void loop(){
-  // if(millis() > (lastSendDaqMessage + DAQ_CAN_INTERVAL_MS)){
-  //   sendDaqData();
-  // }
-  
+  if(millis() > (lastSendDaqMessage + DAQ_CAN_INTERVAL_MS)){
+    BMS_Fault = digitalRead(PIN_BMS_IND);
+    TMS1_Fault = digitalRead(PIN_TMS1_IND);
+    TMS2_Fault = digitalRead(PIN_TMS2_IND);
+    IMD_Fault = digitalRead(PIN_IMD_IND);
 
+    sendDaqData();
+  }
 }
 
 void sendDaqData() {
@@ -66,16 +73,17 @@ void sendDaqData() {
 
   // Build DAQ data message
   unsigned char bufToSend[8] = {0, 0, 0, 0, 0, 0, 0, 0};
-  bufToSend[0] << 0 & 1;
-  bufToSend[0] = TMS1_Fault;
-  bufToSend[0] = TMS2_Fault; 
-  bufToSend[0] = IMD_Fault;
-  
+  bufToSend[0] = BMS_Fault;
+  bufToSend[1] = TMS1_Fault;
+  bufToSend[2] = TMS2_Fault; 
+  bufToSend[3] = IMD_Fault;
 
   // send the message
   CAN.sendMsgBuf(ID_FAULTLATCHER_FAULTS, 0, 8, bufToSend);
 
   // reenable interrupts
   sei();
+
+  lastSendDaqMessage = millis();
 }
 

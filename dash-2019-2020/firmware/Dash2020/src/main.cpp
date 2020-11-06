@@ -28,15 +28,23 @@
 #define ID_START              ID_BASE + 5
 #define ID_COOLING_MODE       ID_BASE + 6
 #define ID_REGEN_VALS         ID_BASE + 7
-#define ID_DASH_SELF_TEST     ID_BASE + 8 // 072#00000000
+#define ID_DASH_SELF_TEST     ID_BASE + 8 // 072#00000000 for test
 #define ID_DAQ_DATA           0x1C
 
+// Rinehart CAN IDs
 // "Receive" CANbus address defines
 #define ID_RINEHART_TEMPS1    0xA0
 #define ID_RINEHART_TEMPS2    0xA1
 #define ID_RINEHART_TEMPS3    0xA2
+#define ID_RINEHART_DIGITAL_IN 0x0A4
+#define ID_RINEHART_VOLTAGE 0x0A7
+
+#define ID_RINEHART_COMMAND 0x0C0
+#define ID_RINEHART_PARAM_REQUEST 0x0C1
+#define ID_RINEHART_PARAM_RESPONSE 0x0C2
 
 #define ID_EMUS_BASE          0x2A7
+#define ID_EMUS_VOLTAGE       ID_EMUS_BASE +1
 #define ID_EMUS_TEMPS         ID_EMUS_BASE + 2
 
 #define ID_FAULTLATCHER_FAULTS 0x79
@@ -50,11 +58,7 @@
 #define PIN_LED2              21
 #define PIN_POT_BRAKE         A0
 #define PIN_POT_COAST         A1
-#define PIN_DAMPER_RIGHT      A2
-#define PIN_DAMPER_LEFT       A3
 #define PIN_COOLING_MODE      A4
-#define PIN_WHEEL_SPEED_RIGHT 2
-#define PIN_WHEEL_SPEED_LEFT  3
 #define PIN_LED_OE            4
 #define PIN_LED_LE            5
 #define PIN_LED_CLK           6
@@ -87,37 +91,78 @@
 #define MTR_COOLING_IND_PURPLE_TEMP_C 20
 #define MTR_COOLING_IND_RED_TEMP_C    80
 
-// wheel speed sensor constants
-#define WHEEL_SPEED_PULSES_PER_REV        1
-#define WHEEL_SPEED_SAMPLE_RATE           8000  // sampling rate (Hz). Slightly faster than Nyquist for wheel speed sensing
-#define WHEEL_SPEED_SENSE_CIRCUMFERENCE   31415 // in mils (thousandths of an inch)
-#define WHEEL_SPEED_DIST_PER_PULSE        WHEEL_SPEED_SENSE_CIRCUMFERENCE / WHEEL_SPEED_PULSES_PER_REV
-#define WHEEL_SPEED_DEBOUNCE              10    // number of samples used for debouncing
-#define MILS_PER_SECOND_TO_MILES_PER_HOUR 17600
+// Rinehart pins
+#define RINEHART_PIN_TSMS 4
+#define RINEHART_PIN_PRECHARGE 0
+#define RINEHART_PIN_MAIN_CONT 1
+#define RINEHART_PIN_RTDS 2
 
 // Assorted other defines
-#define NUM_DAMPER_ADC_SAMPLES         10
-#define DAMPER_ADC_SAMPLES_DELAY_US    5
 #define STP16CP05_DELAY_US             1  // delay b/w consecutive bit-bang operations
 #define DAQ_CAN_INTERVAL_MS            100
 #define COOLING_STATUS_CAN_INTERVAL_MS 500
 
+// precharge coefficient -- rinehart voltage must be more than emus voltage * coefficient
+// in order to finish precharge
+#define PRECHARGE_COEFFICIENT 0.9
+
+// RTDS souding period (ms)
+#define RTDS_PERIOD 2000
+
 #define SELFTEST_DELAY_US              50000
 #define SELFTEST_POT_WORKING_THRESHOLD 50
 
-// wheel speed calculation variables
-uint16_t wsl_samples_since_last = 0, wsr_samples_since_last = 0;
-uint16_t wsl_debounce_samples = 0, wsr_debounce_samples = 0;
-bool wsl_detected = false, wsr_detected = false;
-uint8_t wheel_speed_left, wheel_speed_right;
-uint8_t sample_accumulator = 0;
 
-unsigned long lastSendDaqMessage = 0;
-unsigned long lastSendCoolingStatus = 0;
+// Maximum number of missed messages before canceling precharge
+#define MAX_MISSED_EMUS_MESSAGES 10
+#define MAX_MISSED_RINEHART_MESSAGES 100
+
+
+// direction -- 0=forward, 1=reverse
+uint8_t direction = 0;
+
+// ready to drive state
+uint8_t ready_to_drive = false;
+uint8_t rtds_on = false;
+
+// rinehart inputs
+uint8_t rinehart_inputs = 0;
+
+// precharge state
+enum precharge_state_e {
+    PRECHARGE_OFF,
+    PRECHARGE_ON,
+    PRECHARGE_DONE,
+    PRECHARGE_ERROR
+};
+precharge_state_e precharge_state = PRECHARGE_OFF;
+
+// set whenever a new precharge state is entered
+uint8_t precharge_state_enter = 1;
+
+// ADC sample accumulator
+uint8_t sample_accumulator;
+
+// RTDS on time (ms)
+uint16_t time_since_rtds_start = 0;
+
+// voltages
+double emus_voltage = 265.0;  // assume maximum voltage to begin with
+double rinehart_voltage = 0;
+
+// DAQ sample rate
+uint8_t lastSendDaqMessage = 0;
+uint8_t daqMessageInterval = 500;
+
+// Emus and Rinhart message timeout values
+uint8_t cycles_since_last_emus_message = 0;
+uint8_t cycles_since_last_rinehart_message = MAX_MISSED_RINEHART_MESSAGES;  // assume Rinehart connection hasn't been made yet
+
 
 // damper position
-uint16_t damper_left=0,damper_right=0;
 uint8_t coastAccel = 0, brakeSteer = 0;
+// cooling enabled value
+bool coolingEnabled = 0;
 
 // STP16CP05 data "register"
 uint16_t ext_leds = 0;
@@ -272,64 +317,185 @@ void filterCan(unsigned long canId, unsigned char buf[8]) {
   }
 }
 
-// Sampling ADC for damper positions
-void sampleDampers(){
-  for(int n=0;n<NUM_DAMPER_ADC_SAMPLES;n++){
-    damper_left = analogRead(PIN_DAMPER_LEFT);
-    delayMicroseconds(DAMPER_ADC_SAMPLES_DELAY_US);
-  }
-
-  for(int n=0;n<NUM_DAMPER_ADC_SAMPLES;n++){
-    damper_right = analogRead(PIN_DAMPER_RIGHT);
-    delayMicroseconds(DAMPER_ADC_SAMPLES_DELAY_US);
-  }
-
-  damper_left = damper_left / NUM_DAMPER_ADC_SAMPLES;
-  damper_right = damper_right / NUM_DAMPER_ADC_SAMPLES;
-}
-
-void samplePots(){
-
+// sample data input pins on dash
+void samplePins(){
     coastAccel = analogRead(PIN_POT_COAST);
-
     brakeSteer = analogRead(PIN_POT_BRAKE);
+    coolingEnabled = digitalRead(PIN_COOLING_MODE);
 
 }
 
-
+// Send Data Message 
 void sendDaqData() {
     cli();
     
-    sampleDampers();
-    samplePots();
-    uint16_t damper_left_mapped = map(damper_left, 0, 1024, 0, 3170);
-    uint16_t damper_right_mapped = map(damper_right, 0, 1024, 0, 3170);
+    samplePins();
+
     int coast_mapped = map(coastAccel, 0, 1024, 0, 255);
     int brake_mapped = map(brakeSteer, 0, 1024, 0, 255);
     // Build DAQ data message
-    unsigned char bufToSend[8] = {0, 0, 0, 0, 0, 0, 0, 0};
-    bufToSend[0] = coast_mapped & 0xFF;
-    bufToSend[1] = brake_mapped & 0xFF;
-    bufToSend[2] = damper_left_mapped & 0xFF;
-    bufToSend[3] = (damper_left_mapped >> 8) & 0xFF;
-    bufToSend[4] = damper_right_mapped & 0xFF;
-    bufToSend[5] = (damper_right_mapped >> 8) & 0xFF;
+    unsigned char bufMsg[4] = {0, 0, 0, 0};
+    bufMsg[0] = coast_mapped & 0xFF;
+    bufMsg[1] = brake_mapped & 0xFF;
+    bufMsg[2] = coolingEnabled;
+    bufMsg[3] = ready_to_drive;
 
     // send the message
-    CAN.sendMsgBuf(ID_DAQ_DATA, 0, 8, bufToSend);
+    CAN.sendMsgBuf(ID_DAQ_DATA, 0, 8, bufMsg);
 
     // reenable interrupts
     sei();
 }
 
-void sendCoolingStatus(bool coolingEnabled) {
-  unsigned char bufToSend[8] = {0, 0, 0, 0, 0, 0, 0, 0};
-  if(coolingEnabled){
-    bufToSend[0] = 1;
-  }
+void set_precharge_state(enum precharge_state_e state) {
+    precharge_state = state;
+    precharge_state_enter = 1;
+}
 
-  CAN.sendMsgBuf(ID_COOLING_MODE, 0, 8, bufToSend);
+uint8_t send_rinehart_command(uint16_t param_addr, uint8_t rw, uint16_t data, uint16_t *data_out, uint8_t num_tries) {
+    // create the command message
+    struct can_frame command;
+    command.can_id = ID_RINEHART_PARAM_REQUEST;
+    command.can_dlc = 6;
+    command.data[0] = param_addr & 0xFF;
+    command.data[1] = (param_addr >> 8) & 0xFF;
+    command.data[2] = rw;
+    command.data[3] = 0x00;
+    command.data[4] = data & 0xFF;
+    command.data[5] = (data >> 8) & 0xFF;
 
+    cli();
+    mcp2515.sendMessage(&command);
+    sei();
+
+    // for (int i = 0; i < num_tries; i++) {
+    //     tCAN response;
+    //     cli();
+    //     if (mcp2515_get_message(&response)) {
+    //         // if the CAN id matches, along with the param address and the success message, return 1
+    //         if (response.id == ID_RINEHART_PARAM_RESPONSE &&
+    //             (response.data[0] | (response.data[1] << 8)) == param_addr &&
+    //             response.data[2] == 0x01) {
+    //             if (data_out != NULL) {
+    //                 *data_out = response.data[4] | (response.data[5] << 8);
+    //             }
+    //             return 1;
+    //         }
+    //     }
+    //     sei();
+    // }
+    return 0;
+}
+
+uint8_t set_rinehart_output(uint8_t value, uint8_t num_tries) {
+    return send_rinehart_command(0x01, 0x01, 0x5500 | value, NULL, num_tries);
+}
+
+void control_precharge() {
+    if (cycles_since_last_rinehart_message > MAX_MISSED_RINEHART_MESSAGES) {
+        precharge_state = PRECHARGE_ERROR;
+    }
+    if (cycles_since_last_emus_message > MAX_MISSED_EMUS_MESSAGES) {
+        precharge_state = PRECHARGE_ERROR;
+    }
+    // TODO: make sure outputs were set properly before doing a state change
+    switch (precharge_state) {
+        case PRECHARGE_OFF: {
+            // if the state was just entered, try to turn off both rinehart outputs
+            if (precharge_state_enter) {
+                if (set_rinehart_output(0, 10)) {
+                    precharge_state_enter = 0;
+                }
+            }
+
+            // vehicle is no ready to drive
+            ready_to_drive = false;
+
+            // if TSMS is on, switch to PRECHARGE_ON
+            if (rinehart_inputs & (1 << RINEHART_PIN_TSMS)) {
+                set_precharge_state(PRECHARGE_ON);
+            }
+            break;
+        }
+        case PRECHARGE_ON: {
+            if (precharge_state_enter) {
+                if (set_rinehart_output(1 << RINEHART_PIN_PRECHARGE, 10)) {
+                    precharge_state_enter = 0;
+                }
+            }
+
+            // if TSMS is no longer on, switch back to PRECHARGE_OFF
+            if (!(rinehart_inputs & (1 << RINEHART_PIN_TSMS))) {
+                set_precharge_state(PRECHARGE_OFF);
+            }
+
+            // vehicle is not ready to drive
+            ready_to_drive = false;
+
+            if (rinehart_voltage > emus_voltage * PRECHARGE_COEFFICIENT) {
+                set_precharge_state(PRECHARGE_DONE);
+            }
+            break;
+        }
+        case PRECHARGE_DONE: {
+            if (precharge_state_enter) {
+                if (set_rinehart_output((1 << RINEHART_PIN_MAIN_CONT) | (1 << RINEHART_PIN_PRECHARGE), 10)) {
+                    precharge_state_enter = 0;
+                }
+            }
+
+            // if TSMS is no longer on, switch back to PRECHARGE_OFF
+            if (!(rinehart_inputs & (1 << RINEHART_PIN_TSMS))) {
+                set_precharge_state(PRECHARGE_OFF);
+            }
+            break;
+        }
+        case PRECHARGE_ERROR: {
+            // turn off Rinehart outputs
+            set_rinehart_output(0, 10);
+          
+            // vehicle is no longer ready to drive
+            ready_to_drive = false;
+
+            // if both devices have been read from recently, return to PRECHARGE_OFF
+            if (cycles_since_last_emus_message < MAX_MISSED_EMUS_MESSAGES && cycles_since_last_rinehart_message < MAX_MISSED_RINEHART_MESSAGES) {
+                precharge_state = PRECHARGE_OFF;
+            }
+        }
+    }
+
+    // incrememnt misssed emus messages counter
+    if (cycles_since_last_emus_message <= MAX_MISSED_EMUS_MESSAGES) {
+        cycles_since_last_emus_message++;
+    }
+
+    // increment missed rinehart messages counter
+    if (cycles_since_last_rinehart_message <= MAX_MISSED_RINEHART_MESSAGES) {
+        cycles_since_last_rinehart_message++;
+    }
+
+    // send precharge message
+    unsigned long prechargeData[1] = {0}
+    prechargeData[0] = precharge_state;
+
+    cli();
+    CAN.sendMsgBuf(ID_PRECHARGE_STATUS, 0, 1, prechargeData);
+    sei();
+}
+
+// 10Hz timer interrupt
+ISR(TIMER1_COMPA_vect) {
+    // Control precharge
+    control_precharge();
+
+    if (ready_to_drive && precharge_state == PRECHARGE_DONE && time_since_rtds_start > RTDS_PERIOD && rtds_on) {
+        set_rinehart_output((1 << RINEHART_PIN_MAIN_CONT) | (1 << RINEHART_PIN_PRECHARGE), 10);
+        rtds_on = false;
+    }
+
+    if (ready_to_drive && time_since_rtds_start <= RTDS_PERIOD && rtds_on) {
+        time_since_rtds_start += 100;
+    }
 }
 
 void setup() {
@@ -348,17 +514,17 @@ void setup() {
   digitalWrite(PIN_LED_LE, LOW);
   digitalWrite(PIN_LED_OE, HIGH);
 
-  // // initialize TIMER0 for 8kHz
-  // TCCR0A = 0;
-  // TCCR0B = (0x02 << CS00);  // f_timer = f_cpu/8 => 1MHz
-  // OCR0A = 125;  // set comparator A
-  // TIMSK0 = (1 << OCIE0A);  // enable comparator A interrupt
+  // initialize TIMER0 for 8kHz
+  TCCR0A = 0;
+  TCCR0B = (0x02 << CS00);  // f_timer = f_cpu/8 => 1MHz
+  OCR0A = 125;  // set comparator A
+  TIMSK0 = (1 << OCIE0A);  // enable comparator A interrupt
 
-  // // initialize TIMER1 for 100Hz
-  // TCCR1A = 0;
-  // TCCR1B = (0x02 << CS10);  // f_timer = f_cpu/8 => 1MHz
-  // OCR1A = 10000;  // set comparator A
-  // TIMSK1 = (1 << OCIE1A);  // enable comparator A interrupt
+  // initialize TIMER1 for 100Hz
+  TCCR1A = 0;
+  TCCR1B = (0x02 << CS10);  // f_timer = f_cpu/8 => 1MHz
+  OCR1A = 10000;  // set comparator A
+  TIMSK1 = (1 << OCIE1A);  // enable comparator A interrupt
 
   //Initialize CANbus interface
   while (CAN_OK != CAN.begin(CAN_500KBPS)) { //Check we can talk to CAN
@@ -379,62 +545,14 @@ void loop() {
   unsigned char len = 0;
   unsigned char buf[8];
 
-  // if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming
-  //   CAN.readMsgBuf(&len, buf);    // read data,  len: data length, buf: data buf
-
-  //   filterCan(CAN.getCanId(), buf);
-  // }
+  if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming
+    CAN.readMsgBuf(&len, buf);    // read data,  len: data length, buf: data buf
+    filterCan(CAN.getCanId(), buf);
+  }
 
   if(millis() > (lastSendDaqMessage + DAQ_CAN_INTERVAL_MS)){
     lastSendDaqMessage = millis();
     sendDaqData();
   }
-
-  // if(millis() > (lastSendCoolingStatus + COOLING_STATUS_CAN_INTERVAL_MS)){
-  //   lastSendCoolingStatus = millis();
-  //   sendCoolingStatus(digitalRead(PIN_COOLING_MODE));
-  // }
 }
 
-// Consistent interrupt for sampling wheel speed sensors
-ISR(TIMER0_COMPA_vect) {
-    // increment sample counters
-    wsl_samples_since_last++;
-    wsr_samples_since_last++;
-    wsl_debounce_samples++;
-    wsr_debounce_samples++;
-
-    // LEFT WHEEL
-    if (bit_is_set(PINC, PIN_WHEEL_SPEED_LEFT) && !wsl_detected  // pulse begins
-        && wsl_debounce_samples > WHEEL_SPEED_DEBOUNCE) {
-        wsl_detected = true;
-        uint32_t speed =  // uint32 used because some of the numbers in the calculation get very large
-                (WHEEL_SPEED_DIST_PER_PULSE / wsl_samples_since_last)   // wheel speed in mils/sample
-            *    WHEEL_SPEED_SAMPLE_RATE                                // converts to mils/second
-            /    MILS_PER_SECOND_TO_MILES_PER_HOUR;                     // converts to mph
-        wheel_speed_left = speed;  // the final result stored in `speed` should fit into a uint8
-        wsl_samples_since_last = 0;
-        wsl_debounce_samples = 0;
-    } else if (bit_is_clear(PINC, PIN_WHEEL_SPEED_LEFT) && wsl_detected  // pulse ends
-               && wsl_debounce_samples > WHEEL_SPEED_DEBOUNCE) {
-        wsl_detected = false;
-        wsl_debounce_samples = 0;
-    }
-
-    // RIGHT WHEEL
-    if (bit_is_set(PINC, PIN_WHEEL_SPEED_RIGHT) && !wsr_detected  // pulse begins
-        && wsr_debounce_samples > WHEEL_SPEED_DEBOUNCE) {
-        wsr_detected = true;
-        uint32_t speed =  // uint32 used because some of the numbers in the calculation get very large
-                (WHEEL_SPEED_DIST_PER_PULSE / wsr_samples_since_last)   // wheel speed in mils/sample
-            *    WHEEL_SPEED_SAMPLE_RATE                                // converts to mils/second
-            /    MILS_PER_SECOND_TO_MILES_PER_HOUR;                     // converts to mph
-        wheel_speed_right = speed;  // the final result stored in `speed` should fit into a uint8
-        wsr_samples_since_last = 0;
-        wsr_debounce_samples = 0;
-    } else if (bit_is_clear(PINC, PIN_WHEEL_SPEED_LEFT) && wsr_detected  // pulse ends
-               && wsr_debounce_samples > WHEEL_SPEED_DEBOUNCE) {
-        wsr_detected = false;
-        wsr_debounce_samples = 0;
-    }
-}
