@@ -10,13 +10,8 @@
 
 #include <Arduino.h>
 #include <mcp_can.h>
-#include <avr/interrupt.h>
-#include <util/delay.h>
-#include <util/twi.h>
-#include <avr/sfr_defs.h>
-#include <avr/wdt.h>
 
-#define PIN_SPI_CAN_CS 9 // CAN chip
+#define PIN_SPI_CAN_CS 5 // CAN chip
 
 unsigned long lastSendDaqMessage = 0;
 
@@ -31,7 +26,7 @@ MCP_CAN CAN(PIN_SPI_CAN_CS);     // Set CS pin
 #define PIN_BMS_IND 2
 #define PIN_TMS1_IND 3
 #define PIN_TMS2_IND 4
-#define PIN_IMD_IND 5
+#define PIN_IMD_IND 6
 
 // Fault States
 // 1 is faulted 0 is clear
@@ -72,11 +67,10 @@ void sendDaqData() {
   cli();
 
   // Build DAQ data message
-  unsigned char bufToSend[8] = {0, 0, 0, 0, 0, 0, 0, 0};
+  uint8_t bufToSend[8] = {0, 0, 0, 0, 0, 0, 0, 0};
   bufToSend[0] = BMS_Fault;
-  bufToSend[1] = TMS1_Fault;
-  bufToSend[2] = TMS2_Fault; 
-  bufToSend[3] = IMD_Fault;
+  bufToSend[1] = TMS1_Fault && TMS2_Fault;
+  bufToSend[2] = IMD_Fault;
 
   // send the message
   CAN.sendMsgBuf(ID_FAULTLATCHER_FAULTS, 0, 8, bufToSend);

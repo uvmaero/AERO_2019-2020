@@ -20,6 +20,7 @@
 #define ID_SET_PEDAL_BAND   ID_BASE+7
 #define ID_SET_TORQUE       ID_BASE+8
 #define ID_PRECHARGE_STATUS ID_BASE+9
+#define ID_DAQ              ID_BASE+10
 
 #define ID_RINEHART_COMMAND 0x0C0
 #define ID_RINEHART_PARAM_REQUEST 0x0C1
@@ -53,16 +54,18 @@
 // pedal deadband for converting to torque command
 #define PEDAL_DEADBAND 10
 
-#define PIN_SPI_CAN_CS 10
+#define PIN_SPI_CAN_CS 5
 
 // Set CS pin
 MCP_CAN CAN(PIN_SPI_CAN_CS);     // Set CS pin
 
 uint16_t brake_pressure_max = 3000;
+uint16_t BRAKE_THRESHOLD = 500;
 
 // dampers
 
 #define PIN_DAMPER_LEFT       A2
+#define PIN_DAMPER_RIGHT      A3
 
 // damper sampling values
 #define NUM_DAMPER_ADC_SAMPLES         10
@@ -71,7 +74,7 @@ uint16_t damper_left=0,damper_right=0;
 uint16_t damper_left_mapped = map(damper_left, 0, 1024, 0, 3170);
 uint16_t damper_right_mapped = map(damper_right, 0, 1024, 0, 3170);
 
-// wheel speed sensor constants
+
 #define WHEEL_SPEED_PULSES_PER_REV        1
 #define WHEEL_SPEED_SAMPLE_RATE           8000  // sampling rate (Hz). Slightly faster than Nyquist for wheel speed sensing
 #define WHEEL_SPEED_SENSE_CIRCUMFERENCE   31415 // in mils (thousandths of an inch)
@@ -89,10 +92,12 @@ uint8_t sample_accumulator = 0;
 // pedal ranges -- these are all defaults; they will be updated from the EEPROM on boot
 uint16_t pedal0_min = 189;
 uint16_t pedal0_max = 849;
+uint16_t pedal1_min = 50;
 uint16_t pedal1_max = 417;
 
 // raw ADC values from each sensor
 uint16_t pedal0=0, pedal1=0, brake0=0, brake1=0, steer=0;
+uint16_t brake0_mapped = 0, brake1_mapped = 0;
 
 // mapped pedal values
 uint8_t pedal0_mapped, pedal1_mapped;
@@ -109,6 +114,7 @@ uint16_t brake_torque_multiplier = 0;
 // brake system params
 uint16_t front_brake_pressure = 0;
 uint16_t rear_brake_pressure = 0;
+bool brakeTrip = false;
 
 // DAQ sample rate
 uint8_t lastSendDaqMessage = 0;
@@ -118,12 +124,13 @@ uint8_t ready_to_drive = 0;
 
 void sendDaqData();
 void sampleDampers();
+void sampleBrake();
 void filterCan(unsigned long canId, unsigned char buf[8]);
 
 void setup() {
 
   // CAN bitrate = 500KBPS
-  while (CAN_OK != CAN.begin(CAN_250KBPS)) { //Check we can talk to CAN
+  while (CAN_OK != CAN.begin(CAN_500KBPS)) { //Check we can talk to CAN
       #ifdef DEBUG
       Serial.println("CAN BUS Shield init fail");
       Serial.println("Init CAN BUS Shield again");
@@ -159,15 +166,17 @@ void sendDaqData() {
     uint16_t damper_left_mapped = map(damper_left, 0, 1024, 0, 3170);
     uint16_t damper_right_mapped = map(damper_right, 0, 1024, 0, 3170);
 
+    sampleBrake();
+
     // Build DAQ data message
     unsigned char bufToSend[8] = {0, 0, 0, 0, 0, 0, 0, 0};
     // TODO: add wheel speed left and right
     bufToSend[0] = 0;
     bufToSend[1] = 0;
     bufToSend[2] = damper_left_mapped & 0xFF;
-    bufToSend[3] = (damper_left_mapped >> 8) & 0xFF;
-    bufToSend[4] = damper_right_mapped & 0xFF;
-    bufToSend[5] = (damper_right_mapped >> 8) & 0xFF; 
+    bufToSend[3] = damper_right_mapped & 0xFF;
+    bufToSend[4] = steer / 4; // steering position
+    bufToSend[5] = brakeTrip; // send '1' if break pressure > threshold
 
     // send the message
     CAN.sendMsgBuf(ID_DATA, 0, 8, bufToSend);
@@ -183,48 +192,48 @@ void filterCan(unsigned long canId, unsigned char buf[8]) {
   }
 }
 
-// Consistent interrupt for sampling wheel speed sensors
-ISR(TIMER0_COMPA_vect) {
-    // increment sample counters
-    wsl_samples_since_last++;
-    wsr_samples_since_last++;
-    wsl_debounce_samples++;
-    wsr_debounce_samples++;
+// // Consistent interrupt for sampling wheel speed sensors
+// ISR(TIMER0_COMPA_vect) {
+//     // increment sample counters
+//     wsl_samples_since_last++;
+//     wsr_samples_since_last++;
+//     wsl_debounce_samples++;
+//     wsr_debounce_samples++;
 
-    // LEFT WHEEL
-    if (bit_is_set(PINC, PIN_WHEEL_SPEED_LEFT) && !wsl_detected  // pulse begins
-        && wsl_debounce_samples > WHEEL_SPEED_DEBOUNCE) {
-        wsl_detected = true;
-        uint32_t speed =  // uint32 used because some of the numbers in the calculation get very large
-                (WHEEL_SPEED_DIST_PER_PULSE / wsl_samples_since_last)   // wheel speed in mils/sample
-            *    WHEEL_SPEED_SAMPLE_RATE                                // converts to mils/second
-            /    MILS_PER_SECOND_TO_MILES_PER_HOUR;                     // converts to mph
-        wheel_speed_left = speed;  // the final result stored in `speed` should fit into a uint8
-        wsl_samples_since_last = 0;
-        wsl_debounce_samples = 0;
-    } else if (bit_is_clear(PINC, PIN_WHEEL_SPEED_LEFT) && wsl_detected  // pulse ends
-               && wsl_debounce_samples > WHEEL_SPEED_DEBOUNCE) {
-        wsl_detected = false;
-        wsl_debounce_samples = 0;
-    }
+//     // LEFT WHEEL
+//     if (bit_is_set(PINC, PIN_WHEEL_SPEED_LEFT) && !wsl_detected  // pulse begins
+//         && wsl_debounce_samples > WHEEL_SPEED_DEBOUNCE) {
+//         wsl_detected = true;
+//         uint32_t speed =  // uint32 used because some of the numbers in the calculation get very large
+//                 (WHEEL_SPEED_DIST_PER_PULSE / wsl_samples_since_last)   // wheel speed in mils/sample
+//             *    WHEEL_SPEED_SAMPLE_RATE                                // converts to mils/second
+//             /    MILS_PER_SECOND_TO_MILES_PER_HOUR;                     // converts to mph
+//         wheel_speed_left = speed;  // the final result stored in `speed` should fit into a uint8
+//         wsl_samples_since_last = 0;
+//         wsl_debounce_samples = 0;
+//     } else if (bit_is_clear(PINC, PIN_WHEEL_SPEED_LEFT) && wsl_detected  // pulse ends
+//                && wsl_debounce_samples > WHEEL_SPEED_DEBOUNCE) {
+//         wsl_detected = false;
+//         wsl_debounce_samples = 0;
+//     }
 
-    // RIGHT WHEEL
-    if (bit_is_set(PINC, PIN_WHEEL_SPEED_RIGHT) && !wsr_detected  // pulse begins
-        && wsr_debounce_samples > WHEEL_SPEED_DEBOUNCE) {
-        wsr_detected = true;
-        uint32_t speed =  // uint32 used because some of the numbers in the calculation get very large
-                (WHEEL_SPEED_DIST_PER_PULSE / wsr_samples_since_last)   // wheel speed in mils/sample
-            *    WHEEL_SPEED_SAMPLE_RATE                                // converts to mils/second
-            /    MILS_PER_SECOND_TO_MILES_PER_HOUR;                     // converts to mph
-        wheel_speed_right = speed;  // the final result stored in `speed` should fit into a uint8
-        wsr_samples_since_last = 0;
-        wsr_debounce_samples = 0;
-    } else if (bit_is_clear(PINC, PIN_WHEEL_SPEED_LEFT) && wsr_detected  // pulse ends
-               && wsr_debounce_samples > WHEEL_SPEED_DEBOUNCE) {
-        wsr_detected = false;
-        wsr_debounce_samples = 0;
-    }
-}
+//     // RIGHT WHEEL
+//     if (bit_is_set(PINC, PIN_WHEEL_SPEED_RIGHT) && !wsr_detected  // pulse begins
+//         && wsr_debounce_samples > WHEEL_SPEED_DEBOUNCE) {
+//         wsr_detected = true;
+//         uint32_t speed =  // uint32 used because some of the numbers in the calculation get very large
+//                 (WHEEL_SPEED_DIST_PER_PULSE / wsr_samples_since_last)   // wheel speed in mils/sample
+//             *    WHEEL_SPEED_SAMPLE_RATE                                // converts to mils/second
+//             /    MILS_PER_SECOND_TO_MILES_PER_HOUR;                     // converts to mph
+//         wheel_speed_right = speed;  // the final result stored in `speed` should fit into a uint8
+//         wsr_samples_since_last = 0;
+//         wsr_debounce_samples = 0;
+//     } else if (bit_is_clear(PINC, PIN_WHEEL_SPEED_LEFT) && wsr_detected  // pulse ends
+//                && wsr_debounce_samples > WHEEL_SPEED_DEBOUNCE) {
+//         wsr_detected = false;
+//         wsr_debounce_samples = 0;
+//     }
+// }
 
 // Sampling ADC for damper positions
 void sampleDampers(){
@@ -245,48 +254,49 @@ void sampleDampers(){
 // 10Hz timer interrupt
 ISR(TIMER1_COMPA_vect) {
 
-    // map the pedal
-    pedal0_mapped = map(pedal0, pedal0_min, pedal0_max, 0, 255);
-    pedal1_mapped = map(pedal1, pedal1_min, pedal1_max, 0, 255);
+  // map the pedal
+  pedal0_mapped = map(pedal0, pedal0_min, pedal0_max, 0, 255);
+  pedal1_mapped = map(pedal1, pedal1_min, pedal1_max, 0, 255);
 
-    // map brake pressure sensors
-    uint16_t brake0_mapped = map(brake0, 0, 1024, 0, brake_pressure_max);
-    uint16_t brake1_mapped = map(brake1, 0, 1024, 0, brake_pressure_max);
+  sampleBrake();
 
-    // check for over/under-travel
-    if (pedal0 > pedal0_max + 4*MAX_PEDAL_SKEW ||
-        pedal0 < pedal0_min ||
-        pedal1 > pedal1_max + 4*MAX_PEDAL_SKEW ||
-        pedal1 < pedal1_min) {
-            pedal0_mapped = 0;
-            pedal1_mapped = 0;
-    }
+  // // map brake pressure sensors
+  // uint16_t brake0_mapped = map(brake0, 0, 1024, 0, brake_pressure_max);
+  // uint16_t brake1_mapped = map(brake1, 0, 1024, 0, brake_pressure_max);
 
-    // check for mismatch
-    if (pedal0_mapped > pedal1_mapped + MAX_PEDAL_SKEW ||
-        pedal1_mapped > pedal0_mapped + MAX_PEDAL_SKEW) {
-        pedal0_mapped = 0;
-        pedal1_mapped = 0;
-    }
+  // check for over/under-travel
+  if (pedal0 > pedal0_max + 4*MAX_PEDAL_SKEW ||
+      pedal0 < pedal0_min ||
+      pedal1 > pedal1_max + 4*MAX_PEDAL_SKEW ||
+      pedal1 < pedal1_min) {
+          pedal0_mapped = 0;
+          pedal1_mapped = 0;
+  }
 
-    // construct the message
-    unsigned char msg[7] = {0,0,0,0,0,0,0};
-    msg[0] = pedal0_mapped;
-    msg[1] = pedal1_mapped;
-    msg[2] = (uint8_t)brake0_mapped & 0xFF;
-    msg[3] = (uint8_t)(brake0_mapped >> 8) & 0xFF;
-    msg[4] = (uint8_t)brake1_mapped & 0xFF;
-    msg[5] = (uint8_t)(brake1_mapped >> 8) & 0xFF;
-    msg[6] = (uint8_t)(steer / 4);
+  // check for mismatch
+  if (pedal0_mapped > pedal1_mapped + MAX_PEDAL_SKEW ||
+      pedal1_mapped > pedal0_mapped + MAX_PEDAL_SKEW) {
+      pedal0_mapped = 0;
+      pedal1_mapped = 0;
+  }
 
-    // turn off interrupts while sending CAN message
-    cli();
+  // construct the message
+  unsigned char msg[8] = {0,0,0,0,0,0,0,0};
+  msg[0] = pedal0_mapped;
+  msg[1] = pedal1_mapped;
+  msg[2] = (uint8_t)brake0_mapped & 0xFF;
+  msg[3] = (uint8_t)(brake0_mapped >> 8) & 0xFF;
+  msg[4] = (uint8_t)brake1_mapped & 0xFF;
+  msg[5] = (uint8_t)(brake1_mapped >> 8) & 0xFF;
 
-    // send the message
-    CAN.sendMsgBuf(ID_DATA,0,7,msg);
+  // turn off interrupts while sending CAN message
+  cli();
 
-    // reenable interrupts
-    sei();
+  // send the message
+  CAN.sendMsgBuf(ID_DATA,0,7,msg);
+
+  // reenable interrupts
+  sei();
 }
 
 // 100Hz timer interrupt
@@ -333,4 +343,16 @@ ISR(TIMER0_COMPA_vect) {
     sei();
 }
 
+void sampleBrake(){
 
+  brake0 = analogRead(PIN_BRAKE0);
+  brake1 = analogRead(PIN_BRAKE1);
+  // map brake pressure sensors
+  brake0_mapped = map(brake0, 0, 1024, 0, brake_pressure_max);
+  brake1_mapped = map(brake1, 0, 1024, 0, brake_pressure_max);
+
+  if (((brake0_mapped + brake1_mapped)/2) > BRAKE_THRESHOLD){
+    brakeTrip = true;
+  }
+
+}

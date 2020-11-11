@@ -317,12 +317,12 @@ Sensor_6
 $Comp
 L Connector_Generic:Conn_01x23 J10
 U 1 1 5E5779A1
-P 10825 1925
-F 0 "J10" H 10905 1967 50  0000 L CNN
-F 1 "TE 776228-1" V 10950 2850 50  0000 L CNN
-F 2 "AERO_CUSTOM:TE_1-776200-1_23pin_Vertical" H 10825 1925 50  0001 C CNN
-F 3 "~" H 10825 1925 50  0001 C CNN
-	1    10825 1925
+P 10675 2175
+F 0 "J10" H 10755 2217 50  0000 L CNN
+F 1 "TE 776228-1" V 10800 3100 50  0000 L CNN
+F 2 "AERO_CUSTOM:TE_1-776200-1_23pin_Vertical" H 10675 2175 50  0001 C CNN
+F 3 "~" H 10675 2175 50  0001 C CNN
+	1    10675 2175
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -370,99 +370,99 @@ Wire Wire Line
 Wire Wire Line
 	9425 2775 8750 2775
 Wire Wire Line
-	10050 2125 10625 2125
+	9900 2375 10475 2375
 Wire Wire Line
-	10050 2925 10625 2925
+	9900 3175 10475 3175
 Wire Wire Line
-	10050 1325 10625 1325
+	9900 1575 10475 1575
 Wire Wire Line
-	10050 2025 10625 2025
+	9900 2275 10475 2275
 Wire Wire Line
-	10625 2825 10050 2825
+	10475 3075 9900 3075
 Wire Wire Line
-	10625 2725 10050 2725
-Text Label 10050 2825 0    50   ~ 0
+	10475 2975 9900 2975
+Text Label 9900 3075 0    50   ~ 0
 Damper_1
-Text Label 10050 2225 0    50   ~ 0
+Text Label 9900 2475 0    50   ~ 0
 Damper_2
-Text Label 10050 2025 0    50   ~ 0
+Text Label 9900 2275 0    50   ~ 0
 Speed_1
-Text Label 10050 1325 0    50   ~ 0
+Text Label 9900 1575 0    50   ~ 0
 Speed_2
-Text Label 10050 2925 0    50   ~ 0
+Text Label 9900 3175 0    50   ~ 0
 TEMP_1
-Text Label 10050 2125 0    50   ~ 0
+Text Label 9900 2375 0    50   ~ 0
 TEMP_2
 Text Label 3000 2475 2    50   ~ 0
 BRAKE_SIG
 Text Label 3000 1775 2    50   ~ 0
 Sensor_7
 Wire Wire Line
-	10625 2225 10050 2225
-Text Label 10050 2625 0    50   ~ 0
+	10475 2475 9900 2475
+Text Label 9900 2875 0    50   ~ 0
 CAN+
 Wire Wire Line
-	10050 1425 10625 1425
+	9900 1675 10475 1675
 Wire Wire Line
-	10050 1525 10625 1525
+	9900 1775 10475 1775
 Wire Wire Line
-	10050 3025 10625 3025
-Text Label 10050 1525 0    50   ~ 0
+	9900 3275 10475 3275
+Text Label 9900 1775 0    50   ~ 0
 BRAKE_OUT
 Wire Wire Line
-	10050 2625 10625 2625
-Text Label 10050 2725 0    50   ~ 0
+	9900 2875 10475 2875
+Text Label 9900 2975 0    50   ~ 0
 CAN-
 Wire Wire Line
-	10050 1925 10625 1925
+	9900 2175 10475 2175
 $Comp
 L power:GND #PWR026
 U 1 1 5E62FDAB
-P 9875 1225
-F 0 "#PWR026" H 9875 975 50  0001 C CNN
-F 1 "GND" H 9880 1052 50  0000 C CNN
-F 2 "" H 9875 1225 50  0001 C CNN
-F 3 "" H 9875 1225 50  0001 C CNN
-	1    9875 1225
+P 9725 1475
+F 0 "#PWR026" H 9725 1225 50  0001 C CNN
+F 1 "GND" H 9730 1302 50  0000 C CNN
+F 2 "" H 9725 1475 50  0001 C CNN
+F 3 "" H 9725 1475 50  0001 C CNN
+	1    9725 1475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9875 1225 10625 1225
+	9725 1475 10475 1475
 Wire Wire Line
-	10625 1125 9875 1125
+	10475 1375 9725 1375
 Wire Wire Line
-	9875 1125 9875 1225
-Connection ~ 9875 1225
+	9725 1375 9725 1475
+Connection ~ 9725 1475
 Wire Wire Line
-	10625 1025 9875 1025
+	10475 1275 9725 1275
 Wire Wire Line
-	9875 1025 9875 1125
-Connection ~ 9875 1125
+	9725 1275 9725 1375
+Connection ~ 9725 1375
 Wire Wire Line
-	10625 925  9875 925 
+	10475 1175 9725 1175
 Wire Wire Line
-	9875 925  9875 1025
-Connection ~ 9875 1025
-Text Label 10050 1625 0    50   ~ 0
+	9725 1175 9725 1275
+Connection ~ 9725 1275
+Text Label 9900 1875 0    50   ~ 0
 RINEHART_RX
 Wire Wire Line
-	10050 2425 10625 2425
-Text Label 10050 825  0    50   ~ 0
+	9900 2675 10475 2675
+Text Label 9900 1075 0    50   ~ 0
 RINEHART_TX
 Wire Wire Line
-	10050 2325 10625 2325
-Text Label 10050 2525 0    50   ~ 0
+	9900 2575 10475 2575
+Text Label 9900 2775 0    50   ~ 0
 BMS_FAULT
 Wire Wire Line
-	10050 1725 10625 1725
-Text Label 10050 1825 0    50   ~ 0
+	9900 1975 10475 1975
+Text Label 9900 2075 0    50   ~ 0
 CAN+
 Wire Wire Line
-	10050 2525 10625 2525
-Text Label 10050 1925 0    50   ~ 0
+	9900 2775 10475 2775
+Text Label 9900 2175 0    50   ~ 0
 CAN-
 Wire Wire Line
-	10050 1825 10625 1825
+	9900 2075 10475 2075
 $Comp
 L Connector_Generic:Conn_01x06 J7
 U 1 1 5E685331
@@ -564,16 +564,16 @@ Text Notes 7375 5150 0    50   ~ 0
 USB Port \nfor BMS
 Text Notes 4350 750  0    50   ~ 0
 Serial Port\nfor RineHart
-Text Notes 10125 700  0    50   ~ 0
+Text Notes 9975 950  0    50   ~ 0
 Main Ampseal
 Text Label 9250 2675 2    50   ~ 0
 EMUS_Curr2
-Text Label 10050 2325 0    50   ~ 0
+Text Label 9900 2575 0    50   ~ 0
 EMUS_Curr1
 Wire Wire Line
-	10625 1625 10050 1625
+	10475 1875 9900 1875
 Wire Wire Line
-	10625 825  10050 825 
+	10475 1075 9900 1075
 $Comp
 L Device:R R1
 U 1 1 5E55ED38
@@ -739,7 +739,7 @@ Text Label 10575 5300 0    50   ~ 0
 FAN_OUT
 Wire Wire Line
 	10575 5300 10575 5525
-Text Label 10050 3025 0    50   ~ 0
+Text Label 9900 3275 0    50   ~ 0
 FAN_OUT
 $Comp
 L Transistor_FET:PSMN5R2-60YL Q1
@@ -752,13 +752,13 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/PSMN5R2-60YL.pdf" H 10475 
 	1    10475 5725
 	1    0    0    -1  
 $EndComp
-Text Label 10050 1425 0    50   ~ 0
+Text Label 9900 1675 0    50   ~ 0
 Sensor_7
-Text Label 10050 2425 0    50   ~ 0
+Text Label 9900 2675 0    50   ~ 0
 EMUS_Curr2
 Text Label 9250 2575 2    50   ~ 0
 EMUS_Curr1
-Text Label 10050 1725 0    50   ~ 0
+Text Label 9900 1975 0    50   ~ 0
 EMUS_Curr3
 Text Label 9275 2875 2    50   ~ 0
 EMUS_Curr3
@@ -1359,7 +1359,7 @@ Wire Wire Line
 	8300 1275 8525 1275
 Wire Wire Line
 	8150 1375 9175 1375
-Text Notes 10225 625  0    50   ~ 0
+Text Notes 10075 875  0    50   ~ 0
 Port Panel
 Text Notes 8600 5575 0    50   ~ 0
 BRAKE LIGHT\n
@@ -1421,18 +1421,26 @@ Wire Wire Line
 Connection ~ 5700 1300
 Text Notes 8100 7375 0    50   ~ 0
 Rear DAQ and Panel Pass Through\nG.Spearing\n20.0303
-Text Notes 10925 2925 0    50   ~ 0
+Text Notes 10775 3175 0    50   ~ 0
 Sensor_5\n
-Text Notes 10925 2825 0    50   ~ 0
+Text Notes 10775 3075 0    50   ~ 0
 Sensor_1\n
-Text Notes 10925 2025 0    50   ~ 0
+Text Notes 10775 2275 0    50   ~ 0
 Sensor_3
-Text Notes 10925 2125 0    50   ~ 0
+Text Notes 10775 2375 0    50   ~ 0
 Sensor_6
-Text Notes 10925 2225 0    50   ~ 0
+Text Notes 10775 2475 0    50   ~ 0
 Sensor_2\n
-Text Notes 10925 1425 0    50   ~ 0
+Text Notes 10775 1675 0    50   ~ 0
 Sensor_7\n
-Text Notes 10950 1325 0    50   ~ 0
+Text Notes 10800 1575 0    50   ~ 0
 Sensor_4
+Text Notes 3100 3575 0    50   ~ 0
+DAMPER_3
+Text Notes 3100 3675 0    50   ~ 0
+DAMPER_4\n
+Text Notes 3125 3875 0    50   ~ 0
+Wheel_3
+Text Notes 3125 3975 0    50   ~ 0
+Wheel_4
 $EndSCHEMATC

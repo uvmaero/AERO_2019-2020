@@ -382,17 +382,17 @@ Wire Wire Line
 Wire Wire Line
 	10625 2725 10050 2725
 Text Label 10050 2825 0    50   ~ 0
-Sensor_1
+Damper_1
 Text Label 10050 2225 0    50   ~ 0
-Sensor_2
+Damper_2
 Text Label 10050 2025 0    50   ~ 0
-Sensor_3
+Speed_1
 Text Label 10050 1325 0    50   ~ 0
-Sensor_4
+Speed_2
 Text Label 10050 2925 0    50   ~ 0
-Sensor_5
+TEMP_1
 Text Label 10050 2125 0    50   ~ 0
-Sensor_6
+TEMP_2
 Text Label 3000 2475 2    50   ~ 0
 BRAKE_SIG
 Text Label 3000 1775 2    50   ~ 0

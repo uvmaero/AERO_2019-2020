@@ -1,5 +1,5 @@
 /**
- * Copyright 2019 Willem Hillier, UVM AERO
+ * Copyright 2020 George Spearing
  * 
  * Right dash PCB code.
  *  - Reports button and knob state changes over CANbus
@@ -8,6 +8,8 @@
  * 
  * Wheel speed code written by Cullen Jemison:
  * https://github.com/uvmaero/aero-daq-firmware/blob/master/daq-board/src/daq_board.c
+ *
+ * LED code written by Willem Hillier
  */
 
 
@@ -29,6 +31,7 @@
 #define ID_COOLING_MODE       ID_BASE + 6
 #define ID_REGEN_VALS         ID_BASE + 7
 #define ID_DASH_SELF_TEST     ID_BASE + 8 // 072#00000000 for test
+#define ID_PRECHARGE_STATUS   ID_BASE + 9
 #define ID_DAQ_DATA           0x1C
 
 // Rinehart CAN IDs
@@ -66,9 +69,9 @@
 #define PIN_NTC1              A7
 
 // "Pin" of LEDs driven by STP16CP05
-#define EXTPIN_FAULT_BMS_1   2
-#define EXTPIN_FAULT_GFD_2   0
-#define EXTPIN_FAULT_TMS_3   1
+#define EXTPIN_FAULT_BMS_1   0
+#define EXTPIN_FAULT_GFD_2   1
+#define EXTPIN_FAULT_TMS_3   2
 #define EXTPIN_COOLING_IND1R 3
 #define EXTPIN_COOLING_IND1B 4
 #define EXTPIN_COOLING_IND1G 5
@@ -151,8 +154,8 @@ double emus_voltage = 265.0;  // assume maximum voltage to begin with
 double rinehart_voltage = 0;
 
 // DAQ sample rate
-uint8_t lastSendDaqMessage = 0;
-uint8_t daqMessageInterval = 500;
+uint16_t lastSendDaqMessage = 0;
+uint16_t daqMessageInterval = 500;
 
 // Emus and Rinhart message timeout values
 uint8_t cycles_since_last_emus_message = 0;
@@ -270,10 +273,10 @@ void dashSelfTest(){
 
 void filterCan(unsigned long canId, unsigned char buf[8]) {
   switch (canId) {
-    case ID_FAULTLATCHER_FAULTS:
-      setExtLED(EXTPIN_FAULT_BMS_1, (buf[0]) & 1); /// BMS fault is 0th bit of buf[]
-      setExtLED(EXTPIN_FAULT_TMS_3, (buf[1]) & 1); // TMS faults are 1st bits of buf[]
-      setExtLED(EXTPIN_FAULT_GFD_2, (buf[2]) & 1); // GFD faul is the 2nd bit of buff[]
+    case ID_FAULTLATCHER_FAULTS:  
+      setExtLED(EXTPIN_FAULT_BMS_1, (buf[0])^1); /// BMS fault is 0th bit of buf[]
+      setExtLED(EXTPIN_FAULT_TMS_3, (buf[1])^1); // TMS faults are 1st bits of buf[]
+      setExtLED(EXTPIN_FAULT_GFD_2, (buf[2])^1); // GFD faul is the 3nd bit of buff[]
       break;
     case ID_RINEHART_TEMPS1:{
       for (int i = 0; i < 4; i++) {
@@ -310,10 +313,6 @@ void filterCan(unsigned long canId, unsigned char buf[8]) {
     case ID_DASH_SELF_TEST:{
       dashSelfTest();
     }
-    // case ID_PEDALBOARD_STATE_STATUS:{
-    //   delayMicroseconds(1);
-    //   break;
-    // }
   }
 }
 
@@ -347,156 +346,155 @@ void sendDaqData() {
     sei();
 }
 
-void set_precharge_state(enum precharge_state_e state) {
-    precharge_state = state;
-    precharge_state_enter = 1;
-}
+// void set_precharge_state(enum precharge_state_e state) {
+//     precharge_state = state;
+//     precharge_state_enter = 1;
+// }
 
-uint8_t send_rinehart_command(uint16_t param_addr, uint8_t rw, uint16_t data, uint16_t *data_out, uint8_t num_tries) {
-    // create the command message
-    struct can_frame command;
-    command.can_id = ID_RINEHART_PARAM_REQUEST;
-    command.can_dlc = 6;
-    command.data[0] = param_addr & 0xFF;
-    command.data[1] = (param_addr >> 8) & 0xFF;
-    command.data[2] = rw;
-    command.data[3] = 0x00;
-    command.data[4] = data & 0xFF;
-    command.data[5] = (data >> 8) & 0xFF;
+// uint8_t send_rinehart_command(uint16_t param_addr, uint8_t rw, uint16_t data, uint16_t *data_out, uint8_t num_tries) {
+//     // create the command message
+//     uint8_t command[8] = {0,0,0,0,0,0};
+//     command[0] = param_addr & 0xFF;
+//     command[1] = (param_addr >> 8) & 0xFF;
+//     command[2] = rw;
+//     command[3] = 0x00;
+//     command[4] = data & 0xFF;
+//     command[5] = (data >> 8) & 0xFF;
 
-    cli();
-    mcp2515.sendMessage(&command);
-    sei();
+//     cli();
+//     CAN.sendMsgBuf(ID_RINEHART_PARAM_REQUEST, 0, 6, command);
+//     sei();
 
-    // for (int i = 0; i < num_tries; i++) {
-    //     tCAN response;
-    //     cli();
-    //     if (mcp2515_get_message(&response)) {
-    //         // if the CAN id matches, along with the param address and the success message, return 1
-    //         if (response.id == ID_RINEHART_PARAM_RESPONSE &&
-    //             (response.data[0] | (response.data[1] << 8)) == param_addr &&
-    //             response.data[2] == 0x01) {
-    //             if (data_out != NULL) {
-    //                 *data_out = response.data[4] | (response.data[5] << 8);
-    //             }
-    //             return 1;
-    //         }
-    //     }
-    //     sei();
-    // }
-    return 0;
-}
+//     for (int i = 0; i < num_tries; i++) {
+//         unsigned char data[8];
+//         unsigned char len = 0;
+//         cli();
+//         if (CAN.readMsgBuf(&len, data)) {
+//             // if the CAN id matches, along with the param address and the success message, return 1
+//             if (CAN.getCanId() == ID_RINEHART_PARAM_RESPONSE &&
+//                 (data[0] | (data[1] << 8)) == param_addr &&
+//                 data[2] == 0x01) {
+//                 if (data_out != NULL) {
+//                     *data_out = data[4] | (data[5] << 8);
+//                 }
+//                 return 1;
+//             }
+//         }
+//         sei();
+//     }
+//     return 0;
+// }
 
-uint8_t set_rinehart_output(uint8_t value, uint8_t num_tries) {
-    return send_rinehart_command(0x01, 0x01, 0x5500 | value, NULL, num_tries);
-}
+// uint8_t set_rinehart_output(uint8_t value, uint8_t num_tries) {
+//     return send_rinehart_command(0x01, 0x01, 0x5500 | value, NULL, num_tries);
+// }
 
-void control_precharge() {
-    if (cycles_since_last_rinehart_message > MAX_MISSED_RINEHART_MESSAGES) {
-        precharge_state = PRECHARGE_ERROR;
-    }
-    if (cycles_since_last_emus_message > MAX_MISSED_EMUS_MESSAGES) {
-        precharge_state = PRECHARGE_ERROR;
-    }
-    // TODO: make sure outputs were set properly before doing a state change
-    switch (precharge_state) {
-        case PRECHARGE_OFF: {
-            // if the state was just entered, try to turn off both rinehart outputs
-            if (precharge_state_enter) {
-                if (set_rinehart_output(0, 10)) {
-                    precharge_state_enter = 0;
-                }
-            }
+// void control_precharge() {
+//     if (cycles_since_last_rinehart_message > MAX_MISSED_RINEHART_MESSAGES) {
+//         precharge_state = PRECHARGE_ERROR;
+//     }
+//     if (cycles_since_last_emus_message > MAX_MISSED_EMUS_MESSAGES) {
+//         precharge_state = PRECHARGE_ERROR;
+//     }
+//     // TODO: make sure outputs were set properly before doing a state change
+//     switch (precharge_state) {
+//         case PRECHARGE_OFF: {
+//             // if the state was just entered, try to turn off both rinehart outputs
+//             if (precharge_state_enter) {
+//                 if (set_rinehart_output(0, 10)) {
+//                     precharge_state_enter = 0;
+//                 }
+//             }
 
-            // vehicle is no ready to drive
-            ready_to_drive = false;
+//             // vehicle is no ready to drive
+//             ready_to_drive = false;
 
-            // if TSMS is on, switch to PRECHARGE_ON
-            if (rinehart_inputs & (1 << RINEHART_PIN_TSMS)) {
-                set_precharge_state(PRECHARGE_ON);
-            }
-            break;
-        }
-        case PRECHARGE_ON: {
-            if (precharge_state_enter) {
-                if (set_rinehart_output(1 << RINEHART_PIN_PRECHARGE, 10)) {
-                    precharge_state_enter = 0;
-                }
-            }
+//             // if TSMS is on, switch to PRECHARGE_ON
+//             if (rinehart_inputs & (1 << RINEHART_PIN_TSMS)) {
+//                 set_precharge_state(PRECHARGE_ON);
+//             }
+//             break;
+//         }
+//         case PRECHARGE_ON: {
+//             if (precharge_state_enter) {
+//                 if (set_rinehart_output(1 << RINEHART_PIN_PRECHARGE, 10)) {
+//                     precharge_state_enter = 0;
+//                 }
+//             }
 
-            // if TSMS is no longer on, switch back to PRECHARGE_OFF
-            if (!(rinehart_inputs & (1 << RINEHART_PIN_TSMS))) {
-                set_precharge_state(PRECHARGE_OFF);
-            }
+//             // if TSMS is no longer on, switch back to PRECHARGE_OFF
+//             if (!(rinehart_inputs & (1 << RINEHART_PIN_TSMS))) {
+//                 set_precharge_state(PRECHARGE_OFF);
+//             }
 
-            // vehicle is not ready to drive
-            ready_to_drive = false;
+//             // vehicle is not ready to drive
+//             ready_to_drive = false;
 
-            if (rinehart_voltage > emus_voltage * PRECHARGE_COEFFICIENT) {
-                set_precharge_state(PRECHARGE_DONE);
-            }
-            break;
-        }
-        case PRECHARGE_DONE: {
-            if (precharge_state_enter) {
-                if (set_rinehart_output((1 << RINEHART_PIN_MAIN_CONT) | (1 << RINEHART_PIN_PRECHARGE), 10)) {
-                    precharge_state_enter = 0;
-                }
-            }
+//             if (rinehart_voltage > emus_voltage * PRECHARGE_COEFFICIENT) {
+//                 set_precharge_state(PRECHARGE_DONE);
+//             }
+//             break;
+//         }
+//         case PRECHARGE_DONE: {
+//             if (precharge_state_enter) {
+//                 if (set_rinehart_output((1 << RINEHART_PIN_MAIN_CONT) | (1 << RINEHART_PIN_PRECHARGE), 10)) {
+//                     precharge_state_enter = 0;
+//                 }
+//             }
 
-            // if TSMS is no longer on, switch back to PRECHARGE_OFF
-            if (!(rinehart_inputs & (1 << RINEHART_PIN_TSMS))) {
-                set_precharge_state(PRECHARGE_OFF);
-            }
-            break;
-        }
-        case PRECHARGE_ERROR: {
-            // turn off Rinehart outputs
-            set_rinehart_output(0, 10);
+//             // if TSMS is no longer on, switch back to PRECHARGE_OFF
+//             if (!(rinehart_inputs & (1 << RINEHART_PIN_TSMS))) {
+//                 set_precharge_state(PRECHARGE_OFF);
+//             }
+//             break;
+//         }
+//         case PRECHARGE_ERROR: {
+//             // turn off Rinehart outputs
+//             set_rinehart_output(0, 10);
           
-            // vehicle is no longer ready to drive
-            ready_to_drive = false;
+//             // vehicle is no longer ready to drive
+//             ready_to_drive = false;
 
-            // if both devices have been read from recently, return to PRECHARGE_OFF
-            if (cycles_since_last_emus_message < MAX_MISSED_EMUS_MESSAGES && cycles_since_last_rinehart_message < MAX_MISSED_RINEHART_MESSAGES) {
-                precharge_state = PRECHARGE_OFF;
-            }
-        }
-    }
+//             // if both devices have been read from recently, return to PRECHARGE_OFF
+//             if (cycles_since_last_emus_message < MAX_MISSED_EMUS_MESSAGES && cycles_since_last_rinehart_message < MAX_MISSED_RINEHART_MESSAGES) {
+//                 precharge_state = PRECHARGE_OFF;
+//             }
+//         }
+//     }
 
-    // incrememnt misssed emus messages counter
-    if (cycles_since_last_emus_message <= MAX_MISSED_EMUS_MESSAGES) {
-        cycles_since_last_emus_message++;
-    }
+//     // incrememnt misssed emus messages counter
+//     if (cycles_since_last_emus_message <= MAX_MISSED_EMUS_MESSAGES) {
+//         cycles_since_last_emus_message++;
+//     }
 
-    // increment missed rinehart messages counter
-    if (cycles_since_last_rinehart_message <= MAX_MISSED_RINEHART_MESSAGES) {
-        cycles_since_last_rinehart_message++;
-    }
+//     // increment missed rinehart messages counter
+//     if (cycles_since_last_rinehart_message <= MAX_MISSED_RINEHART_MESSAGES) {
+//         cycles_since_last_rinehart_message++;
+//     }
 
-    // send precharge message
-    unsigned long prechargeData[1] = {0}
-    prechargeData[0] = precharge_state;
+//     // send precharge message
+//     uint8_t prechargeData[1] = {0};
+//     prechargeData[0] = precharge_state;
 
-    cli();
-    CAN.sendMsgBuf(ID_PRECHARGE_STATUS, 0, 1, prechargeData);
-    sei();
-}
+//     cli();
+//     CAN.sendMsgBuf(ID_PRECHARGE_STATUS, 0, 1, prechargeData);
+//     sei();
+// }
 
 // 10Hz timer interrupt
-ISR(TIMER1_COMPA_vect) {
-    // Control precharge
-    control_precharge();
+// ISR(TIMER1_COMPA_vect) {
+//     // Control precharge
+//     control_precharge();
 
-    if (ready_to_drive && precharge_state == PRECHARGE_DONE && time_since_rtds_start > RTDS_PERIOD && rtds_on) {
-        set_rinehart_output((1 << RINEHART_PIN_MAIN_CONT) | (1 << RINEHART_PIN_PRECHARGE), 10);
-        rtds_on = false;
-    }
+//     if (ready_to_drive && precharge_state == PRECHARGE_DONE && time_since_rtds_start > RTDS_PERIOD && rtds_on) {
+//         set_rinehart_output((1 << RINEHART_PIN_MAIN_CONT) | (1 << RINEHART_PIN_PRECHARGE), 10);
+//         rtds_on = false;
+//     }
 
-    if (ready_to_drive && time_since_rtds_start <= RTDS_PERIOD && rtds_on) {
-        time_since_rtds_start += 100;
-    }
-}
+//     if (ready_to_drive && time_since_rtds_start <= RTDS_PERIOD && rtds_on) {
+//         time_since_rtds_start += 100;
+//     }
+// }
 
 void setup() {
   // pin mode setup
@@ -514,17 +512,17 @@ void setup() {
   digitalWrite(PIN_LED_LE, LOW);
   digitalWrite(PIN_LED_OE, HIGH);
 
-  // initialize TIMER0 for 8kHz
-  TCCR0A = 0;
-  TCCR0B = (0x02 << CS00);  // f_timer = f_cpu/8 => 1MHz
-  OCR0A = 125;  // set comparator A
-  TIMSK0 = (1 << OCIE0A);  // enable comparator A interrupt
+  // // initialize TIMER0 for 8kHz
+  // TCCR0A = 0;
+  // TCCR0B = (0x02 << CS00);  // f_timer = f_cpu/8 => 1MHz
+  // OCR0A = 125;  // set comparator A
+  // TIMSK0 = (1 << OCIE0A);  // enable comparator A interrupt
 
-  // initialize TIMER1 for 100Hz
-  TCCR1A = 0;
-  TCCR1B = (0x02 << CS10);  // f_timer = f_cpu/8 => 1MHz
-  OCR1A = 10000;  // set comparator A
-  TIMSK1 = (1 << OCIE1A);  // enable comparator A interrupt
+  // // initialize TIMER1 for 100Hz
+  // TCCR1A = 0;
+  // TCCR1B = (0x02 << CS10);  // f_timer = f_cpu/8 => 1MHz
+  // OCR1A = 10000;  // set comparator A
+  // TIMSK1 = (1 << OCIE1A);  // enable comparator A interrupt
 
   //Initialize CANbus interface
   while (CAN_OK != CAN.begin(CAN_500KBPS)) { //Check we can talk to CAN
@@ -554,5 +552,12 @@ void loop() {
     lastSendDaqMessage = millis();
     sendDaqData();
   }
+
+  // TODO: if precharge state is done, light up start button LED
+  // TODO: Once start button is pressed, trigger buzzer indicator
+  // if (precharge_state == PRECHARGE_DONE){
+
+  // }
+
 }
 
