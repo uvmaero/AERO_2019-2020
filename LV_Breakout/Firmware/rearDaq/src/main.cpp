@@ -24,8 +24,10 @@ MCP_CAN CAN(PIN_SPI_CAN_CS);     // Set CS pin
 
 #define DAQ_CAN_INTERVAL_MS 100
 // DAQ sample rate
-uint8_t lastSendDaqMessage = 0;
-uint8_t daqMessageInterval = 500;
+unsigned long lastSendDaqMessage = 0;
+unsigned long daqMessageInterval = 00;
+uint8_t lastReadCan = 0;
+uint8_t canReadInterval = 500;
 
 // Sensor Pins
 #define PIN_DAMPER_3 3
@@ -67,30 +69,7 @@ uint8_t sample_accumulator = 0;
 bool brakeSig = false;
 bool fanSig = false;
 
-void sendDaqData();
 void sampleDampers();
-
-void setup(){
-  // pin mode setup
-  pinMode(PIN_DAMPER_3, INPUT);
-  pinMode(PIN_DAMPER_4, INPUT);
-  pinMode(PIN_Wheel_4, INPUT);
-  pinMode(PIN_Wheel_5, INPUT);
-  pinMode(PIN_BRAKE, OUTPUT);
-  pinMode(PIN_FAN, OUTPUT);
-
-  //Initialize CANbus interface
-  while (CAN_OK != CAN.begin(CAN_500KBPS)) { //Check we can talk to CAN
-    lastSendDaqMessage = millis();
-  }
-}
-
-void loop(){
-  if(millis() > (lastSendDaqMessage + DAQ_CAN_INTERVAL_MS)){
-
-    sendDaqData();
-  }
-}
 
 void sendDaqData() {
   // turn off interrupts while sending CAN message
@@ -110,6 +89,8 @@ void sendDaqData() {
   bufToSend[3] = (damper_left_mapped >> 8) & 0xFF;
   bufToSend[4] = damper_right_mapped & 0xFF;
   bufToSend[5] = (damper_right_mapped >> 8) & 0xFF; 
+  bufToSend[6] = brakeSig;
+  bufToSend[7] = fanSig;
 
 
   // send the message
@@ -143,9 +124,42 @@ void filterCan(unsigned long canId, unsigned char buf[8]) {
   switch(canId){
     case ID_DASH_DAQ:
       fanSig = buf[2];
+      digitalWrite(PIN_FAN, fanSig);
       break;
     case ID_FRONT_DAQ_DATA:
       brakeSig = buf[5];
+      digitalWrite(PIN_BRAKE, brakeSig);
       break;
+  }
+  lastReadCan = millis();
+}
+
+void setup(){
+  // pin mode setup
+  pinMode(PIN_DAMPER_3, INPUT);
+  pinMode(PIN_DAMPER_4, INPUT);
+  pinMode(PIN_Wheel_4, INPUT);
+  pinMode(PIN_Wheel_5, INPUT);
+  pinMode(PIN_BRAKE, OUTPUT);
+  pinMode(PIN_FAN, OUTPUT);
+
+  //Initialize CANbus interface
+  while (CAN_OK != CAN.begin(CAN_500KBPS)) { //Check we can talk to CAN
+    lastSendDaqMessage = millis();
+  }
+}
+
+void loop(){ 
+  unsigned char len = 0;
+  unsigned char buf[8];
+
+  // if(millis() > (lastSendDaqMessage + DAQ_CAN_INTERVAL_MS)){
+
+  //   sendDaqData();
+  // }
+
+  if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming
+  CAN.readMsgBuf(&len, buf);    // read data,  len: data length, buf: data buf
+  filterCan(CAN.getCanId(), buf);
   }
 }

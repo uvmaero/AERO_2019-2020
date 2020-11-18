@@ -61,6 +61,7 @@
 #define PIN_LED2              21
 #define PIN_POT_BRAKE         A0
 #define PIN_POT_COAST         A1
+#define PIN_DIRECTION_MODE    A2
 #define PIN_COOLING_MODE      A4
 #define PIN_LED_OE            4
 #define PIN_LED_LE            5
@@ -112,8 +113,9 @@
 // RTDS souding period (ms)
 #define RTDS_PERIOD 2000
 
-#define SELFTEST_DELAY_US              50000
+#define SELFTEST_DELAY_US              75000
 #define SELFTEST_POT_WORKING_THRESHOLD 50
+#define SELFTEST_TIMEOUT               20 // seconds
 
 
 // Maximum number of missed messages before canceling precharge
@@ -164,8 +166,12 @@ uint8_t cycles_since_last_rinehart_message = MAX_MISSED_RINEHART_MESSAGES;  // a
 
 // damper position
 uint8_t coastAccel = 0, brakeSteer = 0;
+int coast_mapped = 0, brake_mapped = 0;
 // cooling enabled value
 bool coolingEnabled = 0;
+
+// start button pressed
+bool rtdButton = false;
 
 // STP16CP05 data "register"
 uint16_t ext_leds = 0;
@@ -244,30 +250,54 @@ void dashSelfTest(){
 
 
   // test for buttons etc
-  bool coastKnobIsWorking = false, brakeKnobIsWorking = false, coolingModeSwitchIsWorking = false, rtdButtonIsWorking = false;
+  bool coastKnobIsWorking = false, brakeKnobIsWorking = false, directionSwitchIsWorking = false,
+  coolingModeSwitchIsWorking = false, rtdButtonIsWorking = false;
 
   uint8_t coastKnobInitialValue = analogRead(PIN_POT_COAST);
   uint8_t brakeKnobInitialValue = analogRead(PIN_POT_BRAKE);
   bool coolingModeInitialValue = digitalRead(PIN_COOLING_MODE);
+  bool directionInitialValue = digitalRead(PIN_DIRECTION_MODE);
+  bool rtdButtonInitialValue = digitalRead(PIN_RTD_BTN);
   // only can continue if all knobs have been rotated and different values read + all buttons/switches have toggled states
-  while(!coastKnobIsWorking and !brakeKnobIsWorking and !coolingModeSwitchIsWorking and !rtdButtonIsWorking){
-    if(!digitalRead(PIN_RTD_BTN)){
-      rtdButtonIsWorking = !digitalRead(PIN_RTD_BTN);
+  // turn on leds will only turn off once values change
+  for(int i=0; i<=3;i++){
+    setExtLED(i,HIGH);
+  }
+  setExtLED(EXTPIN_COOLING_IND2R, HIGH);
+
+
+  while(!coastKnobIsWorking || !brakeKnobIsWorking ||
+        !coolingModeSwitchIsWorking || !rtdButtonIsWorking || !directionSwitchIsWorking){
+    
+    if(rtdButtonInitialValue != digitalRead(PIN_RTD_BTN)){
+      rtdButtonIsWorking = true;
+      setExtLED(EXTPIN_FAULT_BMS_1, LOW);
     }
 
     if(abs(coastKnobInitialValue-analogRead(PIN_POT_COAST)) > SELFTEST_POT_WORKING_THRESHOLD){
       coastKnobIsWorking = true;
+      setExtLED(EXTPIN_FAULT_GFD_2, LOW);
     }
 
     if(abs(brakeKnobInitialValue-analogRead(PIN_POT_BRAKE)) > SELFTEST_POT_WORKING_THRESHOLD){
       brakeKnobIsWorking = true;
+      setExtLED(EXTPIN_FAULT_TMS_3, LOW);
     }
 
     if(coolingModeInitialValue != digitalRead(PIN_COOLING_MODE)){
       coolingModeSwitchIsWorking = true;
+      setExtLED(EXTPIN_COOLING_IND1R, LOW);
     }
 
+    if(directionInitialValue != digitalRead(PIN_DIRECTION_MODE)){
+      directionSwitchIsWorking = true;
+      setExtLED(EXTPIN_COOLING_IND2R, LOW);
+    } 
+
+    delayMicroseconds(50);
+
   }
+
   sei();
 }
 
@@ -312,32 +342,31 @@ void filterCan(unsigned long canId, unsigned char buf[8]) {
     }
     case ID_DASH_SELF_TEST:{
       dashSelfTest();
+      break;
     }
   }
-}
-
-// sample data input pins on dash
-void samplePins(){
-    coastAccel = analogRead(PIN_POT_COAST);
-    brakeSteer = analogRead(PIN_POT_BRAKE);
-    coolingEnabled = digitalRead(PIN_COOLING_MODE);
-
 }
 
 // Send Data Message 
 void sendDaqData() {
     cli();
     
-    samplePins();
+    coastAccel = analogRead(PIN_POT_COAST);
+    brakeSteer = analogRead(PIN_POT_BRAKE);
+    coolingEnabled = digitalRead(PIN_COOLING_MODE);
+    direction = digitalRead(PIN_DIRECTION_MODE);
+    rtdButton = digitalRead(PIN_RTD_BTN);
 
-    int coast_mapped = map(coastAccel, 0, 1024, 0, 255);
-    int brake_mapped = map(brakeSteer, 0, 1024, 0, 255);
+    coast_mapped = map(coastAccel, 0, 1024, 0, 255);
+    brake_mapped = map(brakeSteer, 0, 1024, 0, 255);
     // Build DAQ data message
-    unsigned char bufMsg[4] = {0, 0, 0, 0};
-    bufMsg[0] = coast_mapped & 0xFF;
-    bufMsg[1] = brake_mapped & 0xFF;
-    bufMsg[2] = coolingEnabled;
+    unsigned char bufMsg[8] = {0, 0, 0, 0, 0, 0, 0, 0};
+    bufMsg[0] = coast_mapped;
+    bufMsg[1] = brake_mapped;
+    bufMsg[2] = coolingEnabled ^ 1;
     bufMsg[3] = ready_to_drive;
+    bufMsg[4] = direction;
+    bufMsg[5] = rtdButton;
 
     // send the message
     CAN.sendMsgBuf(ID_DAQ_DATA, 0, 8, bufMsg);
@@ -507,6 +536,8 @@ void setup() {
   pinMode(PIN_LED2, OUTPUT);
   pinMode(PIN_RTD_INDICATOR, OUTPUT);
   pinMode(PIN_COOLING_MODE, INPUT);
+  pinMode(PIN_RTD_BTN, INPUT);
+
 
   // STP16C05 pins - disable latch, disable output
   digitalWrite(PIN_LED_LE, LOW);
@@ -540,7 +571,7 @@ void setup() {
 }
 
 void loop() {
-  unsigned char len = 0;
+  unsigned char len = 0;  
   unsigned char buf[8];
 
   if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming

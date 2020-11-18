@@ -11,7 +11,7 @@
 #include <Arduino.h>
 #include <mcp_can.h>
 
-#define PIN_SPI_CAN_CS 5 // CAN chip
+#define PIN_SPI_CAN_CS 9 // CAN chip
 
 unsigned long lastSendDaqMessage = 0;
 
@@ -26,7 +26,7 @@ MCP_CAN CAN(PIN_SPI_CAN_CS);     // Set CS pin
 #define PIN_BMS_IND 2
 #define PIN_TMS1_IND 3
 #define PIN_TMS2_IND 4
-#define PIN_IMD_IND 6
+#define PIN_IMD_IND 5
 
 // Fault States
 // 1 is faulted 0 is clear

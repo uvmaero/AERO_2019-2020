@@ -319,7 +319,7 @@ L Connector_Generic:Conn_01x23 J10
 U 1 1 5E5779A1
 P 10825 1925
 F 0 "J10" H 10905 1967 50  0000 L CNN
-F 1 "TE 776228-1" V 10975 2525 50  0000 L CNN
+F 1 "TE 776228-1" V 10950 2850 50  0000 L CNN
 F 2 "AERO_CUSTOM:TE_1-776200-1_23pin_Vertical" H 10825 1925 50  0001 C CNN
 F 3 "~" H 10825 1925 50  0001 C CNN
 	1    10825 1925
@@ -1421,4 +1421,18 @@ Wire Wire Line
 Connection ~ 5700 1300
 Text Notes 8100 7375 0    50   ~ 0
 Rear DAQ and Panel Pass Through\nG.Spearing\n20.0303
+Text Notes 10925 2925 0    50   ~ 0
+Sensor_5\n
+Text Notes 10925 2825 0    50   ~ 0
+Sensor_1\n
+Text Notes 10925 2025 0    50   ~ 0
+Sensor_3
+Text Notes 10925 2125 0    50   ~ 0
+Sensor_6
+Text Notes 10925 2225 0    50   ~ 0
+Sensor_2\n
+Text Notes 10925 1425 0    50   ~ 0
+Sensor_7\n
+Text Notes 10950 1325 0    50   ~ 0
+Sensor_4
 $EndSCHEMATC

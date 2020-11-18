@@ -1435,4 +1435,8 @@ Text Notes 10925 1425 0    50   ~ 0
 Sensor_7\n
 Text Notes 10950 1325 0    50   ~ 0
 Sensor_4
+Text Notes 3475 6425 0    157  ~ 0
+X
+Text Notes 1900 6850 0    157  ~ 0
+X
 $EndSCHEMATC

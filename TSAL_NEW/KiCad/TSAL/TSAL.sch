@@ -67,7 +67,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 2150 6050 2150
 $Comp
-L Timer:LM555 U4
+L TSAL-rescue:LM555-Timer U4
 U 1 1 5E389A17
 P 6750 1950
 F 0 "U4" H 6400 2550 50  0000 C CNN

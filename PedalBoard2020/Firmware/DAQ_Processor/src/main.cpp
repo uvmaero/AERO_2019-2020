@@ -15,12 +15,12 @@
 // SEND CANbus address defines
 #define ID_BASE             0x2D
 #define ID_RESET            ID_BASE
-#define ID_DATA             ID_BASE+5
-#define ID_GET_PEDAL        ID_BASE+6
+#define ID_DATA             ID_BASE+5 //0x32
+#define ID_GET_PEDAL        ID_BASE+6 
 #define ID_SET_PEDAL_BAND   ID_BASE+7
 #define ID_SET_TORQUE       ID_BASE+8
 #define ID_PRECHARGE_STATUS ID_BASE+9
-#define ID_DAQ              ID_BASE+10
+#define ID_DAQ              ID_BASE+10 //0x37
 
 #define ID_RINEHART_COMMAND 0x0C0
 #define ID_RINEHART_PARAM_REQUEST 0x0C1
@@ -35,7 +35,7 @@
 #define NUM_SAMPLES 10
 
 // analog input pin constants
-#define PIN_PEDAL0  A4
+#define PIN_PEDAL0  A4    
 #define PIN_PEDAL1  A3
 #define PIN_BRAKE0  A2
 #define PIN_BRAKE1  A1
@@ -64,8 +64,8 @@ uint16_t BRAKE_THRESHOLD = 500;
 
 // dampers
 
-#define PIN_DAMPER_LEFT       A2
-#define PIN_DAMPER_RIGHT      A3
+#define PIN_DAMPER_LEFT       3
+#define PIN_DAMPER_RIGHT      4
 
 // damper sampling values
 #define NUM_DAMPER_ADC_SAMPLES         10
@@ -90,10 +90,10 @@ uint8_t wheel_speed_left, wheel_speed_right;
 uint8_t sample_accumulator = 0;
 
 // pedal ranges -- these are all defaults; they will be updated from the EEPROM on boot
-uint16_t pedal0_min = 189;
-uint16_t pedal0_max = 849;
-uint16_t pedal1_min = 50;
-uint16_t pedal1_max = 417;
+uint16_t pedal0_min = 80;
+uint16_t pedal0_max = 438;
+uint16_t pedal1_min = 170;
+uint16_t pedal1_max = 870;
 
 // raw ADC values from each sensor
 uint16_t pedal0=0, pedal1=0, brake0=0, brake1=0, steer=0;
@@ -162,24 +162,36 @@ void loop() {
 void sendDaqData() {
     cli();
     
-    sampleDampers();
-    uint16_t damper_left_mapped = map(damper_left, 0, 1024, 0, 3170);
-    uint16_t damper_right_mapped = map(damper_right, 0, 1024, 0, 3170);
+    // sampleDampers();
+    // uint16_t damper_left_mapped = map(damper_left, 0, 1024, 0, 255);
+    // uint16_t damper_right_mapped = map(damper_right, 0, 1024, 0, 255);
 
-    sampleBrake();
+    // sampleB  rake();
+
+    pedal0 = analogRead(PIN_PEDAL0);
+    pedal1 = analogRead(PIN_PEDAL1);
+    damper_left = analogRead(PIN_DAMPER_LEFT);
+    damper_right = analogRead(PIN_DAMPER_RIGHT);
+
+
+     // map the pedal
+    pedal0_mapped = map(pedal0, pedal0_min, pedal0_max, 0, 255);
+    pedal1_mapped = map(pedal1, pedal1_min, pedal1_max, 0, 255);
 
     // Build DAQ data message
     unsigned char bufToSend[8] = {0, 0, 0, 0, 0, 0, 0, 0};
     // TODO: add wheel speed left and right
     bufToSend[0] = 0;
     bufToSend[1] = 0;
-    bufToSend[2] = damper_left_mapped & 0xFF;
-    bufToSend[3] = damper_right_mapped & 0xFF;
+    bufToSend[2] = damper_left & 0xFF;
+    bufToSend[3] = damper_right & 0xFF;
     bufToSend[4] = steer / 4; // steering position
     bufToSend[5] = brakeTrip; // send '1' if break pressure > threshold
+    bufToSend[6] = pedal0_mapped & 0xFF;
+    bufToSend[7] = pedal1_mapped & 0xFF;
 
     // send the message
-    CAN.sendMsgBuf(ID_DATA, 0, 8, bufToSend);
+    CAN.sendMsgBuf(ID_DAQ, 0, 8, bufToSend);
 
     // reenable interrupts
     sei();
@@ -251,53 +263,53 @@ void sampleDampers(){
   damper_right = damper_right / NUM_DAMPER_ADC_SAMPLES;
 }
 
-// 10Hz timer interrupt
-ISR(TIMER1_COMPA_vect) {
+// // 10Hz timer interrupt
+// ISR(TIMER1_COMPA_vect) {
 
-  // map the pedal
-  pedal0_mapped = map(pedal0, pedal0_min, pedal0_max, 0, 255);
-  pedal1_mapped = map(pedal1, pedal1_min, pedal1_max, 0, 255);
+//   // map the pedal
+//   pedal0_mapped = map(pedal0, pedal0_min, pedal0_max, 0, 255);
+//   pedal1_mapped = map(pedal1, pedal1_min, pedal1_max, 0, 255);
 
-  sampleBrake();
+//   sampleBrake();
 
-  // // map brake pressure sensors
-  // uint16_t brake0_mapped = map(brake0, 0, 1024, 0, brake_pressure_max);
-  // uint16_t brake1_mapped = map(brake1, 0, 1024, 0, brake_pressure_max);
+//   // // map brake pressure sensors
+//   // uint16_t brake0_mapped = map(brake0, 0, 1024, 0, brake_pressure_max);
+//   // uint16_t brake1_mapped = map(brake1, 0, 1024, 0, brake_pressure_max);
 
-  // check for over/under-travel
-  if (pedal0 > pedal0_max + 4*MAX_PEDAL_SKEW ||
-      pedal0 < pedal0_min ||
-      pedal1 > pedal1_max + 4*MAX_PEDAL_SKEW ||
-      pedal1 < pedal1_min) {
-          pedal0_mapped = 0;
-          pedal1_mapped = 0;
-  }
+//   // check for over/under-travel
+//   if (pedal0 > pedal0_max + 4*MAX_PEDAL_SKEW ||
+//       pedal0 < pedal0_min ||
+//       pedal1 > pedal1_max + 4*MAX_PEDAL_SKEW ||
+//       pedal1 < pedal1_min) {
+//           pedal0_mapped = 0;
+//           pedal1_mapped = 0;
+//   }
 
-  // check for mismatch
-  if (pedal0_mapped > pedal1_mapped + MAX_PEDAL_SKEW ||
-      pedal1_mapped > pedal0_mapped + MAX_PEDAL_SKEW) {
-      pedal0_mapped = 0;
-      pedal1_mapped = 0;
-  }
+//   // check for mismatch
+//   if (pedal0_mapped > pedal1_mapped + MAX_PEDAL_SKEW ||
+//       pedal1_mapped > pedal0_mapped + MAX_PEDAL_SKEW) {
+//       pedal0_mapped = 0;
+//       pedal1_mapped = 0;
+//   }
 
-  // construct the message
-  unsigned char msg[8] = {0,0,0,0,0,0,0,0};
-  msg[0] = pedal0_mapped;
-  msg[1] = pedal1_mapped;
-  msg[2] = (uint8_t)brake0_mapped & 0xFF;
-  msg[3] = (uint8_t)(brake0_mapped >> 8) & 0xFF;
-  msg[4] = (uint8_t)brake1_mapped & 0xFF;
-  msg[5] = (uint8_t)(brake1_mapped >> 8) & 0xFF;
+//   // construct the message
+//   unsigned char msg[8] = {0,0,0,0,0,0,0,0};
+//   msg[0] = pedal0_mapped;
+//   msg[1] = pedal1_mapped;
+//   msg[2] = (uint8_t)brake0_mapped & 0xFF;
+//   msg[3] = (uint8_t)(brake0_mapped >> 8) & 0xFF;
+//   msg[4] = (uint8_t)brake1_mapped & 0xFF;
+//   msg[5] = (uint8_t)(brake1_mapped >> 8) & 0xFF;
 
-  // turn off interrupts while sending CAN message
-  cli();
+//   // turn off interrupts while sending CAN message
+//   cli();
 
-  // send the message
-  CAN.sendMsgBuf(ID_DATA,0,7,msg);
+//   // send the message
+//   CAN.sendMsgBuf(ID_DATA,0,7,msg);
 
-  // reenable interrupts
-  sei();
-}
+//   // reenable interrupts
+//   sei();
+// }
 
 // 100Hz timer interrupt
 ISR(TIMER0_COMPA_vect) {
