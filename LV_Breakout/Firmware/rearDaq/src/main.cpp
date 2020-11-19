@@ -35,9 +35,25 @@ unsigned long lastSendDaqMessage = 0;
 #define PIN_Wheel_4 6
 #define PIN_Wheel_5 7
 
+// thermistor Pins
+#define PIN_TEMP1 A1
+#define PIN_TEMP2 A3
+
+
 // Output Pins
-#define PIN_BRAKE A2 // CORRECT PINOUT IS A0
-#define PIN_FAN   A0 // CORRECT PINOUT IS A2
+#define PIN_BRAKE A0 // CORRECT PINOUT IS A0
+#define PIN_FAN   A2 // CORRECT PINOUT IS A2
+
+// Thermistor values
+int temp1;
+float R1 = 10000;
+float logR2, R2, T;
+float c1 = 1.00e-3, c2 = 2.378e-4, c3 = 2.01e-7;
+int NUMSAMPLES = 5;
+float BCOEFFICIENT = 3380;
+float TEMPNOM = 25.0;
+int i;
+float average;
 
 
 // damper sampling values
@@ -72,7 +88,8 @@ unsigned char buf[8];
 
 // Initialize output states
 bool brakeSig = false;
-bool fanSig = false;
+int fanSig;
+bool autoTemp = false;
 
 void sampleDampers();
 
@@ -127,12 +144,12 @@ void sampleDampers(){
 void filterCan(unsigned long canId, unsigned char buf[8]) {
   switch(canId){
     case ID_DASH_DAQ:
-      fanSig = buf[2];
-      digitalWrite(PIN_FAN, fanSig); // CHANGE BACK PINOUT
+      autoTemp = buf[2];
+      // digitalWrite(PIN_FAN, fanSig); 
       break;
     case ID_FRONT_DAQ_DATA:
       brakeSig = buf[5];
-      digitalWrite(PIN_BRAKE, brakeSig); // CHANGE BACK PINOUT
+      digitalWrite(PIN_BRAKE, brakeSig); 
       break;
   }
 }
@@ -163,7 +180,6 @@ void loop(){
 
   if(millis() - lastSendDaqMessage >= DAQ_CAN_INTERVAL_MS){
     sendDaqData();
-
     lastSendDaqMessage = millis();
 
   }
@@ -177,5 +193,22 @@ void loop(){
   if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming
   CAN.readMsgBuf(&id, &len, buf);    // read data,  len: data length, buf: data buf
   filterCan(id, buf);
+  }
+
+  // if cooling switch is on, calcualte temperature and adjust fan speed
+  if(autoTemp){
+    average = 0;
+    for(i=0; i<NUMSAMPLES; ++i){
+      average += analogRead(PIN_TEMP1);
+    }
+    temp1 = average/NUMSAMPLES; // get analog read average value
+    R2 = R1 * (1023.0 / (float)temp1 - 1.0);
+    logR2 = log(R2);
+    T = logR2/BCOEFFICIENT;
+    T = T +(1.0/ (TEMPNOM + 273.15)); // Convert Kelvin to C
+    T = 1.0/T;
+    T -= 273.15;
+    fanSig = int(T) & 0xFF; // hex
+    analogWrite(PIN_FAN, fanSig);
   }
 }
