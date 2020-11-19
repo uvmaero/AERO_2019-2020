@@ -156,8 +156,7 @@ double emus_voltage = 265.0;  // assume maximum voltage to begin with
 double rinehart_voltage = 0;
 
 // DAQ sample rate
-uint16_t lastSendDaqMessage = 0;
-uint16_t daqMessageInterval = 500;
+unsigned long lastSendDaqMessage = 0;
 
 // Emus and Rinhart message timeout values
 uint8_t cycles_since_last_emus_message = 0;

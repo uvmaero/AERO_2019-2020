@@ -3,11 +3,14 @@
  * 
  * Rear DAQ 
  *  - Sends DAQ informaion over can
- *  - Control Break and Cooling Fan
+ *  - Control Brake and Cooling Fan
  */
+
+// TODO: Chage pinouts of Brake and Fan Back. They were changed during testing
 
 #include <Arduino.h>
 #include <mcp_can.h>
+#include <SPI.h>
 
 #define PIN_SPI_CAN_CS 5 // CAN chip
 
@@ -25,9 +28,6 @@ MCP_CAN CAN(PIN_SPI_CAN_CS);     // Set CS pin
 #define DAQ_CAN_INTERVAL_MS 100
 // DAQ sample rate
 unsigned long lastSendDaqMessage = 0;
-unsigned long daqMessageInterval = 00;
-uint8_t lastReadCan = 0;
-uint8_t canReadInterval = 500;
 
 // Sensor Pins
 #define PIN_DAMPER_3 3
@@ -36,8 +36,8 @@ uint8_t canReadInterval = 500;
 #define PIN_Wheel_5 7
 
 // Output Pins
-#define PIN_BRAKE A0
-#define PIN_FAN   A2
+#define PIN_BRAKE A2 // CORRECT PINOUT IS A0
+#define PIN_FAN   A0 // CORRECT PINOUT IS A2
 
 
 // damper sampling values
@@ -124,14 +124,13 @@ void filterCan(unsigned long canId, unsigned char buf[8]) {
   switch(canId){
     case ID_DASH_DAQ:
       fanSig = buf[2];
-      digitalWrite(PIN_FAN, fanSig);
+      digitalWrite(PIN_FAN, fanSig); // CHANGE BACK PINOUT
       break;
     case ID_FRONT_DAQ_DATA:
       brakeSig = buf[5];
-      digitalWrite(PIN_BRAKE, brakeSig);
+      digitalWrite(PIN_BRAKE, brakeSig); // CHANGE BACK PINOUT
       break;
   }
-  lastReadCan = millis();
 }
 
 void setup(){
@@ -144,7 +143,7 @@ void setup(){
   pinMode(PIN_FAN, OUTPUT);
 
   //Initialize CANbus interface
-  while (CAN_OK != CAN.begin(CAN_500KBPS)) { //Check we can talk to CAN
+  while (CAN.begin(MCP_ANY, CAN_500KBPS, MCP_16MHz) != CAN_OK) { //Check we can talk to CAN
     lastSendDaqMessage = millis();
   }
 }
@@ -153,13 +152,13 @@ void loop(){
   unsigned char len = 0;
   unsigned char buf[8];
 
-  // if(millis() > (lastSendDaqMessage + DAQ_CAN_INTERVAL_MS)){
+  if(millis() > (lastSendDaqMessage + DAQ_CAN_INTERVAL_MS)){
 
-  //   sendDaqData();
-  // }
+    sendDaqData();
+  }
 
   if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming
-  CAN.readMsgBuf(&len, buf);    // read data,  len: data length, buf: data buf
-  filterCan(CAN.getCanId(), buf);
+  CAN.readMsgBuf(&id, &len, buf);    // read data,  len: data length, buf: data buf
+  // filterCan(CAN.getCanId(), buf);
   }
 }

@@ -117,47 +117,10 @@ uint16_t rear_brake_pressure = 0;
 bool brakeTrip = false;
 
 // DAQ sample rate
-uint8_t lastSendDaqMessage = 0;
-uint8_t daqMessageInterval = 500;
+unsigned long lastSendDaqMessage = 0;
+#define DAQ_CAN_INTERVAL_MS 1000
 
 uint8_t ready_to_drive = 0;
-
-void sendDaqData();
-void sampleDampers();
-void sampleBrake();
-void filterCan(unsigned long canId, unsigned char buf[8]);
-
-void setup() {
-
-  // CAN bitrate = 500KBPS
-  while (CAN_OK != CAN.begin(CAN_500KBPS)) { //Check we can talk to CAN
-      #ifdef DEBUG
-      Serial.println("CAN BUS Shield init fail");
-      Serial.println("Init CAN BUS Shield again");
-      #endif
-  }
-#ifdef DEBUG
-  Serial.println("CAN BUS Shield init ok!");
-  // setExtLED(EXTPIN_COOLING_IND1G, HIGH);
-#endif
-
-  lastSendDaqMessage = millis();
-}
-
-void loop() {
-  unsigned char len = 0;
-  unsigned char buf[8];
-
-  if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming
-    CAN.readMsgBuf(&len, buf);    // read data,  len: data length, buf: data buf
-    filterCan(CAN.getCanId(), buf);
-  }
-
-    if (millis()-lastSendDaqMessage > daqMessageInterval){
-        sendDaqData();
-    }
-    lastSendDaqMessage = millis();
-}
 
 void sendDaqData() {
     cli();
@@ -367,4 +330,37 @@ void sampleBrake(){
     brakeTrip = true;
   }
 
+}
+
+void setup() {
+
+  // CAN bitrate = 500KBPS
+  while (CAN_OK != CAN.begin(CAN_500KBPS)) { //Check we can talk to CAN
+      #ifdef DEBUG
+      Serial.println("CAN BUS Shield init fail");
+      Serial.println("Init CAN BUS Shield again");
+      #endif
+  }
+#ifdef DEBUG
+  Serial.println("CAN BUS Shield init ok!");
+  // setExtLED(EXTPIN_COOLING_IND1G, HIGH);
+#endif
+
+  lastSendDaqMessage = millis();
+}
+
+void loop() {
+  unsigned char len = 0;
+  unsigned char buf[8];
+
+  if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming
+    CAN.readMsgBuf(&len, buf);    // read data,  len: data length, buf: data buf
+    filterCan(CAN.getCanId(), buf);
+  }
+
+  if (millis()>(lastSendDaqMessage + DAQ_CAN_INTERVAL_MS)){
+      sendDaqData();
+      lastSendDaqMessage = millis();
+  }
+    
 }
