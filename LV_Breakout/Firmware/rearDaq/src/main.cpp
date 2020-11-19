@@ -10,9 +10,9 @@
 
 #include <Arduino.h>
 #include <mcp_can.h>
-#include <SPI.h>
 
 #define PIN_SPI_CAN_CS 5 // CAN chip
+#define CAN_INT 2 // interrupt pint
 
 MCP_CAN CAN(PIN_SPI_CAN_CS);     // Set CS pin
 
@@ -25,7 +25,7 @@ MCP_CAN CAN(PIN_SPI_CAN_CS);     // Set CS pin
 #define ID_DASH_DAQ       0x1C
 #define ID_FRONT_DAQ_DATA 0x38
 
-#define DAQ_CAN_INTERVAL_MS 100
+#define DAQ_CAN_INTERVAL_MS 10
 // DAQ sample rate
 unsigned long lastSendDaqMessage = 0;
 
@@ -62,6 +62,11 @@ bool wsl_detected = false, wsr_detected = false;
 uint8_t wheel_speed_left, wheel_speed_right;
 uint8_t sample_accumulator = 0;
 
+// CAN buffers
+unsigned long id;
+unsigned char len = 0;
+unsigned char buf[8];
+
 
 // Initialize input states
 
@@ -82,7 +87,7 @@ void sendDaqData() {
 
 
   // Build DAQ data message
-  uint8_t bufToSend[8] = {0, 0, 0, 0, 0, 0, 0, 0};
+  byte bufToSend[8] = {0, 0, 0, 0, 0, 0, 0, 0};
   bufToSend[0] = 0; // wheel speed 3
   bufToSend[1] = 0; // wheel speed 4
   bufToSend[2] = damper_left_mapped & 0xFF;
@@ -94,12 +99,11 @@ void sendDaqData() {
 
 
   // send the message
-  CAN.sendMsgBuf(ID_REAR_DAQ_DATA, 0, 8, bufToSend);
+  CAN.sendMsgBuf(ID_REAR_DAQ_DATA, 8, bufToSend);
 
   // reenable interrupts
   sei();
 
-  lastSendDaqMessage = millis();
 }
 
 
@@ -142,23 +146,36 @@ void setup(){
   pinMode(PIN_BRAKE, OUTPUT);
   pinMode(PIN_FAN, OUTPUT);
 
+  // ONLY NEED THIS IF USING INTERRUPT PIN
+  // pinMode(CAN_INT, INPUT);
+
   //Initialize CANbus interface
-  while (CAN.begin(MCP_ANY, CAN_500KBPS, MCP_16MHz) != CAN_OK) { //Check we can talk to CAN
-    lastSendDaqMessage = millis();
-  }
+  CAN.begin(MCP_ANY, CAN_500KBPS, MCP_16MHZ);
+  // while (CAN.begin(MCP_ANY, CAN_500KBPS, MCP_16MHZ) != CAN_OK) { //Check we can talk to CAN
+  //   lastSendDaqMessage = millis();
+  // }
+
+  // setup can to allow for data transmission
+  CAN.setMode(MCP_NORMAL);
 }
 
-void loop(){ 
-  unsigned char len = 0;
-  unsigned char buf[8];
+void loop(){  
 
-  if(millis() > (lastSendDaqMessage + DAQ_CAN_INTERVAL_MS)){
-
+  if(millis() - lastSendDaqMessage >= DAQ_CAN_INTERVAL_MS){
     sendDaqData();
+
+    lastSendDaqMessage = millis();
+
   }
+
+  // IF USING INTERRUPT PIN, USE THIS CODE
+  // if(!digitalRead(CAN_INT)){
+  //   CAN.readMsgBuf(&id, &len, buf);
+  //   filterCan(id, buf);
+  // }
 
   if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming
   CAN.readMsgBuf(&id, &len, buf);    // read data,  len: data length, buf: data buf
-  // filterCan(CAN.getCanId(), buf);
+  filterCan(id, buf);
   }
 }
