@@ -53,6 +53,7 @@ int NUMSAMPLES = 5;
 float BCOEFFICIENT = 3380;
 float TEMPNOM = 25.0;
 int i;
+float THERMNOM = 10000;
 float average;
 
 
@@ -108,10 +109,10 @@ void sendDaqData() {
   bufToSend[0] = 0; // wheel speed 3
   bufToSend[1] = 0; // wheel speed 4
   bufToSend[2] = damper_left_mapped & 0xFF;
-  bufToSend[3] = (damper_left_mapped >> 8) & 0xFF;
-  bufToSend[4] = damper_right_mapped & 0xFF;
-  bufToSend[5] = (damper_right_mapped >> 8) & 0xFF; 
-  bufToSend[6] = brakeSig;
+  bufToSend[3] = damper_right_mapped & 0xFF;
+  bufToSend[4] = 0;
+  bufToSend[5] = brakeSig;
+  bufToSend[6] = autoTemp;
   bufToSend[7] = fanSig;
 
 
@@ -145,7 +146,7 @@ void filterCan(unsigned long canId, unsigned char buf[8]) {
   switch(canId){
     case ID_DASH_DAQ:
       autoTemp = buf[2];
-      // digitalWrite(PIN_FAN, fanSig); 
+      digitalWrite(PIN_FAN, autoTemp); 
       break;
     case ID_FRONT_DAQ_DATA:
       brakeSig = buf[5];
@@ -195,20 +196,24 @@ void loop(){
   filterCan(id, buf);
   }
 
-  // if cooling switch is on, calcualte temperature and adjust fan speed
-  if(autoTemp){
-    average = 0;
-    for(i=0; i<NUMSAMPLES; ++i){
-      average += analogRead(PIN_TEMP1);
-    }
-    temp1 = average/NUMSAMPLES; // get analog read average value
-    R2 = R1 * (1023.0 / (float)temp1 - 1.0);
-    logR2 = log(R2);
-    T = logR2/BCOEFFICIENT;
-    T = T +(1.0/ (TEMPNOM + 273.15)); // Convert Kelvin to C
-    T = 1.0/T;
-    T -= 273.15;
-    fanSig = int(T) & 0xFF; // hex
-    analogWrite(PIN_FAN, fanSig);
-  }
+  // // if cooling switch is on, calcualte temperature and adjust fan speed
+  // if(autoTemp){
+  //   average = 0;
+  //   for(i=0; i<NUMSAMPLES; ++i){
+  //     average += analogRead(PIN_TEMP1);
+  //   }
+  //   temp1 = average/NUMSAMPLES; // get analog read average value
+
+  //   R2 = R1 / (1023.0 / (float)temp1 - 1.0);
+  //   logR2 = log(R2/THERMNOM);
+  //   T = logR2/BCOEFFICIENT;
+  //   T = T +(1.0/ (TEMPNOM + 273.15)); // Convert Kelvin to C
+  //   T = 1.0/T;
+  //   T -= 273.15;
+  //   fanSig = int(T*3) & 0xFF; // hex    
+  //   analogWrite(PIN_FAN, fanSig);
+  // }
+  // else{
+  //   analogWrite(PIN_FAN, 0);
+  // }
 }

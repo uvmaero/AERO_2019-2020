@@ -89,10 +89,10 @@ bool wsl_detected = false, wsr_detected = false;
 uint8_t wheel_speed_left, wheel_speed_right;
 uint8_t sample_accumulator = 0;
 
-// pedal ranges -- these are all defaults; they will be updated from the EEPROM on boot
-uint16_t pedal0_min = 80;
+// pedal ranges -- these are all defaults;
+uint16_t pedal0_min = 70;
 uint16_t pedal0_max = 438;
-uint16_t pedal1_min = 170;
+uint16_t pedal1_min = 150;
 uint16_t pedal1_max = 870;
 
 // raw ADC values from each sensor
@@ -103,7 +103,7 @@ uint16_t brake0_mapped = 0, brake1_mapped = 0;
 uint8_t pedal0_mapped, pedal1_mapped;
 
 // max torque for Rinehart torque command
-int16_t max_torque = 50;  // super low default just to be safe
+int16_t max_torque = 50;  // super low default just to be safe (50)
 
 // regen torque values -- these are updated over CAN from the dash
 int16_t brake_regen_torque = 10;
@@ -121,6 +121,7 @@ unsigned long lastSendDaqMessage = 0;
 #define DAQ_CAN_INTERVAL_MS 1000
 
 uint8_t ready_to_drive = 0;
+uint8_t direction = 0; // direction of motor (CS5 runs in "reverse")
 
 void sendDaqData() {
     cli();
@@ -129,12 +130,33 @@ void sendDaqData() {
     // uint16_t damper_left_mapped = map(damper_left, 0, 1024, 0, 255);
     // uint16_t damper_right_mapped = map(damper_right, 0, 1024, 0, 255);
 
-    // sampleB  rake();
+    // sampleBrake();
+
+    // // map brake pressure sensors
+    // uint16_t brake0_mapped = map(brake0, 0, 1024, 0, brake_pressure_max);
+    // uint16_t brake1_mapped = map(brake1, 0, 1024, 0, brake_pressure_max);
+
 
     pedal0 = analogRead(PIN_PEDAL0);
     pedal1 = analogRead(PIN_PEDAL1);
     damper_left = analogRead(PIN_DAMPER_LEFT);
     damper_right = analogRead(PIN_DAMPER_RIGHT);
+
+      // check for over/under-travel
+  if (pedal0 > pedal0_max + 4*MAX_PEDAL_SKEW ||
+      pedal0 < pedal0_min ||
+      pedal1 > pedal1_max + 4*MAX_PEDAL_SKEW ||
+      pedal1 < pedal1_min) {
+          pedal0_mapped = 0;
+          pedal1_mapped = 0;
+  }
+
+  // check for mismatch
+  if (pedal0_mapped > pedal1_mapped + MAX_PEDAL_SKEW ||
+      pedal1_mapped > pedal0_mapped + MAX_PEDAL_SKEW) {
+      pedal0_mapped = 0;
+      pedal1_mapped = 0;
+  }
 
 
      // map the pedal
@@ -163,6 +185,7 @@ void sendDaqData() {
 void filterCan(unsigned long canId, unsigned char buf[8]) {
   switch(canId){
     case ID_DASH_DAQ:
+      direction = buf[4];
       break;
   }
 }
@@ -226,61 +249,17 @@ void sampleDampers(){
   damper_right = damper_right / NUM_DAMPER_ADC_SAMPLES;
 }
 
-// // 10Hz timer interrupt
+// 10Hz timer interrupt
 // ISR(TIMER1_COMPA_vect) {
-
-//   // map the pedal
-//   pedal0_mapped = map(pedal0, pedal0_min, pedal0_max, 0, 255);
-//   pedal1_mapped = map(pedal1, pedal1_min, pedal1_max, 0, 255);
-
-//   sampleBrake();
-
-//   // // map brake pressure sensors
-//   // uint16_t brake0_mapped = map(brake0, 0, 1024, 0, brake_pressure_max);
-//   // uint16_t brake1_mapped = map(brake1, 0, 1024, 0, brake_pressure_max);
-
-//   // check for over/under-travel
-//   if (pedal0 > pedal0_max + 4*MAX_PEDAL_SKEW ||
-//       pedal0 < pedal0_min ||
-//       pedal1 > pedal1_max + 4*MAX_PEDAL_SKEW ||
-//       pedal1 < pedal1_min) {
-//           pedal0_mapped = 0;
-//           pedal1_mapped = 0;
-//   }
-
-//   // check for mismatch
-//   if (pedal0_mapped > pedal1_mapped + MAX_PEDAL_SKEW ||
-//       pedal1_mapped > pedal0_mapped + MAX_PEDAL_SKEW) {
-//       pedal0_mapped = 0;
-//       pedal1_mapped = 0;
-//   }
-
-//   // construct the message
-//   unsigned char msg[8] = {0,0,0,0,0,0,0,0};
-//   msg[0] = pedal0_mapped;
-//   msg[1] = pedal1_mapped;
-//   msg[2] = (uint8_t)brake0_mapped & 0xFF;
-//   msg[3] = (uint8_t)(brake0_mapped >> 8) & 0xFF;
-//   msg[4] = (uint8_t)brake1_mapped & 0xFF;
-//   msg[5] = (uint8_t)(brake1_mapped >> 8) & 0xFF;
-
-//   // turn off interrupts while sending CAN message
-//   cli();
-
-//   // send the message
-//   CAN.sendMsgBuf(ID_DATA,0,7,msg);
-
-//   // reenable interrupts
-//   sei();
 // }
 
-// 100Hz timer interrupt
+// 100Hz timer interrupt RINEHART COMMAND MESSAGE
 ISR(TIMER0_COMPA_vect) {
     // take an average of the pedal values
     uint8_t pedal_avg = pedal0_mapped/2 + pedal1_mapped/2;
 
     // compute commanded torque (N-m * 10 [10x factor is how Rinehart expects it])
-    // TODO(cullen): should this be a linear map?
+    // TODO: should this be a linear map?
     int16_t commanded_torque = map(pedal_avg, PEDAL_DEADBAND, 255, 0, 10*max_torque);
 
     if (pedal_avg < PEDAL_DEADBAND) {
@@ -298,12 +277,12 @@ ISR(TIMER0_COMPA_vect) {
     }
 
     // construct the rinehart message
-    unsigned char msg[8] = {0,0,0,0,0,0,0,0};
+    byte msg[8] = {0,0,0,0,0,0,0,0};
     msg[0] = commanded_torque & 0xFF;
     msg[1] = commanded_torque >> 8;
     msg[2] = 0;
     msg[3] = 0,
-    msg[4] = 0;  // 0 - "reverse", 1 - "forward" (CS4 drives forward with motor in "reverse" direction)
+    msg[4] = direction;  // 0 - "reverse", 1 - "forward" (CS4 drives forward with motor in "reverse" direction)
     msg[5] = ready_to_drive ? 1 : 0;
     msg[6] = 0; //(max_torque*10) & 0xFF,
     msg[7] = 0; //(max_torque*10) >> 8
@@ -312,7 +291,7 @@ ISR(TIMER0_COMPA_vect) {
     cli();
 
     // send the message
-    CAN.sendMsgBuf(ID_RINEHART_COMMAND, 0, 8, msg);
+    CAN.sendMsgBuf(ID_RINEHART_COMMAND, 8, msg);
 
     // reenable interrupts
     sei();
@@ -335,7 +314,7 @@ void sampleBrake(){
 void setup() {
 
   // CAN bitrate = 500KBPS
-  while (CAN_OK != CAN.begin(CAN_500KBPS)) { //Check we can talk to CAN
+  while (CAN_OK != CAN.begin(MCP_ANY, CAN_500KBPS, MCP_16MHZ)) { //Check we can talk to CAN
       #ifdef DEBUG
       Serial.println("CAN BUS Shield init fail");
       Serial.println("Init CAN BUS Shield again");
@@ -350,12 +329,14 @@ void setup() {
 }
 
 void loop() {
+  // CAN Buffers
+  unsigned long id;
   unsigned char len = 0;
   unsigned char buf[8];
 
   if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming
-    CAN.readMsgBuf(&len, buf);    // read data,  len: data length, buf: data buf
-    filterCan(CAN.getCanId(), buf);
+    CAN.readMsgBuf(&id, &len, buf);    // read data,  len: data length, buf: data buf
+    filterCan(id, buf);
   }
 
   if (millis()>(lastSendDaqMessage + DAQ_CAN_INTERVAL_MS)){
