@@ -46,7 +46,7 @@
 #define ID_RINEHART_PARAM_REQUEST 0x0C1
 #define ID_RINEHART_PARAM_RESPONSE 0x0C2
 
-#define ID_EMUS_BASE          0x2A7
+#define ID_EMUS_BASE          0x90
 #define ID_EMUS_VOLTAGE       ID_EMUS_BASE +1
 #define ID_EMUS_TEMPS         ID_EMUS_BASE + 2
 
@@ -70,22 +70,22 @@
 #define PIN_NTC1              A7
 
 // "Pin" of LEDs driven by STP16CP05
-#define EXTPIN_FAULT_BMS_1   0
-#define EXTPIN_FAULT_GFD_2   1
-#define EXTPIN_FAULT_TMS_3   2
-#define EXTPIN_COOLING_IND1R 3
-#define EXTPIN_COOLING_IND1B 4
-#define EXTPIN_COOLING_IND1G 5
-#define EXTPIN_COOLING_IND2R 6
-#define EXTPIN_COOLING_IND2B 7
-#define EXTPIN_COOLING_IND2G 8
-#define EXTPIN_COOLING_IND3R 9
-#define EXTPIN_COOLING_IND3B 10
-#define EXTPIN_COOLING_IND3G 11
+#define EXTPIN_FAULT_BMS_1   0 // BMS Fault
+#define EXTPIN_FAULT_GFD_2   1 // GFD Fault
+#define EXTPIN_FAULT_TMS_3   2 // TMS Fault
+#define EXTPIN_COOLING_IND1R 3 // BMS
+#define EXTPIN_COOLING_IND1B 4 // BMS
+#define EXTPIN_COOLING_IND1G 5 // BMS
+#define EXTPIN_COOLING_IND2R 6 // RMS
+#define EXTPIN_COOLING_IND2B 7 // RMS
+#define EXTPIN_COOLING_IND2G 8 // RMS
+#define EXTPIN_COOLING_IND3R 9 // MTR
+#define EXTPIN_COOLING_IND3B 10 // MTR
+#define EXTPIN_COOLING_IND3G 11 // MTR
 #define EXTPIN_COOLING_IND4R 12
 #define EXTPIN_COOLING_IND4B 13
 #define EXTPIN_COOLING_IND4G 14
-#define EXTPIN_RTD_BTN_LED   15 
+#define EXTPIN_RTD_BTN_LED   15 // RTD
 
 // Cooling LEDs color map range
 #define RMS_COOLING_IND_PURPLE_TEMP_C 20
@@ -191,6 +191,9 @@ int16_t RMCTemps[11];       //Motor controller temps, equivilent to the followin
 */
 
 MCP_CAN CAN(PIN_SPI_CAN_CS);     // Set CS pin
+
+// function declrations
+void setTemp(int temp, int device);
 
 // Function to set state of LEDs driven by STP16CP05
 void setExtLED(int ledNum, bool state){
@@ -311,6 +314,7 @@ void filterCan(unsigned long canId, unsigned char buf[8]) {
       for (int i = 0; i < 4; i++) {
         RMCTemps[i] = ((buf[2 * i + 1] << 8) | buf[2 * i]); //Place temps into RMCTemps
       }
+      setTemp(((RMCTemps[0]+RMCTemps[1]+RMCTemps[2])/3)/10, 1);
       break;
     }
     case ID_RINEHART_TEMPS2:{
@@ -327,16 +331,7 @@ void filterCan(unsigned long canId, unsigned char buf[8]) {
     }
     case ID_EMUS_TEMPS:{
       int emusMaxTemp = buf[1] - 100;
-      if(emusMaxTemp > BMS_COOLING_IND_RED_TEMP_C){
-        setExtLED(EXTPIN_COOLING_IND1R, HIGH);
-        setExtLED(EXTPIN_COOLING_IND1B, LOW);
-      } else if(emusMaxTemp > BMS_COOLING_IND_PURPLE_TEMP_C){
-        setExtLED(EXTPIN_COOLING_IND1R, HIGH);
-        setExtLED(EXTPIN_COOLING_IND1B, HIGH);
-      } else{
-        setExtLED(EXTPIN_COOLING_IND1R, LOW);
-        setExtLED(EXTPIN_COOLING_IND1B, HIGH);
-      }
+      setTemp(emusMaxTemp, 0); // Set Battery Temp LED  
       break;
     }
     case ID_DASH_SELF_TEST:{
@@ -394,12 +389,13 @@ void sendDaqData() {
 //     sei();
 
 //     for (int i = 0; i < num_tries; i++) {
+//         unsigned long id;
 //         unsigned char data[8];
 //         unsigned char len = 0;
 //         cli();
-//         if (CAN.readMsgBuf(&len, data)) {
+//         if (CAN.readMsgBuf(&id, &len, data)) {
 //             // if the CAN id matches, along with the param address and the success message, return 1
-//             if (CAN.getCanId() == ID_RINEHART_PARAM_RESPONSE &&
+//             if (id == ID_RINEHART_PARAM_RESPONSE &&
 //                 (data[0] | (data[1] << 8)) == param_addr &&
 //                 data[2] == 0x01) {
 //                 if (data_out != NULL) {
@@ -509,7 +505,7 @@ void sendDaqData() {
 //     sei();
 // }
 
-// 10Hz timer interrupt
+// // 10Hz timer interrupt
 // ISR(TIMER1_COMPA_vect) {
 //     // Control precharge
 //     control_precharge();
@@ -523,6 +519,52 @@ void sendDaqData() {
 //         time_since_rtds_start += 100;
 //     }
 // }
+
+void setTemp(int temp, int device){
+
+  switch(device){
+    case 0: // BMS - Battery Temp
+    if(temp > BMS_COOLING_IND_RED_TEMP_C){
+        setExtLED(EXTPIN_COOLING_IND1R, HIGH);
+        setExtLED(EXTPIN_COOLING_IND1B, LOW);
+      } else if(temp > BMS_COOLING_IND_PURPLE_TEMP_C){
+        setExtLED(EXTPIN_COOLING_IND1R, HIGH);
+        setExtLED(EXTPIN_COOLING_IND1B, HIGH);
+      } else{
+        setExtLED(EXTPIN_COOLING_IND1R, LOW);
+        setExtLED(EXTPIN_COOLING_IND1B, HIGH);
+      }
+    break;
+    
+    case 1: // Controller Temp
+    if(temp > RMS_COOLING_IND_RED_TEMP_C){
+        setExtLED(EXTPIN_COOLING_IND2R, HIGH);
+        setExtLED(EXTPIN_COOLING_IND2B, LOW);
+      } else if(temp > RMS_COOLING_IND_PURPLE_TEMP_C){
+        setExtLED(EXTPIN_COOLING_IND2R, HIGH);
+        setExtLED(EXTPIN_COOLING_IND2B, HIGH);
+      } else{
+        setExtLED(EXTPIN_COOLING_IND2R, LOW);
+        setExtLED(EXTPIN_COOLING_IND2B, HIGH);
+      }
+    break;
+
+    case 2: // Motor Temp
+    if(temp > MTR_COOLING_IND_RED_TEMP_C){
+        setExtLED(EXTPIN_COOLING_IND3R, HIGH);
+        setExtLED(EXTPIN_COOLING_IND3B, LOW);
+      } else if(temp> MTR_COOLING_IND_PURPLE_TEMP_C){
+        setExtLED(EXTPIN_COOLING_IND3R, HIGH);
+        setExtLED(EXTPIN_COOLING_IND3B, HIGH);
+      } else{
+        setExtLED(EXTPIN_COOLING_IND3R, LOW);
+        setExtLED(EXTPIN_COOLING_IND3B, HIGH);
+      }
+    break;
+
+  }
+
+}
 
 void setup() {
   // pin mode setup
@@ -555,27 +597,25 @@ void setup() {
   // TIMSK1 = (1 << OCIE1A);  // enable comparator A interrupt
 
   //Initialize CANbus interface
-  while (CAN_OK != CAN.begin(CAN_500KBPS)) { //Check we can talk to CAN
+  while (CAN_OK != CAN.begin(MCP_ANY, CAN_500KBPS, MCP_16MHZ)) { //Check we can talk to CAN
 #ifdef DEBUG
     Serial.println("CAN BUS Shield init fail");
     Serial.println("Init CAN BUS Shield again");
 #endif
   }
-#ifdef DEBUG
-  Serial.println("CAN BUS Shield init ok!");
-  // setExtLED(EXTPIN_COOLING_IND1G, HIGH);
-#endif
+  CAN.setMode(MCP_NORMAL);
 
   lastSendDaqMessage = millis();
 }
 
 void loop() {
+  unsigned long id;
   unsigned char len = 0;  
   unsigned char buf[8];
 
   if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming
-    CAN.readMsgBuf(&len, buf);    // read data,  len: data length, buf: data buf
-    filterCan(CAN.getCanId(), buf);
+    CAN.readMsgBuf(&id, &len, buf);    // read data,  len: data length, buf: data buf
+    filterCan(id, buf);
   }
 
   if(millis() > (lastSendDaqMessage + DAQ_CAN_INTERVAL_MS)){

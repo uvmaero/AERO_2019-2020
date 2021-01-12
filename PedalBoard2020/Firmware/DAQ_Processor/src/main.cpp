@@ -90,9 +90,9 @@ uint8_t wheel_speed_left, wheel_speed_right;
 uint8_t sample_accumulator = 0;
 
 // pedal ranges -- these are all defaults;
-uint16_t pedal0_min = 70;
-uint16_t pedal0_max = 438;
-uint16_t pedal1_min = 150;
+uint16_t pedal0_min = 90;
+uint16_t pedal0_max = 430;
+uint16_t pedal1_min = 190;
 uint16_t pedal1_max = 870;
 
 // raw ADC values from each sensor
@@ -118,10 +118,12 @@ bool brakeTrip = false;
 
 // DAQ sample rate
 unsigned long lastSendDaqMessage = 0;
-#define DAQ_CAN_INTERVAL_MS 1000
+unsigned long lastSendRinehart = 0;
+#define DAQ_CAN_INTERVAL_MS 100
 
 uint8_t ready_to_drive = 0;
 uint8_t direction = 0; // direction of motor (CS5 runs in "reverse")
+
 
 void sendDaqData() {
     cli();
@@ -186,6 +188,9 @@ void filterCan(unsigned long canId, unsigned char buf[8]) {
   switch(canId){
     case ID_DASH_DAQ:
       direction = buf[4];
+      coast_regen_torque = buf[0];
+      brake_regen_torque = buf[1];  
+      ready_to_drive = buf[3];
       break;
   }
 }
@@ -254,7 +259,7 @@ void sampleDampers(){
 // }
 
 // 100Hz timer interrupt RINEHART COMMAND MESSAGE
-ISR(TIMER0_COMPA_vect) {
+void sendRinehart() {
     // take an average of the pedal values
     uint8_t pedal_avg = pedal0_mapped/2 + pedal1_mapped/2;
 
@@ -271,10 +276,10 @@ ISR(TIMER0_COMPA_vect) {
         commanded_torque -= brake_torque;
     }
 
-    // if the vehicle is not ready to drive, set torque command to 0
-    if (!ready_to_drive) {
-        commanded_torque = 0;
-    }
+    // // if the vehicle is not ready to drive, set torque command to 0
+    // if (!ready_to_drive) {
+    //     commanded_torque = 0;
+    // }
 
     // construct the rinehart message
     byte msg[8] = {0,0,0,0,0,0,0,0};
@@ -320,12 +325,17 @@ void setup() {
       Serial.println("Init CAN BUS Shield again");
       #endif
   }
-#ifdef DEBUG
-  Serial.println("CAN BUS Shield init ok!");
-  // setExtLED(EXTPIN_COOLING_IND1G, HIGH);
-#endif
+
+  CAN.setMode(MCP_NORMAL);
 
   lastSendDaqMessage = millis();
+
+  // // initialize TIMER1 for 100Hz
+  // TCCR1A = 0;
+  // TCCR1B = (0x02 << CS10);  // f_timer = f_cpu/8 => 1MHz
+  // OCR1A = 10000;  // set comparator A
+  // TIMSK1 = (1 << OCIE1A);  // enable comparator A interrupt
+
 }
 
 void loop() {
@@ -334,14 +344,19 @@ void loop() {
   unsigned char len = 0;
   unsigned char buf[8];
 
-  if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming
-    CAN.readMsgBuf(&id, &len, buf);    // read data,  len: data length, buf: data buf
-    filterCan(id, buf);
-  }
+    if (CAN_MSGAVAIL == CAN.checkReceive()) {   // check if data coming
+      CAN.readMsgBuf(&id, &len, buf);    // read data,  len: data length, buf: data buf
+      filterCan(id, buf);
+    }
 
   if (millis()>(lastSendDaqMessage + DAQ_CAN_INTERVAL_MS)){
       sendDaqData();
       lastSendDaqMessage = millis();
+  }
+
+  if (millis()>(lastSendRinehart + DAQ_CAN_INTERVAL_MS)){
+    sendRinehart();
+    lastSendRinehart = millis();
   }
     
 }

@@ -211,10 +211,6 @@ F 3 "~" H 6800 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7450 3300 7075 3300
-Wire Wire Line
-	7075 3300 6975 3400
-Wire Wire Line
 	6975 3400 6550 3400
 Wire Wire Line
 	6550 3300 6975 3300
@@ -751,4 +747,8 @@ Wire Wire Line
 	3750 5100 3350 5100
 Text Notes 8500 7375 0    50   ~ 0
 Front DAQ board\nG.Spearing\n20.0303
+Wire Wire Line
+	7075 3300 6975 3400
+Wire Wire Line
+	7450 3300 7075 3300
 $EndSCHEMATC

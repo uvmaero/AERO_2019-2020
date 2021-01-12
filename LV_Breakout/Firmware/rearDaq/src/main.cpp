@@ -79,11 +79,6 @@ bool wsl_detected = false, wsr_detected = false;
 uint8_t wheel_speed_left, wheel_speed_right;
 uint8_t sample_accumulator = 0;
 
-// CAN buffers
-unsigned long id;
-unsigned char len = 0;
-unsigned char buf[8];
-
 
 // Initialize input states
 
@@ -178,6 +173,10 @@ void setup(){
 }
 
 void loop(){  
+  // CAN buffers
+  unsigned long id;
+  unsigned char len = 0;
+  unsigned char buf[8];
 
   if(millis() - lastSendDaqMessage >= DAQ_CAN_INTERVAL_MS){
     sendDaqData();

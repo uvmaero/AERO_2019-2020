@@ -1357,4 +1357,6 @@ F 3 "" H 3750 5900 50  0001 C CNN
 $EndComp
 Text Notes 700  8750 0    50   ~ 0
 Notes for future:\nFuse should be before Recom\nThere should be anti brownout caps and polarity protection\nConsider the "Power Switch" thing\nLook into better MCUs\nCreate common subschematics for CAN, Power supply, etc
+Text Notes 1725 7025 0    50   ~ 0
+Direction Switch
 $EndSCHEMATC
