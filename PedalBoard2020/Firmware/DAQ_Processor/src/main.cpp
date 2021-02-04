@@ -37,8 +37,8 @@
 // analog input pin constants
 #define PIN_PEDAL0  A4    
 #define PIN_PEDAL1  A3
-#define PIN_BRAKE0  A2
-#define PIN_BRAKE1  A1
+#define PIN_DAMPER_LEFT  A2
+#define PIN_DAMPER_RIGHT  A1
 #define PIN_STEER   A0
 
 
@@ -64,15 +64,14 @@ uint16_t BRAKE_THRESHOLD = 500;
 
 // dampers
 
-#define PIN_DAMPER_LEFT       3
-#define PIN_DAMPER_RIGHT      4
+// #define PIN_DAMPER_LEFT       3 // WRONG, MUST BE ANALOG PIN
+// #define PIN_DAMPER_RIGHT      4 // WRONG, MUST BE ANALOG PIN
 
 // damper sampling values
 #define NUM_DAMPER_ADC_SAMPLES         10
 #define DAMPER_ADC_SAMPLES_DELAY_US    5
 uint16_t damper_left=0,damper_right=0;
-uint16_t damper_left_mapped = map(damper_left, 0, 1024, 0, 3170);
-uint16_t damper_right_mapped = map(damper_right, 0, 1024, 0, 3170);
+uint8_t damper_left_mapped, damper_right_mapped;
 
 
 #define WHEEL_SPEED_PULSES_PER_REV        1
@@ -165,17 +164,21 @@ void sendDaqData() {
     pedal0_mapped = map(pedal0, pedal0_min, pedal0_max, 0, 255);
     pedal1_mapped = map(pedal1, pedal1_min, pedal1_max, 0, 255);
 
+    // map dampers
+    damper_left_mapped = map(damper_left, 0, 1024, 0, 255);
+    damper_right_mapped = map(damper_right, 0, 1024, 0, 255);
+
     // Build DAQ data message
     unsigned char bufToSend[8] = {0, 0, 0, 0, 0, 0, 0, 0};
     // TODO: add wheel speed left and right
     bufToSend[0] = 0;
     bufToSend[1] = 0;
-    bufToSend[2] = damper_left & 0xFF;
-    bufToSend[3] = damper_right & 0xFF;
+    bufToSend[2] = damper_left_mapped;
+    bufToSend[3] = damper_right_mapped;
     bufToSend[4] = steer / 4; // steering position
     bufToSend[5] = brakeTrip; // send '1' if break pressure > threshold
-    bufToSend[6] = pedal0_mapped & 0xFF;
-    bufToSend[7] = pedal1_mapped & 0xFF;
+    bufToSend[6] = pedal0_mapped;
+    bufToSend[7] = pedal1_mapped;
 
     // send the message
     CAN.sendMsgBuf(ID_DAQ, 0, 8, bufToSend);
@@ -302,19 +305,19 @@ void sendRinehart() {
     sei();
 }
 
-void sampleBrake(){
+// void sampleBrake(){
 
-  brake0 = analogRead(PIN_BRAKE0);
-  brake1 = analogRead(PIN_BRAKE1);
-  // map brake pressure sensors
-  brake0_mapped = map(brake0, 0, 1024, 0, brake_pressure_max);
-  brake1_mapped = map(brake1, 0, 1024, 0, brake_pressure_max);
+//   brake0 = analogRead(PIN_BRAKE0);
+//   brake1 = analogRead(PIN_BRAKE1);
+//   // map brake pressure sensors
+//   brake0_mapped = map(brake0, 0, 1024, 0, brake_pressure_max);
+//   brake1_mapped = map(brake1, 0, 1024, 0, brake_pressure_max);
 
-  if (((brake0_mapped + brake1_mapped)/2) > BRAKE_THRESHOLD){
-    brakeTrip = true;
-  }
+//   if (((brake0_mapped + brake1_mapped)/2) > BRAKE_THRESHOLD){
+//     brakeTrip = true;
+//   }
 
-}
+// }
 
 void setup() {
 

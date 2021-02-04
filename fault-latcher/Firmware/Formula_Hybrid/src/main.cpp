@@ -46,9 +46,13 @@ void setup(){
   pinMode(PIN_IMD_IND, INPUT);
 
   //Initialize CANbus interface
-  while (CAN_OK != CAN.begin(CAN_500KBPS)) { //Check we can talk to CAN
+  CAN.begin(MCP_ANY, CAN_500KBPS, MCP_16MHZ);
+  //Check we can talk to CAN
+  while (CAN.begin(MCP_ANY, CAN_500KBPS, MCP_16MHZ) != CAN_OK) { 
     lastSendDaqMessage = millis();
   }
+  // setup can to allow for data transmission
+  CAN.setMode(MCP_NORMAL);
 }
 
 void loop(){

@@ -90,8 +90,6 @@ bool autoTemp = false;
 void sampleDampers();
 
 void sendDaqData() {
-  // turn off interrupts while sending CAN message
-  cli();
 
   sampleDampers();
 
@@ -110,6 +108,8 @@ void sendDaqData() {
   bufToSend[6] = autoTemp;
   bufToSend[7] = fanSig;
 
+  // turn off interrupts while sending CAN message
+  cli();
 
   // send the message
   CAN.sendMsgBuf(ID_REAR_DAQ_DATA, 8, bufToSend);
